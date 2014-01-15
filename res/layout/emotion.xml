@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ly_emotions"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="0dip"
+    android:orientation="vertical"
+    android:visibility="gone" >
+
+    <!-- 分割线 -->
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/unselected_up_tab" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selected_up_tab"
+        android:orientation="vertical" >
+
+        <!-- 上面标题的TAB和关闭图 -->
+
+        <RelativeLayout
+            android:id="@+id/ly_up_tab"
+            android:layout_width="fill_parent"
+            android:layout_height="48dip"
+            android:orientation="horizontal" >
+
+            <GridView
+                android:id="@+id/gv_up_tab"
+                android:layout_width="wrap_content"
+                android:layout_height="48dip"
+                android:layout_marginRight="0dip"
+                android:columnWidth="150dip"
+                android:horizontalSpacing="0dip"
+                android:listSelector="@drawable/gridview_selector"
+                android:numColumns="3"
+                android:stretchMode="columnWidth"
+                android:verticalSpacing="0dip" >
+            </GridView>
+        </RelativeLayout>
+
+        <!-- 中间 具体图片 -->
+
+        <LinearLayout
+            android:id="@+id/ly_mid_parent_emotions"
+            android:layout_width="fill_parent"
+            android:layout_height="200dip"
+            android:layout_marginTop="5px"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/ly_mid_emotions"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <!-- 表情的ViewFlipper -->
+
+                <ViewFlipper
+                    android:id="@+id/flipper1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="175dip" >
+
+                    <GridView
+                        android:id="@+id/gv_mid_emotions1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:columnWidth="40dip"
+                        android:gravity="center"
+                        android:listSelector="@drawable/gridview_selector"
+                        android:numColumns="6" >
+                    </GridView>
+
+                    <GridView
+                        android:id="@+id/gv_mid_emotions2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:columnWidth="40dip"
+                        android:gravity="center"
+                        android:listSelector="@drawable/gridview_selector"
+                        android:numColumns="6" >
+                    </GridView>
+
+                    <GridView
+                        android:id="@+id/gv_mid_emotions3"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:columnWidth="40dip"
+                        android:gravity="center"
+                        android:listSelector="@drawable/gridview_selector"
+                        android:numColumns="6" >
+                    </GridView>
+
+                </ViewFlipper>
+
+                <!-- 贴图的第一个tab的ViewFlipper -->
+
+                <ViewFlipper
+                    android:id="@+id/flipper2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="130dip"
+                    android:visibility="gone" >
+
+                    <GridView
+                        android:id="@+id/gv_mid_emotions5"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:columnWidth="40dip"
+                        android:gravity="center"
+                        android:listSelector="@drawable/gridview_selector"
+                        android:numColumns="4" >
+                    </GridView>
+
+                    <GridView
+                        android:id="@+id/gv_mid_emotions6"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:columnWidth="40dip"
+                        android:gravity="center"
+                        android:listSelector="@drawable/gridview_selector"
+                        android:numColumns="4" >
+                    </GridView>
+
+                    <GridView
+                        android:id="@+id/gv_mid_emotions7"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:columnWidth="40dip"
+                        android:gravity="center"
+                        android:listSelector="@drawable/gridview_selector"
+                        android:numColumns="4" >
+                    </GridView>
+                </ViewFlipper>
+
+                <!-- 贴图的第二个tab的ViewFlipper -->
+
+                <ViewFlipper
+                    android:id="@+id/flipper3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="130dip"
+                    android:visibility="gone" >
+
+                    <GridView
+                        android:id="@+id/gv_mid_emotions8"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:columnWidth="40dip"
+                        android:gravity="center"
+                        android:listSelector="@drawable/gridview_selector"
+                        android:numColumns="4" >
+                    </GridView>
+
+                    <GridView
+                        android:id="@+id/gv_mid_emotions9"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:columnWidth="40dip"
+                        android:gravity="center"
+                        android:listSelector="@drawable/gridview_selector"
+                        android:numColumns="4" >
+                    </GridView>
+                </ViewFlipper>
+
+                <!-- 表情符号的ViewFlipper -->
+
+                <ViewFlipper
+                    android:id="@+id/flipper4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="175dip"
+                    android:visibility="gone" >
+
+                    <GridView
+                        android:id="@+id/gv_mid_emotions10"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:columnWidth="40dip"
+                        android:gravity="center"
+                        android:listSelector="@drawable/gridview_selector"
+                        android:numColumns="3" >
+                    </GridView>
+
+                    <GridView
+                        android:id="@+id/gv_mid_emotions11"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:columnWidth="40dip"
+                        android:gravity="center"
+                        android:listSelector="@drawable/gridview_selector"
+                        android:numColumns="3" >
+                    </GridView>
+
+                    <GridView
+                        android:id="@+id/gv_mid_emotions12"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:columnWidth="40dip"
+                        android:gravity="center"
+                        android:listSelector="@drawable/gridview_selector"
+                        android:numColumns="3" >
+                    </GridView>
+
+                    <GridView
+                        android:id="@+id/gv_mid_emotions13"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:columnWidth="40dip"
+                        android:gravity="center"
+                        android:listSelector="@drawable/gridview_selector"
+                        android:numColumns="3" >
+                    </GridView>
+
+                    <GridView
+                        android:id="@+id/gv_mid_emotions14"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:columnWidth="40dip"
+                        android:gravity="center"
+                        android:listSelector="@drawable/gridview_selector"
+                        android:numColumns="3" >
+                    </GridView>
+                </ViewFlipper>
+
+                <!-- 当前是第几页 -->
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dip"
+                    android:layout_gravity="center_horizontal|bottom"
+                    android:paddingTop="4dip" >
+
+                    <ImageView
+                        android:id="@+id/switch_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/features_welcome_p2" />
+
+                    <ImageView
+                        android:id="@+id/switch_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="12dip"
+                        android:src="@drawable/features_welcome_p1" />
+
+                    <ImageView
+                        android:id="@+id/switch_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="12dip"
+                        android:src="@drawable/features_welcome_p1" />
+
+                    <ImageView
+                        android:id="@+id/switch_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="12dip"
+                        android:src="@drawable/features_welcome_p1" />
+                     <ImageView
+                        android:id="@+id/switch_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="12dip"
+                        android:src="@drawable/features_welcome_p1" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- 下面TAB的视图 -->
+
+            <LinearLayout
+                android:id="@+id/ly_down_tab"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0px "
+                android:orientation="horizontal" >
+
+                <GridView
+                    android:id="@+id/gv_down_tab"
+                    android:layout_width="128dip"
+                    android:layout_height="46dip"
+                    android:columnWidth="150dip"
+                    android:horizontalSpacing="0dip"
+                    android:listSelector="@drawable/gridview_selector"
+                    android:numColumns="2"
+                    android:stretchMode="columnWidth"
+                    android:verticalSpacing="0dip" >
+                </GridView>
+
+                <ImageView
+                    android:id="@+id/img_split_line"
+                    android:layout_width="0px"
+                    android:layout_height="46dip"
+                    android:background="@drawable/split_lin" />
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="46dip"
+                    android:background="@drawable/bottom_tab_bg" >
+                </ImageView>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

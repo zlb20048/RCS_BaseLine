@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:gravity="center_vertical" android:id="@+id/group_item"
+	android:background="@drawable/list_item_bg_xml">
+	<RelativeLayout android:layout_width="70.0dip"
+		android:layout_height="68.0dip">
+		<ImageView android:id="@+id/group_head"
+			android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip"
+			android:layout_width="47.0dip" android:layout_marginLeft="13.0dip"
+			android:layout_height="47.0dip" android:layout_marginRight="10.0dip"
+			android:src="@drawable/default_contact_icon" />
+		<TextView android:id="@+id/group_unread_number"
+			android:visibility="gone" android:layout_width="wrap_content"
+			style="@style/conversation_unread_text" android:layout_height="wrap_content"
+			android:layout_alignParentRight="true" android:layout_alignParentTop="true"
+			android:background="@drawable/unread_pop_append" android:gravity="center_horizontal"
+			android:layout_marginTop="4.0dip" android:paddingTop="1.0dip" />
+	</RelativeLayout>
+
+	<LinearLayout android:layout_width="wrap_content"
+		android:paddingTop="7dip" android:paddingBottom="7dip"
+		android:orientation="vertical" android:layout_height="wrap_content"
+		android:layout_weight="1" android:layout_marginLeft="3.0dip">
+		<LinearLayout android:layout_width="wrap_content"
+			android:orientation="horizontal" android:layout_height="wrap_content">
+		    <TextView android:id="@+id/group_name"
+			android:singleLine="true" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" style="@style/listitem_text_title" />
+			<TextView android:id="@+id/group_member_number"
+				android:layout_marginLeft="5dip" android:layout_height="wrap_content"
+				android:layout_width="wrap_content" android:singleLine="true"
+				android:visibility="gone" style="@style/listitem_text_title"/>
+		</LinearLayout>
+		<TextView android:layout_width="wrap_content" android:id="@+id/group_description"
+			android:layout_height="wrap_content" style="@style/listitem_text_hint"
+			android:singleLine="true" />
+	</LinearLayout>
+	<LinearLayout android:layout_width="wrap_content"
+		android:paddingTop="7dip" android:paddingBottom="7dip"
+		android:layout_height="wrap_content" android:gravity="left|center_vertical"
+		android:orientation="vertical" android:layout_marginRight="12dip"
+		android:layout_marginLeft="7dip" android:id="@+id/group_popular">
+		<TextView android:id="@+id/group_popular_title"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			style="@style/listitem_text_hint" />
+		<TextView android:id="@+id/group_popular_number"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:textColor="#63A800" android:textSize="12sp"
+			android:visibility="gone" />
+	</LinearLayout>
+</LinearLayout>

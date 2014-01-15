@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/white_bg"
+    android:orientation="vertical" >
+
+    <!-- 顶部按钮 -->
+
+    <include
+        android:id="@+id/title_layout"
+        layout="@layout/title_bar" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="16dip"
+        android:paddingTop="13dip" >
+
+        <LinearLayout
+            android:id="@+id/voip_bindtext"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="52dip"
+                android:layout_height="52dip"
+                android:layout_marginRight="15dip"
+                android:src="@drawable/voip_telphone_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dip"
+                android:text="@string/VOIP_title_content"
+                android:textColor="#717171"
+                android:textSize="14.6dip" />
+        </LinearLayout>
+
+        <!-- 绑定 -->
+
+        <LinearLayout
+            android:id="@+id/bind_Voip_LinearLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dip"
+            android:layout_marginTop="17dip"
+            android:orientation="vertical"
+            android:visibility="visible" >
+
+            <com.huawei.basic.android.im.ui.basic.LimitedEditText
+                android:id="@+id/bind_voip_account_edittext"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edittext_green"
+                android:hint="@string/hint_voip_account"
+                android:inputType="number"
+                maxCharLength="100"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:singleLine="true"
+                android:textColor="#888888"
+                android:textSize="16dp" />
+
+            <com.huawei.basic.android.im.ui.basic.LimitedEditText
+                android:id="@+id/bind_voip_ps_edittext"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/edittext_green"
+                android:hint="@string/hint_voip_passwd"
+                maxCharLength="100"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:password="true"
+                android:singleLine="true"
+                android:textSize="16dp" />
+
+            <!--
+                 <EditText
+                android:id="@+id/bind_voip_account_edittext"
+                style="@style/search_text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edittext_green"
+                android:hint="@string/hint_voip_account"
+                android:singleLine="true"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/bind_voip_ps_edittext"
+                style="@style/search_text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/edittext_green"
+                android:hint="@string/hint_voip_passwd"
+                android:password="true"
+                android:singleLine="true" 
+                android:inputType="number" />
+            -->
+
+            <Button
+                android:id="@+id/btn_voip_bind"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dip"
+                android:background="@drawable/btn_green"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="@string/bindTitle"
+                android:textColor="@color/white"
+                android:textSize="18dip" />
+        </LinearLayout>
+
+        <!-- 删除并取消绑定 -->
+
+        <LinearLayout
+            android:id="@+id/delete_Voip_LinearLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/voip_account_textView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="27dip"
+                android:gravity="center_horizontal"
+                android:text="@string/VOIP_account_title"
+                android:textColor="@color/black"
+                android:textSize="20dip" />
+
+            <Button
+                android:id="@+id/btn_delete_voip_bind"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dip"
+                android:layout_marginTop="37dip"
+                android:background="@drawable/btn_red"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="@string/btn_deletebind"
+                android:textColor="@color/white"
+                android:textSize="16dip" />
+        </LinearLayout>
+
+        <!-- 输入密码取消绑定界面 -->
+
+        <LinearLayout
+            android:id="@+id/unbind_Voip_LinearLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dip"
+            android:layout_marginTop="20dip"
+            android:orientation="vertical" >
+
+            <com.huawei.basic.android.im.ui.basic.LimitedEditText
+                android:id="@+id/unbind_voip_ps_edittext"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/edittext_green"
+                android:hint="@string/hint_voip_passwd2"
+                maxCharLength="100"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:password="true"
+                android:singleLine="true"
+                android:textSize="16dp" />
+            <!--
+            <EditText
+                android:id="@+id/unbind_voip_ps_edittext"
+                style="@style/search_text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/edittext_green"
+                android:hint="@string/hint_voip_passwd2"
+                android:inputType="number"
+                android:password="true"
+                android:singleLine="true" />            -->
+
+            <Button
+                android:id="@+id/btn_voip_unbind"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dip"
+                android:background="@drawable/btn_green"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="@string/unbind"
+                android:textColor="@color/white"
+                android:textSize="18dip" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

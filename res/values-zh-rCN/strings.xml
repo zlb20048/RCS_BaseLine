@@ -1,0 +1,1507 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 项目logo名称 -->
+    <string name="app_name">HiTalk</string>
+
+    <!-- 标题栏 -->
+    <string name="done">确定 </string>
+    <string name="back">返回</string>
+    <string name="details">详细资料</string>
+    <string name="refresh">刷新</string>
+    <string name="finish_btn">完成</string>
+
+    <!-- 登陆 -->
+    <string name="login">登录</string>
+    <string name="login_auto">自动登录</string>
+    <string name="login_forgot_pwd">忘记密码？</string>
+    <string name="login_find_pwd">找回密码</string>
+    <string name="login_regeister">注册新账号</string>
+    <string name="login_verify_code_hint">点击图片可刷新</string>
+    <string name="login_pwd_hint">密码</string>
+    <string name="login_user_other_hint">HiTalkID/邮箱</string>
+    <string name="check_wap_apn">@string/wap_apn</string>
+    <string name="wap_apn">WAP网络无法连接服务器</string>
+    <string name="check_network">网络连接不可用，请检查网络服务</string>
+    <string name="warn_input_user_name">请输入用户名</string>
+    <string name="warn_input_pass_word">请输入密码</string>
+    <string name="warn_input_verify_code">请输入验证码</string>
+    <string name="warn_input_correct_pass_word">密码限定在6到20位</string>
+    <string name="exit">退出</string>
+    <string name="logining">正在登录..</string>
+    <string name="retry">重试</string>
+    <string name="please_wait">服务不可用，请重试</string>
+    <string name="rapidly_passport">切换账号</string>
+    <string name="login_user_number_hint">手机号码</string>
+    <string name="account_number">账号：</string>
+    <string name="email">Email</string>
+    <string name="phone_error">手机号码或密码错误，请重新输入</string>
+    <string name="email_error">Email或密码错误，请重新输入</string>
+    <string name="id_error">HiTalk ID或密码错误，请重新输入</string>
+    <string name="no_phone">不是手机号码，请重新输入</string>
+    <string name="no_email_or_id">不是HiTalk ID或邮箱，请重新输入</string>
+    <string name="warn_input_email_too_long">邮箱地址不能超过50位！</string>
+    <string name="warn_input_woyouid_too_long">HiTalkID号码不能超过18位！</string>
+    <string name="rwap_change">设置</string>
+    <string name="login_verify_code">输入图形验证码</string>
+
+    <!-- 重置密码 -->
+    <string name="reset_password_success">重置密码成功</string>
+    <string name="reset_password_faild">重置密码失败</string>
+    <string name="send_email">HiTalk将向您发送一条邮件，请点击邮件中的连接进行HiTalk帐号的激活。</string>
+    <string name="mobile_not_bound">该手机号码未被绑定</string>
+    <string name="reset_password_from_phone">通过手机号码</string>
+    <string name="reset_password_from_email">通过Email</string>
+    <string name="send_phone">验证码发送成功，请在有效时间（24小时）内输入收到的验证码</string>
+    <string name="confirm_exit">返回后此次发送的验证码将会无效，下次进入时系统会再次发送新的验证码</string>
+
+    <!-- 联系人详情 -->
+    <string name="stranger_detail">详情</string>
+    <string name="friend_detail">好友详情</string>
+    <string name="see_details">查看详情</string>
+    <string name="move_section">移动分组</string>
+    <string name="join_blacklist">加入黑名单</string>
+    <string name="move_section_success">移动分组成功</string>
+    <string name="move_section_failed">移动分组失败</string>
+    <string name="age">年龄:</string>
+    <string name="sex">性别</string>
+    <string name="self_description">自我描述:</string>
+    <string name="birthday">生日:</string>
+    <string name="animal">生肖:</string>
+    <string name="blood">血型:</string>
+    <string name="invite">邀请</string>
+    <string name="not_added">未添加</string>
+    <string name="constellation">星座:</string>
+    <string name="country">国家-城市</string>
+    <string name="privince">省份:</string>
+    <string name="city">城市:</string>
+    <string name="company">公司</string>
+    <string name="school">学校</string>
+    <string name="love">爱好:</string>
+    <string name="add_friend">加为好友</string>
+    <string name="conversation">开始聊天</string>
+    <string name="edit_backup">添加备注</string>
+    <string name="self_signature">个性签名:</string>
+    <string name="name">名字</string>
+    <string name="hitalk_id">ID:</string>
+    <string name="backup_name">备注名:</string>
+    <string name="contact_name">联系人姓名:</string>
+    <string name="signature_hint">TA什么都没留下</string>
+    <string name="friend_memoemail">备注邮箱:</string>
+    <string name="friend_memophone">备注电话:</string>
+    <string name="friend_del_success">好友删除成功</string>
+    <string name="friend_move_success">分组移动成功</string>
+    <string name="friend_detail_get_fail">从服务器获取好友信息失败</string>
+    <string name="friend_update_memo_fail">更新备注失败</string>
+    <string name="find_invite_displayName">签名:</string>
+    <string name="find_invite_friend_number">邀请号码:</string>
+    <string name="find_invite_friend_message">赶快邀请您的朋友开通HiTalk吧,方便又好玩！(本条邀请短信免费)</string>
+    <string name="find_no_user">未搜索到该用户.</string>
+    <string name="phone_form_error">手机号码格式有误!</string>
+
+    <!-- 电话及邮箱展示 -->
+    <string name="phone_hitalk">HiTalk 手机</string>
+    <string name="phone_1">住宅号码</string>
+    <string name="phone_2">手机号码</string>
+    <string name="phone_3">单位号码</string>
+    <string name="phone_4">单位传真</string>
+    <string name="phone_5">住宅传真</string>
+    <string name="phone_6">寻呼机</string>
+    <string name="phone_7">其他号码</string>
+    <string name="phone_8">自定义</string>
+    <string name="phone_9">回拨号码</string>
+    <string name="phone_10">车载电话</string>
+    <string name="phone_11">公司总机</string>
+    <string name="phone_12">ISDN</string>
+    <string name="phone_13">总机</string>
+    <string name="phone_14">其他传真</string>
+    <string name="phone_15">无线装置</string>
+    <string name="phone_16">电报</string>
+    <string name="phone_17">TTY TDD</string>
+    <string name="phone_18">单位手机</string>
+    <string name="phone_19">单位寻呼机</string>
+    <string name="phone_20">助理</string>
+    <string name="phone_21">彩信</string>
+    <string name="email_hitalk">HiTalk 邮箱</string>
+    <string name="email_1">家用邮箱</string>
+    <string name="email_2">单位邮箱</string>
+    <string name="email_3">其他邮箱</string>
+    <string name="email_4">手机邮箱</string>
+    <string name="email_5">自定义邮箱</string>
+
+    <!-- 查找好友页面 -->
+    <string name="find_by_id">通过手机号/HiTalk ID找朋友</string>
+    <string name="find_by_details">通过个人资料找朋友</string>
+    <string name="find_maybe_konwn">可能认识的人</string>
+    <string name="find_by_location">查看附近的人</string>
+    <string name="search_no_result">暂无搜索结果</string>
+    <string name="check_mobile_contacts">查看电话簿好友</string>
+    <string name="find_by_id_title">按号码查找</string>
+    <string name="find_by_details_title">通过个人资料找朋友</string>
+    <string name="find_maybe_konwn_title">可能认识的人</string>
+    <string name="find_friend_result_id">ID:%1$s</string>
+    <string name="find_friend_result_mobile">电话:%1$s</string>
+    <string name="check_mobile_contacts_upload_contacts_info">是否同意上传手机通讯录?(将采用加密的方式上传和保存)</string>
+    <string name="no_recommend_friend">暂时没有可能认识的好友</string>
+    <string name="find_by_id_hint">手机号/HiTalk ID</string>
+    <string name="find_by_details_hint">姓名/学校/公司</string>
+    <string name="find_maybe_konwn_no_result">暂时没有可能认识的好友</string>
+    <string name="find_friend_error">查找好友失败，请检查网络状态</string>
+    <string name="find_by_location_tips">附近的人功能将获取你的位置信息，你的位置信息会被保留一段时间.通过列表右上角的清除功能可随时手动清除位置信息.    </string>
+    <string name="find_by_location_tips_not">下次不再提醒</string>
+    <string name="find_by_location_title">附近的人</string>
+    <string name="determining_location_information">正在确定位置信息</string>
+    <string name="find_by_location_no_result">暂时没有找到您附近也使用该功能的人，请稍后再尝试吧</string>
+    <string name="find_by_location_remove">清除位置</string>
+    <string name="find_by_location_remove_tips">清除位置信息后,别人将不能看到你.</string>
+    <string name="find_by_location_remove_confirm">清除位置信息并退出</string>
+    <string name="find_by_location_failer">定位失败，无法获取您的位置信息，请稍后再试吧</string>
+    <string name="find_by_location_remove_success">清除地理位置成功</string>
+    <string name="find_by_location_remove_failed">清除位置失败</string>
+    <string name="friends">好友</string>
+    <string name="location_tips_txt">你可以在此查看附近的人，同时你也会被他们看到.你在此留下的位置信息随时可以手动删除.</string>
+    <string name="check_btn">开始查看</string>
+    <string name="find_by_location_friend_status">(好友)</string>
+    <string name="remove_error1">未知错误</string>
+    <string name="remove_error2">参数校验失败</string>
+    <string name="remove_error3">用户不存在</string>
+    <string name="request_error">请求失败，请检查网络状态</string>
+    <string name="find_friend_same_school">和你是一个学校的</string>
+    <string name="find_friend_same_city">和你是一个城市的</string>
+    <string name="find_friend_same_company">和你是一个单位的</string>
+    <string name="find_friend_have_you_phone">有你的联系方式</string>
+    <string name="find_friend_share_friends">与你有%1$s个共同的好友</string>
+
+    <!-- 设置 -->
+    <string name="my_account_email">邮箱</string>
+    <string name="setting">设置</string>
+    <string name="private_profile">个人资料</string>
+    <string name="private_profile_s">个人资料></string>
+    <string name="self_signature_title">个性签名</string>
+    <string name="online_status1">在线状态：</string>
+    <string name="signature">点击编辑你的签名</string>
+    <string name="signature_too_long">个性签名长度应在50汉字100字符以内！</string>
+    <string name="set_privacy">隐私设置</string>
+    <string name="privacy_mateial">隐私资料</string>
+    <string name="set_messagetips">消息设置</string>
+    <string name="set_broadcast_policy">广播消息接收设置</string>
+    <string name="set_imtomessage">IM转短信设置</string>
+    <string name="set_groupmessagepolicy">群消息接收</string>
+    <string name="set_voice_tip">声音提示设置</string>
+    <string name="accounts_manager">多帐号管理</string>
+    <string name="set_blog">微博帐号绑定</string>
+    <string name="set_theme">界面主题</string>
+    <string name="set_password">修改密码</string>
+    <string name="check_update">检查更新</string>
+    <string name="feedback">反馈</string>
+    <string name="about">关于</string>
+    <string name="clear_data">清空聊天记录</string>
+    <string name="clear_data_alert">清空你手机上所有单人和群聊的聊天记录？</string>
+    <string name="male">男</string>
+    <string name="female">女</string>
+    <string name="not_fill_in"></string>
+    <string name="unbound">未绑定</string>
+    <string name="bound">已绑定</string>
+    <string name="add_more_info">添加更多信息</string>
+    <string name="online">在线</string>
+    <string name="online_status">在线状态</string>
+    <string name="away">离开</string>
+    <string name="busy">忙碌</string>
+    <string name="bind_phone_title">绑定手机</string>
+    <string name="bind_phone_input_info">请输入您要绑定的手机号码</string>
+    <string name="bind_phone_input_hint">请输入11位手机号码</string>
+    <string name="bind_phone_input_details">绑定手机可使用短信提醒、手机密码找回等功能</string>
+    <string name="send_verify_msg">发送验证短信</string>
+    <string name="bind_email_title">绑定Email</string>
+    <string name="unbind_phone_tilte">手机号码</string>
+    <string name="bind_email_input_info">请输入您要绑定的邮箱</string>
+    <string name="bind_email_input_hint">请输入要绑定的邮箱地址</string>
+    <string name="bind_email_input_details">用于取回密码，请输入正确的邮箱地址。如果没有收到验证邮件，请点击重新发送验证邮件。</string>
+    <string name="verify_code_input_info">请输入手机验证码</string>
+    <string name="verify_code">验证码</string>
+    <string name="verify_code_input_details">若没有收到短信,请%d秒后重新发送</string>
+    <string name="email_link_input_details">若没有收到邮件,请%d秒后重新发送</string>
+    <string name="resend_verify_code">重发验证码</string>
+    <string name="send_verify_email">发送验证邮件</string>
+    <string name="resend_verify_email">重新发送验证邮件</string>
+    <string name="unbind_phone_title">修改手机号</string>
+    <string name="unbind_phone_input_info">您绑定的手机号码</string>
+    <string name="unbind_commit">删除并解除绑定</string>
+    <string name="unbind_email_title">Email</string>
+    <string name="unbind_email_input_info">您绑定的邮箱地址</string>
+    <string name="confirm_unbind">确实要解除绑定？</string>
+    <string name="bind_succeed">绑定成功</string>
+    <string name="unbind_succeed">解除绑定成功</string>
+    <string name="input_right_mobile">手机号码格式输入有误</string>
+    <string name="input_right_email">Email格式输入有误</string>
+    <string name="set_birthday">生日设置</string>
+    <string name="set_gender">性别设置</string>
+    <string name="set_signature">签名设置</string>
+    <string name="set_school">学校设置</string>
+    <string name="set_school_name">请输入学校名称</string>
+    <string name="school_name_too_long">学校名称应在20汉字40字符以内！</string>
+    <string name="set_nick_name">姓名设置</string>
+    <string name="nick_name_too_long">昵称长度应在10汉字20字符以内！</string>
+    <string name="logout">注销登录</string>
+    <string name="confirm_logout">确定注销登录吗？</string>
+    <string name="confirm_quit">退出HiTalk</string>
+    <string name="confirm_quit_message">退出后,你将收不到新的消息.\n确定要退出?</string>
+    <string name="set_im_offline_to_message">IM离线消息转短信设置</string>
+    <string name="under_offline">离线状态下</string>
+    <string name="im_change_to_message">聊天消息转成短信</string>
+    <!-- <string name="set_message_tips">消息提示设置</string> -->
+    <string name="policy_add_friends">好友添加</string>
+    <string name="policy_add_friends_allow_all">允许任何人加我为好友</string>
+    <string name="policy_add_friends_need_confirm">需要验证消息</string>
+    <string name="policy_add_friends_allow_friends">只允许通讯录人员加我为好友</string>
+    <string name="policy_add_friends_allow_none">拒绝所有人加我为好友</string>
+    <string name="policy_privacy_material">资料开放</string>
+    <string name="set_proving">验证设置</string>
+    <string name="set_proving_need_confirm">别人加我为好友时需要我验证</string>
+    <string name="policy_receive_all_broadcast">接收所有广播</string>
+    <string name="time_undisturb">HiTalk短信免打扰时段</string>
+    <string name="to">至</string>
+    <string name="receive_all_group_message">接收全部群消息</string>
+    <string name="describe">自我描述:</string>
+    <string name="describe_myself">设置自我描述</string>
+    <string name="hobby">爱好:</string>
+    <string name="china">中国</string>
+    <string name="write_country">设置国家/地区</string>
+    <string name="write_province">设置省份</string>
+    <string name="write_city">设置城市</string>
+    <string name="write_company">设置公司</string>
+    <string name="write_hobby">设置爱好</string>
+    <string name="write_name">设置姓名</string>
+    <string name="write_age">设置年龄</string>
+    <string name="write_astro">星座设置</string>
+    <string name="write_zodiac">生肖设置</string>
+    <string name="set_suceed">设置成功</string>
+    <string name="get_success">获取成功</string>
+    <string name="get_failed">获取失败</string>
+    <string name="failed_get_from_service">从服务器获取失败</string>
+    <string name="have_not_setted">您尚未设置过</string>
+    <string name="set_undisturb_seceed">免打扰设置成功</string>
+    <string name="update_failed">更新设置失败</string>
+    <string name="set_failed">服务器连接失败</string>
+    <string name="set_failed_get_verify_code">服务器连接失败,请重新获取验证码</string>
+    <string name="unbound_tel">您确定要解除号码%s的手机绑定？</string>
+    <string name="code_length">验证码长度不能小于6位</string>
+    <string name="nick">昵称</string>
+    <string name="sdcard_not_enougth_space">SD卡空间不足.....</string>
+    <string name="setting_year">年</string>
+    <string name="setting_month">月</string>
+    <string name="setting_day">日</string>
+    <string name="setting_CHINA">中国</string>
+    <string name="setting_insert_SD_card">请插入SD卡，再进行操作</string>
+    <string name="setting_blood_type_setting">血型设置</string>
+    <string name="setting_birthday_setting_not_allow">生日设置不能超过当日</string>
+    <string name="setting_select_type_not_allow">选择的类型不是图片文件</string>
+    <string name="setting_upload_head">正在上传头像</string>
+    <string name="setting_upload_failure">上传头像失败</string>
+    <string name="setting_person_information_success">更新个人信息成功</string>
+    <string name="setting_person_information_failure">更新个人信息失败</string>
+    <string name="setting_person_info_save_dialog">正在保存个人信息</string>
+    <string name="setting_update_group_message_receiver_setting_success">更新群消息接收设置成功</string>
+    <string name="setting_update_group_message_receiver_setting_failure">更新群消息接收设置失败</string>
+    <string name="setting_cannot_support_this_video">无法支持此视频</string>
+    <string name="setting_cannot_support_this_voice">无法支持此音频</string>
+    <string name="setting_select_district">选择地区</string>
+    <string name="about_version">HiTalk2012 V</string>
+    <string name="setting_name_not_null">姓名不能为空</string>
+    <string name="settings_feedback_phonetext">客服电话:010-82276930</string>
+    <string name="settings_feedback_emailtext">客服邮箱:hitalk@rcs.com.cn</string>
+    <string name="input_old_password_hint">原密码</string>
+    <string name="input_new_password_hint">新密码(不少于6位)</string>
+    <string name="default_save">保存</string>
+    <string name="input_old_password_not_null">原密码不能为空</string>
+    <string name="modify_password_not_equals">新密码不能与原密码相同</string>
+    <string name="settings_about_title">关于</string>
+    <string name="settings_about_indextext">访问HiTalk官方网站</string>
+    <string name="settings_about_blogtext">关注HiTalk官方微博</string>
+    <string name="can_not_open_the_url">无法打开该链接</string>
+    <string name="settings_feedback_title">意见反馈</string>
+    <string name="settings_feedback_no_email_client">请先配置邮件客户端，然后再试</string>
+    <string name="modify_password_success">修改密码成功</string>
+    <string name="modify_password_faild">修改密码失败</string>
+    <string name="toast_max_age">设置最大年龄不能超过200</string>
+    <string name="get_person_information_failure">获取个人信息失败</string>
+    <string name="user_id">HiTalk ID:</string>
+    <string name="network_exception_modify_password_faild">网络异常，修改密码失败</string>
+    <string name="more">更多</string>
+    <string name="my_account">我的账号</string>
+    <string name="system_plugins">系统插件</string>
+    <string name="applications_list">应用列表</string>
+    <string name="general">通用</string>
+    <string name="privacy">隐私</string>
+    <string name="block">黑名单</string>
+    <string name="flow_rate">流量统计</string>
+    <string name="about_hitalk">关于HiTalk</string>
+    <string name="unbind_phone">手机号码</string>
+    <string name="unbind_phone_info">绑定的手机号码可以作为登录HiTalka的账号，你也可以用它来找回密码</string>
+    <string name="your_mobile_number">手机号:</string>
+    <string name="delete_and_unbind">删除并取消绑定</string>
+    <string name="upload_mobile_contacts">上传通讯录</string>
+    <string name="stop_uploading_address_book">停止上传通讯录</string>
+    <string name="bind_phone">绑定</string>
+    <string name="bind_phone_info">绑定手机号可以匹配你的通讯录可以让你更加方便滴找到熟人好友，还可以找回密码</string>
+    <string name="upload_info">未绑定手机也可上传通讯录</string>
+    <string name="bind_verify_tip">验证短信已发送成功！请将手机收到的验证码填入并完成绑定</string>
+    <string name="unbind_verify_tip">验证短信已发送成功，请输入手机收到的验证码以取消绑定</string>
+    <string name="bind_email_info">绑定过的邮箱可以成为你登录HiTalk的账号，也可以用其来找回密码</string>
+    <string name="setting_unbind">未绑定</string>
+    <string name="your_email">Email:</string>
+    <string name="unbind_tip">删除后你将不能通过手机号码进行登录，HiTalk也将不能为你推荐通讯录好友</string>
+    <string name="unbind_tip_email">删除并取消绑定后，你将不能用Email进行登录或找回密码</string>
+    <string name="bound_mail_tip">系统已经向你的邮箱发送一封验证邮件，请登录邮箱完成绑定</string>
+    <string name="unbound_mail_tip">系统已经向你的邮箱发送一封验证邮件，请登录邮箱解除绑定</string>
+    <string name="resend_link_email">重发链接邮件</string>
+    <string name="personal_info">个人信息</string>
+    <string name="stop_upload_contact">停止上传后，HiTalk将不能为你推荐通讯录好友</string>
+    <string name="browser_not_exist">系统浏览器不存在</string>
+
+    <!-- 0:成功，有新版本 1:无新版本 2:服务器忙 3:客户端强制升级 -1:系统错误 -->
+    <string name="state_exception">返回状态异常</string>
+    <string name="force_state_exception">返回强制状态异常</string>
+    <string name="type_exception">返回类型异常</string>
+    <string name="resultcode_not_null">检测更新失败</string>
+    <string name="version_new">成功，有新版本</string>
+    <string name="version_latest">当前版本为最新版本</string>
+    <string name="version_serverbusy">服务器忙</string>
+    <string name="version_clientforceupdate">客户端强制升级</string>
+    <string name="system_error">系统错误</string>
+
+    <!-- 版本检测 -->
+    <string name="update_title">升级信息</string>
+    <string name="update_info_force">检测到新版本，必须升级！</string>
+    <string name="update_info">检测到新版本，是否升级？</string>
+    <string name="update_confirm">升级</string>
+    <string name="update_skip">跳过</string>
+    <string name="update_exit">退出</string>
+
+    <!-- 隐私资料 -->
+    <string name="privaty_set">手机号码/邮箱隐私策略</string>
+    <string name="all_public">完全公开</string>
+    <string name="olny_friend">仅对好友公开</string>
+    <string name="all_private">完全保密</string>
+    <string name="only_contacts">仅对通讯录联系人公开</string>
+    <string name="desc">公开手机号码后，好友可以迅速找到您！</string>
+    <!-- 免打扰设置 -->
+    <string name="undo">免打扰设置</string>
+    <!-- 胡沙平 layout_ -->
+    <string name="CHINA_Unicom_version">Copyright © 2011 中国联通 All Rights Reserved</string>
+
+    <!-- 头像选取 -->
+    <string name="system_head">系统头像</string>
+    <string name="photo_head">本地相册</string>
+    <string name="take_photo">拍照</string>
+
+    <!-- 显示性别 -->
+    <string name="all_zero">未设置</string>
+    <string name="sex_one">女</string>
+    <string name="sex_two">男</string>
+
+    <!-- 显示生肖 -->
+    <string name="zodiac">生肖:</string>
+
+    <string-array name="zodiac">
+        <item>鼠</item>
+        <item>牛</item>
+        <item>虎</item>
+        <item>兔</item>
+        <item>龙</item>
+        <item>蛇</item>
+        <item>马</item>
+        <item>羊</item>
+        <item>猴</item>
+        <item>鸡</item>
+        <item>狗</item>
+        <item>猪</item>
+    </string-array>
+
+    <!-- 显示星座 -->
+    <string name="astro">星座:</string>
+
+    <string-array name="astro">
+        <item>白羊座</item>
+        <item>金牛座</item>
+        <item>双子座</item>
+        <item>巨蟹座</item>
+        <item>狮子座</item>
+        <item>处女座</item>
+        <item>天秤座</item>
+        <item>天蝎座</item>
+        <item>射手座</item>
+        <item>摩羯座</item>
+        <item>水瓶座</item>
+        <item>双鱼座</item>
+    </string-array>
+
+    <!-- 血型 -->
+    <string-array name="blood">
+        <item>A型血</item>
+        <item>B型血</item>
+        <item>AB型血</item>
+        <item>O型血</item>
+        <item>Rh型血</item>
+        <item>MN型血</item>
+        <item>HLA型血</item>
+    </string-array>
+
+    <string name="not_set">未设置</string>
+    <string name="del_friend">删除好友</string>
+    <string name="manager_refuse">拒绝请求</string>
+    <string name="manager_agree">通过验证</string>
+
+    <!-- 编辑备注 -->
+    <string name="care_name"></string>
+    <string name="care_phone">请输入正确的手机号码</string>
+    <string name="care_mail">请输入正确的邮箱地址</string>
+    <string name="sure_bound">您确定要绑定号码为%s的手机号?</string>
+
+    <!-- 基础TAB框架 -->
+    <string name="tab_talkLabel">会话</string>
+    <string name="tab_broadcastLabel">广播</string>
+    <string name="tab_friendLabel">好友</string>
+    <string name="tab_groupLabel">群</string>
+    <string name="tab_moreLabel">更多</string>
+    <string name="tab_voipLabel">拨号</string>
+
+    <!-- 编辑好友页面 -->
+    <string name="friend_memo_name">备注名:</string>
+    <string name="friend_memo_phone">备注手机:</string>
+    <string name="friend_memo_email">备注邮箱:</string>
+    <string name="friend_edit_memo">编辑备注</string>
+    <string name="find_friend_helper">找朋友小助手</string>
+    <string name="add_friend_reason">请输入好友认证信息</string>
+    <string name="del_friend_choose">将HiTalk好友%1$s删除，将同时删除与该联系人的聊天记录。</string>
+    <string name="del_friendgroup_choose">确定删除该好友分组</string>
+
+    <!-- 会话 -->
+    <string name="one_second">%1$s 秒前</string>
+    <string name="one_minute">%1$s 分钟前</string>
+    <string name="before_second">%1$s 秒前</string>
+    <string name="before_minute">%1$s 分钟前</string>
+    <string name="before_one_day">昨天 %1$s</string>
+    <string name="before_two_days">前天 %1$s</string>
+    <string name="date_string">%1$s-%2$s</string>
+    <string name="year_string">%1$s-%2$s-%3$s</string>
+    <string name="am_string">上午%1$s</string>
+    <string name="af_string">下午%1$s</string>
+    <string name="ev_string">晚上%1$s</string>
+    <string name="menu_picture">图片</string>
+    <string name="menu_video">视频</string>
+    <string name="submenu_native_picture">本地相册</string>
+    <string name="submenu_camera">拍照</string>
+
+    <!-- 公用部分 -->
+    <string name="default_add">添加</string>
+    <string name="prompt">提醒</string>
+    <string name="clew">提示</string>
+    <string name="confirm">确定</string>
+    <string name="connecting">请稍候…</string>
+    <string name="searching">搜索中…</string>
+    <string name="cancel">取消</string>
+    <string name="cancel_hitalk">你将不会收到来自HiTalk的消息</string>
+    <string name="wake">提醒</string>
+    <string name="no_error_info">没有匹配的错误信息!</string>
+
+    <!-- 找朋友小助手 -->
+    <string name="friendhelper_input_reason">输入验证信息</string>
+    <string name="friendmanager_add_again">再加一次</string>
+    <string name="subservice_add_friend">添加好友</string>
+    <string name="subservice_be_add">验证好友</string>
+    <string name="subservice_group_apply">申请加入群</string>
+    <string name="subservice_group_waitting">加入群申请</string>
+    <string name="subservice_group_be_invite">群邀请</string>
+    <string name="subservice_group_common">群提醒</string>
+    <string name="subservice_friend_common">好友提醒</string>
+    <string name="friendmanager_add_wait">等待好友同意</string>
+    <string name="friendmanager_add_refuse">对方拒绝您添加好友请求</string>
+    <string name="friendmanager_add_agree">你们已经成为好友</string>
+    <string name="friendmanager_add_success">添加好友请求发送成功</string>
+    <string name="friendmanager_be_add_agree">你们已经成为好友</string>
+    <string name="friendmanager_be_add_refuse">您拒绝了添加好友请求</string>
+    <string name="friendmanager_auth_info">验证信息:</string>
+    <string name="friendmanager_apply_for_adding_friend">申请添加我为好友</string>
+    <string name="friendmanager_add_group_wait">申请加入,等待验证</string>
+    <string name="friendmanager_add_group_agree">您已经被同意加入该群</string>
+    <string name="friendmanager_add_group_refuse">加入群申请被拒绝</string>
+    <string name="status_waitting">没有回应</string>
+    <string name="add_group_again">再加一次</string>
+    <string name="friendmanager_be_add_group_agree">您同意Ta加入该群</string>
+    <string name="friendmanager_be_add_group_refuse">您拒绝Ta加入该群</string>
+    <string name="friendmanager_invite_wait">邀请您加入该群</string>
+    <string name="friendmanager_invite_agree">您同意加入该群</string>
+    <string name="friendmanager_invite_refuse">您拒绝加入该群</string>
+    <string name="friendmanager_message_group_add_success">成功加入</string>
+    <string name="friendmanager_message_group_add_success_self">您已成功加入该群</string>
+    <string name="friendmanager_refuse">拒绝</string>
+    <string name="friendmanager_agree">同意</string>
+    <string name="friendmanager_input_reason_full">输入框字符不得超过50个字符,无法输入表情</string>
+    <string name="friend_removed">您被好友删除了</string>
+    <string name="friendmanager_input_not_empty">输入理由不能为空</string>
+    <string name="friendmanager_message_inviting"> %1$s 邀请您加入该群</string>
+    <string name="friendmanager_message_inviting_agree">您同意加入 %1$s </string>
+    <string name="firendmanager_message_inviting_refuse">您拒绝加入%1$s </string>
+    <string name="friendmanager_message_pass">通过</string>
+    <string name="friendmanager_message_agree">同意</string>
+    <string name="friendmanager_message_decline">拒绝</string>
+    <string name="friendmanager_operation_addfriend">添加好友</string>
+    <string name="friendmanager_operation_deletefriend">删除好友</string>
+    <string name="friendmanager_operation_confirm_friend">处理好友请求</string>
+    <string name="friendmanager_operation_success">成功</string>
+    <string name="friendmanager_operation_fail">失败</string>
+    <string name="find_by_location_m_in"> %d米以内</string>
+    <string name="find_by_location_km_in"> %d公里以内</string>
+    <string name="find_by_location_km_out"> %d公里以外</string>
+    <string name="add_friend_not_allowed">对方不允许添加好友</string>
+    <string name="clear_friend_helper_messages">确定删除和找朋友小助手的聊天记录？</string>
+
+    <!-- 添加别人好友 -->
+    <string name="friendmanager_message_add_wait">等待 %1$s 验证您的好友请求</string>
+    <string name="friendmanager_message_add_result">%1$s %2$s了您的好友请求</string>
+
+    <!-- 接收到加好友申请 -->
+    <string name="friendmanager_message_be_add_wait">%1$s请求加您为好友</string>
+    <string name="friendmanager_message_be_add_result">您%1$s了%2$s的好友请求</string>
+
+    <!-- 群主接收到加入群申请 -->
+    <string name="friendmanager_message_be_add_group_result">您%1$s%2$s加入%3$s</string>
+    <string name="friendmanager_message_be_add_group_wait">%1$s申请加入 群%2$s</string>
+
+    <!-- Presence相关 -->
+    <!-- 申请加入群 -->
+    <string name="friendmanager_message_add_group_wait">申请加入%1$s，等待验证</string>
+    <string name="friendmanager_message_add_group_result">您被 %1$s加入 %2$s</string>
+    <string name="friendmanager_message_add">等待 %1$s 验证您的好友请求</string>
+    <string name="friendmanager_message_be_add">您%1$s了%2$s的好友请求</string>
+    <string name="friendmanager_message_add_success">添加好友成功</string>
+    <string name="friendmanager_message_add_result_success">%1$s 通过了您的好友请求</string>
+    <string name="friendmanager_message_add_result_declined">%1$s 拒绝了您的添加好友请求</string>
+    <string name="friendmanager_message_be_add_group">您%1$s%2$s加入%3$s</string>
+    <string name="friendmanager_message_add_group">您被 %1$s加入 %2$s</string>
+    <string name="friendmanager_message_add_group_confirm">您 %1$s了%2$s加入%3$s </string>
+    <string name="friendmanager_message_friend_success">%1$s成为您的好友</string>
+    <string name="friendmanager_message_group_success_self">您成功加入%1$s</string>
+    <string name="friendmanager_message_group_success_owner">%1$s成功加入%2$s</string>
+    <string name="request_success">请求发送成功</string>
+    <string name="request_fail">请求发送失败</string>
+    <string name="request_sended">请求已发送</string>
+    <string name="friendmanager_message_add_group_success">您同意了加入群请求</string>
+
+    <!-- 接收到加入群邀请 -->
+    <string name="friendmanager_message_be_invite_wait">群%1$s邀请您加入</string>
+
+    <!-- 好友列表 -->
+    <string name="search">搜索</string>
+    <string name="edit_contact_section_name">编辑分组名</string>
+    <string name="contact_section_name">分组名：</string>
+    <string name="addmember">添加成员</string>
+    <string name="remove_member">移出成员</string>
+    <string name="fan_out_message">群发消息</string>
+    <string name="delete_contact_section">删除分组</string>
+    <string name="search_quick">搜</string>
+    <string name="system_tools">系统插件</string>
+    <string name="system_plugin_shot_cut">\@</string>
+    <string name="btn_contacttext">电话簿</string>
+    <string name="btn_myfriendtext">我的好友</string>
+    <string name="btn_myaddfriendtext">找朋友</string>
+    <string name="reason_1">同事</string>
+    <string name="reason_2">同学</string>
+    <string name="reason_3">同城</string>
+    <string name="reason_4">在对方通讯录中</string>
+    <string name="reason_5">有共同好友</string>
+    <string name="reason_6">有 %s 个共同好友</string>
+    <string name="hi_talk_sec_content">向你介绍新功能</string>
+    <string name="find_friend_sec">找朋友小助手</string>
+    <string name="hi_talk_sec">HiTalk小秘书</string>
+    <string name="count">(%d)</string>
+    <string name="choose_all">全选</string>
+    <string name="dischoose_all">全不选</string>
+    <string name="add_group">申请加入</string>
+    <string name="input_section_name_prompt">请输入分组名</string>
+    <string name="add_contact_section">添加分组</string>
+    <string name="next">下一步</string>
+    <string name="finish">确认修改</string>
+    <string name="contact_baseline_title">他们也在使用HiTalk</string>
+    <string name="ignroe">忽略</string>
+    <string name="add_all">全部添加</string>
+    <string name="same_section_exist">相同分组已经存在!</string>
+    <string name="delete_this_record">删除记录</string>
+    <string name="delete_fail">删除失败</string>
+    <string name="delete_success">删除成功</string>
+    <string name="please_input_new_section_name">请输入新的组名</string>
+    <string name="delete_friend_warning">将HiTalk好友 %1$s 删除，将同时删除与该联系人的聊天记录</string>
+    <string name="default_section_name">我的好友</string>
+    <string name="hitalk_secretary">HiTalk小秘书</string>
+    <string name="delete_contact_warning">删除 %1$s ?</string>
+
+    <!-- 选择好友界面 -->
+    <plurals name="choose_member_title">
+        <item quantity="other">		选择联系人(<xl id="count">%d</xl>		)</item>
+    </plurals>
+
+    <!-- 会话列表页面 -->
+    <string name="rcsbaseline_sec_content">向你介绍新功能</string>
+    <string name="operation">操作</string>
+    <string name="delete_conversation">删除</string>
+    <string name="submit_delete">确认删除</string>
+    <string name="mediatype_img">[图片]</string>
+    <string name="mediatype_video">[视频]</string>
+    <string name="mediatype_audio">[语音]</string>
+    <string name="mediatype_location">[位置信息]</string>
+    <string name="mediatype_emoji">[贴图]</string>
+    <string name="mediatype_unknow">[未知格式消息]</string>
+    <string name="group_send">群发</string>
+    <string name="speak">按住说话</string>
+    <string name="send">发送</string>
+    <string name="view_origin_image">查看大图</string>
+    <string name="view_video">查看视频</string>
+    <string name="conversation_count">会话( %s )</string>
+    <string name="conversation_select_friends">选择好友</string>
+    <string name="conversation_chatbar">我的聊吧</string>
+    <string name="init_tips_be_found">设置个人资料</string>
+    <string name="init_tips_be_found_content">完善个人资料，让更多的人找到你</string>
+    <string name="init_tips_find_friend">如何找到好友</string>
+    <string name="init_tips_find_friend_content">查找您可能认识的人</string>
+    <string name="init_tips_find_group">如何加入群组</string>
+    <string name="init_tips_find_group_content">搜索群，查看热门群、推荐群</string>
+    <string name="im_select_voice_notcant_input_word">选择[音频]后不能够再输入文字…</string>
+    <string name="im_select_video_notcant_input_word">选择[视频]后不能够再输入文字…</string>
+    <string name="create_chat_bar">正在发起多人会话…</string>
+    <string name="choose_member">选择联系人</string>
+    <string name="invite_members_to_success">邀请成员成功</string>
+    <string name="invite_members_to_failed">邀请成员失败</string>
+    <string name="upload_progress">%1$dK/%2$dK</string>
+    <string name="unknown_msg">[未知类型]</string>
+
+    <!-- 注册 -->
+    <string name="register_read">已阅读并同意 : </string>
+    <string name="register_email">Email注册</string>
+    <string name="register_continue">继续</string>
+    <string name="skip_bind">跳过</string>
+    <string name="register_bound_email_msg">验证码已发送至邮箱，请在有效时间(24小时)内输入收到的邮箱验证码</string>
+    <string name="send_email_verify_code">系统给您发送了一封验证码邮件，请注意查收。</string>
+    <string name="register">注册</string>
+    <string name="deal_title"> HiTalk协议</string>
+    <string name="agree">同意</string>
+    <string name="register_phone_title">手机注册</string>
+    <string name="register_telmessage">登记成功后可以确认您的身份、找回密码，增加帐户安全性</string>
+    <string name="register_tel_hint">请输入您的手机号码/邮箱</string>
+    <string name="mobile_or_email_not_null">手机号码/邮箱不能为空</string>
+    <string name="mobile_is_register">该手机号码已经注册</string>
+    <string name="email_is_register">该邮箱已注册</string>
+    <string name="mobile_is_bund">该手机号码已注册</string>
+    <string name="email_is_bund">该邮箱已绑定</string>
+    <string name="input_right_mobile_or_email">请输入正确的手机号码/邮箱</string>
+    <string name="register_bound_msg">系统已发送短信验证码到您要绑定的手机上,请输入收到的短信验证码</string>
+    <string name="register_verify_code">填写验证码</string>
+    <string name="register_verify_delay_sec1">没有收到 ?</string>
+    <string name="register_verify_delay_sec">秒)</string>
+    <string name="input_verify_code">请输入验证码</string>
+    <string name="register_fresh_code">没有收到？%s秒后请重新获取短信验证码码</string>
+    <string name="register_fresh_code2">重新获取邮箱验证码</string>
+    <string name="register_fresh_code3">重新获取验证码</string>
+    <string name="get_verify_code_faild">获取验证码失败</string>
+    <string name="send_verify_code">系统给您发送了一条验证码短信，请注意查收。</string>
+    <string name="verify_code_length">请输入6位短信验证码</string>
+    <string name="register_write_msg">填写注册信息</string>
+    <string name="input_nick_name">你的名字</string>
+    <string name="password_not_null">新密码不能为空</string>
+    <string name="input_new_password">新密码（大于等于6位）</string>
+    <string name="input_password">密码（大于等于6位）</string>
+    <string name="password_length">密码应由6-20位字符（字母、数字、符号）组成</string>
+    <string name="password_digits">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLIMNOPQRSTUVWXYZ$%()*+,-_./:;@~!#?&amp;</string>
+    <string name="show_password">显示密码</string>
+    <string name="password_strength">密码强度：</string>
+    <string name="register_success">注册成功</string>
+    <string name="register_remember_id">你的HiTalk ID是</string>
+    <string name="upload_contacts">:\n上传手机通讯录，可以帮助您快速找到您的好友。将采用加密方式上传和保存，保护您的隐私不被泄漏。\n\n请确认是否上传手机通讯录？</string>
+    <string name="upload_contacts_msg">上传通讯录，找到好友更方便。</string>
+    <string name="upload_contacts_more">:\n上传手机通讯录，可以帮助您快速找到您的好友。将采用加密方式上传和保存，保护您的隐私不被泄漏。\n您的联系人数据过多，上传需要时间。\n\n请确认是否上传手机通讯录？</string>
+    <string name="upload_contacts_fail">上传失败</string>
+    <string name="upload_contacts_fail_msg">上传通讯录失败，请重新上传。</string>
+    <string name="upload">上传</string>
+    <string name="upload_contacts_again">重新上传</string>
+    <string name="upload_contacts_next">下次再说</string>
+    <string name="upload_contacts_continue">继续上传</string>
+    <string name="upload_contacts_cancel">取消上传</string>
+    <string name="uploading_contacts">正在上传联系人... %1$s</string>
+    <string name="upload_contacts_cancel_msg">取消上传通讯录，你将不会找到\n您通讯录中的好友。</string>
+    <string name="verifyCode_Error_reinput">验证码错误，重新获取验</string>
+    <string name="verify_code_faild">验证码验证失败，请重新获取</string>
+    <string name="verify_code_timeout">验证码验证已过期，请重新获取</string>
+    <string name="read_info">请阅读协议</string>
+    <string name="verification_code_error">验证码输入错误,请点击重新获取验证码并重新输入</string>
+    <!-- 注册错误提示 -->
+    <string name="error_code_209001002">解释报文错误 </string>
+    <string name="error_code_209001003">密码不能为空  </string>
+    <string name="error_code_209001004">手机和邮箱不能同时为空  </string>
+    <string name="error_code_209001005">邀请码不合法或者邀请码已使用 </string>
+    <string name="error_code_209001007">该邮箱已经被绑定  </string>
+    <string name="error_code_209001008">邮件发送失败  </string>
+    <string name="error_code_209001010">此手机号码已被绑定   </string>
+    <string name="error_code_209002001">受邀用户不能为空   </string>
+    <string name="error_code_209002002">用户注册时输入的昵称不能为空 </string>
+    <string name="error_code_209002003">邀请用户方式不能为空 </string>
+    <string name="error_code_209002004">邀请用户方式类型错误 </string>
+    <string name="error_code_209002005">邀请用户方式类型错误</string>
+    <string name="error_code_209002006">查询用户绑定手机号码和昵称失败</string>
+    <string name="error_code_209002007">邮件发送失败 </string>
+    <string name="error_code_209002008">非法参数 </string>
+    <string name="error_code_209002009">非法参数</string>
+    <string name="error_code_209002010">手机号码或Email已绑定 </string>
+    <string name="error_code_209002011">手机号码或Email已绑定 </string>
+    <string name="error_code_209002012">插入邀请链接验证码表失败 </string>
+    <string name="error_code_209002013">短信发送失败 </string>
+    <string name="error_code_209002014">即时通信的用户ID不能为空</string>
+    <string name="error_code_209004001">HiTalk账号无效 </string>
+    <string name="error_code_209004002">报文错误  </string>
+    <string name="error_code_209004004">查询用户信息失败 </string>
+    <string name="error_code_209004005">即时通信用户业务ID不能为空	 </string>
+    <string name="error_code_209004006">Email不能为空  </string>
+    <string name="error_code_209004007">displayName不能为空  </string>
+    <string name="error_code_209009002">该手机号码已经被绑定  </string>
+    <string name="error_code_209009003">即时通信用户业务msisdn不能为空或格式错误  </string>
+    <string name="error_code_209013001">即时通信用户业务msisdn不能为空  </string>
+    <string name="error_code_209013002">该邮箱已经被绑定  </string>
+    <string name="error_code_209010001">未知错误  </string>
+    <string name="error_code_209010002">号码格式有误,无法解析  </string>
+    <string name="error_code_209012001">未知错误  </string>
+    <string name="error_code_209012002">解释报文错误  </string>
+    <string name="error_code_209012003">即时通信用户业务ID不能为空  </string>
+    <string name="error_code_209012004">解除绑定类型错误  </string>
+    <string name="error_code_209012005">查询用户信息失败  </string>
+    <string name="error_code_209009004">验证码错误  </string>
+    <string name="error_code_209010006">该手机号码未被绑定  </string>
+    <string name="error_code_209010007">手机号码不能为空  </string>
+    <string name="error_code_209010008">解析请求报文出错  </string>
+    <string name="error_code_209016001">请求报文解析出错  </string>
+    <string name="error_code_209016002">该邮箱地址已经被绑定  </string>
+    <string name="error_code_209016003">Email地址不能为空或格式错误  </string>
+    <string name="error_code_209016004">邮箱验证码无效  </string>
+    <string name="error_code_209016005">邮箱验证码不能为空  </string>
+    <string name="error_code_209001000">系统繁忙，验证码获取失败，请稍后再试 </string>
+    <string name="the_max_length">消息长度不能超过200个字</string>
+    <string name="cant_not_send_empty">消息内容不能为空</string>
+    <string name="add_member">添加</string>
+    <!-- voip 通话记录-log -->
+    <string name="cl_dial">拨号盘</string>
+    <string name="cl_comm_record">通话记录</string>
+    <string name="no_comm_record">暂无通话记录</string>
+    <string name="tab_contact">联系人</string>
+    <string name="tab_dial">拨号</string>
+    <string name="comm_detail_dail_type">呼入</string>
+    <string name="comm_detail_dail_type1">呼入已接</string>
+    <string name="comm_detail_dail_type2">呼入未接</string>
+    <string name="comm_detail_dail_type3">呼入拒绝</string>
+    <string name="comm_detail_dail_type4">VOIP呼出</string>
+    <string name="comm_detail_dail_type5">原生呼出 </string>
+    <string name="comm_detail_title">记录详情</string>
+    <string name="please_wait_next">下个版本敬请期待</string>
+    <string name="comm_null_name">未知</string>
+    <string name="comm_add_contact">添加联系人</string>
+    <string name="voip_sec">秒</string>
+    <string name="voip_min">分</string>
+    <string name="voip_hour">时</string>
+    <string name="myTitle">我的账号</string>
+    <string name="myPhoneNumber_title">手机号码:</string>
+    <string name="myEmail_title">邮箱:</string>
+    <string name="myVOIP_title">VOIP:</string>
+    <string name="VOIP_title">VOIP</string>
+    <string name="VOIP_account_title">你的VOIP账号:</string>
+    <string name="VOIP_title_content">请设置您的VOIP账号，方便进行通话</string>
+    <string name="btn_deletebind">删除并取消绑定</string>
+    <string name="voip_delete_dialog_conform">确定要删除该通话记录吗？</string>
+    <string name="btn_bind">绑定</string>
+    <string name="bindTitle">绑定</string>
+    <string name="unbindTitle">取消绑定</string>
+    <string name="unbind">取消绑定</string>
+    <string name="voip_uninit_sdk">Fast组件初始化失败</string>
+    <string name="notbind">未绑定</string>
+    <string name="hint_voip_account">账号</string>
+    <string name="hint_voip_passwd">密码</string>
+    <string name="hint_voip_passwd2">VOIP密码</string>
+    <string name="voip_accountorps_error">账号或密码错误，请重新输入</string>
+    <string name="voip_accountorps_notNUll">账号或密码不能为空！</string>
+    <string name="voip_ps_error">密码错误，请重新输入</string>
+    <string name="voip_bind_success">VOIP账号绑定成功</string>
+    <string name="voip_unbind_success">已取消VOIP账号绑定</string>
+    <string name="voip_bind_failed">VOIP账号绑定失败</string>
+    <string name="voip_unbind_failed">VOIP账号解绑失败</string>
+    <string name="voip_deletebind_dialog">取消绑定你将不能在HiTalk进行VOIP呼叫</string>
+    <string name="voip_clear_commlogs">清空记录</string>
+    <string name="voip_clear_commlogs_warn">确定清空所有通话记录?</string>
+    <string name="voip_yesterday">昨天 </string>
+    <string name="voip_call_Type">使用以下方式呼叫 </string>
+    <string name="voip_comm_unread">(%1$s)</string>
+    <string name="voip_call">拨号</string>
+    <string name="voip_year_string">%1$s-%2$s-%3$s</string>
+    <string name="voip_detail_time">%1$s:%2$s</string>
+    <string name="voip_am_string">上午%1$s</string>
+    <string name="voip_af_string">下午%1$s</string>
+    <string name="voip_net_error">网络异常，绑定VoIP失败</string>
+    <string name="voip_operation">操作</string>
+    <string name="voip_delete_commlog">删除</string>
+    <string name="agreement_info">t
+		本协议由《
+		HiTalk软件用户使用协议》及相关附件以及第三方授权软件或技术的使用协议和许可条款组成。
+		\n\t
+		在此特别提醒用户认真阅读、充分理解本协议及其条款。您的下载、安装、使用、帐号获取和登录等行为将视为对本协议的接受，并同意接受本协议各项条款的约束。
+		\n\t1
+		本公司有权随时更新、调整本协议及相关附件条款内容。在本公司修改协议条款后，如果您不接受修改后的条款，请立即停止使用本公司提供的软件和服务，您继续使用本公司提供的软件和服务将被视为已接受了修改后的协议。
+		\n\t2
+		如果您想使用 HiTalk业务、网站及更多功能，您必须注册
+		HiTalk业务，并承诺和保证：您提交的所有注册信息是真实准确的，您使用“ HiTalk”的行为是合法的。
+		\n\u0020\u0020 3
+		您如果安装使用“ HiTalk”，则表明同意“ HiTalk”扫描、分析您的手机通讯录，来帮助您寻找手机通信录中已经在使用“
+		HiTalk”的朋友。“
+		HiTalk”对您手机通讯录的分析仅用于帮助您快速寻找到好友，并在此过程中采取各种技术手段和措施严格保护您的个人信息和隐私。
+		\n\u0020\u0020 4
+		您的 HiTalk帐号所绑定的手机号码或邮箱帐号发生变更的，应立即解除该手机帐号或邮箱帐号与
+		HiTalk帐号的绑定关系。本公司不对您因未能遵守本要求而造成的损失承担法律责任。
+		\n\u0020\u0020 5
+		本公司保留在任何时候为您提供“
+		HiTalk”软件的替换、修改、升级版本的权利。软件新版本发布后，本公司不保证旧版本软件的继续可用。本公司保留在任何时候因业务发展需要对软件的部分功能进行改变或进行限制的权利。
+		\n\u0020\u0020 6
+		本公司和/或合作单位保留对相关增值服务收取费用及改变收费标准、方式的权利，并以适当的形式告知用户，用户可自主选择接受或拒绝收费服务。
+		\n\u0020\u0020 7本公司公司有权在服务中投放各种广告和宣传信息，该广告可能以系统消息或弹出窗口等形式出现。
+		\n\u0020\u0020 8
+		“ HiTalk”业务目前不向用户收取功能费。但用户在使用“
+		HiTalk”业务过程中可能会发生由用户使用的网络服务运营收取的相关费用，包括但不限于：用户登录
+		HiTalk手机客户端与Wap网站产生的流量，点击HiTalk业务页面、会话等过程中的链接，跳转到第三方网站、平台进行访问的行为，点击HiTalk业务页面、会话等过程中链接到第三方网站、平台的图片、视频进行图片、视频的播放，其它点击、访问、使用第三方网站、平台提供的服务的行为，通过
+		HiTalk客户端拨打电话（含VoIP）等，均有可能产生资费。
+		\n\u0020\u0020\u0020\u0020 8.1 1
+		以上产生资费内容、功能和服务，用户均可自主选择使用或不使用。 \n\u0020\u0020\u0020\u0020 8.2
+		具体资费标准由用户使用的网络服务运营商根据当地标准自行确定和收取。
+		\n\u0020\u0020 9 用户不得实施包括但不限于下列行为：
+		\n\u0020\u0020\u0020\u0020 9.1
+		利用本软件发表、传送、传播、储存违反国家法律、危害国家安全、祖国统一、社会稳定、公序良俗的内容，或任何不当的、侮辱诽谤的、淫秽的、暴力的及任何违反国家法律法规政策的内容。
+		\n\u0020\u0020\u0020\u0020 9.2 利用本软件发表、传送、传播、储存侵害他人知识产权等合法权利的内容；
+		\n\u0020\u0020\u0020\u0020 9.3 利用本软件批量发表、传送、传播广告信息及垃圾信息；
+		\n\u0020\u0020\u0020\u0020 9.4 进行任何危害计算机网络安全的行为；
+		\n\u0020\u0020\u0020\u0020 9.5
+		使用非本公司开发、授权或认可的第三方兼容软件、系统登录或使用“
+		HiTalk”业务，或使用非本公司开发、授权或认证的“ HiTalk”业务插件和外挂；
+		\n\u0020\u0020\u0020\u0020
+		9.6
+		其它违反国家法律、法规的行为，或本公司认定为损害他人合法利益的不当行为以及以任何不合法的方式、为任何不合法的目的、或以任何与本协议不一致的方式使用“
+		HiTalk”软件的行为；
+		\n\u0020\u0020\u0020\u0020 9.7
+		用户若违反上述规定，本公司有权采取终止、完全或部分中止、限制用户帐号的使用功能。
+		\n\u0020\u0020 10 免责声明
+		用户使用“HiTalk”过程中如发生下述情形，本公司不承担任何法律责任：
+		\n\u0020\u0020\u0020\u0020 10.1
+		由于您的使用不当而导致任何个人信息的泄露；
+		\n\u0020\u0020\u0020\u0020 10.2
+		任何由于黑客攻击，电脑病毒的侵入，非法内容信息、骚扰信息的屏蔽，政府管制以及其他任何网络、技术、通信线路、信息安全管理措施等原因造成的服务中断、受阻等不能满足用户要求的情形；
+		\n\u0020\u0020\u0020\u0020 10.3
+		用户之间通过“HiTalk”与其他用户交往，因受误导或欺骗而导致或可能导致的任何心理、生理上的伤害以及经济上的损失；
+		\n\u0020\u0020 11
+		本《协议》的解释、效力及纠纷的解决，适用于中华人民共和国法律。若用户和本公司之间发生任何纠纷，由本公司所在地(南京)有管辖权的人民法院管辖。</string>
+
+    <!-- 手机号码注册成功提示信息 -->
+    <string name="mobile_register_success_info">的HiTalkID及密码发送短信到您绑定的手机上。如果忘记密码，您可以按照登录首页的流程来找回密码。\n\n祝您使用HiTalk愉快！</string>
+    <string name="email_register_success_info">的HiTalkID及密码发送邮件到您绑定的邮箱中。如果忘记密码，您可以按照登录首页的流程来找回密码。\n\n祝您使用HiTalk愉快！</string>
+    <string name="delay_login">%s秒后跳转</string>
+    <string name="register_login">开始使用</string>
+    <string name="begin_hitalk">开始Hi Talk吧！</string>
+
+    <!-- HiTalk超箱小助手 add by zhouxuesong -->
+    <string name="email_tile">超箱小助手</string>
+    <string name="email_frome">来自:</string>
+    <string name="email_delete_sure">您确定要删除?</string>
+    <string name="is_friend_already">你们已经是好友</string>
+    <string name="email_unread_number">进入邮箱 ></string>
+
+    <!-- portal 错误码 -->
+    <string name="error_code_209001001">操作频率过快，请稍后再试</string>
+    <string name="error_code_209001009">系统内部位置错误</string>
+    <string name="error_code_209001006">请求IP注册不合法</string>
+    <string name="error_code_209009001">未知错误</string>
+    <string name="error_code_209006004">原密码错误</string>
+    <string name="error_code_209006005">系统错误</string>
+    <string name="error_code_209005008">重置过于频繁，请稍后再试</string>
+    <string name="error_code_209005011">验证码错误或此验证码无效</string>
+    <string name="error_code_209005015">发送邮件失败</string>
+    <string name="error_code_209005005">该Email未被绑定</string>
+    <string name="error_code_209003001">HiTalk帐号无效</string>
+    <string name="error_code_209003002">即时通信用户业务ID不能为空</string>
+    <string name="error_code_209003003">手机号码不能为空 </string>
+    <string name="error_code_209003004">此手机号码已被绑定 </string>
+    <string name="error_code_209003005">绑定验证码错误</string>
+    <string name="error_code_209003006">系统内部错误 </string>
+    <string name="error_code_209003007">报文错误</string>
+    <string name="error_code_209010003">此手机号码已被绑定</string>
+    <string name="error_code_209010004">短信发送失败</string>
+    <string name="error_code_209010005">验证码获取失败</string>
+    <string name="error_code_209004008">此邮箱号码已被绑定</string>
+    <string name="error_code_210000000">发送绑定验证邮件失败</string>
+    <string name="error_code_209004003">鉴权失败</string>
+
+    <!-- 邮箱绑定界面 -->
+    <string name="bound_mail">系统已经向你的邮箱%s发送一封验证邮件，请登录邮箱完成绑定</string>
+    <string name="unbound_mail">系统已经向你的邮箱%s发送一封验证邮件，请登录邮箱解除绑定</string>
+    <string name="re_check">如果没有收到验证邮件，请点击重新发送验证邮件。</string>
+    <string name="re_mail">重新发送验证邮件</string>
+    <string name="error_code_209002600">该手机号码已绑定</string>
+    <string name="error_code_209002601">手机号码或邮箱未绑定</string>
+    <string name="error_code_209002602">验证码为空</string>
+    <string name="error_code_209002603">邮箱链接已发送</string>
+    <string name="error_code_209012006">未绑定手机</string>
+    <string name="error_code_209012007">解除手机绑定失败</string>
+    <string name="error_code_209012008">解除手机绑定失败,验证码失效</string>
+    <string name="error_code_209012009">验证码获取失败</string>
+    <string name="error_code_209012010">邮箱未绑定</string>
+    <string name="error_code_209004009">不能频繁发送邮件</string>
+
+    <!-- 个人应用 -->
+    <string name="apply">应用</string>
+    <string name="add_apply">添加应用</string>
+    <string name="hot_apply">热门应用</string>
+    <string name="my_apply">我的应用</string>
+    <string name="cancle">注销</string>
+    <string name="back_to_list">返回列表</string>
+    <string name="verify_quit">确定要返回应用列表吗？</string>
+    <string name="add_app_zero">添加 （0）</string>
+    <string name="add_app_title">添加应用</string>
+    <string name="app_reach_max">应用已达上限</string>
+    <string name="delete_app">删除</string>
+    <string name="add_app_tip">请先添加应用！</string>
+    <string name="submit_delete_title">删除提示</string>
+
+    <!-- reset password -->
+    <string name="input_bind_phone_or_email">请输入手机号码或邮箱地址</string>
+
+    <!-- 返回码 -->
+    <!-- 临时 -->
+    <string name="error_code_203002000">密码错误</string>
+    <string name="error_code_203022002">用户被锁定，请等待锁定时间后进行登陆。</string>
+    <string name="error_code_203020303">该邮箱已经被绑定</string>
+    <!-- 已定义 -->
+    <string name="error_code_203002309">用户未注册（不存在）</string>
+    <string name="error_code_203002338">用户已存在(使用重复绑定手机号或邮箱开户时返回该错误)</string>
+    <string name="error_code_209001011">验证码输入错误</string>
+    <string name="error_code_209001012">密码错误或非法</string>
+    <string name="error_code_209001014">令牌鉴权失败</string>
+    <string name="error_code_209001015">无效邀请码</string>
+    <string name="error_code_209001019">参数非法</string>
+    <string name="error_code_209002101">原密码错误</string>
+    <string name="error_code_209002309">用户未注册（不存在）</string>
+    <string name="error_code_209002500">用户未绑定</string>
+    <string name="error_code_0">操作成功</string>
+    <string name="error_code_1">操作成功需要同步（增、删、改接口）</string>
+    <string name="error_code_10">完全同步（同步接口）</string>
+    <string name="error_code_2">部分同步</string>
+    <string name="error_code_200044005">令牌参数无效，如格式不正确</string>
+    <string name="error_code_200044006">令牌已失效</string>
+    <string name="error_code_200049101">参数为空</string>
+    <string name="error_code_200049102">参数过长</string>
+    <string name="error_code_200049103">输入参数不合法</string>
+    <string name="error_code_200049104">请求XML消息体非法</string>
+    <string name="error_code_200049105">请求IP非法</string>
+    <string name="error_code_200049106">客户端类型错误</string>
+    <string name="error_code_200049107">此IP请求太频繁，上了黑名单</string>
+    <string name="error_code_200049108">此账号请求过于频繁，上了黑名单</string>
+    <string name="error_code_200049109">CpID请求太频繁，上了黑名单</string>
+    <string name="error_code_200049430">用户名或密码错误，请重新输入</string>
+    <string name="error_code_200049431">号码不可用</string>
+    <string name="error_code_200049432">用户名或密码错误，请重新输入</string>
+    <string name="error_code_200049433">用户上黑名单</string>
+    <string name="error_code_200049434">登录版本号不可用</string>
+    <string name="error_code_200049436">目前不支持此功能</string>
+    <string name="error_code_200049437">记录不存在</string>
+    <string name="error_code_200049438">记录已经存在</string>
+    <string name="error_code_200049439">动态密码无效（不正确）</string>
+    <string name="error_code_200049440">密码过于简单，请重置密码</string>
+    <string name="error_code_200049441">图形验证码不正确</string>
+    <string name="error_code_200049442">验证码超时</string>
+    <string name="error_code_200049443">验证码重复使用</string>
+    <string name="error_code_200049444">验证码会话超时</string>
+    <string name="error_code_200049445">重复恶意登陆</string>
+    <string name="error_code_200049446">低速暴力破解密码（IP层面</string>
+    <string name="error_code_200049447">密码为空用户密码SHA256值为空</string>
+    <string name="error_code_200049448">异常激活用户每月第一次登录，请使用动态密码</string>
+    <string name="error_code_200049500">获取userid失败</string>
+    <string name="error_code_200049501">获取路由节点失败</string>
+    <string name="error_code_200049502">未知的cpID</string>
+    <string name="error_code_200049503">超过流量控制</string>
+    <string name="error_code_200049999">系统错误（操作失败）</string>
+    <string name="error_code_200059504">你已连续输入错误超过5次，为保证账号安全，请输入图形验证码</string>
+    <string name="error_code_200059505">多次登录失败被锁定</string>
+    <string name="error_code_202010001">未知错误（系统内部错误）</string>
+    <string name="error_code_202010005">报文格式错误，格式检验失败</string>
+    <string name="error_code_202010007">缺少鉴权信息或者鉴权信息非法</string>
+    <string name="error_code_202010008">鉴权信息（令牌）超时</string>
+    <string name="error_code_202010010">某些字段值不允许为空</string>
+    <string name="error_code_202010012">某些字段校验失败</string>
+    <string name="error_code_202010013">单次请求操作的对象个数太多</string>
+    <string name="error_code_202010014">超出用户的数据限额</string>
+    <string name="error_code_202010015">没有找到指定资源</string>
+    <string name="error_code_202010016">联系人分组名称已经存在</string>
+    <string name="error_code_202010017">用户数据已经被加锁</string>
+    <string name="error_code_202010018">用户数据版本号没有改变</string>
+    <string name="error_code_202010019">服务器资源不足</string>
+    <string name="error_code_202010022">数据状态不合法</string>
+    <string name="error_code_202100001">服务器内部错误</string>
+    <string name="error_code_202100002">资源不足</string>
+    <string name="error_code_202100003">非法请求</string>
+    <string name="error_code_202100004">鉴权失败</string>
+    <string name="error_code_202100005">鉴权信息已过期</string>
+    <string name="error_code_202100006">用户没有权限</string>
+    <string name="error_code_202100007">没有找到指定资源</string>
+    <string name="error_code_202200002">某些字段不允许为空</string>
+    <string name="error_code_202200003">字段必须唯一</string>
+    <string name="error_code_202200004">字段确认失败</string>
+    <string name="error_code_209013003">邮箱格式不正确，请检查</string>
+    <string name="error_code_timeout">连接超时</string>
+    <string name="error_code_network_error">网络异常</string>
+    <string name="error_code_auth_error">认证失败</string>
+    <string name="error_code_param_error">请求参数错误</string>
+    <string name="error_code_failed">网络或服务器异常</string>
+
+    <!-- xmpp错误码 -->
+    <string name="xmpp_error_code_206100101">群组不存在</string>
+    <string name="xmpp_error_code_206100102">群组成员或邀请记录不存在</string>
+    <string name="xmpp_error_code_206100104">不支持该类型群组创建</string>
+    <string name="xmpp_error_code_206100105">用户创建的固定群组超过上限</string>
+    <string name="xmpp_error_code_206100106">用户创建的临时群组超过上限</string>
+    <string name="xmpp_error_code_206100107">不支持该用户邀请</string>
+    <string name="xmpp_error_code_206100108">群组成员超过上限</string>
+    <string name="xmpp_error_code_206100109">该群组类型不支持邀请</string>
+    <string name="xmpp_error_code_206100110">群组类型不支持申请</string>
+    <string name="xmpp_error_code_206100111">群组类型不支持退出</string>
+    <string name="xmpp_error_code_206100112">不支持该用户踢人</string>
+    <string name="xmpp_error_code_206100113">不支持该用户删除群组</string>
+    <string name="xmpp_error_code_206100114">群组类型不支持删除</string>
+    <string name="xmpp_error_code_206100115">不支持该用户查询群组</string>
+    <string name="xmpp_error_code_206100116">不支持该用户分配管理权限</string>
+    <string name="xmpp_error_code_206100117">不支持该用户查询群组配置</string>
+    <string name="xmpp_error_code_206100118">不支持该用户修改群组配置</string>
+    <string name="xmpp_error_code_206100119">群组相关字段不支持修改</string>
+    <string name="xmpp_error_code_206100120">不支持该用户修改昵称</string>
+    <string name="xmpp_error_code_206100121">不支持该用户修改成员信息</string>
+    <string name="xmpp_error_code_206100122">发送消息失败,不支持该发送此消息</string>
+    <string name="xmpp_error_code_206100123">发送消息失败,此群组不支持发送此类消息</string>
+    <string name="xmpp_error_code_206100124">转让者非owner</string>
+    <string name="xmpp_error_code_206100125">该用户非群组成员</string>
+    <string name="xmpp_error_code_206100126">指定的成员列表过多</string>
+    <string name="xmpp_error_code_206100127">用户加入的群组总个数超过上限</string>
+    <string name="xmpp_error_code_206400103">超过最大日发送量</string>
+    <string name="xmpp_error_code_206400104">超过最大接收方数量</string>
+    <string name="xmpp_error_code_100">对方不允许添加好友</string>
+    <string name="xmpp_error_code_1104">您已处于离线状态，请重新登录</string>
+    <string name="xmpp_error_code_unknown">未知错误</string>
+    <string name="xmpp_error_code_10001">已经成为您的好友</string>
+
+    <!-- 登录返回码 -->
+    <string name="login_error_code_200044005">正在重连…</string>
+    <string name="login_error_code_200044006">正在重连…</string>
+    <string name="login_error_code_200049106">当前版本太旧, 请您升级</string>
+    <string name="login_error_code_200049107">您的帐号出现异常,已经被锁定</string>
+    <string name="login_error_code_200049108">您的帐号出现异常,已经被锁定</string>
+    <string name="login_error_code_200049109">您的帐号出现异常,已经被锁定</string>
+    <string name="login_error_code_200049430">用户名或密码不正确，请重新输入</string>
+    <string name="login_error_code_200049431">用户名或密码不正确，请重新输入</string>
+    <string name="login_error_code_200049432">用户名或密码不正确，请重新输入</string>
+    <string name="login_error_code_200049433">您的帐号出现异常,已经被锁定</string>
+    <string name="login_error_code_200049434">当前版本太旧, 请您升级</string>
+    <string name="login_error_code_200049441">图形验证码输入错误，请重新输入</string>
+    <string name="login_error_code_200049442">图形验证码失效，请点击刷新</string>
+    <string name="login_error_code_200049443">图形验证码失效，请点击刷新入</string>
+    <string name="login_error_code_200049444">图形验证码失效，请点击刷新</string>
+    <string name="login_error_code_200049445">您的帐号出现异常,已经被锁定</string>
+    <string name="login_error_code_200049446">您的帐号出现异常,已经被锁定</string>
+    <string name="login_error_code_200049447">密码错误，请重新输入</string>
+    <string name="login_error_code_200049503">您的帐号出现异常,已经被锁定</string>
+    <string name="login_error_code_200059505">您的帐号出现异常,已经被锁定</string>
+    <string name="login_http_error_code_203">服务不可用</string>
+    <string name="login_xmpp_terminated">登录失败</string>
+    <string name="xmpp_status_confict_terminated">此账号在其他地方登录，您被迫下线</string>
+    <string name="login_xmpp_error_code_1003">@string/login_xmpp_terminated</string>
+    <string name="login_xmpp_error_code_1004">@string/login_xmpp_terminated</string>
+    <string name="login_xmpp_error_code_1010">@string/login_xmpp_terminated</string>
+    <string name="login_xmpp_error_code_1011">@string/login_xmpp_terminated</string>
+    <string name="login_xmpp_error_code_1101">@string/login_xmpp_terminated</string>
+    <string name="login_xmpp_error_code_1102">@string/xmpp_status_confict_terminated</string>
+
+    <!-- IM -->
+    <string name="speak_available">请开始说话</string>
+    <string name="say_something">说点什么吧...</string>
+    <string name="pick_emotion_title">选择表情</string>
+    <string name="resend">重发</string>
+    <string name="audio_length_by_minutes">%s\'</string>
+    <string name="audio_length_by_seconds">%s\"</string>
+    <string name="message_sending">正在发送</string>
+    <string name="message_sent">已发送</string>
+    <string name="message_sent_unread">已送达</string>
+    <string name="message_sent_read">已读</string>
+    <string name="message_received_unread">已接收未读</string>
+    <string name="message_received_read">已读</string>
+    <string name="message_media_block">阻塞状态</string>
+    <string name="message_send_failed">发送失败</string>
+    <string name="secretary">小秘书</string>
+    <string name="clear_message_record">清除会话</string>
+    <string name="exit_chat">退出会话</string>
+    <string name="title_record_video">录制视频</string>
+
+    <plurals name="dialog_content">
+        <item quantity="other">		确定删除和<xl id="other">%s</xl>		的聊天记录？</item>
+    </plurals>
+
+    <string name="dialog_exit_group">你将不会收到来自该群的消息</string>
+    <string name="dialog_clear_group_message">确定删除和这些人的聊天记录？</string>
+
+    <plurals name="multi_chat_default_title">
+        <item quantity="other">		多人会话(<xl id="count">%d</xl>		)</item>
+    </plurals>
+
+    <string name="preview_image">预览</string>
+    <string name="preview_title">来自</string>
+    <string name="cut_image">截取头像</string>
+    <string name="saved_path">已保存至SDcard</string>
+    <string name="image_not_exist">对不起，此图片不存在您的SD卡中。</string>
+    <string name="image_format_incorrect">图片文件格式不支持</string>
+    <string name="image_is_bigger">上传图片>1MB</string>
+    <string name="download_failed">下载失败</string>
+    <string name="draw">涂鸦功能尚未提供，敬请期待！</string>
+    <!-- 聊天页面消息长按后显示的菜单项 -->
+    <string name="im_msg_menu_copy">复制</string>
+    <string name="im_msg_menu_transfer">转发</string>
+    <string name="im_msg_menu_share">分享</string>
+    <string name="im_msg_menu_delete">删除</string>
+    <string name="im_msg_menu_resend">重发</string>
+    <!-- 分组 -->
+    <string name="sure_delete_section">确认删除分组？</string>
+    <string name="delete_section_success">删除分组成功</string>
+    <string name="delete_section_failure">网络异常，删除分组失败</string>
+    <string name="delete_section_service_error">服务器异常，删除分组失败</string>
+    <string name="add_section_failure">网络异常，添加分组失败</string>
+    <string name="add_section_success">添加分组成功</string>
+    <string name="add_section_service_error">服务器异常，添加分组失败</string>
+    <string name="update_section_name_success">更新分组名成功</string>
+    <string name="update_section_name_failure">网络异常，更新分组名失败</string>
+    <string name="update_section_name_service_error">服务器异常，更新分组名失败</string>
+    <string name="add_to_section_success">添加成员到分组成功</string>
+    <string name="add_to_section_failure">添加成员到分组失败</string>
+    <string name="remove_contact_from_section_success">从分组移除成员成功</string>
+    <string name="remove_contact_from_section_failure">从分组移除成员失败</string>
+    <string name="section_number">最多能创建100个分组</string>
+    <string name="hint_section_name">分组名</string>
+    <string name="section_name_not_be_empty">分组名不能为空</string>
+    <string name="section_empty">请选择成员</string>
+
+    <!-- 群相关 -->
+    <string name="group_title">群</string>
+    <string name="chat_ba_title">我的聊吧</string>
+    <string name="search_group_title">查找群</string>
+    <string name="search_hint">群ID/关键词</string>
+    <string name="group_popular_title">人气</string>
+
+    <string-array name="group_catagroy_title">
+        <item>购物</item>
+        <item>追星一族</item>
+        <item>影视音乐</item>
+        <item>游戏</item>
+        <item>安居置业</item>
+        <item>车行天下</item>
+        <item>旅游</item>
+        <item>生活休闲</item>
+        <item>体育联盟</item>
+        <item>商业金融</item>
+        <item>动漫</item>
+        <item>考试/培训</item>
+        <item>原创空间</item>
+        <item>技术联盟</item>
+        <item>读书会</item>
+        <item>老乡会</item>
+        <item>同城</item>
+        <item>校友录</item>
+        <item>企业录</item>
+        <item>其他</item>
+    </string-array>
+
+    <string name="group_owner_title">我创建的群</string>
+    <string name="group_member_title">我参与的群</string>
+    <string name="group_no_tips">您还没有创建或加入任何群</string>
+    <string name="chat_bar_owner_title">我创建的聊吧</string>
+    <string name="chat_bar_member_title">我参与的聊吧</string>
+    <string name="group_create">创建群</string>
+    <string name="group_creating">创建群中...</string>
+    <string name="group_name_null">群组名称不能为空</string>
+    <string name="group_over_max">创建的群已达上限</string>
+    <string name="group_create_success">%s 创建成功</string>
+    <string name="group_create_failed">%s 创建失败</string>
+    <string name="create_chatbar_failed">创建聊吧失败</string>
+    <string name="group_name_must">群名称(必填):</string>
+    <string name="group_name_hint">请输入群名称</string>
+    <string name="group_validate">身份验证:</string>
+    <string name="chatbar_name_no_empty">聊吧名称不能为空</string>
+    <string name="group_name_cannot_be_empty">请输入群名称</string>
+
+    <string-array name="group_validate_title">
+        <item>需要验证才能加入该群</item>
+        <item>允许所有人加入该群</item>
+    </string-array>
+    <string-array name="group_message_receive_title">
+        <item>接收群消息</item>
+        <item>不接收群消息</item>
+    </string-array>
+
+    <string name="group_close">关闭并解散该群</string>
+    <string name="group_close_info">您确定关闭并解散该群？</string>
+    <string name="group_create_fail_bynet">创建群组失败，请检查网络</string>
+    <string name="group_detail">群详情</string>
+    <string name="group_name">群名称:</string>
+    <string name="group_id">群号码:</string>
+    <string name="group_type">群类型:</string>
+    <string name="group_select_type">选择群类型</string>
+    <string name="group_validate_dialog">身份验证</string>
+    <string name="group_label">群标签:</string>
+    <string name="group_label_dialog">群标签</string>
+    <string name="group_label_hint">请输入群的标签，以逗号隔开</string>
+    <string name="group_type_tv">群类型</string>
+    <string name="group_label_tv">群标签</string>
+    <string name="group_owner_tv">创建者</string>
+    <string name="group_validate_tv">身份验证</string>
+    <string name="group_card_tv">群名片</string>
+    <string name="group_introduction_tv">群简介</string>
+    <string name="group_introduction">群简介:</string>
+    <string name="group_introduction_hint">请输入与群相关的介绍</string>
+    <string name="modify_group_card">修改昵称</string>
+    <string name="apply_join_group">申请加入</string>
+    <string name="group_join_default_reason">我想加入该群~</string>
+    <string name="group_send_join_reason">验证消息已发送，等待群主验证。</string>
+    <string name="group_joined">请求发送成功</string>
+    <string name="group_joined_failed">加入群失败</string>
+    <string name="verify_info">验证信息:</string>
+    <string name="add_group_member">添加群成员</string>
+    <string name="add_group_member_fail_net">添加群成员失败,请检查网络</string>
+    <string name="delete_group_member">删除群成员</string>
+    <string name="delete_group_member_fail_net">删除群成员失败,请检查网络</string>
+    <string name="view_group_member">查看群成员</string>
+    <string name="view_member">查看成员</string>
+    <string name="join_group">加入</string>
+    <string name="edit_group_title">群简介</string>
+    <string name="view_group_detail">群详情</string>
+    <string name="charbar_default_name"> 聊吧:</string>
+    <string name="group_message">群消息接收</string>
+    <string name="group_message_accept">接收群消息</string>
+    <string name="group_message_accept_not_prompt">接收但不显示</string>
+    <string name="group_message_refuse">不接收群消息</string>
+    <string name="group_invite_reason">加入群玩玩呗~</string>
+    <string name="group_remove_reason">朋友，要多发言啊~</string>
+    <string name="group_msg_quit">退出了群</string>
+    <string name="group_msg_add">加入了群</string>
+    <string name="group_msg_invite">邀请</string>
+    <string name="group_msg_invite_">邀请“</string>
+    <string name="group_invite_accept">我同意加入</string>
+    <string name="group_invite_refuse">我拒绝加入</string>
+    <string name="group_exit_title">退出群</string>
+    <string name="group_exit_info">您将不会收到来自该群的消息</string>
+    <string name="group_kicked">您被踢出了</string>
+    <string name="group_destroyed_liaoba">聊吧 %s 被吧主解散</string>
+    <string name="group_join_conversation">进入群会话</string>
+    <string name="create_chatbar_fail_bynet">创建聊吧失败，请检查网络</string>
+    <string name="add_member_fail_bynet">当前不可添加成员，请检查网络</string>
+    <string name="delete_member_fail_bynet">删除成员失败，请检查网络</string>
+    <string name="one_char_input">您还可以输入一个键盘值</string>
+    <string name="quit_chatbar_fail_bynet">退出聊吧失败，请检查网络</string>
+    <string name="close_chatbar_fail_bynet">关闭聊吧失败，请检查网络</string>
+    <string name="no_allow_input">聊吧名输入已达上限</string>
+    <string name="refresh_success">刷新成功</string>
+    <string name="refresh_failed">刷新失败</string>
+    <string name="chatbar_inviter_you">你</string>
+    <string name="chatbar_inviter_you_regard">您</string>
+    <string name="chatbar_member_you">你和“</string>
+    <string name="group_member_you">你</string>
+    <string name="groupinfo_modify_success">修改成功</string>
+    <string name="groupinfo_modify_failed">修改失败</string>
+    <string name="group_destroy_success">删除群成功</string>
+    <string name="group_destroy_failed">删除%s失败</string>
+    <string name="group_destroyed_success">您参与的HiTalk群被群主解散.</string>
+    <string name="group_quit_success">退出群成功</string>
+    <string name="group_quit_failed">退出 %s失败</string>
+    <string name="group_quited_succsee">有人退出群</string>
+    <string name="membernick_notnull">群名片不能为空</string>
+    <string name="membernick_notchange">群名片和之前相同</string>
+    <string name="group_join_success">添加成功</string>
+    <string name="group_join_failed">加入%s失败</string>
+    <string name="group_joined_success">有人加入群</string>
+    <string name="destroy_group">关闭群</string>
+    <string name="quit_group">退出群</string>
+    <string name="refreshing">刷新中</string>
+
+    <!-- 聊吧 -->
+    <string name="chatbar_name">对话名:</string>
+    <string name="close_chatbar">关闭</string>
+    <string name="close_chatbar_info">您确定要关闭此聊吧？</string>
+    <string name="exit_chatbar_info">你将不会接收到来自该多人聊天的任何消息</string>
+    <string name="delete_member">你确定要删除</string>
+    <string name="add_chatbar_member">添加参与人</string>
+    <string name="create_chatbar">正在创建聊吧</string>
+    <string name="create_chatbar_faild">创建聊吧失败</string>
+    <string name="chatbar_invite_friend">邀请好友已发送</string>
+    <string name="chatbar_invite_friend_faild">邀请好友失败</string>
+    <string name="exit_chatbar">正在退出聊吧</string>
+    <string name="exit_chatbar_faild">退出聊吧失败</string>
+    <string name="chatbar_close">删除并退出</string>
+    <string name="chatbar_exit">退出</string>
+    <string name="chatbar_owner_title">吧主</string>
+    <string name="chatbar_add_friend">添加好友</string>
+    <string name="chatbar_add_friend_fail_net">添加好友失败,请检查网络</string>
+    <string name="chatbar_title">聊吧名:</string>
+    <string name="remove_success">删除成功</string>
+    <string name="remove_failed">删除失败</string>
+    <string name="invite_success">邀请信息发送成功</string>
+    <string name="invite_failed">邀请失败</string>
+    <string name="chatbar_submit_success">修改成功</string>
+    <string name="chatbar_submit_failed">修改失败</string>
+    <string name="view_chatbar_member">聊天信息</string>
+    <string name="modify_chatbar_name">修改聊吧名称</string>
+    <string name="chatbar_destroy_success">解散聊吧成功</string>
+    <string name="chatbar_destroy_failed">解散聊吧失败</string>
+    <string name="chatbar_destroyed_success">聊吧被解散</string>
+    <string name="chatbar_tv">多人聊天</string>
+    <string name="change_subject">修改主题</string>
+    <string name="chatbar_msg_add">加入聊天</string>
+    <string name="chatbar_msg_add_">”加入聊天</string>
+    <string name="chatbar_msg_quit">已经退出了群聊</string>
+    <string name="member_reach_maximum">选择人数超过上限</string>
+
+    <!-- 操作网络提示 -->
+    <string name="service_error">服务器异常</string>
+    <string name="net_error">网络异常</string>
+    <string name="error_failure">失败</string>
+    <string name="section_add_opera">添加分组</string>
+    <string name="section_delete_opera">删除分组</string>
+    <string name="add_contact_to_section_opera">添加联系人到分组</string>
+    <string name="get_contactlist_opera">获取联系人列表</string>
+    <string name="remove_member_from_section_opera">移除成员</string>
+    <string name="update_section_name_opera">更新分组名</string>
+
+    <!-- voip -->
+    <string name="voip_main_tab_number_pad">拨号盘</string>
+    <string name="voip_main_tab_communication_log">通话记录</string>
+    <string name="voip_choose_call_type">使用以下方式呼叫</string>
+    <string name="voip_operat_speaker">免提</string>
+    <string name="voip_operat_mute">静音</string>
+    <string name="voip_operat_record">录音</string>
+    <string name="voip_operat_diapad">键盘</string>
+    <string name="voip_operat_answer">接听</string>
+    <string name="voip_operat_hang_up">挂断</string>
+    <string name="voip_operat_refuse">拒绝</string>
+    <string name="voip_call_state_incall">来电</string>
+    <string name="voip_call_state_calling">正在呼叫...</string>
+    <string name="voip_call_state_talking">通话中</string>
+    <string name="voip_call_state_talk_end">通话结束</string>
+    <string name="voip_call_type_normal">普通呼叫</string>
+    <string name="voip_call_type_audio">VoIP呼叫</string>
+    <string name="voip_call_type_vedio">VOIP视频通话</string>
+    <string name="voip_call_type_cancel">取消</string>
+    <string name="voip_add_to_contact">添加到通讯录</string>
+    <string name="voip_prompt_bind_account">你还未设置VOIP帐号，只有在设置后才能进行VOIP呼叫</string>
+    <string name="voip_in_call_alerting">来电</string>
+    <string name="voip_input_number_toast">请输入手机号码</string>
+    <string name="voip_vedio_toast">下个版本敬请期待</string>
+    <string name="voip_login_toast">你的VOIP帐号没有登录</string>
+    <string name="voip_create_bind_account">设置</string>
+    <!-- 选择国家码 -->
+    <string name="select_country">选择国家/地区</string>
+    <string name="country_code">4:安哥拉:ANGELA,93:阿富汗:AFUHAN,355:阿尔巴尼亚:AERBANIYA,213:阿尔及利亚:AERJILIYA,376:安道尔共和国:ANDAOERGONGHEGUO,1264:安圭拉岛:ANGUILADAO,1268:安提瓜和巴布达:ANTIGUHEBABUDA,54:阿根廷:AGENTING,374:亚美尼亚:YAMEINIYA,247:阿森松:ASENSONG,61:澳大利亚:AODALIYA,43:奥地利:AODILI,994:阿塞拜疆:ASAIBAIJIANG,1242:巴哈马:BAHAMA,973:巴林:BALIN,880:孟加拉国:MENGJIALAGUO,1246:巴巴多斯:BABADUOSI,375:白俄罗斯:BAIELUOSI,32:比利时:BILISHI,501:伯利兹:BOLIZI,229:贝宁:BEINING,1441:百慕大群岛:BAIMUDAQUNDAO,591:玻利维亚:BOLIWEIYA,267:博茨瓦纳:BOCIWANA,55:巴西:BAXI,673:文莱:WENLAI,359:保加利亚:BAOJIALIYA,226:布基纳法索:BUJINAFASUO,95:缅甸:MIANDIAN,257:布隆迪:BULONGDI,237:喀麦隆:KAMAILONG,1:加拿大:JIANADA,1345:开曼群岛:KAIMANQUNDAO,236:中非共和国:ZHONGFEIGONGHEGUO,235:乍得:ZHADE,56:智利:ZHILI,86:中国:ZHONGGUO,57:哥伦比亚:GELUNBIYA,242:刚果:GANGGUO,682:库克群岛:KUKEQUNDAO,506:哥斯达黎加:GESIDALIJIA,53:古巴:GUBA,357:塞浦路斯:SAIPULUSI,420:捷克:JIEKE,45:丹麦:DANMAI,253:吉布提:JIBUTI,1890:多米尼加共和国:DUOMINIJIAGONGHEGUO,593:厄瓜多尔:EGUDUOER,20:埃及:AIJI,503:萨尔瓦多:SAERWADUO,372:爱沙尼亚:AISHANIYA,251:埃塞俄比亚:AISAIEBIYA,679:斐济:FEIJI,358:芬兰:FENLAN,33:法国:FAGUO,594:法属圭亚那:FASHUGUIYANA,241:加蓬:JIAPENG,220:冈比亚:GANGBIYA,995:格鲁吉亚:GELUJIYA,49:德国:DEGUO,233:加纳:JIANA,350:直布罗陀:ZHIBULUOTUO,30:希腊:XILA,1809:格林纳达:GELINNADA,1671:关岛:GUANDAO,502:危地马拉:WEIDIMALA,224:几内亚:JINAYA,592:圭亚那:GUIYANA,509:海地:HAIDI,504:洪都拉斯:HONGDOULASI,852:香港:XIANGGANG,36:匈牙利:XIONGYALI,354:冰岛:BINGDAO,91:印度:YINDU,62:印度尼西亚:YINDUNIXIYA,98:伊朗:YILANG,964:伊拉克:YILAKE,353:爱尔兰:AIERLAN,972:以色列:YISELIE,39:意大利:YIDALI,225:科特迪瓦:KETEDIWA,1876:牙买加:YAMAIJIA,81:日本:RIBEN,962:约旦:YUEDAN,855:柬埔寨:JIANPUZHAI,327:哈萨克斯坦:HASAKESITAN,254:肯尼亚:KENNIYA,82:韩国:HANGUO,965:科威特:KEWEITE,331:吉尔吉斯坦:JIERJISITAN,856:老挝:LAOWO,371:拉脱维亚:LATUOWEIYA,961:黎巴嫩:LIBANEN,266:莱索托:LAISUOTUO,231:利比里亚:LIBILIYA,218:利比亚:LIBIYA,423:列支敦士登:LIEZHIDUNSHIDENG,370:立陶宛:LITAOWAN,352:卢森堡:LUSENBAO,853:澳门:AOMEN,261:马达加斯加:MADAJIASIJIA,265:马拉维:MALAWEI,60:马来西亚:MALAXIYA,960:马尔代夫:MAERDAIFU,223:马里:MALI,356:马耳他:MAERTA,1670:马里亚那群岛:MALIYANAQUNDAO,596:马提尼克:MATINIKE,230:毛里求斯:MAOLIQIUSI,52:墨西哥:MOXIGE,373:摩尔多瓦:MOERDUOWA,377:摩纳哥:MONAGE,976:蒙古:MENGGU,1664:蒙特塞拉特岛:MENGTESAILATEDAO,212:摩洛哥:MOLUOGE,258:莫桑比克:MOSANGBIKE,264:纳米比亚:NAMIBIYA,674:瑙鲁:NAOLU,977:尼泊尔:NIBOER,599:荷属安的列斯:HESHUANDELIESI,31:荷兰:HELAN,64:新西兰:XINXILAN,505:尼加拉瓜:NIJIALAGU,227:尼日尔:NIRIER,234:尼日利亚:NIRILIYA,850:朝鲜:CHAOXIAN,47:挪威:NUOWEI,968:阿曼:AMAN,92:巴基斯坦:BAJISITAN,507:巴拿马:BANAMA,675:巴布亚新几内亚:BABUYAXINJINAYA,595:巴拉圭:BALAGUI,51:秘鲁:MILU,63:菲律宾:FEILUBIN,48:波兰:BOLAN,689:法属玻利尼西亚:FASHUBOLINIXIYA,351:葡萄牙:PUTAOYA,1787:波多黎各:BODUOLIGE,974:卡塔尔:KATAER,262:留尼旺:LIUNIWANG,40:罗马尼亚:LUOMANIYA,7:俄罗斯:ELUOSI,1758:圣卢西亚:SHENGLUXIYA,1784:圣文森特岛:SHENGWENSENTEDAO,684:东萨摩亚(美):DONGSAMOYA(MEI),685:西萨摩亚:XISAMOYA,378:圣马力诺:SHENGMALINUO,239:圣多美和普林西比:SHENGDUOMEIHEPULINXIBI,966:沙特阿拉伯:SHATEALABO,221:塞内加尔:SAINAJIAER,248:塞舌尔:SAISHEER,232:塞拉利昂:SAILALIANG,65:新加坡:XINJIAPO,421:斯洛伐克:SILUOFAKE,386:斯洛文尼亚:SILUOWENNIYA,677:所罗门群岛:SUOLUOMENQUNDAO,252:索马里:SUOMALI,27:南非:NANFEI,34:西班牙:XIBANYA,94:斯里兰卡:SILILANKA,1758:圣卢西亚:SHENGLUXIYA,1784:圣文森特:SHENGWENSENTE,249:苏丹:SUDAN,597:苏里南:SULINAN,268:斯威士兰:SIWEISHILAN,46:瑞典:RUIDIAN,41:瑞士:RUISHI,963:叙利亚:XULIYA,886:台湾省:TAIWANSHENG,992:塔吉克斯坦:TAJIKESITAN,255:坦桑尼亚:TANSANGNIYA,66:泰国:TAIGUO,228:多哥:DUOGE,676:汤加:TANGJIA,1809:特立尼达和多巴哥:TELINIDAHEDUOBAGE,216:突尼斯:TUNISI,90:土耳其:TUERQI,993:土库曼斯坦:TUKUMANSITAN,256:乌干达:WUGANDA,380:乌克兰:WUKELAN,971:阿拉伯联合酋长国:ALABOLIANHEQIUCHANGGUO,44:英国:YINGGUO,1:美国:MEIGUO,598:乌拉圭:WULAGUI,233:乌兹别克斯坦:WUZIBIEKESITAN,58:委内瑞拉:WEINARUILA,84:越南:YUENAN,967:也门:YEMEN,381:南斯拉夫:NANSILAFU,27:南非:NANFEI,263:津巴布韦:JINBABUWEI,243:扎伊尔:ZHAYIER,260:赞比亚:ZANBIYA,</string>
+    <string name="country_normal_code">+86</string>
+    <string name="country_normal_name">中国(+86)</string>
+    <!-- 录音 -->
+    <string name="record_ready">已准备好录音</string>
+    <string name="record_begin">录音已开始</string>
+    <string name="record_stop">录音已停止</string>
+    <string name="record_error">录音时发生错误</string>
+    <string name="sd_not_exist">SD卡不存在或存储空间不足</string>
+    <string name="move_here_cancel">移到这里取消</string>
+    <string name="cancel_send">取消发送</string>
+    <string name="click_here_cancel">点击这里取消</string>
+    <string name="short_record">录音时间太短</string>
+
+    <!-- 通知栏 -->
+    <string name="notify_voip_connectcontent">与%s通话中...</string>
+    <string name="notify_voip_hitalkcharactor">Hitalk</string>
+    <string name="notify_download_downloadcontent">正在下载%s......</string>
+    <string name="notify_dwonload_tikertext">正在下载......</string>
+    <string name="notify_im_title_single_onemsg">%s发来一条消息</string>
+    <string name="notify_im_ticker_text">%s发来一条消息</string>
+    <string name="notify_im_ticker_audio">%s发来一段语音</string>
+    <string name="notify_im_ticker_img">%s发来一张图片</string>
+    <string name="notify_im_ticker_vido">%s发来一段视频</string>
+    <string name="notify_im_multimsg">%s条消息</string>
+    <string name="notify_im_title_multi">来自%s位好友</string>
+    <string name="notify_friendmanager_title">%1$s条未读消息</string>
+
+    <!-- 视频录制界面 -->
+    <string name="compress_progress">正在压缩（%3d%%）</string>
+    <string name="compress">压缩</string>
+    <string name="compress_to">压缩到%.1fK</string>
+    <string name="video_size">%.1f K</string>
+    <string name="video_camera_open_failed">相机服务无法启动</string>
+    <string name="no_sdcard_tips">无存储卡或空间不足,无法录制</string>
+    <string name="video_start_record_failed">录制失败,请检查设备是否可用</string>
+    <string name="video_compress_failed">压缩失败, 请重新录制</string>
+    <string name="video_record_stop">停止录制</string>
+    <string name="video_recordstatus_recording">录制中...</string>
+    <string name="video_recordstatus_prepared">准备录制</string>
+    <string name="video_re_record_btn">重录</string>
+    <string name="video_start_record_btn">开始录制</string>
+    <string name="video_save_success_toast">视频保存至:%s</string>
+    <string name="video_save_make_path_failed">创建保存文件的目录失败, 请检查存储卡是否可用</string>
+    <string name="video_record_no_diskspace_stop">由于存储空间不足，已停止录制</string>
+    <string name="video_record">录制视频</string>
+    <string name="video_preview">预览</string>
+
+    <plurals name="video_record_remian">
+        <item quantity="other">还可以拍摄%d秒</item>
+    </plurals>
+
+    <string name="video_will_lost_record">重拍将丢失之前录制的视频</string>
+    <string name="video_will_lost">将丢失之前录制的视频。</string>
+
+    <integer name="text_max_length">700</integer>
+    <integer name="comment_text_max_length">200</integer>
+    <integer name="audio_min_duration">1000</integer>
+
+    <!-- 插件界面 -->
+    <string name="plugins">系统插件</string>
+    <string name="buildin_plugin">内置插件</string>
+    <string name="external_plugin">外置插件</string>
+    <string name="plugin_management">插件管理</string>
+    <string name="show_on_contacts_list">好友界面显示插件</string>
+    <string name="view_message">查看消息</string>
+    <string name="secret">保密</string>
+    <string name="get_maybe_known_friend_error">获取推荐列表失败</string>
+    <!-- 小秘书固定会话信息 -->
+    <string name="hitalk_person_info">&lt;font
+		color= \"#006400\">完善个人资料，方便好友找到你!&lt;/font></string>
+    <string name="hitalk_person_group">&lt;font
+		color= \"#006400\">如何加入群组&lt;/font></string>
+    <string name="record_time">还可以录制%d秒</string>
+    <string name="send_cancel">取消发送</string>
+    <string name="click_cancel">移到这里取消</string>
+    <string name="plugin_name_1001">找朋友小助手</string>
+    <string name="plugin_name_1002">HiTalk小秘书</string>
+    <string name="plugin_desc_1002">hi，我是hitalk的系统客服</string>
+    <string name="plugin_desc_1001">我将会管理和呈列你所有关于好友的验证信息和申请状态</string>
+    <string name="plugin_method_name_isrecommend">是否推荐通讯录好友</string>
+    <string name="please_input_signature">请输入签名</string>
+
+    <!-- 地图相关 -->
+    <string name="map_default_address">位置信息</string>
+    <string name="map_get_location_failed">定位失败</string>
+    <string name="map_send_address">发送此定位信息</string>
+    <string name="map_getting_address">正在加载位置信息...</string>
+    <string name="map_search_failed">暂无搜索结果</string>
+    <!-- 发送我的位置 -->
+    <string name="send_my_position">发送我的位置</string>
+    <string name="open_location_tips">开启GPS定位服务？</string>
+    <string name="can_not_determine_location_info">定位失败，无法获取您的位置信息，请重新获取</string>
+    <string name="get_location_information">正在确定位置信息</string>
+    <string name="postion_info">位置信息</string>
+
+</resources>

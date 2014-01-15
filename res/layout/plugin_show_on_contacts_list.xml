@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 插件是否在好友列表展示部件 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/setting_group"
+    android:layout_width="fill_parent"
+    android:layout_height="45dip"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginLeft="15dip"
+    android:layout_marginRight="15dip"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="14dip"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:text="@string/show_on_contacts_list"
+        android:textColor="#000000"
+        android:textSize="15dip" />
+
+    <ImageButton
+        android:id="@+id/show_on_contact_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dip"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/button_switch_on"
+        android:scaleType="center"
+        android:background="#00000000"
+         />
+
+</LinearLayout>

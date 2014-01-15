@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/white_bg"
+    android:orientation="vertical" >
+
+    <!-- 顶部按钮 -->
+
+    <include
+        android:id="@+id/title_layout"
+        layout="@layout/title_bar" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/commlog_infor_bg"
+            android:orientation="vertical"
+            android:paddingBottom="15dip" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="70dip"
+                android:orientation="horizontal"
+                android:gravity="center_vertical" >
+
+                <!-- 显示头像 -->
+
+                <ImageView
+                    android:id="@+id/comm_log_detail_photo"
+                    android:layout_width="46.0dip"
+                    android:layout_height="46.0dip"
+                    android:layout_marginLeft="12.0dip"
+                    android:layout_marginRight="10.0dip"
+                    android:src="@drawable/voip_comm_img_unknow"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="centerInside" />
+                <!-- 显示姓名和电话 -->
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                     >
+                    <TextView
+                        android:id="@+id/comm_log_detail_name"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="15dip"
+                        android:singleLine="true"
+                        android:textColor="#000000"
+                        android:textSize="16dip" />
+                    <TextView
+                        android:id="@+id/comm_log_detail_phone"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:paddingRight="15dip"
+                        android:textColor="#707070"
+                        android:textSize="13.3dip" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- 陌生联系人时  添加联系人 -->
+
+            <LinearLayout
+                android:id="@+id/voip_add_contact_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="41dip"
+                android:layout_marginLeft="13dip"
+                android:layout_marginRight="13dip"
+                android:layout_marginTop="3dip"
+                android:layout_marginBottom="10dip"
+                android:background="@drawable/btn_green"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="19dip"
+                    android:layout_height="20dip"
+                    android:src="@drawable/add">                    
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/voip_add_contact"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="12.5dip"
+                    android:gravity="center"
+                    android:paddingLeft="7dip"
+                    android:text="@string/comm_add_contact"
+                    android:textColor="@color/white"
+                    android:textSize="18.6dip"
+                    android:visibility="visible" >
+                </TextView>
+            </LinearLayout>
+            <!-- 拨打电话 -->
+
+            <LinearLayout
+                android:id="@+id/comm_dial_image"
+                android:layout_width="fill_parent"
+                android:layout_height="41dip"
+                android:layout_marginLeft="13dip"
+                android:layout_marginRight="13dip"
+                android:layout_marginTop="3dip"
+                android:background="@drawable/btn_green"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="77dip" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon_detail_call" >
+                </ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="6dip"
+                    android:text="@string/voip_call"
+                    android:textColor="@color/white"
+                    android:textSize="18.6dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- 显示通话记录列表 -->
+
+    <ListView
+        android:id="@+id/comm_detail_ListView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:clickable="false"
+        android:divider="@drawable/udo_divider"
+        android:dividerHeight="0.5dip"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:scrollbars="none"
+        android:transcriptMode="disabled" />
+
+</LinearLayout>

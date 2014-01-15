@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@drawable/all_page_bg">
+	<!-- 标题 -->
+	<include layout="@layout/title_bar" />
+
+	<!-- 显示组名 -->
+	<LinearLayout android:id="@+id/edit_contact_section_name"
+		android:orientation="horizontal" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:background="@drawable/commonusewhite"
+		android:gravity="center_vertical" android:clickable="true"
+		android:layout_marginLeft="24px" android:layout_marginRight="24px"
+		android:layout_marginTop="20px" android:layout_marginBottom="18px">
+		<TextView android:layout_width="wrap_content" android:paddingTop="10dip" android:paddingBottom="10dip"
+			android:layout_height="wrap_content" android:layout_marginLeft="5px" android:text="@string/contact_section_name"
+			android:textColor="#333333" android:textSize="22px"></TextView>
+		<TextView android:id="@+id/contact_section_name" android:paddingTop="10dip" android:paddingBottom="10dip"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_weight="1" android:textColor="#333333" android:textSize="22px"></TextView>
+		<ImageView android:layout_width="wrap_content" android:paddingTop="10dip" android:paddingBottom="10dip"
+			android:layout_height="wrap_content" android:src="@drawable/right_arrow"
+			android:layout_marginRight="12px"></ImageView>
+	</LinearLayout>
+
+	<!-- 显示对分组可进行的一些操作按钮 -->
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:gravity="center"
+		android:orientation="horizontal" android:layout_marginLeft="24px"
+		android:layout_marginRight="24px" android:background="@drawable/label_bg">
+		<LinearLayout android:id="@+id/add_member"
+			android:layout_weight="1" android:orientation="vertical"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:paddingLeft="5px" android:paddingRight="5px"
+			android:clickable="true" android:gravity="center">
+			<ImageView android:layout_width="wrap_content"
+				android:layout_weight="1" android:layout_height="wrap_content"
+				android:src="@drawable/ic_add_member" />
+			<TextView android:layout_width="wrap_content"
+				android:layout_marginTop="5dip"
+				android:layout_height="wrap_content" android:text="@string/addmember"
+				android:gravity="bottom" android:paddingBottom="12px"
+				android:textColor="#333333"/>
+		</LinearLayout>
+		<ImageView android:layout_width="wrap_content"
+			android:layout_height="fill_parent" android:src="#cccccc"></ImageView>
+		<LinearLayout android:id="@+id/remove_member"
+			android:layout_weight="1" android:orientation="vertical"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:paddingLeft="5px" android:paddingRight="5px"
+			android:clickable="true" android:gravity="center"
+			android:layout_marginLeft="1dp">
+			<ImageView android:layout_width="wrap_content"
+				android:layout_weight="1" android:layout_height="wrap_content"
+				android:src="@drawable/ic_remove_member" />
+			<TextView android:layout_width="wrap_content"
+				android:layout_marginTop="5dip"
+				android:layout_height="wrap_content" android:text="@string/remove_member"
+				android:gravity="bottom" android:paddingBottom="12px"
+				android:textColor="#333333" />
+		</LinearLayout>
+		<ImageView android:layout_width="wrap_content"
+			android:layout_height="fill_parent" android:src="#cccccc"></ImageView>
+		<LinearLayout android:id="@+id/fan_out_message"
+			android:layout_weight="1" android:orientation="vertical"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:clickable="true" android:gravity="center"
+			android:paddingLeft="5px" android:paddingRight="5px"
+			android:layout_marginLeft="1dp">
+			<ImageView android:layout_width="wrap_content"
+				android:layout_weight="1" android:layout_height="wrap_content"
+				android:src="@drawable/ic_fan_out_message" />
+			<TextView android:layout_width="wrap_content"
+				android:layout_marginTop="5dip"
+				android:gravity="bottom" android:paddingBottom="12px"
+				android:layout_height="wrap_content" android:text="@string/fan_out_message"
+				android:textColor="#333333" />
+		</LinearLayout>
+	</LinearLayout>
+	<ImageView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_weight="1" />
+	<Button android:id="@+id/delete_contact_section"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:gravity="center" android:background="@drawable/btn_red" android:textSize="18dip"
+		android:text="@string/delete_contact_section" android:layout_margin="24px" />
+</LinearLayout>

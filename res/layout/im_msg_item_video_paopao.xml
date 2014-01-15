@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center" >
+
+    <!-- 图文混排中的图片 -->
+    <FrameLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:gravity="center"
+	    android:padding="3dip" >
+	    <ImageView
+	        android:id="@+id/html_image"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:adjustViewBounds="true"
+	        android:maxHeight="100dp"
+	        android:maxWidth="100dp"/>
+	
+	    <!-- 图片蒙版 -->
+	
+	    <ImageView
+	        android:id="@+id/html_image_mask"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="top"
+	        android:visibility="gone"
+	        android:src="@color/black_27_transparent"/>
+	
+	    <ImageView
+	        android:id="@+id/html_button"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:layout_gravity="center"
+	        android:longClickable="true"
+	        android:src="@drawable/play_video" />
+	</FrameLayout>
+    <ImageView 
+       	android:id="@+id/cancle_vedio_upload"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:src="@drawable/send_failure" 
+		android:visibility="gone"
+		android:layout_gravity="right|top"
+	  />
+</FrameLayout>

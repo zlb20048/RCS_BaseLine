@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 泡泡 -->
+<!-- 文字内容 -->
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/msg_body" android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 
+	android:textSize="14dp" android:autoLink="web" android:maxWidth="180dp"
+	android:padding="5dip" android:longClickable="true" android:textColor="#808080"/>

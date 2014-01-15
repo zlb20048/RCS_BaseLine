@@ -1,0 +1,1521 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 项目logo名称 -->
+    <string name="app_name">HiTalk</string>
+
+    <!-- 标题栏 -->
+    <string name="done">Done</string>
+    <string name="back">Back</string>
+    <string name="details">Detail</string>
+    <string name="refresh">Refresh</string>
+    <string name="finish_btn">Done</string>
+
+    <!-- 登陆 -->
+    <string name="login">Sign In</string>
+    <string name="login_auto">Auto Login</string>
+    <string name="login_forgot_pwd">Forgot password?</string>
+    <string name="login_find_pwd">Retrieve Password</string>
+    <string name="login_regeister">Get a new account</string>
+    <string name="login_verify_code_hint">Tap the image to change</string>
+    <string name="login_pwd_hint">Password</string>
+    <string name="login_user_other_hint">HiTalkID/Email</string>
+    <string name="check_wap_apn">@string/wap_apn</string>
+    <string name="wap_apn">Disconnected from the WAP server.</string>
+    <string name="check_network">Network connection failure. Check the network service.</string>
+    <string name="warn_input_user_name">Enter a user name</string>
+    <string name="warn_input_pass_word">Enter the password</string>
+    <string name="warn_input_correct_pass_word">A password must contain 6 to 20 characters</string>
+    <string name="warn_input_verify_code">Enter the verification code</string>
+    <string name="exit">Exit</string>
+    <string name="logining">Connecting...</string>
+    <string name="retry">Retry</string>
+    <string name="please_wait">Service failure. Try again.</string>
+    <string name="rapidly_passport">Change ID</string>
+    <string name="login_user_number_hint">Mobile number</string>
+    <string name="account_number">Account:</string>
+    <string name="email">Email</string>
+    <string name="phone_error">The mobile number or password is incorrect. Enter again.</string>
+    <string name="email_error">The email account or password is incorrect. Enter again.</string>
+    <string name="id_error">The HiTalk ID or password is incorrect. Enter again.</string>
+    <string name="no_phone">Not a Phone number, please re-enter</string>
+    <string name="no_email_or_id">Not HiTalk ID or Email account, please re-enter</string>
+    <string name="warn_input_email_too_long">The email address cannot contain more than 50 digits.</string>
+    <string name="warn_input_woyouid_too_long">The HiTalk ID cannot contain more than 18 digits.</string>
+    <string name="rwap_change">Set</string>
+    <string name="login_verify_code">Graphic Verification</string>
+
+    <!-- 重置密码 -->
+    <string name="reset_password_success">The password has been reset</string>
+    <string name="reset_password_faild">Failed to reset the password</string>
+    <string name="send_email">A confirmation link has been sent to your email
+		address. Click the link to activate your account.</string>
+    <string name="mobile_not_bound">The number has not been bound.</string>
+    <string name="reset_password_from_phone">By Phone number</string>
+    <string name="reset_password_from_email">By Email</string>
+    <string name="send_phone">A verification code has been sent to you. Use it to retrieve your password within 24 hours.</string>
+    <string name="confirm_exit">The current verification code will be invalid, and you will be provided with a new one.</string>
+    <!-- 联系人详情 -->
+    <string name="stranger_detail">Detail</string>
+    <string name="friend_detail">Friend Information</string>
+    <string name="see_details">Details</string>
+    <string name="move_section">Move</string>
+    <string name="join_blacklist">Add to Blacklist</string>
+    <string name="move_section_success">The contact is moved successfully</string>
+    <string name="move_section_failed">Failed to move the contact</string>
+    <string name="age">Age:</string>
+    <string name="sex">Gender</string>
+    <string name="self_description">Profile:</string>
+    <string name="birthday">Birthday:</string>
+    <string name="animal">Zodiac:</string>
+    <string name="blood">Blood:</string>
+    <string name="invite">Invite</string>
+    <string name="not_added">Not Added</string>
+    <string name="constellation">Astro:</string>
+    <string name="country">Country-City</string>
+    <string name="privince">Province:</string>
+    <string name="city">City:</string>
+    <string name="company">Company</string>
+    <string name="school">School</string>
+    <string name="love">Hobby:</string>
+    <string name="add_friend">Friend</string>
+    <string name="conversation">Chat</string>
+    <string name="edit_backup">Add Remarks</string>
+    <string name="self_signature">Signature:</string>
+    <string name="name">Name</string>
+    <string name="hitalk_id">ID:</string>
+    <string name="backup_name">Remark Title:</string>
+    <string name="contact_name">Contact name:</string>
+    <string name="signature_hint">No update</string>
+    <string name="friend_memoemail">E-mail:</string>
+    <string name="friend_memophone">Phone:</string>
+    <string name="friend_del_success">Deleted successfully</string>
+    <string name="friend_move_success">Success to move by grouping</string>
+    <string name="friend_detail_get_fail">Failure to get friends information from server</string>
+    <string name="friend_update_memo_fail">Update Remarks failure</string>
+    <string name="find_invite_displayName">Signature:</string>
+    <string name="find_invite_friend_number">Number:</string>
+    <string name="find_invite_friend_message">Invite your friend to HiTalk. It is good and fun.(This message will be free.)</string>
+    <string name="find_no_user">The user does not exist.</string>
+    <string name="phone_form_error">The mobile number format is incorrect.</string>
+    
+    <!-- 电话及邮箱展示 -->
+    <string name="phone_hitalk">HiTalk Number</string>
+    <string name="phone_1">Home Number</string>
+    <string name="phone_2">Mobile Number</string>
+    <string name="phone_3">Work Number</string>
+    <string name="phone_4">Work Fax</string>
+    <string name="phone_5">Home Fax</string>
+    <string name="phone_6">Pager</string>
+    <string name="phone_7">Other Number</string>
+    <string name="phone_8">Custom Number</string>
+    <string name="phone_9">CallBack</string>
+    <string name="phone_10">Car Phone</string>
+    <string name="phone_11">Company Main</string>
+    <string name="phone_12">ISDN</string>
+    <string name="phone_13">Main Phone</string>
+    <string name="phone_14">Other Fax</string>
+    <string name="phone_15">Radio</string>
+    <string name="phone_16">Telex</string>
+    <string name="phone_17">TTY TDD</string>
+    <string name="phone_18">Work Mobile</string>
+    <string name="phone_19">Work Pager</string>
+    <string name="phone_20">Assistant</string>
+    <string name="phone_21">MMS</string>
+    
+    <string name="email_hitalk">HiTalk Email</string>
+    <string name="email_1">Home Email</string>
+    <string name="email_2">Work Email</string>
+    <string name="email_3">Other Email</string>
+    <string name="email_4">Mobile Email</string>
+    <string name="email_5">Custom Email</string>
+    
+
+    <!-- 查找好友页面 -->
+    <string name="find_by_id">Search for Friends by Mobile Number or HiTalk ID</string>
+    <string name="find_by_details">Search for Friends by Personal Information</string>
+    <string name="find_maybe_konwn">People I May Know</string>
+    <string name="search_no_result">No match is found.</string>
+    <string name="check_mobile_contacts">Check Friends in Address Book</string>
+    <string name="no_recommend_friend">No people you may know</string>
+    <string name="find_by_id_hint">Mobile number/HiTalk ID</string>
+    <string name="find_by_details_hint">Name/School/Company</string>
+    <string name="find_by_id_title">Search by Number</string>
+    <string name="find_by_details_title">Search by Personal Information</string>
+    <string name="find_maybe_konwn_title">People I May Know</string>
+    <string name="find_maybe_konwn_no_result">No people you may know</string>
+    <string name="find_friend_error">Failure to find friend,Check the NetWork</string>
+    <string name="friends">Friends</string>
+    <string name="find_friend_same_school">From the same school.</string>
+    <string name="find_friend_same_city">In the same city.</string>
+    <string name="find_friend_same_company">From the same organization.</string>
+    <string name="find_friend_have_you_phone">You contact information exists.</string>
+    <string name="find_friend_share_friends">%1$s common friends exist.</string>
+    <string name="find_friend_result_id">ID:%1$s</string>
+    <string name="find_friend_result_mobile">Number:%1$s</string>
+    <string name="check_mobile_contacts_upload_contacts_info">Do you agree to upload your mobile address book? (It will be uploaded and stored in encrypted text.)</string>
+
+    <!-- 设置 -->
+    <string name="my_account_email">Email</string>
+    <string name="setting">Settings</string>
+    <string name="private_profile">Profile</string>
+    <string name="private_profile_s">Profile></string>
+    <string name="self_signature_title">Signature</string>
+    <string name="online_status1">Status:</string>
+    <string name="signature">Tap to edit your signature</string>
+    <string name="signature_too_long">The personal signature must contain no more than
+		100 characters.</string>
+    <string name="set_privacy">Privacy Setting</string>
+    <string name="privacy_mateial">Private Publicity</string>
+    <string name="set_messagetips">Message Setting</string>
+    <string name="set_broadcast_policy">Broadcast Message</string>
+    <string name="set_imtomessage">IM Converting</string>
+    <string name="set_groupmessagepolicy">Group Message</string>
+    <string name="set_voice_tip">Prompt Tone</string>
+    <string name="accounts_manager">Manage Multi-account</string>
+    <string name="set_blog">Bind Microblog Account</string>
+    <string name="set_theme">Set Theme</string>
+    <string name="set_password">Change Password</string>
+    <string name="check_update">Check Updates</string>
+    <string name="feedback">Feedback</string>
+    <string name="about">About</string>
+    <string name="clear_data">Clear Chat History</string>
+    <string name="clear_data_alert">Clear all message history?</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="not_fill_in"></string>
+    <string name="unbound">Unbound</string>
+    <string name="bound">Bound</string>
+    <string name="add_more_info">Add More</string>
+    <string name="online">Online</string>
+    <string name="online_status">Online Status</string>
+    <string name="away">Away</string>
+    <string name="busy">Busy</string>
+    <string name="bind_phone_title">Bind Mobile Number</string>
+    <string name="bind_phone_input_info">Enter the mobile number you want to bind</string>
+    <string name="bind_phone_input_hint">Enter mobile number</string>
+    <string name="bind_phone_input_details">You can use the bound mobile number to receive SMS
+		notifications or retrieve the password.</string>
+    <string name="send_verify_msg">Send Verification Message</string>
+    <string name="bind_email_title">Bind Email Account</string>
+    <string name="unbind_phone_tilte">Mobile Number</string>
+    <string name="bind_email_input_info">Enter the email address you want to bind</string>
+    <string name="bind_email_input_hint">Enter the email address you want to bind</string>
+    <string name="bind_email_input_details">You can use the email address to retrieve the
+		password. If you have not received a verification email, click Send
+		Verification Email.</string>
+    <string name="verify_code_input_info">Enter the verification code</string>
+    <string name="verify_code">Verification Code</string>
+    <string name="verify_code_input_details">If you have not received the verification code,
+		click Resend Verification Code %d seconds later.</string>
+    <string name="email_link_input_details">If you have not received the verification email,
+		click Resend Verification Email %d seconds later.</string>
+    <string name="resend_verify_code">Resend Verification Code</string>
+    <string name="send_verify_email">Send Verification Email</string>
+    <string name="resend_verify_email">Resend Verification Email</string>
+    <string name="unbind_phone_title">Change Mobile Number</string>
+    <string name="unbind_phone_input_info">Your bound mobile number</string>
+    <string name="unbind_commit">Unbind and Delete</string>
+    <string name="unbind_email_title">Email Account</string>
+    <string name="unbind_email_input_info">Your bound email address</string>
+    <string name="confirm_unbind">Are you sure you want to unbind it?</string>
+    <string name="bind_succeed">Binding succeeded.</string>
+    <string name="unbind_succeed">Unbinding succeeded.</string>
+    <string name="input_right_mobile">The number format is incorrect.</string>
+    <string name="input_right_email">The email format is incorrect.</string>
+    <string name="set_birthday">Set Birthday</string>
+    <string name="set_gender">Set Gender</string>
+    <string name="set_signature">Set Signature</string>
+    <string name="set_school">Set School</string>
+    <string name="set_school_name">Enter the school name</string>
+    <string name="school_name_too_long">The school name must contain no more than 40 characters.</string>
+    <string name="set_nick_name">Set Name</string>
+    <string name="nick_name_too_long">The nick name must contain no more than 20
+		characters.</string>
+    <string name="logout">Logout</string>
+    <string name="confirm_logout">Logout HiTalk?</string>
+    <string name="confirm_quit">Exit HiTalk</string>
+    <string name="confirm_quit_message">You will not receive new messages if you exit. Do you sure you want to continue?</string>
+    <string name="set_im_offline_to_message">Set Offline IM Converting</string>
+    <string name="under_offline">Offline</string>
+    <string name="im_change_to_message">Convert IM to SMS message</string>
+    <!-- <string name="set_message_tips">Message Settings Tips</string> -->
+    <string name="policy_add_friends">Friend</string>
+    <string name="policy_add_friends_allow_all">Allow everybody to friend me</string>
+    <string name="policy_add_friends_need_confirm">Allow people I approve to friend me</string>
+    <string name="policy_add_friends_allow_friends">Only Contacts</string>
+    <string name="policy_add_friends_allow_none">Allow nobody to friend me</string>
+    <string name="policy_privacy_material">Profile Openness</string>
+    <string name="set_proving">Set Verification</string>
+    <string name="set_proving_need_confirm">Require verification</string>
+    <string name="policy_receive_all_broadcast">Receive all broadcast messages</string>
+    <string name="time_undisturb">HiTalk SMS do not disturb duration</string>
+    <string name="to">to</string>
+    <string name="receive_all_group_message">Receive All Group Messages</string>
+    <string name="describe">Summary:</string>
+    <string name="describe_myself">Set Self-Summary</string>
+    <string name="hobby">Hobby:</string>
+    <string name="china">China</string>
+    <string name="write_country">Set Country/Area</string>
+    <string name="write_province">Set Province</string>
+    <string name="write_city">Set City</string>
+    <string name="write_company">Set Company</string>
+    <string name="write_hobby">Set Hobby</string>
+    <string name="write_name">Set Name</string>
+    <string name="write_age">Set Age</string>
+    <string name="write_astro">Set Constellation</string>
+    <string name="write_zodiac">Set Chinese Zodiac</string>
+    <string name="set_suceed">The setting is successful.</string>
+    <string name="get_success">The data is successfully obtained.</string>
+    <string name="get_failed">Failed to obtain data.</string>
+    <string name="failed_get_from_service">Failed to obtain data from the server.</string>
+    <string name="have_not_setted">You have not set it.</string>
+    <string name="set_undisturb_seceed">The setting is updated.</string>
+    <string name="update_failed">Update failed. </string>
+    <string name="set_failed">Failed to connect to the server.</string>
+    <string name="set_failed_get_verify_code">Failed to connect to the server,please re-obtain the verification code.</string>
+    <string name="unbound_tel">Are you sure you want to unbind mobile number %s?</string>
+    <string name="code_length">The verification code must be 6 digits at least.</string>
+    <string name="nick">Nickname</string>
+    <string name="sdcard_not_enougth_space">SDCard is not enough space…</string>
+    <string name="setting_year">-</string>
+    <string name="setting_month">-</string>
+    <string name="setting_day">""</string>
+    <string name="setting_CHINA">China</string>
+    <string name="setting_insert_SD_card">Insert an SD card and try again.</string>
+    <string name="setting_blood_type_setting">Set Blood Type</string>
+    <string name="setting_birthday_setting_not_allow">The birthday cannot be the current date.</string>
+    <string name="setting_select_type_not_allow">Only picture file can be uploaded.</string>
+    <string name="setting_upload_head">Uploading the avatar…Please wait.</string>
+    <string name="setting_upload_failure">Failed to upload the avatar.</string>
+    <string name="setting_person_information_success">The personal information is updated.</string>
+    <string name="setting_person_information_failure">Failed to update the personal information.</string>
+    <string name="setting_person_info_save_dialog">Saving personal information</string>
+    <string name="setting_update_group_message_receiver_setting_success">The group message receiving setting is updated.</string>
+    <string name="setting_update_group_message_receiver_setting_failure">Fail to set group message receiving.</string>
+    <string name="setting_cannot_support_this_video">The video is not supported.</string>
+    <string name="setting_cannot_support_this_voice">The audio is not supported.</string>
+    <string name="setting_select_district">Select Province</string>
+    <string name="about_version">HiTalk2012 V</string>
+    <string name="setting_name_not_null">Name can not be empty.</string>
+    <string name="settings_feedback_phonetext">Hotline:010-82276930</string>
+    <string name="settings_feedback_emailtext">Email:hitalk@rcs.com.cn</string>
+    <string name="input_old_password_hint">Current Password</string>
+    <string name="input_new_password_hint">New password(less than 6 digit)</string>
+    <string name="default_save">Save</string>
+    <string name="input_old_password_not_null">The old password is mandatory.</string>
+    <string name="modify_password_not_equals">The new password must be different from the old
+		password.</string>
+    <string name="settings_about_title">About</string>
+    <string name="settings_about_indextext">Visit HiTalk official website</string>
+    <string name="settings_about_blogtext">Follow use on HiTalk official weibo</string>
+    <string name="can_not_open_the_url">Failed to open the link.</string>
+    <string name="settings_feedback_title">Feedback</string>
+    <string name="settings_feedback_no_email_client">Configure your email client and try again.</string>
+    <string name="modify_password_success">The password has been changed.</string>
+    <string name="modify_password_faild">Failed to change the password.</string>
+    <string name="toast_max_age">The maximum age can not exceed 200</string>
+    <string name="get_person_information_failure">Personal information getting failure.</string>
+    <string name="user_id">HiTalk ID:</string>
+    <string name="network_exception_modify_password_faild">Network exception,password modification failed</string>
+    <string name="more">More</string>
+    <string name="my_account">My Account</string>
+    <string name="system_plugins">System Plug-In</string>
+    <string name="applications_list">Applications</string>
+    <string name="general">General</string>
+    <string name="privacy">Privacy</string>
+    <string name="block">Blacklist</string>
+    <string name="flow_rate">Traffic</string>
+    <string name="about_hitalk">About HiTalk</string>
+    <string name="unbind_phone">Mobile Number</string>
+    <string name="unbind_phone_info">The bind phone number will be your account to login HiTalk.You could also use it to get your password back.</string>
+    <string name="your_mobile_number">Mobile number:</string>
+    <string name="delete_and_unbind">Delete and Cancel Binding</string>
+    <string name="upload_mobile_contacts">Upload Address Book</string>
+    <string name="stop_uploading_address_book">Stop Uploading Address Book</string>
+    <string name="bind_phone">Bind</string>
+    <string name="bind_phone_info">After binding your mobile number, you can easily find your contacts and friends and retrieve your HiTalk password.</string>
+    <string name="upload_info">You do not have to bind your mobile phone to upload your address book.</string>
+    <string name="bind_verify_tip">A verification code has been sent to your mobile phone. Use it to complete the binding.</string>
+    <string name="unbind_verify_tip">A verification code has been sent to your mobile phone. Use it to cancel the binding.</string>
+    <string name="bind_email_info">You can use the email account that you have bound to sign in to HiTalk or retrieve your HiTalk password.</string>
+    <string name="setting_unbind">Unbind</string>
+    <string name="your_email">Email account:</string>
+    <string name="unbind_tip">You will be unable to use the mobile number to sign in to HiTalk, and HiTalk cannot recommend friends in your address book to you.</string>
+    <string name="unbind_tip_email">You will be unable to use the email account to sign in to HiTalk or retrieve your HiTalk password.</string>
+    <string name="bound_mail_tip">System to your mailbox to send a verification message, please visit E-mail to complete the binding</string>
+    <string name="unbound_mail_tip">System to your mailbox to send a verification message, please visit E-mail to unbind</string>
+    <string name="resend_link_email">Resend Link Email</string>
+    <string name="personal_info">Personal Infomation</string>
+    <string name="stop_upload_contact">HiTalk will be unable to recommend friends in your address book to you.</string>
+    <string name="browser_not_exist">System browser does not exist</string>
+    
+    <!-- 0:成功，有新版本 1:无新版本 2:服务器忙 3:客户端强制升级 -1:系统错误 -->
+    <string name="state_exception">An exception has occurred.</string>
+    <string name="force_state_exception">Reback forced state error</string>
+    <string name="type_exception">Return type abnormal</string>
+    <string name="resultcode_not_null">Version update failure</string>
+    <string name="version_new">New version update success</string>
+    <string name="version_latest">The current version is the latest</string>
+    <string name="version_serverbusy">The server is busy</string>
+    <string name="version_clientforceupdate">Force upgrade</string>
+    <string name="system_error">System error</string>
+
+    <!-- 版本检测 -->
+    <string name="update_title">Upgrade Log</string>
+    <string name="update_info_force">A new version is detected. The current version must
+		be upgraded.</string>
+    <string name="update_info">A new version is detected. Do you want to upgrade
+		your current version?</string>
+    <string name="update_confirm">Upgrade</string>
+    <string name="update_skip">Skip</string>
+    <string name="update_exit">Exit</string>
+
+    <!-- 隐私资料 -->
+    <string name="privaty_set">Mobile/Email Privacy Policy</string>
+    <string name="all_public">Open to all</string>
+    <string name="olny_friend">Open to friends</string>
+    <string name="all_private">Open to nobody</string>
+    <string name="only_contacts">Open to contacts in address book</string>
+    <string name="desc">After you disclose your mobile number, more friends
+		can find you.</string>
+    <!-- 免打扰设置 -->
+    <string name="undo">Do Not Disturb Setting</string>
+    <!-- 胡沙平 layout_ -->
+    <string name="CHINA_Unicom_version">Copyright © 2011 China Unicom All Rights Reserved</string>
+
+    <!-- 头像选取 -->
+    <string name="system_head">System Portrait</string>
+    <string name="photo_head">Local Album</string>
+    <string name="take_photo">Take a Photo</string>
+
+    <!-- 显示性别 -->
+    <string name="all_zero">Unset</string>
+    <string name="sex_one">Female</string>
+    <string name="sex_two">Male</string>
+
+    <!-- 显示生肖 -->
+    <string name="zodiac">Zodiac:</string>
+
+    <string-array name="zodiac">
+        <item>Mouse</item>
+        <item>Ox</item>
+        <item>Tiger</item>
+        <item>Rabbit</item>
+        <item>Dragon</item>
+        <item>Snake</item>
+        <item>Horse</item>
+        <item>Goat</item>
+        <item>Monkey</item>
+        <item>Rooster</item>
+        <item>Dog</item>
+        <item>Pig</item>
+    </string-array>
+
+    <!-- 显示星座 -->
+    <string name="astro">Constellation:</string>
+
+    <string-array name="astro">
+        <item>Aries</item>
+        <item>Taurus</item>
+        <item>Gemini</item>
+        <item>Cancer</item>
+        <item>Leo</item>
+        <item>Virgo</item>
+        <item>Libra</item>
+        <item>Scorpio</item>
+        <item>Sagittarius</item>
+        <item>Capricorn</item>
+        <item>Aquarius</item>
+        <item>Pisces</item>
+    </string-array>
+
+    <!-- 血型 -->
+    <string-array name="blood">
+        <item>A</item>
+        <item>B</item>
+        <item>AB</item>
+        <item>O</item>
+        <item>Rh</item>
+        <item>MN</item>
+        <item>HLA</item>
+    </string-array>
+
+    <string name="not_set">Unset</string>
+    <string name="del_friend">Delete</string>
+    <string name="manager_refuse">Reject</string>
+    <string name="manager_agree">Approve</string>
+
+    <!-- 编辑备注 -->
+    <string name="care_name"></string>
+    <string name="care_phone">Enter a correct mobile number</string>
+    <string name="care_mail">Enter a correct email address</string>
+    <string name="sure_bound">Are you sure you want to bind mobile number %s?</string>
+
+    <!-- 基础TAB框架 -->
+    <string name="tab_talkLabel">Chats</string>
+    <string name="tab_broadcastLabel">Broad</string>
+    <string name="tab_friendLabel">Contacts</string>
+    <string name="tab_groupLabel">Group</string>
+    <string name="tab_moreLabel">More</string>
+    <string name="tab_voipLabel">Keypad</string>
+
+    <!-- 编辑好友页面 -->
+    <string name="friend_memo_name">Name:</string>
+    <string name="friend_memo_phone">Phone:</string>
+    <string name="friend_memo_email">Email:</string>
+    <string name="friend_edit_memo">Edit Remarks</string>
+    <string name="find_friend_helper">Friend Finder</string>
+    <string name="add_friend_reason">Enter verification information to add as a friend.</string>
+    <string name="del_friend_choose">Chat history with %1$s will also be deleted.</string>
+    <string name="del_friendgroup_choose">Are you sure you want to delete the friend?</string>
+
+    <!-- 会话 -->
+    <string name="one_second">%1$s second ago</string>
+    <string name="one_minute">%1$s minute ago</string>
+    <string name="before_second">%1$s seconds ago</string>
+    <string name="before_minute">%1$s minutes ago</string>
+    <string name="before_one_day">yesterday %1$s</string>
+    <string name="before_two_days">two days ago %1$s</string>
+    <string name="date_string">%1$s-%2$s</string>
+    <string name="year_string">%1$s-%2$s-%3$s</string>
+    <string name="am_string">%1$s am</string>
+    <string name="af_string">%1$s pm</string>
+    <string name="ev_string">%1$s at night</string>
+    <string name="menu_picture">Image</string>
+    <string name="menu_video">Video</string>
+    <string name="submenu_native_picture">Local Album</string>
+    <string name="submenu_camera">Take a Picture</string>
+    <string name="upload_progress">%1$dK/%2$dK</string>
+    <string name="unknown_msg">[Unknown Type]</string>
+
+    <!-- 公用部分 -->
+    <string name="default_add">Add</string>
+    <string name="prompt">Tips</string>
+    <string name="clew">Tips</string>
+    <string name="confirm">OK</string>
+    <string name="connecting">Please wait…</string>
+    <string name="searching">Searching…</string>
+    <string name="cancel">Cancel</string>
+    <string name="cancel_hitalk">You will not receive any messages from HiTalk.</string>
+    <string name="wake">Remind</string>
+
+    <!-- 找朋友小助手 -->
+    <string name="friendhelper_input_reason">Input reason</string>
+    <string name="friendmanager_add_again">Add Again</string>
+    <string name="subservice_add_friend">Add Friend</string>
+    <string name="subservice_be_add">Verify Friend</string>
+    <string name="subservice_group_apply">Apply to Join Group</string>
+    <string name="subservice_group_waitting">Apply to Join Group</string>
+    <string name="subservice_group_be_invite">Group Invitation</string>
+    <string name="subservice_group_common">Group Reminding</string>
+    <string name="subservice_friend_common">Friend Reminding</string>
+    <string name="friendmanager_add_wait">Waiting for friend approval</string>
+    <string name="friendmanager_add_refuse">Rejected</string>
+    <string name="friendmanager_add_agree">You have become friends</string>
+    <string name="friendmanager_add_success">Sent a friend request successfully</string>
+    <string name="friendmanager_be_add_agree">You have become friends</string>
+    <string name="friendmanager_be_add_refuse">Rejected</string>
+    <string name="friendmanager_auth_info">Information:</string>
+    <string name="friendmanager_apply_for_adding_friend">Applying to add me as a friend</string>
+    <string name="friendmanager_add_group_wait">Waiting for verification.</string>
+    <string name="friendmanager_add_group_agree">Approved</string>
+    <string name="friendmanager_add_group_refuse">Rejected</string>
+    <string name="status_waitting">Waiting for response</string>
+    <string name="add_group_again">Apply Again</string>
+    <string name="friendmanager_be_add_group_agree">Approved</string>
+    <string name="friendmanager_be_add_group_refuse">Rejected</string>
+    <string name="friendmanager_invite_wait">Waiting</string>
+    <string name="friendmanager_invite_agree">Approved</string>
+    <string name="friendmanager_invite_refuse">Rejected</string>
+    <string name="friendmanager_message_group_add_success">You have joined the group</string>
+    <string name="friendmanager_message_group_add_success_self">You have joined the group</string>
+    <string name="friendmanager_refuse">Reject</string>
+    <string name="friendmanager_agree">Approve</string>
+    <string name="friendmanager_input_reason_full">Enter 50 characters at most. Emoticons are
+		unavailable.</string>
+    <string name="friend_removed">You have been removed.</string>
+    <string name="friendmanager_input_not_empty">The input cannot be empty.</string>
+    <string name="friendmanager_message_inviting"> %1$s invites you to join the group.</string>
+    <string name="friendmanager_message_inviting_agree">You have approved to join group %1$s. </string>
+    <string name="firendmanager_message_inviting_refuse">You have rejected to join group %1$s. </string>
+    <string name="friendmanager_message_pass">Approve</string>
+    <string name="friendmanager_message_agree">Agree</string>
+    <string name="friendmanager_message_decline">Reject</string>
+    <string name="friendmanager_operation_addfriend">Add Friend</string>
+    <string name="friendmanager_operation_deletefriend">Delete Friend</string>
+    <string name="friendmanager_operation_confirm_friend">Dealing with friend requests</string>
+    <string name="friendmanager_operation_success">Success</string>
+    <string name="friendmanager_operation_fail">Failed</string>
+    <string name="add_friend_not_allowed">The receiving party rejects all friend requests</string>
+    <string name="delete_friend_warning">Chat history with %1$s will also be deleted.</string>
+    <string name="default_section_name">My Friends</string>
+    <string name="clear_friend_helper_messages">Are you sure to clear friend helper messages?</string>
+
+    <!-- 添加别人好友 -->
+    <string name="friendmanager_message_add_wait">Waiting for %1$s to verify your friend request</string>
+    <string name="friendmanager_message_add_result">%1$s %2$s your friend request</string>
+
+    <!-- 接收到加好友申请 -->
+    <string name="friendmanager_message_be_add_wait">%1$s wants to add you as a friend</string>
+    <string name="friendmanager_message_be_add_result">You %1$s the friend request from %2$s</string>
+
+    <!-- 群主接收到加入群申请 -->
+    <string name="friendmanager_message_be_add_group_result">You %1$s %2$s to join group %3$s.</string>
+    <string name="friendmanager_message_be_add_group_wait">%1$s applies to join group %2$s.</string>
+
+    <!-- Presence相关 -->
+    <!-- 申请加入群 -->
+    <string name="friendmanager_message_add_group_wait">Applying to join %1$s. Waiting for verification.</string>
+    <string name="friendmanager_message_add_group_result">%1$s has allowed you to join group %2$s.</string>
+    <string name="friendmanager_message_add">Applying to join %1$s. Waiting for verification.</string>
+    <string name="friendmanager_message_be_add">You %1$s the friend request from %2$s.</string>
+    <string name="friendmanager_message_add_success">The friend is successfully added.</string>
+    <string name="friendmanager_message_add_result_success">%1$s has approved your friend request.</string>
+    <string name="friendmanager_message_add_result_declined">%1$s has rejected your friend request.</string>
+    <string name="friendmanager_message_be_add_group">You %1$s %2$s to join group %3$s.</string>
+    <string name="friendmanager_message_add_group">%1$s has allowed you to join group %2$s.</string>
+    <string name="friendmanager_message_add_group_confirm">You %1$s %2$s to join group %3$s.</string>
+    <string name="friendmanager_message_friend_success">%1$s becomes your friend.</string>
+    <string name="friendmanager_message_group_success_self">You have joined group %1$s.</string>
+    <string name="friendmanager_message_group_success_owner"> %1$s has joined group %2$s.</string>
+    <string name="request_success">Request sent successfully.</string>
+    <string name="request_fail">Failed to send a request.</string>
+    <string name="request_sended">Request Sent</string>
+    <string name="friendmanager_message_add_group_success">You agree to join this group</string>
+
+    <!-- 接收到加入群邀请 -->
+    <string name="friendmanager_message_be_invite_wait">Group %1$s invite you to join</string>
+
+    <!-- 好友列表 -->
+    <string name="search">Search</string>
+    <string name="edit_contact_section_name">Edit Group Name</string>
+    <string name="contact_section_name">Group name:</string>
+    <string name="addmember">Add</string>
+    <string name="remove_member">Remove</string>
+    <string name="fan_out_message">Message</string>
+    <string name="delete_contact_section">Delete Group</string>
+    <string name="search_quick">Search</string>
+    <string name="system_tools">System Plug-In</string>
+    <string name="system_plugin_shot_cut">\@</string>
+    <string name="btn_contacttext">Phone Book</string>
+    <string name="btn_myfriendtext">HiTalk</string>
+    <string name="btn_myaddfriendtext">Find Friend</string>
+    <string name="reason_1">Colleague</string>
+    <string name="reason_2">Classmate</string>
+    <string name="reason_3">Local Association</string>
+    <string name="reason_4">In Friend\'s Contact</string>
+    <string name="reason_5">Mutual friend</string>
+    <string name="reason_6">You have %s mutual friends.</string>
+    <string name="hi_talk_sec_content">New features</string>
+    <string name="find_friend_sec">Friend Finder</string>
+    <string name="hi_talk_sec">HiTalk Secretary</string>
+    <string name="count">(%d)</string>
+    <string name="choose_all">Select All</string>
+    <string name="dischoose_all">Deselect</string>
+    <string name="add_group">Apply to Join</string>
+    <string name="input_section_name_prompt">Enter the group name.</string>
+    <string name="add_contact_section">Add Group</string>
+    <string name="next">Next</string>
+    <string name="finish">Change</string>
+    <string name="contact_baseline_title">They are also using HiTalk</string>
+    <string name="ignroe">Ignroe</string>
+    <string name="add_all">Add all</string>
+    <string name="same_section_exist">The group already exists.</string>
+    <string name="delete_this_record">Delete this record</string>
+    <string name="delete_fail">Delete fail</string>
+    <string name="delete_success">Delete success</string>
+    <string name="please_input_new_section_name">Enter new group name</string>
+    <string name="hitalk_secretary">HiTalk Secretary</string>
+    <string name="delete_contact_warning">Delete %1$s ?</string>
+
+    <!-- 选择好友界面 -->
+    <plurals name="choose_member_title">
+        <item quantity="other">			Select Contact(<xl id="count">%d</xl>)</item>
+    </plurals>
+
+    <!-- 会话列表页面 -->
+    <string name="rcsbaseline_sec_content">New features</string>
+    <string name="operation">Operation</string>
+    <string name="delete_conversation">Delete</string>
+    <string name="submit_delete">Are you sure want to to delete?</string>
+    <string name="mediatype_img">[Image]</string>
+    <string name="mediatype_video">[Video]</string>
+    <string name="mediatype_audio">[Voice]</string>
+    <string name="mediatype_location">[Location Information]</string>
+    <string name="mediatype_emoji">[Paste Picture]</string>
+    <string name="mediatype_unknow">[Unknown Format Message]</string>
+    <string name="group_send">FSend</string>
+    <string name="speak">Hold to Talk </string>
+    <string name="send">Send</string>
+    <string name="view_origin_image">View Original Image</string>
+    <string name="view_video">View video</string>
+    <string name="conversation_count">Session(%s)</string>
+    <string name="conversation_select_friends">Choose Friends</string>
+    <string name="conversation_chatbar">My Chat Bar</string>
+    <string name="init_tips_be_found">Set your personal profile</string>
+    <string name="init_tips_be_found_content">Improve your information, so that more people find you</string>
+    <string name="init_tips_find_friend">Find Friend</string>
+    <string name="init_tips_find_friend_content">Find people you may know</string>
+    <string name="init_tips_find_group">How to join a group</string>
+    <string name="init_tips_find_group_content">Find popular/recommended group</string>
+    <string name="im_select_voice_notcant_input_word">Can\'t input text…</string>
+    <string name="im_select_video_notcant_input_word">Can\'t input text…</string>
+    <string name="create_chat_bar">Starting a multiparty conversation…</string>
+    <string name="choose_member">Select Contact</string>
+    <string name="invite_members_to_success">Success to invite</string>
+    <string name="invite_members_to_failed">Fail to invite</string>
+
+    <!-- 注册 -->
+    <string name="register_read">I agree with </string>
+    <string name="register_email">Sign Up with Email</string>
+    <string name="register_continue">Continue</string>
+    <string name="skip_bind">Skip</string>
+    <string name="register_bound_email_msg">A verification code has been sent to your email box. Use it within 24 hours.</string>
+    <string name="send_email_verify_code">System has send an e-mail, please note that check</string>
+    <string name="register">Sign Up</string>
+    <string name="deal_title">HiTalk Agreement</string>
+    <string name="agree">Agree</string>
+    <string name="register_phone_title">Sign Up with Mobile Number</string>
+    <string name="register_telmessage">Success registration for indentity confirmation, passord retrieving, account security.</string>
+    <string name="register_tel_hint">Enter phone number/email address</string>
+    <string name="mobile_or_email_not_null">The mobile number or email address cannot be blank.</string>
+    <string name="mobile_is_register">The mobile number has been registered</string>
+    <string name="email_is_register">The email address has been registered</string>
+    <string name="mobile_is_bund">The mobile number has been registered.</string>
+    <string name="email_is_bund">The email address has been bound</string>
+    <string name="input_right_mobile_or_email">Enter a valid mobile number or email address</string>
+    <string name="register_bound_msg">A verification code has been sent to your mobile phone. Enter it in the text box below.</string>
+    <string name="register_verify_code">Enter the verification code</string>
+    <string name="register_verify_delay_sec1">You have not received it?</string>
+    <string name="register_verify_delay_sec">second)</string>
+    <string name="input_verify_code">Enter the verification code.</string>
+    <string name="register_fresh_code">You have not received it? Collect it again in %s seconds.</string>
+    <string name="register_fresh_code3">get verification code again</string>
+    <string name="get_verify_code_faild">Failed to obtain the verification code.</string>
+    <string name="send_verify_code">A verification code has been sent to your mobile
+		phone. Check your phone for the code.</string>
+    <string name="verify_code_length">Enter a 6-digit verification code</string>
+    <string name="register_write_msg">Set Account Information</string>
+    <string name="input_nick_name">Name</string>
+    <string name="nick_name_not_null">The user name cannot be blank</string>
+    <string name="password_not_null">The password cannot be blank</string>
+    <string name="input_new_password">New password (at least six characters)</string>
+    <string name="input_password">password (at least six characters)</string>
+    <string name="password_length">A password must contain 6 to 20 characters, including letters, digits, and symbols.</string>
+    <string name="password_digits">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLIMNOPQRSTUVWXYZ$%()*+,-_./:;@~!#?&amp;</string>
+    <string name="show_password">Show Password</string>
+    <string name="password_strength">Password Strength:</string>
+    <string name="register_success">Sign-up Succeeded</string>
+    <string name="register_remember_id">Your HiTalk ID is</string>
+    <string name="upload_contacts">Note:\nUploading your mobile address book helps to
+		rapidly find your friends. Encryption for uploading and storing
+		information protects your privacy. \n\nAre you sure you want to upload
+		your mobile address book?</string>
+    <string name="upload_contacts_msg">Finding friends will be easier.</string>
+    <string name="upload_contacts_fail">Upload Fail</string>
+    <string name="upload_contacts_fail_msg">Failed to upload the address book.</string>
+    <string name="upload">Upload</string>
+    <string name="upload_contacts_again">Upload again.</string>
+    <string name="upload_contacts_next">Next Time</string>
+    <string name="upload_contacts_continue">Continue Upload</string>
+    <string name="upload_contacts_cancel">Cancel Upload</string>
+    <string name="upload_contacts_cancel_msg">You will be unable to find your friends in the address book.</string>
+    <string name="uploading_contacts">Performing backup… %1$s</string>
+    <string name="upload_contacts_more"> Note:\nUploading your mobile address book helps to
+		rapidly find your friends. Encryption for uploading and storing
+		information protects your privacy.\n\nToo much of your contact data, uploading will take some time.
+		\n\nAre you sure you want to upload your mobile address book?</string>
+    <string name="verifyCode_Error_reinput">Verification code is wrong, re-obtain it</string>
+    <string name="verify_code_faild">Fail to obtain verification code, re-obtain it</string>
+    <string name="verify_code_timeout">Verification code has expired, re-obtain it</string>
+    <string name="read_info">please read the message of HiTalk</string>
+    <string name="verification_code_error">You have entered an incorrect verification code . Get a new one and retry.</string>
+    <!-- 注册错误提示 -->
+    <string name="error_code_209001002">Incorrect packet </string>
+    <string name="error_code_209001003">The password cannot be blank</string>
+    <string name="error_code_209001004">Phone and Email can not be empty </string>
+    <string name="error_code_209001005">Invitation code is illegal or has been used </string>
+    <string name="error_code_209001007">The email address has been bound</string>
+    <string name="error_code_209001008">The mail failed to send </string>
+    <string name="error_code_209001010">The mobile number has been bound</string>
+    <string name="error_code_209002001">Invited users can not be empty   </string>
+    <string name="error_code_209002002">Nickname can not be empty </string>
+    <string name="error_code_209002003">User mode can not be empty </string>
+    <string name="error_code_209002004">Uer type is wrong </string>
+    <string name="error_code_209002005">Uer type is wrong</string>
+    <string name="error_code_209002006">Fail to query binding phone and nickname</string>
+    <string name="error_code_209002007">Mail failed to send </string>
+    <string name="error_code_209002008">Illegal parameter</string>
+    <string name="error_code_209002009">Illegal parameter</string>
+    <string name="error_code_209002010">Phone number or email is already bound</string>
+    <string name="error_code_209002011">Phone number or email is already bound</string>
+    <string name="error_code_209002012">Fail to insert invitation link authentication code table</string>
+    <string name="error_code_209002013">Fail to send message </string>
+    <string name="error_code_209002014">The IM user Id can not be empty</string>
+    <string name="error_code_209004001">HiTalk Account number is invalid</string>
+    <string name="error_code_209004002">Incorrect packet</string>
+    <string name="error_code_209004004">Fail to query user information</string>
+    <string name="error_code_209004005">The IM service ID is mandatory.</string>
+    <string name="error_code_209004006">Email can not be empty  </string>
+    <string name="error_code_209004007">DisplayName can not be empty  </string>
+    <string name="error_code_209009002">The mobile number has been bound.   </string>
+    <string name="error_code_209009003">IM user business msisdn can not be empty or format errors  </string>
+    <string name="error_code_209013001">IM user business msisdn can not be empty  </string>
+    <string name="error_code_209013002">The email address has been bound</string>
+    <string name="error_code_209010001">Unknown error </string>
+    <string name="error_code_209010002">Number format is wrong, can not be parsed  </string>
+    <string name="error_code_209012001">Unknown error </string>
+    <string name="error_code_209012002">Explain the packet error </string>
+    <string name="error_code_209012003">The IM service ID is mandatory</string>
+    <string name="error_code_209012004">Remove bonding failure </string>
+    <string name="error_code_209012005">Search for information failed </string>
+    <string name="error_code_209009004">Incorrect verification code. </string>
+    <string name="error_code_209010006">You have not bound the mobile number  </string>
+    <string name="error_code_209010007">The mobile number is mandatory. </string>
+    <string name="error_code_209010008">Parsing request  message error </string>
+    <string name="error_code_209016001">Request message parsing error  </string>
+    <string name="error_code_209016002">The email address has been bound.  </string>
+    <string name="error_code_209016003">Empty email address or format error </string>
+    <string name="error_code_209016004">Invalid email verification code  </string>
+    <string name="error_code_209016005">Email verification code cannot be empty  </string>
+    <string name="error_code_209001000">Take your time, please wait a minute </string>
+    <string name="the_max_length">Message cannot exceed 200 words</string>
+    <string name="cant_not_send_empty">Message cannot be empty</string>
+    <string name="add_member">Add</string>
+    <!-- voip 通话记录-log -->
+    <string name="cl_dial">Dial</string>
+    <string name="cl_comm_record">Call History</string>
+    <string name="no_comm_record">No call records</string>
+    <string name="tab_contact">Contact</string>
+    <string name="tab_dial">Dial</string>
+    <string name="comm_detail_dail_type">Incoming</string>
+    <string name="comm_detail_dail_type1">Incoming</string>
+    <string name="comm_detail_dail_type2">Missed</string>
+    <string name="comm_detail_dail_type3">Rejected</string>
+    <string name="comm_detail_dail_type4">Outgoing</string>
+    <string name="comm_detail_dail_type5">Regular outgoing</string>
+    <string name="comm_detail_title">Details</string>
+    <string name="please_wait_next">Please wait for the new version</string>
+    <string name="comm_null_name">Unknown</string>
+    <string name="comm_add_contact">Add Contact</string>
+    <string name="voip_sec">second</string>
+    <string name="voip_min">minute</string>
+    <string name="voip_hour">hour</string>
+    <string name="myTitle">My Account</string>
+    <string name="myPhoneNumber_title">Mobile phone:</string>
+    <string name="myEmail_title">Email:</string>
+    <string name="myVOIP_title">VOIP:</string>
+    <string name="VOIP_title">VOIP</string>
+    <string name="VOIP_account_title">VoIP:</string>
+    <string name="VOIP_title_content">Please set your VOIP account, make a phone call easily.</string>
+    <string name="btn_deletebind">Delete and Unbind</string>
+    <string name="voip_delete_dialog_conform">Sure to delete the call record?</string>
+    <string name="bindTitle">Bind</string>
+    <string name="unbindTitle">Cancel Binding</string>
+    <string name="unbind">Cancel Binding</string>
+    <string name="voip_uninit_sdk">Fast components initializtion failure</string>
+    <string name="notbind">Not binding</string>
+    <string name="hint_voip_account">Account</string>
+    <string name="hint_voip_passwd">Password</string>
+    <string name="hint_voip_passwd2">VoIP password</string>
+    <string name="voip_accountorps_error">The account or password is incorrect. Enter again.</string>
+    <string name="voip_accountorps_notNUll">account or password must not null！</string>
+    <string name="voip_ps_error">The password is incorrect. Enter again.</string>
+    <string name="voip_bind_success">You have bound your VoIP account.</string>
+    <string name="voip_unbind_success">You have canceled your VoIP binding.</string>
+    <string name="voip_bind_failed">VOIP account bonding failure</string>
+    <string name="voip_unbind_failed">VOIP account bonding removement failure</string>
+    <string name="voip_deletebind_dialog">You will be unable to use HiTalk to make VoIP calls.</string>
+    <string name="voip_clear_commlogs">Delete Records</string>
+    <string name="voip_clear_commlogs_warn">Are you sure you want to delete all the records?</string>
+    <string name="voip_yesterday">Yesterday </string>
+    <string name="voip_year_string">%1$s-%2$s-%3$s</string>
+    <string name="voip_detail_time">%1$s:%2$s</string>
+    <string name="voip_am_string">PM%1$s</string>
+    <string name="voip_af_string">AM%1$s</string>
+    <string name="voip_comm_unread">(%1$s)</string>
+    <string name="voip_call_Type">Select a Mode</string>
+    <string name="voip_net_error">Abnormal network,bind Voip failure</string>
+    <string name="voip_call">Call</string>
+    <string name="voip_operation">Operation</string>
+    <string name="voip_delete_commlog">Delete</string>
+    <string name="agreement_info">\tThis Registration Agreement comprises of HiTalk Software User Agreement, appendixes thereof, and use agreement and license terms of third\-party authorized software or technologies. 
+ \n\t You must read and accept all of the terms in this Agreement. Your download, installation, and use of the software, registration and login shall be regarded as your acceptance of the Agreement and your agreement to be bound by all the terms and conditions of this Agreement. 
+ \n\t 1 HiTalk Team reserves the right to modify this Agreement and terms in appendixes thereof. After HiTalk Team has modified the clauses of Agreement, you shall stop using software or services provided by HiTalk Team if you do not agree with the modified clauses. Otherwise, it will be deemed that you have accepted the clauses amended. 
+ \n\t 2 To use more functions provided by the HiTalk service, you shall provide accurate and authentic information when registering the HiTalk service and share use the service only for legal purposes. 
+ \n\t 3 If you install and use HiTalk software, you are deemed to allow the software to analyze your mobile address book to find your friends using HiTalk. Your address book will only be used to rapidly find friends and HiTalk Team will take all reasonable measures to protect your information and privacy. 
+ \n\t 4 If your mobile number or email address bound with your HiTalk account is changed, cancel the binding relationship immediately. If you does not do so, HiTalk Team will not bear legal responsibility for any loss. 
+ \n\t 5 HiTalk Team reserves the right to replace, modify, or upgrade HiTalk software at any time, including modifying or limiting some software functions based on market requirements. HiTalk Team does not promise the availability of the previous version after releasing a new version. 
+ \n\t 6 HiTalk Team and partner companies reserve the right to charge value-added services and amend or change tariffs. Involved users will be properly notified of any changes and can choose to continue or stop using the services.  
+ \n\t 7 HiTalk Team has the right to place advertisements in pop-up windows or system messages on the HiTalk website or client during service provisioning. 
+ \n\t 8 The HiTalk service is free of any service charge now,  but your network carrier may charge you a fee for using the service in scenarios including but not limited to the following:
+\n- Log in to HiTalk mobile client or go to HiTalk WAP pages. 
+\n- Click links on HiTalk service pages or in sessions and redirect to a third-party website or platform.
+\n- Click links on HiTalk service pages or in sessions to open pictures or watch videos on a third-party website or platform.
+\n- Other operations for using services proved by a third-party website or platform.
+\n- Make calls (including VoIP calls) through the HiTalk client.
+  \n\t\t   8.1 You can decide whether to use content, functions, or services that may cost you money.        
+  \n\t\t   8.2 Specific tariffs are decided and collected by your network carrier according to local standards.  
+ \n\t 9 You are not allowed to use the HiTalk software to perform activities including but not limited to the following:  
+  \n\t\t  9.1 Post, upload, transmit, disseminate, or store defamatory, harassing, malicious, grossly offensive, and obscene content or content that disobeys national laws and regulations, endangers national security and unity, and disturbs social order or jeopardize social stability. 
+  \n\t\t  9.2 Publish, upload, transmit, disseminate, or store content that infringes another\'s intellectual property and other legal rights.  
+  \n\t\t 9.3 Publish, distribute, and circulate authorized advertising and junk information.                  
+  \n\t\t  9.4 Participate in activities that threaten network security.                                  
+  \n\t\t  9.5 Use third-party software, systems, or add-ins that are not developed, authorized, or approved by HiTalk Team or use cheating programs to access or use the HiTalk service. 
+  \n\t\t  9.6 Perform activities against national laws and regulations, and activities that HiTalk Team considers to be indecent due to their illegal purpose, damage on others\' legal interests, unauthorized usage. 
+  \n\t\t  9.7 If a user breaches the foresaid stipulations, HiTalk Team has the right to terminate, suspend in part or in whole, or restrict the functions of the user\'s account. 
+ \n\t 10 Disclaimer: HiTalk Team has no responsibility or liability for loss when you use the HiTalk software in the following scenarios:      
+  \n\t\t  10.1 Personal information is disclosed due to your misoperation.                         
+ \n\t\t  10.2 Services are interrupted or blocked due to a third-party\'s communication error, technical problem, network or computer failure, system instability, hacker attacks, computer viruses, or government regulation.
+  \n\t\t  10.3  Users suffer psychological or physical damage, and economic loss from being misled or deceived when communicating with other HiTalk users. 
+ \n\t 11 Laws and regulations of People\'s Republic of China are the governing law for the interpretation of, validity of, and settlement of disputes arising from this Agreement. When any dispute or controversy arises between HiTalk Team and a user, the two parties shall be resolved in the court located in the jurisdiction where HiTalk Team resides.</string>
+    <!-- 手机号码注册成功提示信息 -->
+    <string name="mobile_register_success_info">Your user ID and password have been sent to your
+		registered mobile phone. If you later forget your password, click
+		Forgot Password on the login page. \n\nEnjoy yourself.</string>
+    <string name="email_register_success_info">Your user ID and password have been sent to your
+		registered email address. If you later forget your password, click
+		Forgot Password on the login page. \n\nEnjoy yourself.</string>
+    <string name="delay_login">Jump in %s seconds</string>
+    <string name="register_login">Get Started</string>
+    <string name="begin_hitalk">Let\'s HiTalk!</string>
+
+    <!-- HiTalk超箱小助手 add by zhouxuesong -->
+    <string name="email_tile">Super Email Helper</string>
+    <string name="email_frome">From:</string>
+    <string name="email_delete_sure">Are you sure you want to delete it?</string>
+    <string name="is_friend_already">You have been friends already.</string>
+    <string name="email_unread_number">Go to Email</string>
+
+    <!-- portal 错误码 -->
+    <string name="error_code_209001001">You have performed excessive operations. Try again later.</string>
+    <string name="error_code_209001009">System internal unknown error.</string>
+    <string name="error_code_209001006">Invalid IP address.</string>
+    <string name="error_code_209009001">Unknown error.</string>
+    <string name="error_code_209006004">Incorrect old password.</string>
+    <string name="error_code_209006005">System error.</string>
+    <string name="error_code_209005008">You have performed excessive operations. Try again later.</string>
+    <string name="error_code_209005011">Incorrect or invalid verification code.</string>
+    <string name="error_code_209005015">Failed to send the email.</string>
+    <string name="error_code_209005005">The email account has not been bound.</string>
+    <string name="error_code_209003001">Invalid HiTalk ID</string>
+    <string name="error_code_209003002">The IM service ID is mandatory.</string>
+    <string name="error_code_209003003">The mobile number is mandatory.</string>
+    <string name="error_code_209003004">The mobile number has been bound. </string>
+    <string name="error_code_209003005">Incorrect verification code.</string>
+    <string name="error_code_209003006">System internal error.</string>
+    <string name="error_code_209003007">Incorrect packet.</string>
+    <string name="error_code_209010003">The mobile number has been bound.</string>
+    <string name="error_code_209010004">Failed to send the SMS message.</string>
+    <string name="error_code_209010005">Failed to obtain the verification code.</string>
+    <string name="error_code_209004008">The email address has been bound.</string>
+    <string name="error_code_210000000">Failed to send the verification email.</string>
+    <string name="error_code_209004003">Authentication failed.</string>
+
+    <!-- 邮箱绑定界面 -->
+    <string name="bound_mail">A verification email has been sent to your mailbox
+		%s. Click the link in the email to bind your email address.</string>
+    <string name="unbound_mail">A verification email has been sent to your mailbox
+		%s. Click the link in the email to unbind your email address.</string>
+    <string name="re_check">If you have not received a verification email,
+		click Send Verification Email.</string>
+    <string name="re_mail">Resend Verification Email</string>
+    <string name="error_code_209002600">The mobile number or email address has been bound.</string>
+    <string name="error_code_209002601">The mobile number or email address has not been bound.</string>
+    <string name="error_code_209002602">The verification code is empty.</string>
+    <string name="error_code_209002603">The link has been sent by email.</string>
+    <string name="error_code_209012006">The mobile number has not been bound.</string>
+    <string name="error_code_209012007">Failed to unbind the mobile number.</string>
+    <string name="error_code_209012008">Failed to unbind the mobile number,verification code has expired</string>
+    <string name="error_code_209012009">Failed to obtain the verification code.</string>
+    <string name="error_code_209012010">You have not bound the email address.</string>
+    <string name="error_code_209004009">Cannot sending emails frequently</string>
+
+    <!-- 个人应用 -->
+    <string name="apply">Application</string>
+    <string name="add_apply">Add Application</string>
+    <string name="hot_apply">Hot Application</string>
+    <string name="my_apply">My Application</string>
+    <string name="cancle">Logout</string>
+    <string name="back_to_list">Back</string>
+    <string name="verify_quit">Are you sure you want to go back to the application
+		list?</string>
+    <string name="add_app_zero">Add （0）</string>
+    <string name="add_app_title">Add Application</string>
+    <string name="app_reach_max">Reached the maximum</string>
+    <string name="delete_app">Delete</string>
+    <string name="add_app_tip">Add application first!</string>
+    <string name="submit_delete_title">Delete Tips</string>
+
+    <!-- reset password -->
+    <string name="input_bind_phone_or_email">Enter your mobile number or email address.</string>
+
+    <!-- 返回码 -->
+    <!-- 临时 -->
+    <string name="error_code_203002000">Password is incorrect</string>
+    <string name="error_code_203022002">The account has been locked. Log in after you are unlocked.</string>
+    <string name="error_code_203020303">The email address has been bound.</string>
+    <!-- 已定义 -->
+    <string name="error_code_203002309">The account has not been registered.</string>
+    <string name="error_code_203002338">The mobile number or email address has been bound.</string>
+    <string name="error_code_209001011">The verification code is incorrect.</string>
+    <string name="error_code_209001012">Incorrect password.</string>
+    <string name="error_code_209001014">Failed to authenticate the token.</string>
+    <string name="error_code_209001015">Invalid invitation code.</string>
+    <string name="error_code_209001019">Invalid parameter value.</string>
+    <string name="error_code_209002101">Incorrect old password.</string>
+    <string name="error_code_209002309">The account has not been registered.</string>
+    <string name="error_code_209002500">The mobile number or email address has not been bound.</string>
+    <string name="error_code_0">Operation succeeded.</string>
+    <string name="error_code_1">The operation was successful need to be synchronized</string>
+    <string name="error_code_10">Full synchronization.</string>
+    <string name="error_code_2">Incremental synchronization.</string>
+    <string name="error_code_200044005">The token is invalid. For example, the token format
+		is incorrect.</string>
+    <string name="error_code_200044006">The token has expired.</string>
+    <string name="error_code_200049101">The parameter is empty.</string>
+    <string name="error_code_200049102">The parameter length exceeds the maximum.</string>
+    <string name="error_code_200049103">Invalid parameter value.</string>
+    <string name="error_code_200049104">Invalid message in XML format.</string>
+    <string name="error_code_200049105">Invalid IP address.</string>
+    <string name="error_code_200049106">Incorrect client type.</string>
+    <string name="error_code_200049107">The IP address has been blacklisted due to frequent requests.</string>
+    <string name="error_code_200049108">The account has been blacklisted due to frequent requests.</string>
+    <string name="error_code_200049109">The CP ID has been blacklisted due to frequent requests.</string>
+    <string name="error_code_200049430">Incorrect user name or password. Try again.</string>
+    <string name="error_code_200049431">Unavailable mobile number.</string>
+    <string name="error_code_200049432">Incorrect user name or password. Try again.</string>
+    <string name="error_code_200049433">You have been blacklisted.</string>
+    <string name="error_code_200049434">The current version is unavailable.</string>
+    <string name="error_code_200049436">The function is currently not supported.</string>
+    <string name="error_code_200049437">The record does not exist.</string>
+    <string name="error_code_200049438">The record already exists.</string>
+    <string name="error_code_200049439">The dynamic password is incorrect.</string>
+    <string name="error_code_200049440">The password is too simple. Change it.</string>
+    <string name="error_code_200049441">The image verification code you entered is incorrect.</string>
+    <string name="error_code_200049442">The verification code expires.</string>
+    <string name="error_code_200049443">The verification code has been used.</string>
+    <string name="error_code_200049444">The verification code session times out.</string>
+    <string name="error_code_200049445">Malicious login.</string>
+    <string name="error_code_200049446">Password cracking at a low speed in the IP layer.</string>
+    <string name="error_code_200049447">The password encrypted by SHA256 is empty.</string>
+    <string name="error_code_200049448">The dynamic password is required for a user that
+		has been activated upon an exception to log in for the first time
+		every month.</string>
+    <string name="error_code_200049500">Failed to obtain the user ID.</string>
+    <string name="error_code_200049501">Failed to obtain the routing node.</string>
+    <string name="error_code_200049502">Unknown CP ID.</string>
+    <string name="error_code_200049503">Maximum available traffic has been reached.</string>
+    <string name="error_code_200049999">Operation failed due to a system error</string>
+    <string name="error_code_200059504">You have entered incorrect information five times. To ensure your account security, enter the graphical verification code displayed.</string>
+    <string name="error_code_200059505">You have been locked due to too many login failures.</string>
+    <string name="error_code_202010001">Unknown error (internal error).</string>
+    <string name="error_code_202010005">Incorrect packet format.</string>
+    <string name="error_code_202010007">The verification information is missing or invalid.</string>
+    <string name="error_code_202010008">The token expires.</string>
+    <string name="error_code_202010010">Certain fields cannot be blank.</string>
+    <string name="error_code_202010012">Certain fields fail to pass the check.</string>
+    <string name="error_code_202010013">The number of objects for one operation exceeds the maximum.</string>
+    <string name="error_code_202010014">The data amount exceeds the quota.</string>
+    <string name="error_code_202010015">Failed to find specified resources.</string>
+    <string name="error_code_202010016">The contact group exists.</string>
+    <string name="error_code_202010017">The user data has been locked.</string>
+    <string name="error_code_202010018">User data version number has not changed</string>
+    <string name="error_code_202010019">Insufficient server resource.</string>
+    <string name="error_code_202010022">Invalid data status.</string>
+    <string name="error_code_202100001">Server internal error.</string>
+    <string name="error_code_202100002">Insufficient resource.</string>
+    <string name="error_code_202100003">Invalid request.</string>
+    <string name="error_code_202100004">Authentication failed.</string>
+    <string name="error_code_202100005">The authentication information has expired.</string>
+    <string name="error_code_202100006">You do not have the permission.</string>
+    <string name="error_code_202100007">Failed to find specified resources.</string>
+    <string name="error_code_202200002">Certain fields are mandatory.</string>
+    <string name="error_code_202200003">The field name must be unique.</string>
+    <string name="error_code_202200004">Failed to confirm the field.</string>
+    <string name="error_code_209013003">Incorrect email address format.</string>
+    <string name="error_code_timeout">Connection times out.</string>
+    <string name="error_code_network_error">Abnormal network.</string>
+    <string name="error_code_auth_error">Authentication failed.</string>
+    <string name="error_code_param_error">Incorrect request parameter.</string>
+    <string name="error_code_failed">Abnormal network or server.</string>
+
+    <!-- xmpp错误码 -->
+    <string name="xmpp_error_code_206100101">This group does not exist.</string>
+    <string name="xmpp_error_code_206100102">The group member or inviting record does not exist</string>
+    <string name="xmpp_error_code_206100104">Can not create the group of this type.</string>
+    <string name="xmpp_error_code_206100105">Quantity of fixed groups has reached the limit.</string>
+    <string name="xmpp_error_code_206100106">Quantity of temporary groups has reached the limit.</string>
+    <string name="xmpp_error_code_206100107">Does not support the user to invite.</string>
+    <string name="xmpp_error_code_206100108">The number of members in a group has reached the maximum.</string>
+    <string name="xmpp_error_code_206100109">The group of this type does not support inviting.</string>
+    <string name="xmpp_error_code_206100110">The group of this type does not support applying.</string>
+    <string name="xmpp_error_code_206100111">The group of this type does not support exist.</string>
+    <string name="xmpp_error_code_206100112">The user can not force another member to exit.</string>
+    <string name="xmpp_error_code_206100113">The user can not delete group.</string>
+    <string name="xmpp_error_code_206100114">The group of this type does not support deleting.</string>
+    <string name="xmpp_error_code_206100115">The user can not query groups.</string>
+    <string name="xmpp_error_code_206100116">The user can not distribute administrative privileges.</string>
+    <string name="xmpp_error_code_206100117">The user can not query group configuration.</string>
+    <string name="xmpp_error_code_206100118">The user can not update group configuration.</string>
+    <string name="xmpp_error_code_206100119">The group does not support updating some content.</string>
+    <string name="xmpp_error_code_206100120">The user can not update nickname.</string>
+    <string name="xmpp_error_code_206100121">The user can not update information of another members.</string>
+    <string name="xmpp_error_code_206100122">Fail to send message.Can not support sending message.</string>
+    <string name="xmpp_error_code_206100123">Fail to send message.Group can not support sending message of this type.</string>
+    <string name="xmpp_error_code_206100124">Transferor are not the owner.</string>
+    <string name="xmpp_error_code_206100125">The user are not group member.</string>
+    <string name="xmpp_error_code_206100126">Quantity of Specified members is excessive.</string>
+    <string name="xmpp_error_code_206100127">Quantity of groups joined has reached the limit.</string>
+    <string name="xmpp_error_code_206400103">Exceed the maximum number of daily sent.</string>
+    <string name="xmpp_error_code_206400104">Exceed the maximum number of recipient.</string>
+    <string name="xmpp_error_code_100">The receiving party rejects all friend requests.</string>
+    <string name="xmpp_error_code_1104">You are logout. </string>
+    <string name="xmpp_error_code_unknown">Unknown error.</string>
+    <string name="xmpp_error_code_10001">Has Been Your Friend</string>
+
+    <!-- 登录返回码 -->
+    <string name="login_error_code_200044005">Reconnecting…Please wait.</string>
+    <string name="login_error_code_200044006">Reconnecting…Please wait.</string>
+    <string name="login_error_code_200049106">he current version is outdated. Upgrade it to the latest one.</string>
+    <string name="login_error_code_200049107">An exception occurs in your account and your account has been locked.</string>
+    <string name="login_error_code_200049108">An exception occurs in your account and your account has been locked.</string>
+    <string name="login_error_code_200049109">An exception occurs in your account and your account has been locked.</string>
+    <string name="login_error_code_200049430">Incorrect user name or password. Try again.</string>
+    <string name="login_error_code_200049431">Incorrect user name or password. Try again.</string>
+    <string name="login_error_code_200049432">Incorrect user name or password. Try again.</string>
+    <string name="login_error_code_200049433">An exception occurs in your account and your account has been locked.</string>
+    <string name="login_error_code_200049434">The current version is outdated. Upgrade it to the latest one.</string>
+    <string name="login_error_code_200049441">The image verification code you entered is incorrect. Try again.</string>
+    <string name="login_error_code_200049442">The image verification code has expired. Click the
+		image to refresh the code.</string>
+    <string name="login_error_code_200049443">The image verification code has expired. Click the
+		image to refresh the code.</string>
+    <string name="login_error_code_200049444">The image verification code has expired. Click the
+		image to refresh the code.</string>
+    <string name="login_error_code_200049445">An exception occurs in your account and your
+		account has been locked.</string>
+    <string name="login_error_code_200049446">An exception occurs in your account and your
+		account has been locked.</string>
+    <string name="login_error_code_200049447">Incorrect password. Try again.</string>
+    <string name="login_error_code_200049503">An exception occurs in your account and your
+		account has been locked.</string>
+    <string name="login_error_code_200059505">An exception occurs in your account and your
+		account has been locked.</string>
+    <string name="login_http_error_code_203">The service is unavailable.</string>
+    <string name="login_xmpp_terminated">Login failed.</string>
+    <string name="xmpp_status_confict_terminated">A user using this account has logged in.</string>
+    <string name="login_xmpp_error_code_1003">@string/login_xmpp_terminated</string>
+    <string name="login_xmpp_error_code_1004">@string/login_xmpp_terminated</string>
+    <string name="login_xmpp_error_code_1010">@string/login_xmpp_terminated</string>
+    <string name="login_xmpp_error_code_1011">@string/login_xmpp_terminated</string>
+    <string name="login_xmpp_error_code_1101">@string/login_xmpp_terminated</string>
+    <string name="login_xmpp_error_code_1102">@string/xmpp_status_confict_terminated</string>
+
+    <!-- IM -->
+    <string name="speak_available">Start talking</string>
+    <string name="say_something">Say something…</string>
+    <string name="pick_emotion_title">Select Emotion</string>
+    <string name="resend">Resend</string>
+    <string name="audio_length_by_minutes">%s\'</string>
+    <string name="audio_length_by_seconds">%s\"</string>
+    <string name="message_sending">Sending</string>
+    <string name="message_sent">sent</string>
+    <string name="message_sent_unread">Arrived</string>
+    <string name="message_sent_read">Read</string>
+    <string name="message_received_unread">Received but unread</string>
+    <string name="message_received_read">Read</string>
+    <string name="message_media_block">Block</string>
+    <string name="message_send_failed">Sending failure</string>
+    <string name="secretary">Assistant</string>
+    <string name="clear_message_record">Delete Conversation</string>
+    <string name="exit_chat">Quit</string>
+    <string name="title_record_video">Record video</string>
+
+    <plurals name="dialog_content">
+        <item quantity="other">Are you sure you want to delete the chat history with <xl id="other">%s</xl> ?</item>
+    </plurals>
+
+    <string name="dialog_exit_group">You will not receive messages from this group</string>
+    <string name="dialog_clear_group_message">Are you sure you want to delete the chat history with these guys?</string>
+
+    <plurals name="multi_chat_default_title">
+        <item quantity="other">			Multi-party Conversation(<xl id="count">%d</xl>			)</item>
+    </plurals>
+
+    <string name="preview">Preview</string>
+    <string name="draw">涂鸦功能尚未提供，敬请期待！</string>
+    
+    <!-- 以下中文是由于英文和中文都没确定，先用中文,以后知道如何修改 -->
+    <string name="image_format_incorrect">File format is not supported</string>
+    <string name="image_not_exist">Local file is not exist</string>
+    <string name="download_failed">Download failed</string>
+    <!-- 聊天页面消息长按后显示的菜单项 -->
+    <string name="im_msg_menu_copy">Copy</string>
+    <string name="im_msg_menu_transfer">Forward</string>
+    <string name="im_msg_menu_share">Share</string>
+    <string name="im_msg_menu_delete">Delete</string>
+    <string name="im_msg_menu_resend">Resend</string>
+    <!-- 分组 -->
+    <string name="sure_delete_section">Sure to delete this group?</string>
+    <string name="delete_section_success">Group delelted success</string>
+    <string name="delete_section_failure">Abnormal network,group deleted failure</string>
+    <string name="delete_section_service_error">Abnormal Server,group deleted failure</string>
+    <string name="add_section_failure">Abnormal network,group adding failure</string>
+    <string name="add_section_success">Group addding success</string>
+    <string name="add_section_service_error">Abnormal server,group adding failure</string>
+    <string name="update_section_name_success">Group re-name success</string>
+    <string name="update_section_name_failure">Abnormal network, group re-name failure</string>
+    <string name="update_section_name_service_error">Abnormal server, group re-name failure</string>
+    <string name="add_to_section_success">Add contacts to group success</string>
+    <string name="add_to_section_failure">Add contacts to group failure</string>
+    <string name="remove_contact_from_section_success">Remove contacts from group success</string>
+    <string name="remove_contact_from_section_failure">Remove contacts from group failure</string>
+    <string name="section_number">Groups cannot exceed 100</string>
+    <string name="hint_section_name">Group name</string>
+    <string name="section_name_not_be_empty">Group name cannot be empty</string>
+    <string name="section_empty">Please select new member</string>
+
+    <!-- 群相关 -->
+    <string name="group_title">Group</string>
+    <string name="chat_ba_title">Chat Bar</string>
+    <string name="search_group_title">Search</string>
+    <string name="search_hint">Group ID/Keyword</string>
+    <string name="group_popular_title">Hot</string>
+
+    <string-array name="group_catagroy_title">
+        <item>Shopping</item>
+        <item>Fan Club</item>
+        <item>Movie&amp;Music</item>
+        <item>Game</item>
+        <item>House</item>
+        <item>Car</item>
+        <item>Travel</item>
+        <item>Life</item>
+        <item>Sports</item>
+        <item>Business&amp;Finance</item>
+        <item>Comics</item>
+        <item>Training&amp;Exam</item>
+        <item>Original Space</item>
+        <item>Technology Alliance</item>
+        <item>Book Club</item>
+        <item>Clansmen Association</item>
+        <item>Local Association</item>
+        <item>Alumni Record</item>
+        <item>Business Directory</item>
+        <item>Others</item>
+    </string-array>
+
+    <string name="group_owner_title">Group I Created</string>
+    <string name="group_member_title">Group I Joined</string>
+    <string name="group_no_tips">You have not created or joined any groups.</string>
+    <string name="chat_bar_owner_title">Created Chat Bar</string>
+    <string name="chat_bar_member_title">Participant Chat Bar</string>
+    <string name="group_create">Create</string>
+    <string name="group_creating">Creating the group...</string>
+    <string name="group_name_null">The group name can not be empty</string>
+    <string name="group_over_max">Created group reached the maximum</string>
+    <string name="group_create_success">The group is created.</string>
+    <string name="group_create_failed">Failed to create the group.</string>
+    <string name="group_name_must">Group Name (Mandatory)：</string>
+    <string name="group_name_hint">Enter the group name</string>
+    <string name="group_validate">Identity Verification:</string>
+    <string name="chatbar_name_no_empty">Name of chat bar can not be empty</string>
+    <string name="group_name_cannot_be_empty">Enter the group name.</string>
+
+    <string-array name="group_validate_title">
+        <item>Require identity verification to join</item>
+        <item>Allow everybody to join</item>
+    </string-array>
+    <string-array name="group_message_receive_title">
+        <item>Receive group messages</item>
+        <item>Do not receive group messages</item>
+    </string-array>
+
+    <string name="group_close">Close and Dismiss the Group</string>
+    <string name="group_close_info">Are you sure you want to close and dismiss the group?</string>
+    <string name="group_create_fail_bynet">Failure to create group, check your network</string>
+    <string name="group_detail">Details</string>
+    <string name="group_name">Name:</string>
+    <string name="group_id">Group ID:</string>
+    <string name="group_type">Group Type:</string>
+    <string name="group_select_type">Select Group Type</string>
+    <string name="group_validate_dialog">Identity Verification</string>
+    <string name="group_label">Group Label:</string>
+    <string name="group_label_dialog">Group Label</string>
+    <string name="group_label_hint">Enter group labels and use commas (,) to separate them</string>
+    <string name="group_type_tv">Group Type</string>
+    <string name="group_label_tv">Group Label</string>
+    <string name="group_owner_tv">Creator</string>
+    <string name="group_validate_tv">Identity Verification</string>
+    <string name="group_card_tv">Nickname</string>
+    <string name="group_introduction_tv">Group Description</string>
+    <string name="group_introduction">Group Description:</string>
+    <string name="group_introduction_hint">Enter information about the group</string>
+    <string name="modify_group_card">Change Nickname</string>
+    <string name="apply_join_group">Apply for joining</string>
+    <string name="group_join_default_reason">I want to join the group.</string>
+    <string name="group_send_join_reason">The verification information has been sent. Wait
+		for approval from the group owner.</string>
+    <string name="group_joined">The request is successfully sent.</string>
+    <string name="group_joined_failed">Failed to join the group.</string>
+    <string name="verify_info">Verification information:</string>
+    <string name="add_group_member">Add Member</string>
+    <string name="add_group_member_fail_net">Add a group member fails, check the network</string>
+    <string name="delete_group_member">Del Member</string>
+    <string name="delete_group_member_fail_net">Failure to delete a group member,check the network</string>
+    <string name="view_group_member">Group Members</string>
+    <string name="view_member">View Member</string>
+    <string name="join_group">Join</string>
+    <string name="edit_group_title">Introduction</string>
+    <string name="view_group_detail">Group Details</string>
+    <string name="charbar_default_name"> Chat bar name:</string>
+    <string name="group_message">Receive group messages</string>
+    <string name="group_message_accept">Receive group messages</string>
+    <string name="group_message_accept_not_prompt">Receive but do not display group messages</string>
+    <string name="group_message_refuse">Do not receive group messages</string>
+    <string name="group_invite_reason">Come on. Join our group.</string>
+    <string name="group_remove_reason">You are too silent.</string>
+    <string name="group_msg_quit">\u0020quit the group</string>
+    <string name="group_msg_add">\u0020joined the group</string>
+    <string name="group_msg_invite">\u0020invited\u0020</string>
+    <string name="group_msg_invite_">\u0020invited\u0020</string>
+    <string name="group_invite_accept">I agree to join the group.</string>
+    <string name="group_invite_refuse">I reject to join in the group.</string>
+    <string name="group_exit_title">Leave Group</string>
+    <string name="group_exit_info">You will not receive messages from the group</string>
+    <string name="group_kicked">You have been removed from the group</string>
+    <string name="group_destroyed_liaoba">Chat bar %s was dissolved by bar owner</string>
+    <string name="group_join_conversation">Start Group Conversation</string>
+    <string name="create_chatbar_fail_bynet">Fail to create a chat bar,Check the network.</string>
+    <string name="add_member_fail_bynet">Fail to add a member,Check the network.</string>
+    <string name="delete_member_fail_bynet">Fail to delete the member.Check the network.</string>
+    <string name="one_char_input">You can also enter a keyboard value.</string>
+    <string name="quit_chatbar_fail_bynet">Fail to exit the chat bar.Check the network.</string>
+    <string name="close_chatbar_fail_bynet">Fail to close the chat bar.Check the network.</string>
+    <string name="no_allow_input">Length of chat bar name has reached the limit</string>
+    <string name="refresh_success">Refresh succeeded</string>
+    <string name="refresh_failed">Refresh failed</string>
+    <string name="chatbar_inviter_you">You</string>
+    <string name="chatbar_inviter_you_regard">You</string>
+    <string name="chatbar_member_you">you,</string>
+    <string name="group_member_you">you</string>
+    <string name="groupinfo_modify_success">Modification succeeded.</string>
+    <string name="groupinfo_modify_failed">Modification failed.</string>
+    <string name="group_destroy_success">Group delete success</string>
+    <string name="group_destroy_failed">%s delete failure</string>
+    <string name="group_destroyed_success">The group owner has dismissed the group.</string>
+    <string name="group_quit_success">Group withdraw successs</string>
+    <string name="group_quit_failed">%s group withdraw failure</string>
+    <string name="group_quited_succsee">Someone withdrawed the group</string>
+    <string name="membernick_notnull">Group nickname cannot be empty</string>
+    <string name="membernick_notchange">Same group nickname</string>
+    <string name="group_join_success">Added successfully</string>
+    <string name="group_join_failed">Joining in %s success</string>
+    <string name="group_joined_success">Someone joined in the group</string>
+    <string name="destroy_group">Close Group</string>
+    <string name="quit_group">Quit group</string>
+    <string name="refreshing">refreshing</string>
+    <!-- 聊吧 -->
+    <string name="chatbar_name">Chat name:</string>
+    <string name="close_chatbar">Close</string>
+    <string name="close_chatbar_info">Are you sure you want to close the chat bar?</string>
+    <string name="exit_chatbar_info">You will not receive any messages from the chat group</string>
+    <string name="delete_member">Are you sure you want to delete it?</string>
+    <string name="add_chatbar_member">Add Member</string>
+    <string name="create_chatbar">Creating the chat bar…</string>
+    <string name="create_chatbar_failed">Fail to create a chat bar.</string>
+    <string name="chatbar_invite_friend">Inviting the friend…</string>
+    <string name="chatbar_invite_friend_faild">Failed to invite the friend.</string>
+    <string name="exit_chatbar">Leaving the chat bar…</string>
+    <string name="exit_chatbar_faild">Failed to leave the chat bar.</string>
+    <string name="chatbar_close">Delete and Exit</string>
+    <string name="chatbar_exit">Exit</string>
+    <string name="chatbar_owner_title">Owner</string>
+    <string name="chatbar_add_friend">Add Friend</string>
+    <string name="chatbar_add_friend_fail_net">Failed to add friend,check the NetWork</string>
+    <string name="chatbar_title">Chat bar name:</string>
+    <string name="remove_success">Deletion succeeded</string>
+    <string name="remove_failed">Deletion failed</string>
+    <string name="invite_success">The invitation information has been sent.</string>
+    <string name="invite_failed">Invitation failed</string>
+    <string name="chatbar_submit_success">Modification succeeded</string>
+    <string name="chatbar_submit_failed">Modification failed</string>
+    <string name="view_chatbar_member">Chat Information</string>
+    <string name="modify_chatbar_name">Change group name</string>
+    <string name="chatbar_destroy_success">Dissolve group success</string>
+    <string name="chatbar_destroy_failed">Dissolve group failure</string>
+    <string name="chatbar_destroyed_success">Group dissolved</string>
+    <string name="chatbar_tv">Multiparty Chat</string>
+    <string name="change_subject">Change Subject</string>
+    <string name="chatbar_msg_add">\u0020to join the chat</string>
+    <string name="chatbar_msg_add_">\u0020to join the chat</string>
+    <string name="chatbar_msg_quit">\u0020has quit</string>
+    <string name="member_reach_maximum">Reached the maximum</string>
+
+    <!-- 操作网络提示 -->
+    <string name="service_error">Abnormal Server</string>
+    <string name="net_error">Abnormal network</string>
+    <string name="error_failure">Failure</string>
+    <string name="section_add_opera">Add Group</string>
+    <string name="section_delete_opera">Delete Group</string>
+    <string name="add_contact_to_section_opera">Add contacts to the group</string>
+    <string name="get_contactlist_opera">Obtaining the contact list</string>
+    <string name="remove_member_from_section_opera">Remove members</string>
+    <string name="update_section_name_opera">Update group name</string>
+
+    <!-- voip -->
+    <string name="voip_main_tab_number_pad">Keypad</string>
+    <string name="voip_main_tab_communication_log">Call History</string>
+    <string name="voip_choose_call_type">Select a Mode</string>
+    <string name="voip_operat_speaker">Hands-free</string>
+    <string name="voip_operat_mute">Mute</string>
+    <string name="voip_operat_record">Recording</string>
+    <string name="voip_operat_diapad">Keypad</string>
+    <string name="voip_operat_answer">Answer</string>
+    <string name="voip_operat_hang_up">End Call</string>
+    <string name="voip_operat_refuse">Reject</string>
+    <string name="voip_call_state_incall">Incoming call</string>
+    <string name="voip_call_state_calling">Calling…</string>
+    <string name="voip_call_state_talking">Calling</string>
+    <string name="voip_call_state_talk_end">Call ended</string>
+    <string name="voip_call_type_normal">Regular Call</string>
+    <string name="voip_call_type_audio">VoIP Call</string>
+    <string name="voip_call_type_vedio">VOIP video call</string>
+    <string name="voip_call_type_cancel">Cancel</string>
+    <string name="voip_add_to_contact">Add contact</string>
+    <string name="voip_prompt_bind_account">You must create a VoIP account before you can make VoIP calls. </string>
+    <string name="voip_in_call_alerting">Incoming call</string>
+    <string name="voip_input_number_toast">Please enter phone number</string>
+    <string name="voip_vedio_toast">Please wait for the new version</string>
+    <string name="voip_login_toast">Your VOIP account not logged in</string>
+    <string name="voip_create_bind_account">Create</string>
+    <!-- 选择国家码 -->
+    <string name="select_country">Select Country/Region</string>
+    <string name="country_code">244:﻿Angola:﻿Angola,93:Afghanistan:Afghanistan,355:Albania:Albania,213:Algeria:Algeria,376:Andorra:Andorra,1264:Anguilla:Anguilla,1268:Antigua and Barbuda:Antigua and Barbuda,54:Argentina:Argentina,374:Armenia:Armenia,247:Ascension:Ascension,61:Australia:Australia,43:Austria:Austria,994:Azerbaijan:Azerbaijan,1242:Bahamas:Bahamas,973:Bahrain:Bahrain,880:Bangladesh:Bangladesh,1246:Barbados:Barbados,375:Belarus:Belarus,32:Belgium:Belgium,501:Belize:Belize,229:Benin:Benin,1441:BermudaIs.:BermudaIs.,591:Bolivia:Bolivia,267:Botswana:Botswana,55:Brazil:Brazil,673:Brunei:Brunei,359:Bulgaria:Bulgaria,226:Burkina-faso:Burkina-faso,95:Burma:Burma,257:Burundi:Burundi,237:Cameroon:Cameroon,1:Canada:Canada,1345:Cayman Is.:Cayman Is.,236:Central African Republic:Central African Republic,235:Chad:Chad,56:Chile:Chile,86:China:China,57:Colombia:Colombia,242:Congo:Congo,682:Cook Is.:Cook Is.,506:Costa Rica:Costa Rica,53:Cuba:Cuba,357:Cyprus:Cyprus,420:Czech Republic:Czech Republic,45:Denmark:Denmark,253:Djibouti:Djibouti,1890:Dominica Rep.:Dominica Rep.,593:Ecuador:Ecuador,20:Egypt:Egypt,503:EISalvador:EISalvador,372:Estonia:Estonia,251:Ethiopia:Ethiopia,679:Fiji:Fiji,358:Finland:Finland,33:France:France,594:French Guiana:French Guiana,241:Gabon:Gabon,220:Gambia:Gambia,995:Georgia:Georgia,49:Germany:Germany,233:Ghana:Ghana,350:Gibraltar:Gibraltar,30:Greece:Greece,1809:Grenada:Grenada,1671:Guam:Guam,502:Guatemala:Guatemala,224:Guinea:Guinea,592:Guyana:Guyana,509:Haiti:Haiti,504:Honduras:Honduras,852:Hongkong:Hongkong,36:Hungary:Hungary,354:Iceland:Iceland,91:India:India,62:Indonesia:Indonesia,98:Iran:Iran,964:Iraq:Iraq,353:Ireland:Ireland,972:Israel:Israel,39:Italy:Italy,225:IvoryCoast:IvoryCoast,1876:Jamaica:Jamaica,81:Japan:Japan,962:Jordan:Jordan,855:Kampuchea (Cambodia ):Kampuchea (Cambodia ),327:Kazakstan:Kazakstan,254:Kenya:Kenya,82:Korea:Korea,965:Kuwait:Kuwait,331:Kyrgyzstan:Kyrgyzstan,856:Laos:Laos,371:Latvia:Latvia,961:Lebanon:Lebanon,266:Lesotho:Lesotho,231:Liberia:Liberia,218:Libya:Libya,423:Liechtenstein:Liechtenstein,370:Lithuania:Lithuania,352:Luxembourg:Luxembourg,853:Macao:Macao,261:Madagascar:Madagascar,265:Malawi:Malawi,60:Malaysia:Malaysia,960:Maldives:Maldives,223:Mali:Mali,356:Malta:Malta,1670:Mariana Is:Mariana Is,596:Martinique:Martinique,230:Mauritius:Mauritius,52:Mexico:Mexico,373:Moldova Republic of:Moldova Republic of,377:Monaco:Monaco,976:Mongolia:Mongolia,1664:Montserrat Is:Montserrat Is,212:Morocco:Morocco,258:Mozambique:Mozambique,264:Namibia:Namibia,674:Nauru:Nauru,977:Nepal:Nepal,599:Netheriands Antilles:Netheriands Antilles,31:Netherlands:Netherlands,64:NewZealand:NewZealand,505:Nicaragua:Nicaragua,227:Niger:Niger,234:Nigeria:Nigeria,850:North Korea:North Korea,47:Norway:Norway,968:Oman:Oman,92:Pakistan:Pakistan,507:Panama:Panama,675:Papua New Cuinea:Papua New Cuinea,595:Paraguay:Paraguay,51:Peru:Peru,63:Philippines:Philippines,48:Poland:Poland,689:French Polynesia:French Polynesia,351:Portugal:Portugal,1787:PuertoRico:PuertoRico,974:Qatar:Qatar,262:Reunion:Reunion,40:Romania:Romania,7:Russia:Russia,1758:Saint Lueia:Saint Lueia,1784:Saint Vincent:Saint Vincent,684:Samoa Eastern:Samoa Eastern,685:Samoa Western:Samoa Western,378:San Marino:San Marino,239:Sao Tome and Principe:Sao Tome and Principe,966:Saudi Arabia:Saudi Arabia,221:Senegal:Senegal,248:Seychelles:Seychelles,232:Sierra Leone:Sierra Leone,65:Singapore:Singapore,421:Slovakia:Slovakia,386:Slovenia:Slovenia,677:Solomon Is:Solomon Is,252:Somali:Somali,27:South Africa:South Africa,34:Spain:Spain,94:Sri Lanka:Sri Lanka,1758:St.Lucia:St.Lucia,1784:St.Vincent:St.Vincent,249:Sudan:Sudan,597:Suriname:Suriname,268:Swaziland:Swaziland,46:Sweden:Sweden,41:Switzerland:Switzerland,963:Syria:Syria,886:Taiwan:Taiwan,992:Tajikstan:Tajikstan,255:Tanzania:Tanzania,66:Thailand:Thailand,228:Togo:Togo,676:Tonga:Tonga,1809:Trinidad and Tobago:Trinidad and Tobago,216:Tunisia:Tunisia,90:Turkey:Turkey,993:Turkmenistan:Turkmenistan,256:Uganda:Uganda,380:Ukraine:Ukraine,971:United Arab Emirates:United Arab Emirates,44:United Kiongdom:United Kiongdom,1:United States of America:United States of America,598:Uruguay:Uruguay,233:Uzbekistan:Uzbekistan,58:Venezuela:Venezuela,84:Vietnam:Vietnam,967:Yemen:Yemen,381:Yugoslavia:Yugoslavia,27:South Africa:South Africa,263:Zimbabwe:Zimbabwe,243:Zaire:Zaire,260:Zambia:Zambia,</string>
+    <string name="country_normal_code">+86</string>
+    <string name="country_normal_name">China(+86)</string>
+    <!-- 录音 -->
+    <string name="record_ready">Ready for recording</string>
+    <string name="record_begin">Start recording</string>
+    <string name="record_stop">Stop recording</string>
+    <string name="record_error">Recording error</string>
+    <string name="sdcasd_no_size"> sd card does not exist or storage space deficiency</string>
+    <string name="move_here_cancel">moved to here cancelled</string>
+    <string name="cancel_send"> cancel send</string>
+    <string name="click_here_cancel">Click here to cancel</string>
+    <string name="short_record">The recording time is too short</string>
+    <!-- 定位查找好友 -->
+    <string name="find_by_location">Search for Nearby Users</string>
+    <string name="find_by_location_tips">The system will obtain your location information when you use this function. Your location information will be retained for a period of time, or you can manually delete it.</string>
+    <string name="find_by_location_tips_not">Do not show this again</string>
+    <string name="find_by_location_title">Nearby Users</string>
+    <string name="find_by_location_remove">Remove</string>
+    <string name="find_by_location_remove_tips">Others cannot find you after you delete your location information.</string>
+    <string name="find_by_location_remove_success">Location information has been deleted.</string>
+    <string name="find_by_location_remove_failed">Failure to clear position</string>
+    <string name="find_by_location_friend_status">(Friends)</string>
+    <string name="find_by_location_m_in">Within %dm</string>
+    <string name="find_by_location_km_in">Within %dkm</string>
+    <string name="find_by_location_km_out">%dkm away</string>
+    <string name="find_by_location_no_result">No user is nearby.Retry later.</string>
+    <string name="find_by_location_failer">Failed to obtain your location information. Retry later.</string>
+    <string name="determining_location_information">Searching for nearby users…</string>
+    <string name="location_tips_txt">You can search for users around you, and they can also have your location information, which you can delete anytime.</string>
+    <string name="check_btn">Search</string>
+    <string name="find_by_location_remove_confirm">Delete and Exit</string>
+    <string name="remove_error1">Unknown error</string>
+    <string name="remove_error2">Parameter error</string>
+    <string name="remove_error3">No user in database</string>
+    <string name="request_error">Request failed,check the NetWork</string>
+
+    <!-- 插件界面 -->
+    <string name="plugins">Plug-ins</string>
+    <string name="buildin_plugin">Built Plug-ins</string>
+    <string name="external_plugin">External Plug-ins</string>
+    <string name="plugin_management">Plug-ins Management</string>
+    <string name="show_on_contacts_list">Show On Contacts List</string>
+    <string name="view_message">View Messages</string>
+
+    <!-- 视频录制界面 -->
+    <string name="compress_progress">Compressing... (%3d%%)</string>
+    <string name="compress">Compress</string>
+    <string name="compress_to">Compressed to %.1fKB</string>
+    <string name="video_size">%.1f K</string>
+    <string name="video_camera_open_failed">The camera cannot start.</string>
+    <string name="no_sdcard_tips">Recording failed. Check the device.</string>
+    <string name="video_start_record_failed">Compression failed. Record again.</string>
+    <string name="video_compress_failed">Compression failure, please re-recording</string>
+    <string name="video_record_stop">Stop</string>
+    <string name="video_recordstatus_recording">REC</string>
+    <string name="video_recordstatus_prepared">Recording prepared</string>
+    <string name="video_re_record_btn">Re-record</string>
+    <string name="video_start_record_btn">Start</string>
+    <string name="video_save_success_toast">Saved to %s</string>
+    <string name="video_save_make_path_failed">Failed to create the folder. Check the memory card.</string>
+    <string name="video_record_no_diskspace_stop">No more space. Recording stopped. </string>
+    <string name="video_record">Record Video</string>
+    <string name="video_preview">Preview</string>
+
+    <plurals name="video_record_remian">
+        <item quantity="one">You can record %d more second.</item>
+        <item quantity="other">You can record %d more seconds.</item>
+    </plurals>
+
+    <string name="video_will_lost_record">The video will be lost.</string>
+    <string name="video_will_lost">The video will be lost.</string>
+    <string name="preview_image">Preview</string>
+    <string name="preview_title">From\u0020</string>
+    <string name="cut_image">Cut Photo</string>
+    <string name="saved_path">Saved to SDcard</string>
+    <!-- 以下中文是由于英文和中文都没确定，先用中文,以后知道如何修改 -->
+    <string name="image_is_bigger">上传图片>1MB</string>
+    <!-- 通知栏 -->
+    <string name="notify_voip_connectcontent">Talking to %s...</string>
+    <string name="notify_voip_hitalkcharactor">Hitalk</string>
+    <string name="notify_download_downloadcontent">Downloading %s......</string>
+    <string name="notify_dwonload_tikertext">Downloading......</string>
+    <string name="notify_im_title_single_onemsg">%s sends a message to you.</string>
+    <string name="notify_im_ticker_text">%s sends a message to you.</string>
+    <string name="notify_im_ticker_audio">%s sends a voice to you.</string>
+    <string name="notify_im_ticker_img">%s sends a picture to you.</string>
+    <string name="notify_im_ticker_vido">%s sends a video to you.</string>
+    <string name="notify_im_multimsg">%s messages</string>
+    <string name="notify_im_title_multi">From %s friends</string>
+    <string name="notify_friendmanager_title">%1$s unread messages</string>
+    <string name="secret">Secret</string>
+    <string name="get_maybe_known_friend_error">Get Maybe Friend Failed</string>
+    <!-- 小秘书固定会话信息 -->
+    <string name="hitalk_person_info">&#60;font
+		color= \&#34;#006400\&#34;&#62;provide sufficient personnal information for your friend to find you easily!&#60;/font&#62;</string>
+    <string name="hitalk_person_group">&#60;font
+		color= \&#34;#006400\&#34;&#62;how to join a group&#60;/font&#62;</string>
+    <string name="plugin_name_1001">Friend Finder</string>
+    <string name="plugin_name_1002">HiTalk Secretary</string>
+    <string name="plugin_desc_1002">Hi,I\'m the Customer Service Of HiTalk</string>
+    <string name="plugin_desc_1001">I will manager and list all your certificate information and request conditions.</string>
+    <string name="plugin_method_name_isrecommend">Recommend from Contacts</string>
+    <string name="record_time">You can also recorded
+		%d s</string>
+    <string name="send_cancel">Cancel send</string>
+    <string name="click_cancel">Click here to send cancel</string>
+    <string name="please_input_signature">Please Input Signature!</string>
+
+    <!-- 发送我的位置 -->
+    <string name="send_my_position">Send my position</string>
+    <string name="open_location_tips">Open the GPS positioning services?</string>
+    <string name="can_not_determine_location_info">Positioning failure, unable to get your position
+		information, please to obtain
+		.</string>
+    <string name="get_location_information">Working to determine the location information</string>
+    <string name="postion_info">Location information</string>
+
+    <!-- 地图相关 -->
+    <string name="map_default_address">位置信息</string>
+    <string name="map_get_location_failed">定位失败</string>
+    <string name="map_send_address">发送此定位信息</string>
+    <string name="map_getting_address">正在加载位置信息...</string>
+    <string name="map_search_failed">暂无搜索结果</string>
+
+</resources>

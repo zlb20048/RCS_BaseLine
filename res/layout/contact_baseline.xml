@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:background="@drawable/white_bg" android:layout_height="fill_parent">
+
+	<include layout="@layout/title_bar" />
+
+	<ScrollView android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:scrollbars="none"
+		android:layout_marginLeft="20dip" android:layout_marginRight="16dip">
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+
+			<include layout="@layout/component_detail_head" />
+
+			<!--开始会话 -->
+			<LinearLayout android:layout_width="fill_parent"
+				android:id="@+id/friend_talk_layout" android:layout_height="45dip"
+				android:layout_marginTop="15dip" android:orientation="horizontal"
+				android:gravity="center" android:clickable="true"
+				android:background="@drawable/btn_green">
+				<TextView android:id="@+id/add_text" android:layout_height="wrap_content"
+					android:layout_width="wrap_content" android:text="@string/conversation"
+					android:layout_marginLeft="7dip" style="@style/button_title_text" />
+			</LinearLayout>
+
+			<!-- 同意拒绝添加好友 -->
+			<include android:id="@+id/friend_manage_button_group"
+				layout="@layout/component_friendmanage_button_list" />
+
+			<!-- 好友操作按钮 -->
+			<include android:id="@+id/friend_button_group" layout="@layout/component_friend_button_list" />
+
+			<!-- 陌生人操作按钮 -->
+			<include android:id="@+id/not_friend_button_group"
+				layout="@layout/component_not_friend_button_list" />
+
+			<!-- 验证信息 -->
+			<LinearLayout android:orientation="horizontal"
+				android:id="@+id/friend_self_reason_layout"
+				android:layout_marginTop="20dip" android:minHeight="45dip"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:background="@drawable/commonusewhite" android:gravity="center_vertical"
+				android:visibility="gone">
+
+				<TextView android:layout_width="wrap_content"
+					android:text="@string/friendmanager_auth_info"
+					android:layout_height="wrap_content" style="@style/friend_detail_title_text"
+					android:gravity="left" android:textColor="#959595"
+					android:layout_marginLeft="10dip" />
+
+				<TextView android:id="@+id/friend_self_reason"
+					android:layout_height="wrap_content" android:layout_width="wrap_content"
+					android:layout_marginLeft="10dip" style="@style/friend_detail_content_text"
+					android:textColor="#959595" android:text="123" />
+			</LinearLayout>
+
+			<!-- 个人签名 -->
+			<LinearLayout android:orientation="horizontal"
+				android:id="@+id/friend_self_signature_layout"
+				android:layout_marginTop="20dip" android:minHeight="45dip"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:background="@drawable/commonusewhite" android:gravity="center_vertical"
+				android:visibility="gone">
+
+				<TextView android:id="@+id/friend_self_signature"
+					android:layout_height="wrap_content" style="@style/friend_detail_title_text"
+					android:layout_width="wrap_content" android:layout_marginLeft="10dip" />
+			</LinearLayout>
+
+			<!-- 手机 邮箱 -->
+			<LinearLayout android:orientation="vertical"
+				android:id="@+id/phone_email_layout" android:layout_marginTop="15dip"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:background="@drawable/commonusewhite" android:visibility="visible">
+				<LinearLayout android:layout_width="fill_parent"
+					android:layout_height="wrap_content" android:minHeight="45dip"
+					android:orientation="horizontal" android:gravity="center_vertical"
+					android:id="@+id/phone_line">
+
+					<TextView android:layout_width="wrap_content"
+						android:text="@string/phone_hitalk" android:layout_height="wrap_content"
+						style="@style/friend_detail_title_text" android:gravity="left"
+						android:singleLine="true" android:layout_marginLeft="10dip"
+						android:layout_marginRight="10dip" />
+					<TextView android:id="@+id/phone_number"
+						android:layout_height="wrap_content" android:layout_width="wrap_content"
+						android:layout_weight="1" android:gravity="right"
+						android:layout_marginRight="10dip" android:singleLine="true"
+						style="@style/friend_detail_content_text" />
+					<ImageView android:layout_width="wrap_content"
+						android:gravity="right" android:layout_height="wrap_content"
+						android:src="@drawable/icon_tel" android:layout_marginRight="10dip"
+						android:id="@+id/friend_phone_call" />
+
+				</LinearLayout>
+
+				<ImageView android:layout_width="fill_parent"
+					android:id="@+id/phone_number_divider" android:layout_height="1px"
+					android:background="@drawable/divider" />
+
+				<LinearLayout android:id="@+id/email_line"
+					android:layout_width="fill_parent" android:layout_height="45dip"
+					android:orientation="horizontal" android:gravity="center_vertical">
+
+					<TextView android:layout_width="wrap_content"
+						android:text="@string/email_hitalk" android:layout_height="wrap_content"
+						style="@style/friend_detail_title_text" android:gravity="left"
+						android:layout_marginLeft="10dip" android:singleLine="true" />
+					<TextView android:id="@+id/email_add"
+						android:layout_height="wrap_content" android:layout_width="wrap_content"
+						android:layout_marginRight="10dip" android:layout_weight="1"
+						android:gravity="right" android:singleLine="true"
+						style="@style/friend_detail_content_text" />
+					<ImageView android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:src="@drawable/icon_message"
+						android:layout_marginRight="10dip" />
+				</LinearLayout>
+			</LinearLayout>
+
+			<LinearLayout android:orientation="vertical" android:id="@+id/content_view"
+				android:layout_marginTop="15dip" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:background="@drawable/commonusewhite"
+				android:visibility="gone">
+			</LinearLayout>
+
+			<!-- 备注手机 邮箱 -->
+			<LinearLayout android:orientation="vertical" android:id="@+id/memo_layout"
+				android:layout_marginTop="15dip" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:background="@drawable/commonusewhite"
+				android:visibility="gone">
+				<LinearLayout android:layout_width="fill_parent"
+					android:layout_height="45dip" android:orientation="horizontal"
+					android:gravity="center_vertical" android:id="@+id/friend_memophone_layout">
+					<TextView android:layout_width="72dip" android:text="@string/friend_memophone"
+						android:layout_height="wrap_content" style="@style/friend_detail_title_text"
+						android:gravity="right" />
+					<TextView android:id="@+id/friend_memophone"
+						android:layout_height="wrap_content" android:layout_width="wrap_content"
+						android:layout_marginLeft="10dip" android:layout_weight="1"
+						android:singleLine="true" style="@style/friend_detail_content_text" />
+					<ImageView android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:src="@drawable/icon_tel"
+						android:layout_marginRight="22dip" android:id="@+id/friendmemo_phone_call" />
+
+					<ImageView android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:src="@drawable/iconsms"
+						android:layout_marginRight="10dip" android:id="@+id/friendmemo_phone_sms" />
+				</LinearLayout>
+				<ImageView android:layout_width="fill_parent"
+					android:id="@+id/memo_phone_number_divider" android:layout_height="1px"
+					android:background="@drawable/divider" />
+				<LinearLayout android:id="@+id/friend_memoemail_layout"
+					android:layout_width="fill_parent" android:layout_height="45dip"
+					android:orientation="horizontal" android:gravity="center_vertical">
+					<TextView android:layout_width="72dip" android:text="@string/friend_memoemail"
+						android:layout_height="wrap_content" style="@style/friend_detail_title_text"
+						android:gravity="right" />
+					<TextView android:id="@+id/friend_memoemail"
+						android:layout_height="wrap_content" android:layout_width="wrap_content"
+						android:layout_marginLeft="10dip" android:layout_weight="1"
+						android:singleLine="true" style="@style/friend_detail_content_text" />
+					<ImageView android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:src="@drawable/icon_massage"
+						android:layout_marginRight="8dip" />
+				</LinearLayout>
+			</LinearLayout>
+
+			<!-- 地区 -->
+			<LinearLayout android:orientation="vertical"
+				android:layout_marginTop="15dip" android:layout_marginBottom="15dip"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:background="@drawable/commonusewhite">
+
+				<LinearLayout android:layout_width="fill_parent"
+					android:orientation="horizontal" android:layout_height="45dip"
+					android:gravity="center_vertical">
+					<TextView android:layout_width="wrap_content"
+						android:text="@string/country" android:layout_height="wrap_content"
+						style="@style/friend_detail_title_text" android:singleLine="true"
+						android:layout_marginLeft="10dip" android:gravity="left" />
+					<TextView android:id="@+id/country" android:layout_height="wrap_content"
+						android:layout_width="wrap_content" android:layout_marginRight="10dip"
+						android:gravity="right" android:layout_weight="1"
+						android:singleLine="true" style="@style/friend_detail_content_text" />
+				</LinearLayout>
+				<ImageView android:layout_width="fill_parent"
+					android:layout_height="1px" android:background="@drawable/divider" />
+				<!-- 公司 -->
+				<LinearLayout android:layout_width="fill_parent"
+					android:orientation="horizontal" android:layout_height="45dip"
+					android:gravity="center_vertical">
+					<TextView android:layout_width="wrap_content"
+						android:text="@string/company" android:layout_height="wrap_content"
+						style="@style/friend_detail_title_text" android:singleLine="true"
+						android:layout_marginLeft="10dip" android:gravity="left" />
+					<TextView android:id="@+id/company" android:layout_height="wrap_content"
+						android:layout_width="wrap_content" android:layout_marginRight="10dip"
+						android:gravity="right" android:layout_weight="1"
+						android:singleLine="true" style="@style/friend_detail_content_text" />
+				</LinearLayout>
+				<ImageView android:layout_width="fill_parent"
+					android:layout_height="1px" android:background="@drawable/divider" />
+				<!-- 学校 -->
+				<LinearLayout android:layout_width="fill_parent"
+					android:orientation="horizontal" android:layout_height="45dip"
+					android:gravity="center_vertical">
+					<TextView android:layout_width="wrap_content"
+						android:text="@string/school" android:layout_height="wrap_content"
+						style="@style/friend_detail_title_text" android:singleLine="true"
+						android:layout_marginLeft="10dip" android:gravity="left" />
+					<TextView android:id="@+id/school" android:layout_height="wrap_content"
+						android:layout_width="wrap_content" android:layout_marginRight="10dip"
+						android:gravity="right" android:layout_weight="1"
+						android:singleLine="true" style="@style/friend_detail_content_text" />
+				</LinearLayout>
+			</LinearLayout>
+
+		</LinearLayout>
+
+	</ScrollView>
+</LinearLayout>

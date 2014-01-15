@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/chatbar_member_group"
+            android:layout_width="78dip"
+            android:layout_height="68dip" >
+
+            <ImageView
+                android:id="@+id/member_head"
+                android:layout_width="58dip"
+                android:layout_height="58dip"
+                android:layout_marginLeft="10dip"
+                android:layout_marginTop="10dip"
+                android:src="@drawable/default_contact_icon" />
+
+            <ImageView
+                android:id="@+id/member_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="0dip"
+                android:layout_marginTop="3dip"
+                android:background="@drawable/chatbar_delete_bg" />
+
+            <!--
+                 <TextView
+                android:id="@+id/member_owner"
+                style="@style/conversation_unread_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/member_head"
+                android:layout_alignRight="@+id/member_head"
+                android:background="@drawable/chatbar_owner_bg"
+                android:gravity="center_horizontal|bottom"
+                android:paddingBottom="3dip"
+                android:text="@string/chatbar_owner_title" />
+            -->
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/chatbar_add_member"
+            android:layout_width="72dip"
+            android:layout_height="78dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginBottom="15.0dip" >
+
+            <LinearLayout
+                android:layout_width="58dip"
+                android:layout_height="58dip"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/dot_avatar" />
+                <!--
+     				<TextView style="@style/chat_bar_add_friend"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:text="@string/chatbar_add_friend" />
+                -->
+            </LinearLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/member_name"
+            style="@style/chat_bar_add_friend"
+            android:layout_width="68dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5.0dip"
+            android:layout_marginBottom="5.0dip"
+            android:layout_marginLeft="5.0dip"
+            android:gravity="center"
+            android:singleLine="true" >
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>

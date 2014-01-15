@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/communication_log_list_item"
+    android:layout_width="fill_parent"
+    android:layout_height="66dip"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+   <!--  显示头像-->
+    <ImageView
+        android:id="@+id/holder_FaceImageView"
+        android:layout_width="46.0dip"
+        android:layout_height="46.0dip"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginRight="10.0dip"
+        android:layout_marginTop="10.0dip"
+        android:background="@drawable/voip_photo_frame"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerInside" />
+   <!--  显示通话类型图标-->
+    <ImageView
+        android:id="@+id/holder_call_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dip"
+        android:layout_marginTop="10dip"
+        android:layout_toRightOf="@id/holder_FaceImageView"
+        android:contentDescription="@string/app_name"
+        android:paddingTop="10dip"
+        android:src="@drawable/voip_commlog_icon_call_in_miss" />
+   <!--  显示姓名和电话-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="8dip"
+        android:layout_toRightOf="@id/holder_call_status"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingBottom="7dip"
+        android:paddingTop="7dip" >
+
+        <TextView
+            android:id="@+id/holder_CallNameView"
+            style="@style/listitem_text_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dip"
+            android:textColor="#000000"
+              android:text="1111111"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/holder_PhoneCode"
+            style="@style/listitem_text_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+             android:textColor="#707070"
+            android:textSize="13dip"
+            android:text="1111111" />
+    </LinearLayout>
+   <!--  显示箭头-->
+    <ImageView
+        android:id="@+id/holder_ArrayImage"
+        android:layout_width="36dip"
+        android:layout_height="46dip"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="0dip"
+        android:contentDescription="@string/app_name"
+        android:paddingLeft="5dip"
+        android:paddingRight="13dip"
+        android:scaleType="centerInside"
+        android:src="@drawable/pointer" />
+   <!--  显示通话时间-->
+    <TextView
+        android:id="@+id/holder_Time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="0dip"
+        android:layout_toLeftOf="@id/holder_ArrayImage"
+        android:text="1111"
+        android:textSize="13dip"
+        android:gravity="center_vertical"
+        android:textColor="#707070" />
+
+</RelativeLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    
+    android:gravity="center_horizontal" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_horizontal" >
+<!-- 显示拨号盘和通话记录的按钮 -->
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="fill_parent"
+                android:layout_height="43dip"
+                android:gravity="center_horizontal"
+                android:paddingBottom="5dip"
+                android:paddingLeft="70dip"
+                android:paddingRight="70dip"
+                android:paddingTop="5dip"
+               android:background="@drawable/ic_btn_title_background"
+                android:textColor="@color/tab_indicator_text" />
+<!-- 显示未读数目的textview -->
+            <TextView
+                android:id="@+id/tab_comm_unread"
+                style="@style/conversation_unread_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="61dip"
+                android:layout_marginTop="3dip"
+                android:background="@drawable/unread_pop_append"
+                android:gravity="center_horizontal"
+                android:minWidth="20dip"
+                android:paddingTop="1dip"
+                android:visibility="gone" />
+            <!--  显示 99 未读数目的textview -->
+             <TextView
+                android:id="@+id/tab_comm_unread2"
+                style="@style/conversation_unread_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="60dip"
+                android:layout_marginTop="3dip"
+                android:background="@drawable/unread_pop_append"
+                android:gravity="left"
+                android:paddingLeft="5dip"
+                android:text="99"
+                android:minWidth="25dip"
+                android:minHeight="25dip"
+                android:paddingTop="5dip"
+                android:visibility="gone" />
+             <!-- 显示 + 未读数目的textview -->
+             <TextView
+                android:id="@+id/tab_plus"
+                style="@style/conversation_unread_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="58dip"
+                android:layout_marginTop="1dip"
+                android:gravity="center_horizontal"
+                android:minWidth="20dip"
+                android:paddingTop="1dip"
+                android:text="+"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" >
+        </FrameLayout>
+    </LinearLayout>
+
+</TabHost>

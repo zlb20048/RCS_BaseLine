@@ -1,0 +1,10 @@
+打包生成签名的apk方法
+
+右击项目名--> 
+Android Tools --> 
+export signed application package --> 
+所有需要输入密码的地方输入 rcsbaseline
+-->指定生成apk的路径
+
+
+apk生成的key密码 ： rcsbaseline

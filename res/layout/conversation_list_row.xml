@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/child"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_item_bg_xml"
+    android:gravity="center_vertical" >
+
+    <RelativeLayout
+        android:layout_width="70.0dip"
+        android:layout_height="68.0dip" >
+
+        <ImageView
+            android:id="@+id/conversation_head"
+            android:layout_width="47.0dip"
+            android:layout_height="47.0dip"
+            android:layout_marginBottom="10.0dip"
+            android:layout_marginLeft="13.0dip"
+            android:layout_marginRight="10.0dip"
+            android:layout_marginTop="10.0dip"
+            android:src="@drawable/default_contact_icon" />
+
+        <TextView
+            android:id="@+id/conversation_number"
+            style="@style/conversation_unread_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="4.0dip"
+            android:background="@drawable/unread_pop_append"
+            android:gravity="center_horizontal"
+            android:paddingTop="1.0dip" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dip"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingBottom="7dip"
+        android:paddingTop="7dip" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/conversation_name"
+                style="@style/listitem_text_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/conversation_group_number"
+                style="@style/listitem_text_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:singleLine="true" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/conversation_content"
+            style="@style/listitem_text_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/conversation_lastmessage_type"
+            style="@style/listitem_text_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="7dip"
+        android:layout_marginRight="12dip"
+        android:gravity="right"
+        android:orientation="vertical"
+        android:paddingBottom="7dip"
+        android:paddingTop="7dip" >
+
+        <TextView
+            android:id="@+id/conversation_time"
+            style="@style/listitem_text_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/conversation_status"
+            style="@style/listitem_text_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:background="@drawable/all_page_bg" android:layout_height="fill_parent">
+
+	<include android:id="@+id/title_layout" layout="@layout/title_bar" />
+
+	<!-- 备注名 -->
+	<LinearLayout android:id="@+id/friend_memo_name_layout"
+		android:background="@drawable/commonusewhite" android:layout_width="fill_parent"
+		android:layout_height="45dip" android:layout_marginRight="16dip"
+		android:layout_marginLeft="16dip" android:layout_marginTop="15dip"
+		android:orientation="horizontal" android:gravity="center_vertical">
+
+		<TextView android:layout_width="72dip" android:text="@string/friend_memo_name"
+			android:layout_height="wrap_content" style="@style/friend_detail_title_text"
+			android:gravity="right" />
+		<com.huawei.basic.android.im.ui.basic.LimitedEditText
+			android:id="@+id/friend_memo_name" maxCharLength="20"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:background="#00000000" android:layout_marginLeft="10dip"
+			style="@style/friend_detail_content_text"
+			android:layout_centerVertical="true" android:singleLine="true">
+		</com.huawei.basic.android.im.ui.basic.LimitedEditText>
+	</LinearLayout>
+
+
+	<!-- 手机 -->
+	<LinearLayout android:id="@+id/friend_memo_phone_layout"
+		android:background="@drawable/commonusewhite" android:layout_width="fill_parent"
+		android:layout_height="45dip" android:layout_marginRight="16dip"
+		android:layout_marginLeft="16dip" android:layout_marginTop="15dip"
+		android:orientation="horizontal" android:gravity="center_vertical">
+
+		<TextView android:layout_width="72dip" android:text="@string/friend_memo_phone"
+			android:layout_height="wrap_content" style="@style/friend_detail_title_text"
+			android:gravity="right" />
+		<com.huawei.basic.android.im.ui.basic.LimitedEditText
+			android:id="@+id/friend_memo_phone" maxCharLength="11"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:background="#00000000" android:layout_marginLeft="10dip"
+			style="@style/friend_detail_content_text"
+			android:layout_centerVertical="true" android:singleLine="true">
+		</com.huawei.basic.android.im.ui.basic.LimitedEditText>
+	</LinearLayout>
+
+	<!-- 邮件 -->
+	<LinearLayout android:id="@+id/friend_memo_email_layout"
+		android:background="@drawable/commonusewhite" android:layout_width="fill_parent"
+		android:layout_height="45dip" android:layout_marginRight="16dip"
+		android:layout_marginLeft="16dip" android:layout_marginTop="15dip"
+		android:orientation="horizontal" android:gravity="center_vertical">
+
+		<TextView android:layout_width="72dip" android:text="@string/friend_memo_email"
+			android:layout_height="wrap_content" style="@style/friend_detail_title_text"
+			android:gravity="right" />
+		<com.huawei.basic.android.im.ui.basic.LimitedEditText
+			android:id="@+id/friend_memo_email" maxCharLength="50"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:background="#00000000" android:layout_marginLeft="10dip"
+			android:layout_marginRight="10dip" style="@style/friend_detail_content_text"
+			android:layout_centerVertical="true" android:singleLine="true">
+		</com.huawei.basic.android.im.ui.basic.LimitedEditText>
+	</LinearLayout>
+
+</LinearLayout>

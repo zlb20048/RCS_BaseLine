@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:background="@drawable/all_page_bg" android:layout_height="fill_parent">
+
+	<include layout="@layout/title_bar" />
+
+	<ScrollView android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:scrollbars="none"
+		android:layout_marginLeft="16dip" android:layout_marginRight="16dip">
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<!-- 自我描述 -->
+			<LinearLayout android:layout_width="fill_parent"
+				android:orientation="horizontal" android:layout_height="wrap_content"
+				android:minHeight="45dip" android:gravity="center_vertical"
+				android:layout_marginTop="15dip" android:background="@drawable/commonusewhite">
+				<TextView android:layout_width="72dip" android:text="@string/self_description"
+					android:layout_height="wrap_content" style="@style/friend_detail_title_text"
+					android:gravity="right" />
+				<TextView android:id="@+id/self_description"
+					android:layout_height="wrap_content" android:layout_width="wrap_content"
+					android:layout_marginLeft="10dip" style="@style/friend_detail_content_text" />
+				<TextView android:id="@+id/self_description_hint"
+					android:layout_height="wrap_content" android:layout_width="wrap_content"
+					android:layout_marginLeft="10dip" style="@style/signature_hint_text"
+					android:text="@string/signature_hint" android:visibility="gone" />
+			</LinearLayout>
+
+			<LinearLayout android:background="@drawable/commonusewhite"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:layout_marginTop="15dip" android:orientation="vertical">
+
+				<!-- 年龄 -->
+				<LinearLayout android:layout_width="fill_parent"
+					android:orientation="horizontal" android:layout_height="45dip"
+					android:gravity="center_vertical">
+					<TextView android:layout_width="72dip" android:text="@string/age"
+						android:layout_height="wrap_content" style="@style/friend_detail_title_text"
+						android:gravity="right" />
+					<TextView android:id="@+id/age" android:layout_height="wrap_content"
+						android:layout_width="wrap_content" android:layout_marginLeft="10dip"
+						android:layout_weight="1" android:singleLine="true"
+						style="@style/friend_detail_content_text" />
+				</LinearLayout>
+				<ImageView android:layout_width="fill_parent"
+					android:layout_height="1px" android:background="@drawable/divider" />
+
+				<!-- 生日 -->
+				<LinearLayout android:layout_width="fill_parent"
+					android:orientation="horizontal" android:layout_height="45dip"
+					android:gravity="center_vertical">
+					<TextView android:layout_width="72dip" android:text="@string/birthday"
+						android:layout_height="wrap_content" style="@style/friend_detail_title_text"
+						android:gravity="right" />
+					<TextView android:id="@+id/birthday"
+						android:layout_height="wrap_content" android:layout_width="wrap_content"
+						android:layout_marginLeft="10dip" android:layout_weight="1"
+						android:singleLine="true" style="@style/friend_detail_content_text" />
+				</LinearLayout>
+				<ImageView android:layout_width="fill_parent"
+					android:layout_height="1px" android:background="@drawable/divider" />
+
+				<!-- 生肖 -->
+				<LinearLayout android:layout_width="fill_parent"
+					android:orientation="horizontal" android:layout_height="45dip"
+					android:gravity="center_vertical">
+					<TextView android:layout_width="72dip" android:text="@string/animal"
+						android:layout_height="wrap_content" style="@style/friend_detail_title_text"
+						android:gravity="right" />
+					<TextView android:id="@+id/animal" android:layout_height="wrap_content"
+						android:layout_width="wrap_content" android:layout_marginLeft="10dip"
+						android:layout_weight="1" android:singleLine="true"
+						style="@style/friend_detail_content_text" />
+				</LinearLayout>
+				<ImageView android:layout_width="fill_parent"
+					android:layout_height="1px" android:background="@drawable/divider" />
+
+				<!-- 血型 -->
+				<LinearLayout android:layout_width="fill_parent"
+					android:orientation="horizontal" android:layout_height="45dip"
+					android:gravity="center_vertical">
+					<TextView android:layout_width="72dip" android:text="@string/blood"
+						android:layout_height="wrap_content" style="@style/friend_detail_title_text"
+						android:gravity="right" />
+					<TextView android:id="@+id/blood" android:layout_height="wrap_content"
+						android:layout_width="wrap_content" android:layout_marginLeft="10dip"
+						android:layout_weight="1" android:singleLine="true"
+						style="@style/friend_detail_content_text" />
+				</LinearLayout>
+				<ImageView android:layout_width="fill_parent"
+					android:layout_height="1px" android:background="@drawable/divider" />
+
+				<!-- 星座 -->
+				<LinearLayout android:layout_width="fill_parent"
+					android:orientation="horizontal" android:layout_height="45dip"
+					android:gravity="center_vertical">
+					<TextView android:layout_width="72dip" android:text="@string/constellation"
+						android:layout_height="wrap_content" style="@style/friend_detail_title_text"
+						android:gravity="right" />
+					<TextView android:id="@+id/constellation"
+						android:layout_height="wrap_content" android:layout_width="wrap_content"
+						android:layout_marginLeft="10dip" android:layout_weight="1"
+						android:singleLine="true" style="@style/friend_detail_content_text" />
+				</LinearLayout>
+			</LinearLayout>
+
+			<LinearLayout android:background="@drawable/commonusewhite"
+				android:layout_height="wrap_content" android:layout_marginTop="15dip"
+				android:orientation="vertical" android:layout_width="fill_parent">
+
+				<!-- 公司 -->
+				<LinearLayout android:layout_width="fill_parent"
+					android:orientation="horizontal" android:layout_height="45dip"
+					android:gravity="center_vertical">
+					<TextView android:layout_width="72dip" android:text="@string/company"
+						android:layout_height="wrap_content" style="@style/friend_detail_title_text"
+						android:gravity="right" />
+					<TextView android:id="@+id/company" android:layout_height="wrap_content"
+						android:layout_width="wrap_content" android:layout_marginLeft="10dip"
+						android:layout_weight="1" android:singleLine="true"
+						style="@style/friend_detail_content_text" />
+				</LinearLayout>
+				<ImageView android:layout_width="fill_parent"
+					android:layout_height="1px" android:background="@drawable/divider" />
+
+				<!-- 学校 -->
+				<LinearLayout android:layout_width="fill_parent"
+					android:orientation="horizontal" android:layout_height="45dip"
+					android:gravity="center_vertical">
+					<TextView android:layout_width="72dip" android:text="@string/school"
+						android:layout_height="wrap_content" style="@style/friend_detail_title_text"
+						android:gravity="right" />
+					<TextView android:id="@+id/school" android:layout_height="wrap_content"
+						android:layout_width="wrap_content" android:layout_marginLeft="10dip"
+						android:layout_weight="1" android:singleLine="true"
+						style="@style/friend_detail_content_text" />
+				</LinearLayout>
+
+			</LinearLayout>
+			<!-- 爱好 -->
+			<LinearLayout android:layout_width="fill_parent"
+				android:orientation="horizontal" android:layout_height="45dip"
+				android:gravity="center_vertical" android:layout_marginTop="15dip"
+				android:layout_marginBottom="15dip" android:background="@drawable/commonusewhite">
+				<TextView android:layout_width="72dip" android:text="@string/love"
+					android:layout_height="wrap_content" style="@style/friend_detail_title_text"
+					android:gravity="right" />
+				<TextView android:id="@+id/love" android:layout_height="wrap_content"
+					android:layout_width="wrap_content" android:layout_marginLeft="10dip"
+					android:layout_weight="1" android:singleLine="true"
+					style="@style/friend_detail_content_text" />
+			</LinearLayout>
+
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

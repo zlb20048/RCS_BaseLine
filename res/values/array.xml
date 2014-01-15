@@ -1,0 +1,893 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<string-array name="zodiac_item">
+		<item></item>
+		<item>Mouse</item>
+		<item>Ox</item>
+		<item>Tiger</item>
+		<item>Rabbit</item>
+		<item>Dragon</item>
+		<item>Snake</item>
+		<item>Horse</item>
+		<item>Goat</item>
+		<item>Monkey</item>
+		<item>Rooster</item>
+		<item>Dog</item>
+		<item>Pig</item>
+	</string-array>
+	<string-array name="astro_item">
+		<item></item>
+		<item>Aries</item>
+		<item>Taurus</item>
+		<item>Gemini</item>
+		<item>Cancer</item>
+		<item>Leo</item>
+		<item>Virgo</item>
+		<item>Libra</item>
+		<item>Scorpio</item>
+		<item>Sagittarius</item>
+		<item>Capricorn</item>
+		<item>Aquarius</item>
+		<item>Pisces</item>
+	</string-array>
+	<string-array name="blood_array">
+		<item></item>
+		<item>A</item>
+		<item>B</item>
+		<item>AB</item>
+		<item>O</item>
+		<item>Rh</item>
+		<item>MN</item>
+		<item>HLA</item>
+	</string-array>
+	<string-array name="message_province">
+		<item>Beijing</item>
+		<item>Tianjin</item>
+		<item>Shanghai</item>
+		<item>Chongqing</item>
+		<item>Xinjiang</item>
+		<item>Tibet</item>
+		<item>Ningxia</item>
+		<item>Inner Mongolia</item>
+		<item>Guangxi</item>
+		<item>Heilongjiang</item>
+		<item>Jilin</item>
+		<item>Liaoning</item>
+		<item>Hebei</item>
+		<item>Shandong</item>
+		<item>Jiangsu</item>
+		<item>Anhui</item>
+		<item>Fujian</item>
+		<item>Guangdong</item>
+		<item>Hainan</item>
+		<item>Yunnan</item>
+		<item>Guizhou</item>
+		<item>Sichuan</item>
+		<item>Guizhou</item>
+		<item>Hubei</item>
+		<item>Henan</item>
+		<item>Shanxi</item>
+		<item>Shaanxi</item>
+		<item>Gansu</item>
+		<item>Qinghai</item>
+		<item>Jiangxi</item>
+		<item>Taiwan</item>
+		<item>Hong kong</item>
+		<item>Macao</item>
+		<item>Others</item>
+	</string-array>
+	<string-array name="message_beijin">
+		<item>Haidian</item>
+		<item>East</item>
+		<item>West</item>
+		<item>Xuanwu</item>
+		<item>Fengtai</item>
+		<item>Chaoyang</item>
+		<item>Chongwen</item>
+		<item>Daxing</item>
+		<item>Shijingshan</item>
+		<item>Mentougou</item>
+		<item>Fangshan</item>
+		<item>Tongzhou</item>
+		<item>Shunyi</item>
+		<item>Huairou</item>
+		<item>Changping</item>
+		<item>Pinggu</item>
+		<item>Miyun</item>
+		<item>Yanqing</item>
+	</string-array>
+	<string-array name="message_tianjin">
+		<item>Peace</item>
+		<item>west</item>
+		<item>Hebei</item>
+		<item>east</item>
+		<item>Nankai</item>
+		<item>Red Bridge</item>
+		<item>North Star</item>
+		<item>Jinnan</item>
+		<item>Wuqing</item>
+		<item>Tanggu</item>
+		<item>West Green</item>
+		<item>Hangu</item>
+		<item>Dagang</item>
+		<item>Baodi</item>
+		<item>Toray</item>
+		<item>Jixian</item>
+		<item>Jinghai</item>
+		<item>Ninghe</item>
+	</string-array>
+	<string-array name="message_shanghai">
+		<item>Huangpu</item>
+		<item>Luwan</item>
+		<item>Xuhui</item>
+		<item>Changning</item>
+		<item>Jing</item>
+		<item>Po</item>
+		<item>Zhabei</item>
+		<item>Yangpu</item>
+		<item>Hongkou</item>
+		<item>Minhang</item>
+		<item>Baoshan</item>
+		<item>Jiading</item>
+		<item>Pudong new District</item>
+		<item>Jinshan</item>
+		<item>Songjiang</item>
+		<item>Qingpu</item>
+		<item>Nanhui</item>
+		<item>Fengxian</item>
+		<item>Chongming</item>
+	</string-array>
+	<string-array name="message_chongqing">
+		<item>Yuzhong</item>
+		<item>Dadukou</item>
+		<item>Jiangbei</item>
+		<item>Shapingba</item>
+		<item>Jiulongpo</item>
+		<item>South Bank</item>
+		<item>Beibei</item>
+		<item>Pine Valley</item>
+		<item>Shuangqiao</item>
+		<item>Yubei</item>
+		<item>Banan</item>
+		<item>Wanzhou</item>
+		<item>Fuling</item>
+		<item>Qijing</item>
+		<item>longevity</item>
+		<item>Jiangjin</item>
+		<item>Yongchuan</item>
+		<item>Nanchuan</item>
+		<item>Qianjiang</item>
+		<item>Tongnan</item>
+		<item>Tongliang</item>
+		<item>Dazu</item>
+		<item>Rongchang</item>
+		<item>Bishang</item>
+		<item>Dianjiang</item>
+		<item>Wulong</item>
+		<item>Fengdu</item>
+		<item>Chengkou</item>
+		<item>Liangping</item>
+		<item>Kaixian</item>
+		<item>Wuxi</item>
+		<item>Wushan</item>
+		<item>Fengjie</item>
+		<item>Yunyang</item>
+		<item>Zhongxian</item>
+		<item>Shizhu</item>
+		<item>Pengshui</item>
+		<item>Youyang</item>
+		<item>Xiushang</item>
+	</string-array>
+	<string-array name="message_xinjiang">
+		<item>Urumqi</item>
+		<item>Karamay</item>
+		<item>Shihezi</item>
+		<item>Aksu</item>
+		<item>Figrue wooden Shook</item>
+		<item>Wujiaqu</item>
+		<item>Hamilton</item>
+		<item>Turpan</item>
+		<item>Aksu</item>
+		<item>Kashgar</item>
+		<item>Hotan</item>
+		<item>Ili</item>
+		<item>Tacheng</item>
+		<item>Altay</item>
+		<item>Kuitun</item>
+		<item>Bole</item>
+		<item>Changji</item>
+		<item>Fukang</item>
+		<item>Korla</item>
+		<item>Atushi</item>
+		<item>Usu</item>
+	</string-array>
+	<string-array name="message_xizang">
+		<item>Lhasa</item>
+		<item>Qamdo</item>
+		<item>Shannan</item>
+		<item>Shigatse</item>
+		<item>Nagqu</item>
+		<item>Ali</item>
+		<item>Nyingchi</item>
+	</string-array>
+	<string-array name="message_ninxia">
+		<item>Yinchuan</item>
+		<item>Shizuishan</item>
+		<item>Wuzhong</item>
+		<item>Guyan</item>
+		<item>Zhongwei</item>
+	</string-array>
+	<string-array name="message_neimenggu">
+		<item>Hohhot</item>
+		<item>Baotou</item>
+		<item>Wuhai</item>
+		<item>Chifeng</item>
+		<item>Tongliao</item>
+		<item>Erdos</item>
+		<item>Hulunbeier</item>
+		<item>Bayannur</item>
+		<item>Wulanchabu</item>
+	</string-array>
+	<string-array name="message_guangxi">
+		<item>Nanning</item>
+		<item>Liuzhou</item>
+		<item>Guilin</item>
+		<item>Wuzhou</item>
+		<item>Beihai</item>
+		<item>Chongzuo</item>
+		<item>Guests</item>
+		<item>Hezhou</item>
+		<item>Yulin</item>
+		<item>Baise</item>
+		<item>Hechi</item>
+		<item>Qinzhou</item>
+		<item>Fangchenggang</item>
+		<item>Gui</item>
+	</string-array>
+	<string-array name="message_heilongjiang">
+		<item>Harbin</item>
+		<item>Daqing</item>
+		<item>Qiqihar</item>
+		<item>Jiamusi</item>
+		<item>Jixi</item>
+		<item>Hegang</item>
+		<item>Shuangyashuan</item>
+		<item>Mudanjiang</item>
+		<item>Yichun</item>
+		<item>Qitaihe</item>
+		<item>Heihe</item>
+		<item>Suihua</item>
+	</string-array>
+	<string-array name="message_jilin">
+		<item>Changchun</item>
+		<item>Jilin</item>
+		<item>Siping</item>
+		<item>Liaoyuan</item>
+		<item>Tonghua</item>
+		<item>White Mountains</item>
+		<item>Matsubara</item>
+		<item>White City</item>
+	</string-array>
+	<string-array name="message_liaonin">
+		<item>Shenyang</item>
+		<item>Dalian</item>
+		<item>GoldenState</item>
+		<item>Anshan</item>
+		<item>Fushun</item>
+		<item>Benxi</item>
+		<item>Dandong</item>
+		<item>Jinzhou</item>
+		<item>Yingkou</item>
+		<item>Fuxin</item>
+		<item>Liaoyuan</item>
+		<item>Panjin</item>
+		<item>Tieling</item>
+		<item>Chaoyang</item>
+		<item>Huludao</item>
+	</string-array>
+	<string-array name="message_hebei">
+		<item>Shijiazhuang</item>
+		<item>Tangshan</item>
+		<item>Handan</item>
+		<item>Qinhuangdao</item>
+		<item>Baoding</item>
+		<item>Zhangjiakou</item>
+		<item>Chengde</item>
+		<item>Langfang</item>
+		<item>Cangzhou</item>
+		<item>Hengshui</item>
+		<item>Xingtai</item>
+	</string-array>
+	<string-array name="message_shandong">
+		<item>Jinan</item>
+		<item>Qingdao</item>
+		<item>Zibo</item>
+		<item>Zaozhuang</item>
+		<item>Dongying</item>
+		<item>Yantai</item>
+		<item>Weifang</item>
+		<item>Jining</item>
+		<item>Taian</item>
+		<item>Weihai</item>
+		<item>Rizhao</item>
+		<item>Laiwu</item>
+		<item>Linyi</item>
+		<item>Texas</item>
+		<item>Liaocheng</item>
+		<item>Heze</item>
+		<item>Binzhou</item>
+	</string-array>
+	<string-array name="message_jiangsu">
+		<item>Nanjing</item>
+		<item>Zhenjiang</item>
+		<item>Changzhou</item>
+		<item>Wuxi</item>
+		<item>Suzhou</item>
+		<item>Xuzhou</item>
+		<item>Lianyungang</item>
+		<item>Huai</item>
+		<item>Yancheng</item>
+		<item>Yangzhou</item>
+		<item>Taizhou</item>
+		<item>Nantong</item>
+		<item>Suqian</item>
+		<item>Xiangshui</item>
+		<item>Wujiang</item>
+	</string-array>
+	<string-array name="message_anhui">
+		<item>Hefei</item>
+		<item>Bengbu</item>
+		<item>Wuhu</item>
+		<item>Huainan</item>
+		<item>Bozhou</item>
+		<item>Fuyang</item>
+		<item>Huaibei</item>
+		<item>Suzhou</item>
+		<item>Chuzhou</item>
+		<item>Anqing</item>
+		<item>Chaohu</item>
+		<item>MOS</item>
+		<item>Xuancheng</item>
+		<item>Huangshan</item>
+		<item>Chizhou</item>
+		<item>Tongling</item>
+	</string-array>
+	<string-array name="message_zhejiang">
+		<item>Hangzhou</item>
+		<item>Jiaxing</item>
+		<item>Huzhou</item>
+		<item>Ningbo</item>
+		<item>Jinhua</item>
+		<item>Wenzhou</item>
+		<item>Lishui</item>
+		<item>Shaoxing</item>
+		<item>Quzhou</item>
+		<item>Zhoushan</item>
+		<item>Taizhou</item>
+	</string-array>
+	<string-array name="message_fujian">
+		<item>Fuzhou</item>
+		<item>Xiamen</item>
+		<item>Quanzhou</item>
+		<item>Sanming</item>
+		<item>Nanping</item>
+		<item>Zhangzhou</item>
+		<item>Putian</item>
+		<item>Ningde</item>
+		<item>Longyan</item>
+	</string-array>
+	<string-array name="message_guangdong">
+		<item>Guangzhou</item>
+		<item>Shenzhen</item>
+		<item>Shantou</item>
+		<item>Huizhou</item>
+		<item>Zhuhai</item>
+		<item>Jieyang</item>
+		<item>Foshan</item>
+		<item>Heyuan</item>
+		<item>Yangjiang</item>
+		<item>Maoming</item>
+		<item>Zhanjiang</item>
+		<item>Meizhou</item>
+		<item>Zhaoqing</item>
+		<item>Shaoguan</item>
+		<item>Chaozhou</item>
+		<item>Dongguan</item>
+		<item>Zhongshan</item>
+		<item>Qingyuan</item>
+		<item>Jiangmen</item>
+		<item>Shanwei</item>
+		<item>Yunfu</item>
+	</string-array>
+	<string-array name="message_hainan">
+		<item>Haikou</item>
+		<item>Sanya</item>
+		<item>Fingers</item>
+		<item>Qionghai</item>
+		<item>Danzhou</item>
+		<item>Wenchang</item>
+		<item>Mannings</item>
+		<item>East</item>
+		<item>DingAn</item>
+		<item>Tunchang</item>
+		<item>Chengmai</item>
+		<item>Pro High</item>
+	</string-array>
+	<string-array name="message_yunnan">
+		<item>Kunming</item>
+		<item>Qujing</item>
+		<item>Yuxi</item>
+		<item>Baoshan</item>
+		<item>Zhaotong</item>
+		<item>Lijing</item>
+		<item>Pu\'er</item>
+		<item>Lincang</item>
+	</string-array>
+	<string-array name="message_guizhou">
+		<item>Guiyang</item>
+		<item>Liupanshui</item>
+		<item>Zunyi</item>
+		<item>Anshun</item>
+		<item>Tongren</item>
+		<item>Bijie</item>
+		<item>Southeast</item>
+		<item>Shouthwest Guizhou</item>
+		<item>South Guizhou</item>
+	</string-array>
+	<string-array name="message_sichuan">
+		<item>Chengdu</item>
+		<item>Mianyang</item>
+		<item>Deyang</item>
+		<item>Guangyuan</item>
+		<item>Zigong</item>
+		<item>Panzhihua</item>
+		<item>Leshan</item>
+		<item>Nanchong</item>
+		<item>Neijiang</item>
+		<item>Suining</item>
+		<item>Kwong</item>
+		<item>Luzhou</item>
+		<item>Florida</item>
+		<item>Meishan</item>
+		<item>Yibin</item>
+		<item>Yaan</item>
+		<item>Ziyang</item>
+	</string-array>
+	<string-array name="message_hunan">
+		<item>Changsha</item>
+		<item>Zhuzhou</item>
+		<item>Xiangtan</item>
+		<item>Hengyang</item>
+		<item>Yueyang</item>
+		<item>Chenzhou</item>
+		<item>Yongzhou</item>
+		<item>Shaoyang</item>
+		<item>Huaihua</item>
+		<item>Changde</item>
+		<item>Yiyang</item>
+		<item>Zhangjiajie</item>
+		<item>Loudi</item>
+	</string-array>
+	<string-array name="message_hubei">
+		<item>Wuhan</item>
+		<item>Xiangfan</item>
+		<item>Yichang</item>
+		<item>Yellowstone</item>
+		<item>Ezhou</item>
+		<item>Suizhou</item>
+		<item>Jingzhou</item>
+		<item>Jingmen</item>
+		<item>Shiyan</item>
+		<item>Xiaogan</item>
+		<item>Huanggang</item>
+		<item>Xianning</item>
+	</string-array>
+	<string-array name="message_henan">
+		<item>Zhengzhou</item>
+		<item>Luoyang</item>
+		<item>Kaifeng</item>
+		<item>Luohe</item>
+		<item>Anyang</item>
+		<item>Xinxiang</item>
+		<item>Zhoukou</item>
+		<item>Sanmenxia</item>
+		<item>Jiaozuo</item>
+		<item>Pingdingshan</item>
+		<item>Xinyang</item>
+		<item>Nanyang</item>
+		<item>Hebi</item>
+		<item>Puyang</item>
+		<item>Xuchang</item>
+		<item>Shangqiu</item>
+		<item>Zhumadian</item>
+	</string-array>
+	<string-array name="message_shanxi_jin">
+		<item>Taiyuan</item>
+		<item>Datong</item>
+		<item>Xinzhou</item>
+		<item>Yangquan</item>
+		<item>Changzhi</item>
+		<item>Jincheng</item>
+		<item>Shuozhou</item>
+		<item>Jinzhong</item>
+		<item>Yuncheng</item>
+		<item>Linfen</item>
+		<item>Luliang</item>
+	</string-array>
+	<string-array name="message_shanxi_shan">
+		<item>Xi\'an</item>
+		<item>Xianyang</item>
+		<item>Tongchuan</item>
+		<item>Yanan</item>
+		<item>Baoji</item>
+		<item>Weinan</item>
+		<item>Hanzhong</item>
+		<item>Ankang</item>
+		<item>Shangluo</item>
+		<item>Yulin</item>
+	</string-array>
+	<string-array name="message_gansu">
+		<item>Lanzhou</item>
+		<item>Tianshui</item>
+		<item>Pingliang</item>
+		<item>Jiuquan</item>
+		<item>Jiayuguan</item>
+		<item>Jinchang</item>
+		<item>Silver</item>
+		<item>Wuwei</item>
+		<item>Zhangye</item>
+		<item>Qingyang</item>
+		<item>Dingxi</item>
+		<item>Longnan</item>
+	</string-array>
+	<string-array name="message_qinghai">
+		<item>Xining</item>
+		<item>Haidong</item>
+		<item>Haibei</item>
+		<item>Huangnan</item>
+		<item>Hainan</item>
+		<item>Guoluo</item>
+		<item>Yushu</item>
+		<item>Hercynian</item>
+	</string-array>
+	<string-array name="message_jiangxi">
+		<item>Nanchang</item>
+		<item>Jiujiang</item>
+		<item>Ganzhou</item>
+		<item>Jian</item>
+		<item>Yingtan</item>
+		<item>Shangrao</item>
+		<item>Pingxiang</item>
+		<item>Jingdezheng</item>
+		<item>Xinyu</item>
+		<item>Yichun</item>
+		<item>Fuzhou</item>
+	</string-array>
+	<string-array name="message_taiwan">
+		<item>Taipei</item>
+		<item>Taichung</item>
+		<item>Keelung</item>
+		<item>Kaohsiung</item>
+		<item>Tainan</item>
+		<item>Hsinchu</item>
+		<item>Chiayi</item>
+		<item>Banciao</item>
+		<item>Ilan</item>
+		<item>Chupei</item>
+		<item>Taoyuan</item>
+		<item>Miaoli</item>
+		<item>Toyohara</item>
+		<item>Changhua</item>
+		<item>Nantou</item>
+		<item>Taibao</item>
+		<item>Touliu</item>
+		<item>Xinying</item>
+		<item>Fengshan</item>
+		<item>Pingtung</item>
+		<item>Taitung County</item>
+		<item>Hualien</item>
+		<item>MaGong</item>
+	</string-array>
+	<string-array name="message_xianggang">
+		<item>Central and western</item>
+		<item>Eastern</item>
+		<item>Kowloon City</item>
+		<item>Kwun tong</item>
+		<item>Southern</item>
+		<item>Sham Shui Po</item>
+		<item>Wong Tai Sin</item>
+		<item>Wan Chai</item>
+		<item>Yau Tsim Mong</item>
+		<item>Islands</item>
+		<item>Kwai Tsing</item>
+		<item>North</item>
+		<item>Sai Kung</item>
+		<item>Sha Tin</item>
+		<item>Tuen Mun</item>
+		<item>Tai Po</item>
+		<item>Tsuen Wan</item>
+		<item>Yuen Long</item>
+	</string-array>
+	<string-array name="message_aomen">
+		<item>Fatima</item>
+		<item>St. Anthony</item>
+		<item>St. Lazarus</item>
+		<item>Cathedral</item>
+		<item>St. Lawrence</item>
+		<item>Islands</item>
+		<item>Taipa</item>
+		<item>Coloane</item>
+	</string-array>
+	<string-array name="message_others">
+		<item>America</item>
+		<item>Russia</item>
+		<item>British</item>
+		<item>Germany</item>
+		<item>France</item>
+		<item>Italy</item>
+		<item>Spain</item>
+		<item>Portugal</item>
+		<item>Norway</item>
+		<item>Hungary</item>
+		<item>Ukraine</item>
+		<item>Australia</item>
+		<item>Japan</item>
+		<item>South Korea</item>
+		<item>Vietnam</item>
+		<item>Philippine</item>
+		<item>India</item>
+		<item>Burma</item>
+		<item>Laos</item>
+		<item>Pakistan</item>
+		<item>Brazil</item>
+		<item>Argentina</item>
+		<item>Paraguay</item>
+		<item>Uruguay</item>
+		<item>Mexico</item>
+		<item>The united Arab emirates</item>
+		<item>Israel</item>
+		<item>Egypt</item>
+		<item>South Africa</item>
+	</string-array>
+
+	<string-array name="all_regions_group">
+		<item>Guangdong</item>
+		<item>Hunan</item>
+		<item>Zhejiang</item>
+		<item>Jiangsu</item>
+	</string-array>
+
+	<string-array name="all_regions_guagndong_child">
+		<item>Guangzhou</item>
+		<item>Heyuan</item>
+		<item>Foshan</item>
+		<item>Shunde</item>
+		<item>Zhuhai</item>
+	</string-array>
+	<string-array name="all_regions_hunan_child">
+		<item>Yueyang</item>
+		<item>Changsha </item>
+		<item>Xiangtan</item>
+		<item>Zhuzhou</item>
+		<item>Hengyang</item>
+	</string-array>
+	<string-array name="all_regions_zhejiang_child">
+		<item>Quzhou</item>
+		<item>Hangzhou</item>
+		<item>Huzhou</item>
+		<item>Jiaxing</item>
+	</string-array>
+	<string-array name="all_regions_jiangsu_child">
+		<item>Nanjing</item>
+	</string-array>
+	<string-array name="blog_picture">
+		<item>Choose from Album</item>
+		<item>Take Photo</item>
+	</string-array>
+
+	<string-array name="blog_picture_have">
+		<item>Choose from Album</item>
+		<item>Take Photo</item>
+		<item>Clear pictures</item>
+	</string-array>
+	
+	<string-array name="voip_choose_call_type">
+		<item>Ordinary call</item>
+		<item>VOIP voice call</item>
+		<item>VOIP video call</item>
+		<item>Cancel</item>
+	</string-array>
+	<string-array name="emotion_title1">
+        <item>Emotion</item>
+        <item>Animated Picture</item>
+        <item>Emotion Symbol</item>
+    </string-array>
+	<string-array name="emotion_title2">
+        <item>Emotion</item>
+        <item>Emotion Symbol</item>
+    </string-array>
+    <string-array name="emotion_tab">
+        <item>Rabbit</item>
+        <item>Dragon</item>
+    </string-array>
+     <!-- 贴图 -->
+    <!-- 系统表情 -->
+    <string-array name="system_emotion_key">
+        <item>baiy</item>
+        <item>bq</item>
+        <item>bz</item>
+        <item>cy</item>
+        <item>db</item>
+        <item>dg</item>
+        <item>dk</item>
+        <item>dy</item>
+        <item>fd</item>
+        <item>fendou</item>
+        <item>fn</item>
+        <item>hanx</item>
+        <item>hd</item>
+        <item>hx</item>
+        <item>jy</item>
+        <item>kk</item>
+        <item>kuk</item>
+        <item>kun</item>
+        <item>lh</item>
+        <item>lw</item>
+        <item>mg</item>
+        <item>pz</item>
+        <item>qiang</item>
+        <item>qq</item>
+        <item>qt</item>
+        <item>sa</item>
+        <item>se</item>
+        <item>shl</item>
+        <item>shuai</item>
+        <item>snd</item>
+        <item>ws</item>
+        <item>wx</item>
+        <item>xig</item>
+        <item>xin</item>
+        <item>yb</item>
+        <item>yihuo</item>
+        <item>yun</item>
+        <item>yx</item>
+        <item>zhouma</item>
+        <item>zt</item>
+        <item>kel</item>
+        <item>nanwen</item>
+        <item>zk</item>
+        <item>rn</item>
+        <item>sq</item>
+        <item>wunai</item>
+        <item>zht</item>
+        <item>zhd</item>
+        <item>ss</item>
+        <item>bsh</item>
+        <item>bb</item>
+        <item>dr</item>
+        <item>bh</item>
+        <item>gg</item>
+        <item>lr</item>
+        <item>qr</item>
+        <item>shx</item>
+        <item>chx</item>
+        <item>px</item>
+        <item>shy</item>
+        <item>kx</item>
+        <item>chifan</item>
+        <item>bs</item>
+        <item>bx</item>
+        <item>jx</item>
+        <item>cr</item>
+        <item>chr</item>
+        <item>hy</item>
+        <item>zhm</item>
+    </string-array>
+    <!-- 这里暂时用英文处理，如果翻译成英文会导致图片展示不出来 -->
+    <string-array name="system_emotion_values">
+        <item>白眼</item>
+        <item>抱拳</item>
+        <item>闭嘴</item>
+        <item>呲牙</item>
+        <item>大兵</item>
+        <item>蛋糕</item>
+        <item>大哭</item>
+        <item>大爷</item>
+        <item>发呆</item>
+        <item>奋斗</item>
+        <item>发怒</item>
+        <item>含蓄</item>
+        <item>好的</item>
+        <item>害羞</item>
+        <item>惊讶</item>
+        <item>快哭了</item>
+        <item>酷</item>
+        <item>困</item>
+        <item>流汗</item>
+        <item>礼物</item>
+        <item>玫瑰</item>
+        <item>撇嘴</item>
+        <item>强</item>
+        <item>亲亲</item>
+        <item>拳头</item>
+        <item>示爱</item>
+        <item>色</item>
+        <item>胜利</item>
+        <item>衰</item>
+        <item>闪电</item>
+        <item>握手</item>
+        <item>微笑</item>
+        <item>西瓜</item>
+        <item>爱心</item>
+        <item>拥抱</item>
+        <item>疑惑</item>
+        <item>晕</item>
+        <item>阴险</item>
+        <item>咒骂</item>
+        <item>猪头</item>
+        <item>可怜</item>
+        <item>难闻</item>
+        <item>抓狂</item>
+        <item>忍耐</item>
+        <item>生气</item>
+        <item>无奈</item>
+        <item>砖头</item>
+        <item>炸弹</item>
+        <item>受伤</item>
+        <item>拜神</item>
+        <item>再见</item>
+        <item>瞪人</item>
+        <item>暴寒</item>
+        <item>关公</item>
+        <item>雷人</item>
+        <item>强人</item>
+        <item>伤心</item>
+        <item>垂涎</item>
+        <item>喷血</item>
+        <item>神游</item>
+        <item>开心</item>
+        <item>吃饭</item>
+        <item>鄙视</item>
+        <item>鼻血</item>
+        <item>惊吓</item>
+        <item>耻辱</item>
+        <item>超人</item>
+        <item>幻想</item>
+        <item>皱眉</item>
+    </string-array>
+    <!-- tab1 -->
+    <string name="bangj_1">绑架</string>
+    <string name="fanu_1">发怒</string>
+    <string name="kaic_1">开车</string>
+    <string name="kanb_1">看病</string>
+    <string name="mei_1">美</string>
+    <string name="mmx_1">蒙面侠</string>
+    <string name="mofa_1">魔法</string>
+    <string name="outu_1">呕吐</string>
+    <string name="qiaod_1">敲打</string>
+    <string name="qinl_1">勤劳</string>
+    <string name="quanj_1">拳击</string>
+    <string name="shangx_1">伤心</string>
+    <string name="taop_1">逃跑</string>
+    <string name="tians_1">天使</string>
+    <string name="tuzhu_1">土著</string>
+    <string name="xiaot_1">小偷</string>
+    <string name="yun_1">晕</string>
+
+    <!-- tab2 -->
+    <string name="chaor_2">超人</string>
+    <string name="gongf_2">功夫</string>
+    <string name="guangb_2">广播</string>
+    <string name="huax_2">滑雪</string>
+    <string name="jingx_2">惊喜</string>
+    <string name="kds_2">看电视</string>
+    <string name="xiangn_2">想念</string>
+    <string name="yihuo_2">疑惑</string>
+    <string name="yun_2">晕</string>
+    <string name="zhain_2">宅女</string>
+    <string name="zsfz_2">知识分子</string>
+    <string name="zui_2">醉</string>
+    <string name="low_version">Your current client server do not support the XX type of message, please update the version</string>
+    <string name="unsupport_type_msg">You receive a message can not be supported, please upgrade your client erver</string>
+	
+</resources>

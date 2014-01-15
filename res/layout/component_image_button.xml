@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:gravity="center">
+	<LinearLayout android:id="@+id/add_contact_section"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:gravity="center" android:background="@drawable/btn_white"
+		android:clickable="true" android:layout_marginTop="5dip"
+		android:layout_marginBottom="5dip" android:layout_marginLeft="20dip"
+		android:layout_marginRight="20dip">
+		<ImageView android:id="@+id/add_image"
+			android:layout_height="wrap_content" android:layout_width="wrap_content"
+			android:src="@drawable/add"></ImageView>
+		<TextView android:id="@+id/add_text" android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:text="@string/default_add"
+			android:layout_marginLeft="10dip" android:textSize="18dip"
+			android:textColor="#555555"></TextView>
+	</LinearLayout>
+</LinearLayout>

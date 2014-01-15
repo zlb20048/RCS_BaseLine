@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="#DCDCDC">
+	<!-- 系统提供的头像 -->
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_marginTop="0dp" android:background="@drawable/ic_btn_title_background">
+		<!-- 返回按钮 -->
+		<include layout="@layout/title_bar"/>
+	</LinearLayout>
+	<GridView xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/gradview" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:gravity="center"
+		android:numColumns="4" android:verticalSpacing="20dp"
+		android:horizontalSpacing="8dp" android:layout_marginTop="5dp"
+		android:columnWidth="50dp">
+	</GridView>
+</LinearLayout>

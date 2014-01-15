@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/white_bg"
+    android:orientation="vertical" >
+
+    <!--
+    按钮部分
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="48dip" android:orientation="horizontal"
+		android:gravity="center_vertical" android:background="@drawable/ic_btn_title_background">
+		<Button android:layout_width="66dip" android:gravity="center"
+			android:layout_marginLeft="8dip" android:layout_height="32dip"
+			android:id="@+id/left_button" style="@style/button_text"
+			android:background="@drawable/btn_black" android:text="@string/back" />
+		<LinearLayout android:layout_width="wrap_content"
+			android:layout_height="fill_parent" android:layout_weight="1"
+			android:gravity="center" android:layout_marginRight="70dip">
+			<TextView android:id="@+id/title" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:gravity="center"
+				android:singleLine="true" style="@style/title_bar_title_text"
+				android:text="@string/set_groupmessagepolicy" />
+		</LinearLayout>
+	</LinearLayout>
+    -->
+
+        <include layout="@layout/title_bar" />
+    <!-- 群消息接收策略设置主框架 -->
+
+    <LinearLayout style="@style/setting_item" 
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/receive_all_group_message"
+            android:layout_width="wrap_content"
+            android:layout_height="60dip"
+            android:layout_marginLeft="15dip"
+            android:gravity="center_vertical"
+            android:text="@string/receive_all_group_message"
+            android:textColor="#333333"
+            android:textSize="16dip" 
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/setting_voice_ctv_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dip"
+            android:background="@drawable/button_switch_on" />
+    </LinearLayout>
+
+    <ImageView style="@style/setting_line" />
+    <!--
+             <LinearLayout style="@style/setting_group" android:visibility="invisible"> 
+			<RelativeLayout style="@style/setting_item"> <CheckedTextView android:id="@+id/settings_group_1" 
+			style="@style/setting_checkbox" android:background="@drawable/setting_item_bg_all" 
+			android:text="@string/accept_all_group_message"/> </RelativeLayout> </LinearLayout> <LinearLayout 
+			style="@style/setting_group"> <RelativeLayout style="@style/setting_item"> 
+			<CheckedTextView android:id="@+id/settings_group_2" style="@style/setting_checkbox" 
+			android:background="@drawable/setting_item_bg_all" android:text="@string/accept_all_group_message"/> 
+			</RelativeLayout> </LinearLayout> <LinearLayout style="@style/setting_group"> 
+			<RelativeLayout style="@style/setting_item"> <CheckedTextView android:id="@+id/settings_group_3" 
+			style="@style/setting_checkbox" android:background="@drawable/setting_item_bg_all" 
+			android:text="@string/accept_all_group_message" android:visibility="gone"/> </RelativeLayout> </LinearLayout> 
+			<LinearLayout style="@style/setting_group"> <RelativeLayout style="@style/setting_item"> 
+			<CheckedTextView android:id="@+id/settings_group_4" style="@style/setting_checkbox" 
+			android:background="@drawable/setting_item_bg_all" android:text="@string/accept_all_group_message" 
+			android:visibility="gone"/> </RelativeLayout> </LinearLayout> <LinearLayout 
+			style="@style/setting_group"> <RelativeLayout style="@style/setting_item"> 
+			<CheckedTextView android:id="@+id/settings_group_5" style="@style/setting_checkbox" 
+			android:background="@drawable/setting_item_bg_all" android:text="@string/accept_all_group_message" 
+			android:visibility="gone"/> </RelativeLayout> </LinearLayout> <LinearLayout 
+			style="@style/setting_group"> <RelativeLayout style="@style/setting_item"> 
+			<CheckedTextView android:id="@+id/settings_group_6" style="@style/setting_checkbox" 
+			android:background="@drawable/setting_item_bg_all" android:text="@string/accept_all_group_message" 
+			android:visibility="gone"/> </RelativeLayout> </LinearLayout> <LinearLayout 
+			style="@style/setting_group"> <RelativeLayout style="@style/setting_item"> 
+			<CheckedTextView android:id="@+id/settings_group_7" style="@style/setting_checkbox" 
+			android:background="@drawable/setting_item_bg_all" android:text="@string/accept_all_group_message" 
+			android:visibility="gone"/> </RelativeLayout> </LinearLayout> <LinearLayout 
+			style="@style/setting_group"> <RelativeLayout style="@style/setting_item"> 
+			<CheckedTextView android:id="@+id/settings_group_8" style="@style/setting_checkbox" 
+			android:background="@drawable/setting_item_bg_all" android:text="@string/accept_all_group_message" 
+			android:visibility="gone"/> </RelativeLayout> </LinearLayout> <LinearLayout 
+			style="@style/setting_group"> <RelativeLayout style="@style/setting_item"> 
+			<CheckedTextView android:id="@+id/settings_group_9" style="@style/setting_checkbox" 
+			android:background="@drawable/setting_item_bg_all" android:text="@string/accept_all_group_message" 
+			android:visibility="gone"/> </RelativeLayout> </LinearLayout> <LinearLayout 
+			style="@style/setting_group"> <RelativeLayout style="@style/setting_item">
+			<CheckedTextView android:id="@+id/settings_group_10" style="@style/setting_checkbox" 
+			android:background="@drawable/setting_item_bg_all" android:text="@string/accept_all_group_message" 
+			android:visibility="gone"/> </RelativeLayout> </LinearLayout>
+    -->
+
+    <ListView
+        android:id="@+id/setting_group_message_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/commonusewhite" >
+    </ListView>
+
+</LinearLayout>

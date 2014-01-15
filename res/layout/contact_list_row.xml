@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/child"
+    android:layout_width="fill_parent"
+    android:layout_height="55dip"
+    android:background="@drawable/list_item_bg_xml"
+    android:gravity="center_vertical" >
+
+    <ImageView
+        android:id="@+id/head"
+        android:layout_width="50dip"
+        android:layout_height="55dip"
+        android:layout_marginLeft="8dip"
+        android:scaleType="fitCenter"
+        android:src="@drawable/default_contact_icon" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dip"
+        android:layout_weight="1"
+        android:gravity="left"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/name"
+                style="@style/listitem_text_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/hitalk_id"
+                style="@style/friend_name_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/friend_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/find_by_location_friend_status"
+                android:textColor="#78a9bb"
+                android:textSize="12sp"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/sex_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dip"
+                android:layout_marginRight="3dip"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/signature"
+            style="@style/listitem_text_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/info_one"
+            style="@style/friend_signature_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/info_two"
+            style="@style/friend_signature_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/friend_note"
+        style="@style/listitem_text_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/friend_note_bar"
+        android:ellipsize="end"
+        android:paddingLeft="8dip"
+        android:paddingBottom="3dip"
+        android:maxLines="2"
+        android:maxWidth="94dip"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/images"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="24dip"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/is_friend"
+            style="@style/listitem_text_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="3dip"
+            android:text="@string/friends"
+            android:textColor="#619128"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/add_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/find_friend_add"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/invite_button"
+            style="@style/invite_text"
+            android:layout_width="52dip"
+            android:layout_height="30dip"
+            android:background="@drawable/btn_white"
+            android:text="@string/invite" />
+    </LinearLayout>
+
+</LinearLayout>

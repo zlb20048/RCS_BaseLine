@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+	<!-- 个人应用——子项目 -->
+ <ImageView
+    android:id="@+id/imageview"
+    android:layout_width="54dip"
+    android:layout_height="54dip"
+    android:gravity="center"
+    android:src="@drawable/apply_icon"
+    ></ImageView>
+    
+   <TextView  android:id="@+id/textview"
+    android:layout_width="54dip" 
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:text="@string/apply"
+    android:textSize="13sp"
+    android:textColor="#666666">
+    </TextView>
+</LinearLayout>

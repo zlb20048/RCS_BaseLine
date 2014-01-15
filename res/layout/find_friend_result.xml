@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="@drawable/white_bg" android:orientation="vertical">
+
+	<include layout="@layout/title_bar_image" />
+
+	<include layout="@layout/component_search_bar" />
+
+	<include layout="@layout/component_search_no_result" />
+
+	<ListView android:id="@+id/listView" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:layout_weight="1.0"
+		android:cacheColorHint="#00000000" android:divider="@drawable/divider"
+		android:dividerHeight="1px" android:footerDividersEnabled="true"
+		android:scrollbars="none" android:scrollingCache="true">
+	</ListView>
+
+</LinearLayout>

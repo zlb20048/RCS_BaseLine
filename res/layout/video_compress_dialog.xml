@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/body"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_vertical"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    android:paddingBottom="10dip"
+    android:paddingLeft="8dip"
+    android:paddingRight="8dip"
+    android:paddingTop="10dip" >
+
+    <ProgressBar
+        android:id="@+id/compress_progress"
+        style="@android:style/Widget.ProgressBar"
+        android:layout_width="48dip"
+        android:layout_height="48dip"
+        android:layout_marginRight="12dip"
+        android:max="10000" />
+
+    <ImageView
+        android:id="@+id/compress_image"
+        android:layout_width="48dip"
+        android:layout_height="48dip"
+        android:src="@drawable/radiobutton_selected"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/compress_message"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:textColor="#171717"
+        android:textSize="16sp" />
+        />
+
+</LinearLayout>

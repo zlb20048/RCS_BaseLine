@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/agree_friend_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="60dip"
+        android:layout_weight="1"
+        android:background="@drawable/detail_button_left"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/agree" />
+
+        <TextView
+            style="@style/friend_detail_invite_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:text="@string/manager_agree" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/refuse_friend_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="60dip"
+        android:layout_weight="1"
+        android:background="@drawable/detail_button_right"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/refuse" />
+
+        <TextView
+            style="@style/friend_detail_invite_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:text="@string/manager_refuse" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/connection_changed"
+    android:layout_width="fill_parent"
+    android:layout_height="60dip"
+   	android:background="@color/connection_changed_bg_gray"
+    android:visibility="gone" >
+
+    <ImageView
+        android:id="@+id/networking_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dip"
+        android:src="@drawable/icon_prompt"
+        android:layout_centerVertical="true"
+        android:visibility="gone" />
+    
+    <Button
+        android:id="@+id/relogin"
+        android:layout_width="wrap_content"
+        android:layout_height="33.3dip"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dip"
+        android:layout_marginTop="5dip"
+        android:layout_marginBottom="5dip"
+        android:background="@drawable/btn_green"
+        android:layout_centerVertical="true"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/networking_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/networking_image"
+        android:layout_marginLeft="15dip"
+        android:layout_toLeftOf="@id/relogin"
+        android:layout_marginRight="15dip"
+        android:layout_centerVertical="true"
+        android:textColor="#000000"
+        android:textSize="14.7dp" />
+    
+
+</RelativeLayout>

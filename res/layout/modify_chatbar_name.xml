@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/white_bg"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/title_layout"
+        layout="@layout/title_bar" />
+
+    <com.huawei.basic.android.im.ui.basic.LimitedEditText
+        android:id="@+id/chatbar_name"
+        style="@style/edittext_text"
+        android:layout_width="fill_parent"
+        android:layout_height="45.0dip"
+        android:layout_marginLeft="13.0dip"
+        android:layout_marginRight="13.0dip"
+        android:layout_marginTop="13.0dip"
+        android:background="@drawable/edittext_green"
+        android:maxLength="20"
+        android:singleLine="true" />
+
+</LinearLayout>

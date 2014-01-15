@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     android:background="@drawable/white_bg"
+    android:orientation="vertical" >
+
+    <!-- 标题部分 -->
+
+    <include layout="@layout/title_bar" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none" >
+
+        <!-- 个人设置部分 -->
+
+        <LinearLayout style="@style/setting_mainframe" >
+
+            <LinearLayout style="@style/setting_group" >
+
+                <RelativeLayout
+                    android:id="@+id/smain_person"
+                    style="@style/setting_item"
+                    android:background="@drawable/setting_item_bg_top" >
+
+                    <ImageView
+                        android:id="@+id/smain_iv_person"
+                        android:layout_width="58.7dip"
+                        android:layout_height="58.7dip"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginBottom="10dip"
+                        android:layout_marginLeft="10dip"
+                        android:layout_marginTop="10dip"
+                        android:src="@drawable/default_contact_icon" />
+
+                    <ImageView
+                        android:id="@+id/smain_ib_edit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dip"
+                        android:src="@drawable/pointer" />
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="50dip"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@+id/smain_ib_edit"
+                        android:layout_toRightOf="@id/smain_iv_person"
+                        android:paddingLeft="10dip"
+                        android:paddingRight="10dip" >
+
+                        <TextView
+                            android:id="@+id/smain_tv_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:singleLine="true"
+                            android:textColor="#555555"
+                            android:textSize="16dip"
+                            android:maxWidth="160dip" />
+
+                        <ImageView
+                            android:id="@+id/sex_image"
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dip"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginLeft="5dip"
+                            android:layout_toRightOf="@+id/smain_tv_name" />
+
+                        <TextView
+                            android:id="@+id/smain_tv_id"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginTop="5dip"
+                            android:singleLine="true"
+                            android:textColor="#999999"
+                            android:textSize="12dip" />
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <ImageView style="@style/setting_line" />
+
+                <!-- 个性签名 -->
+
+                <RelativeLayout
+                    android:id="@+id/smain_signature"
+                    style="@style/setting_item"
+                    android:background="@drawable/setting_item_bg_bottom" >
+
+                    <TextView
+                        android:id="@+id/smain_signature_content"
+                        style="@style/setting_signature"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dip"
+                        android:singleLine="true"
+                        android:text="@string/signature" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <!-- 我的账号 -->
+
+            <LinearLayout style="@style/setting_group" >
+
+                <RelativeLayout
+                    android:id="@+id/smain_my_account"
+                    style="@style/setting_item"
+                    android:background="@drawable/setting_item_bg_all" >
+
+                    <TextView
+                        style="@style/setting_menu"
+                        android:text="@string/my_account" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout style="@style/setting_group" >
+
+                <!-- 系统插件 -->
+
+                <RelativeLayout
+                    android:id="@+id/smain_system_plugins"
+                    style="@style/setting_item"
+                    android:background="@drawable/setting_item_bg_top" >
+
+                    <TextView
+                        style="@style/setting_menu"
+                        android:text="@string/system_plugins" />
+                </RelativeLayout>
+
+                <ImageView style="@style/setting_line" />
+
+                <!-- 应用列表 -->
+
+                <RelativeLayout
+                    android:id="@+id/smain_applications_list"
+                    style="@style/setting_item"
+                    android:background="@drawable/setting_item_bg_bottom" >
+
+                    <TextView
+                        style="@style/setting_menu"
+                        android:text="@string/applications_list" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout style="@style/setting_group" >
+
+                <!-- 通用 -->
+
+                <RelativeLayout
+                    android:id="@+id/smain_general"
+                    style="@style/setting_item"
+                    android:background="@drawable/setting_item_bg_top" >
+
+                    <TextView
+                        style="@style/setting_menu"
+                        android:text="@string/general" />
+                </RelativeLayout>
+
+                <ImageView style="@style/setting_line" />
+
+                <!-- 隐私 -->
+
+                <RelativeLayout
+                    android:id="@+id/smain_privacy"
+                    style="@style/setting_item"
+                    android:background="@drawable/setting_item_bg_mid" >
+
+                    <TextView
+                        style="@style/setting_menu"
+                        android:text="@string/privacy" />
+                </RelativeLayout>
+
+                <ImageView style="@style/setting_line" />
+
+                <!-- 黑名单 -->
+
+                <RelativeLayout
+                    android:id="@+id/smain_block"
+                    style="@style/setting_item"
+                    android:background="@drawable/setting_item_bg_mid" >
+
+                    <TextView
+                        style="@style/setting_menu"
+                        android:text="@string/block" />
+                </RelativeLayout>
+
+                <ImageView style="@style/setting_line" />
+
+                <!-- 流量统计 -->
+
+                <RelativeLayout
+                    android:id="@+id/smain_flow_rate"
+                    style="@style/setting_item"
+                    android:background="@drawable/setting_item_bg_bottom" >
+
+                    <TextView
+                        style="@style/setting_menu"
+                        android:text="@string/flow_rate" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <!-- 修改密码 -->
+
+            <LinearLayout style="@style/setting_group" >
+
+                <RelativeLayout
+                    android:id="@+id/set_password"
+                    style="@style/setting_item"
+                    android:background="@drawable/setting_item_bg_all" >
+
+                    <TextView
+                        style="@style/setting_menu"
+                        android:text="@string/set_password" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout style="@style/setting_group" >
+
+                <!-- 检查更新 -->
+
+                <RelativeLayout
+                    android:id="@+id/check_update"
+                    style="@style/setting_item"
+                    android:background="@drawable/setting_item_bg_top" >
+
+                    <TextView
+                        style="@style/setting_menu"
+                        android:text="@string/check_update" />
+                </RelativeLayout>
+
+                <ImageView style="@style/setting_line" />
+
+                <!-- 关于HiTalk -->
+
+                <RelativeLayout
+                    android:id="@+id/about_hitalk"
+                    style="@style/setting_item"
+                    android:background="@drawable/setting_item_bg_bottom" >
+
+                    <TextView
+                        style="@style/setting_menu"
+                        android:text="@string/about_hitalk" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <!-- 清空聊天记录 -->
+
+            <LinearLayout style="@style/setting_group" >
+
+                <RelativeLayout
+                    android:id="@+id/clear_data"
+                    style="@style/setting_item"
+                    android:background="@drawable/setting_item_bg_all" >
+
+                    <TextView
+                        style="@style/setting_menu"
+                        android:text="@string/clear_data" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <!-- 退出登陆 -->
+
+            <Button
+                android:id="@+id/logout"
+                style="@style/setting_button_red"
+                android:text="@string/logout" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

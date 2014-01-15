@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal" android:layout_width="fill_parent"
+	android:layout_height="36dip" android:gravity="center_vertical"
+	android:paddingTop="10dip" android:paddingBottom="10dip"
+	android:background="@drawable/myfriend_grouping_list_bg_xml">
+	<ImageView android:id="@+id/indicator" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:src="@drawable/myfriend_group_right_arrow_click"
+		android:layout_marginLeft="24px" />
+	<TextView android:id="@+id/friend_grouping_name"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_marginLeft="7dip" android:textStyle="bold"
+		style="@style/listitem_text_section_title"></TextView>
+	<TextView android:id="@+id/friend_count" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_weight="1"
+		style="@style/listitem_text_section_hint" />
+	<ImageView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/friend_grouping_manage"
+		android:src="@drawable/myfriend_group_manage"
+		android:layout_marginRight="16dip"></ImageView>
+</LinearLayout>

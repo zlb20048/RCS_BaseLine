@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/white_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dip"
+        android:layout_marginRight="18dip"
+        android:layout_marginTop="15dip"
+        android:background="@drawable/commonusewhite"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <!-- 根据id查找 -->
+
+        <LinearLayout
+            android:id="@+id/find_by_id"
+            android:layout_width="fill_parent"
+            android:layout_height="45dip"
+            android:background="@drawable/setting_item_bg_top"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dip"
+                android:src="@drawable/find_by_id" />
+
+            <TextView
+                style="@style/friend_detail_content_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dip"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:text="@string/find_by_id" />
+
+            <ImageView
+                android:layout_width="15dip"
+                android:layout_height="15dip"
+                android:layout_marginRight="8dip"
+                android:src="@drawable/pointer" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="@drawable/divider" />
+        <!-- 根据个人资料查找 -->
+
+        <LinearLayout
+            android:id="@+id/find_by_details"
+            android:layout_width="fill_parent"
+            android:layout_height="45dip"
+            android:background="@drawable/setting_item_bg_bottom"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dip"
+                android:src="@drawable/find_by_detail" />
+
+            <TextView
+                style="@style/friend_detail_content_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dip"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:text="@string/find_by_details" />
+
+            <ImageView
+                android:layout_width="15dip"
+                android:layout_height="15dip"
+                android:layout_marginRight="8dip"
+                android:src="@drawable/pointer" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dip"
+        android:layout_marginRight="18dip"
+        android:layout_marginTop="15dip"
+        android:background="@drawable/commonusewhite"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <!-- 可能认识的人 -->
+
+        <LinearLayout
+            android:id="@+id/find_maybe_known"
+            android:layout_width="fill_parent"
+            android:layout_height="45dip"
+            android:background="@drawable/setting_item_bg_top"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dip"
+                android:src="@drawable/maybe_known" />
+
+            <TextView
+                style="@style/friend_detail_content_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dip"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:text="@string/find_maybe_konwn" />
+
+            <ImageView
+                android:layout_width="15dip"
+                android:layout_height="15dip"
+                android:layout_marginRight="8dip"
+                android:src="@drawable/pointer" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="@drawable/divider" />
+
+        <!-- 查找附近的人 -->
+
+        <LinearLayout
+            android:id="@+id/find_by_location"
+            android:layout_width="fill_parent"
+            android:layout_height="45dip"
+            android:background="@drawable/setting_item_bg_mid"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dip"
+                android:src="@drawable/find_by_location" />
+
+            <TextView
+                style="@style/friend_detail_content_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dip"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:text="@string/find_by_location" />
+
+            <ImageView
+                android:layout_width="15dip"
+                android:layout_height="15dip"
+                android:layout_marginRight="8dip"
+                android:src="@drawable/pointer" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/divider_image"
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="@drawable/divider" />
+
+        <LinearLayout
+            android:id="@+id/check_mobile_contacts"
+            android:layout_width="fill_parent"
+            android:layout_height="45dip"
+            android:background="@drawable/setting_item_bg_bottom"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dip"
+                android:src="@drawable/find_friend_check_mobile_contacts" />
+
+            <TextView
+                style="@style/friend_detail_content_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dip"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:text="@string/check_mobile_contacts" />
+
+            <ImageView
+                android:layout_width="15dip"
+                android:layout_height="15dip"
+                android:layout_marginRight="8dip"
+                android:src="@drawable/pointer" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

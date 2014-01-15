@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/white_bg"
+    android:orientation="vertical" >
+
+    <!-- 标题栏 -->
+
+    <RelativeLayout
+        android:id="@+id/button_layout"
+        style="@style/widget_title" >
+
+        <include layout="@layout/title_bar" />
+    </RelativeLayout>
+
+    <!-- 隐私设置主框架 -->
+
+
+    <!-- 好友添加策略 -->
+
+    <TextView
+        android:id="@+id/internal_plugin_titile"
+        android:layout_width="fill_parent"
+        android:layout_height="36dip"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/bg_gray"
+        android:gravity="center_vertical"
+        android:paddingLeft="18dip"
+        android:text="@string/policy_add_friends"
+        android:textColor="#000000"
+        android:textSize="14dip" />
+
+    <RelativeLayout style="@style/setting_item" >
+
+        <CheckedTextView
+            android:id="@+id/rb_addfriend_1"
+            style="@style/setting_radiobutton"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/setting_item_bg_mid"
+            android:paddingLeft="30dip"
+            android:text="@string/policy_add_friends_allow_all" />
+    </RelativeLayout>
+
+    <ImageView style="@style/setting_line" />
+
+    <RelativeLayout style="@style/setting_item" >
+
+        <CheckedTextView
+            android:id="@+id/rb_addfriend_2"
+            style="@style/setting_radiobutton"
+            android:background="@drawable/setting_item_bg_mid"
+            android:paddingLeft="30dip"
+            android:text="@string/policy_add_friends_need_confirm" />
+    </RelativeLayout>
+
+    <ImageView style="@style/setting_line" />
+
+    <RelativeLayout style="@style/setting_item" >
+
+        <CheckedTextView
+            android:id="@+id/rb_addfriend_3"
+            style="@style/setting_radiobutton"
+            android:background="@drawable/setting_item_bg_mid"
+            android:paddingLeft="30dip"
+            android:text="@string/policy_add_friends_allow_friends" />
+    </RelativeLayout>
+
+    <ImageView style="@style/setting_line" />
+
+    <RelativeLayout style="@style/setting_item" >
+
+        <CheckedTextView
+            android:id="@+id/rb_addfriend_4"
+            style="@style/setting_radiobutton"
+            android:background="@drawable/setting_item_bg_mid"
+            android:paddingLeft="30dip"
+            android:text="@string/policy_add_friends_allow_none" />
+    </RelativeLayout>
+
+    <!-- 隐私策略设置 -->
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="36dip"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/bg_gray"
+        android:gravity="center_vertical"
+        android:paddingLeft="18dip"
+        android:text="@string/policy_privacy_material"
+        android:textColor="#000000"
+        android:textSize="14dip" />
+
+    <RelativeLayout style="@style/setting_item" >
+
+        <CheckedTextView
+            android:id="@+id/privacy_material_cb_one"
+            style="@style/setting_radiobutton"
+            android:background="@drawable/setting_item_bg_mid"
+            android:paddingLeft="30dip"
+            android:text="@string/all_public" />
+    </RelativeLayout>
+
+    <ImageView style="@style/setting_line" />
+
+    <RelativeLayout style="@style/setting_item" >
+
+        <CheckedTextView
+            android:id="@+id/privacy_material_cb_two"
+            style="@style/setting_radiobutton"
+            android:paddingLeft="30dip"
+            android:background="@drawable/setting_item_bg_mid"
+            android:text="@string/olny_friend" />
+    </RelativeLayout>
+
+    <ImageView style="@style/setting_line" />
+
+    <RelativeLayout style="@style/setting_item" >
+
+        <CheckedTextView
+            android:id="@+id/privacy_material_cb_three"
+            style="@style/setting_radiobutton"
+            android:background="@drawable/setting_item_bg_mid"
+            android:paddingLeft="30dip"
+            android:text="@string/only_contacts" />
+    </RelativeLayout>
+
+    <ImageView style="@style/setting_line" />
+    <!-- 验证设置 -->
+    <!--
+        <TextView style="@style/setting_grouptitle"
+            android:text="@string/set_proving" />
+        <LinearLayout style="@style/setting_group"> 
+            <RelativeLayout style="@style/setting_item">
+                <CheckedTextView android:id="@+id/cb_autoconfirm" style="@style/setting_checkbox" 
+                    android:background="@drawable/setting_item_bg_all"
+                    android:text="@string/set_proving_need_confirm" />
+            </RelativeLayout>
+        </LinearLayout>
+    -->
+
+</LinearLayout>

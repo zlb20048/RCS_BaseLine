@@ -1,0 +1,894 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<string-array name="zodiac_item">
+		<item></item>
+		<item>鼠</item>
+		<item>牛</item>
+		<item>虎</item>
+		<item>兔</item>
+		<item>龙</item>
+		<item>蛇</item>
+		<item>马</item>
+		<item>羊</item>
+		<item>猴</item>
+		<item>鸡</item>
+		<item>狗</item>
+		<item>猪</item>
+	</string-array>
+	<string-array name="astro_item">
+		<item></item>
+		<item>白羊座</item>
+		<item>金牛座</item>
+		<item>双子座</item>
+		<item>巨蟹座</item>
+		<item>狮子座</item>
+		<item>处女座</item>
+		<item>天秤座</item>
+		<item>天蝎座</item>
+		<item>射手座</item>
+		<item>摩羯座</item>
+		<item>水瓶座</item>
+		<item>双鱼座</item>
+	</string-array>
+	<string-array name="blood_array">
+		<item></item>
+		<item>A型血</item>
+		<item>B型血</item>
+		<item>AB型血</item>
+		<item>O型血</item>
+		<item>Rh型血</item>
+		<item>MN型血</item>
+		<item>HLA型血</item>
+	</string-array>
+	<string-array name="message_province">
+		<item>北京</item>
+		<item>天津</item>
+		<item>上海</item>
+		<item>重庆</item>
+		<item>新疆</item>
+		<item>西藏</item>
+		<item>宁夏</item>
+		<item>内蒙古</item>
+		<item>广西</item>
+		<item>黑龙江</item>
+		<item>吉林</item>
+		<item>辽宁</item>
+		<item>河北</item>
+		<item>山东</item>
+		<item>江苏</item>
+		<item>安徽</item>
+		<item>福建</item>
+		<item>广东</item>
+		<item>海南</item>
+		<item>云南</item>
+		<item>贵州</item>
+		<item>四川</item>
+		<item>湖南</item>
+		<item>湖北</item>
+		<item>河南</item>
+		<item>山西</item>
+		<item>陕西</item>
+		<item>甘肃</item>
+		<item>青海</item>
+		<item>江西</item>
+		<item>台湾</item>
+		<item>香港</item>
+		<item>澳门</item>
+		<item>其他</item>
+	</string-array>
+	<string-array name="message_beijin">
+		<item>海淀</item>
+		<item>东城</item>
+		<item>西城</item>
+		<item>宣武</item>
+		<item>丰台</item>
+		<item>朝阳</item>
+		<item>崇文</item>
+		<item>大兴</item>
+		<item>石景山</item>
+		<item>门头沟</item>
+		<item>房山</item>
+		<item>通州</item>
+		<item>顺义</item>
+		<item>怀柔</item>
+		<item>昌平</item>
+		<item>平谷</item>
+		<item>密云</item>
+		<item>延庆</item>
+	</string-array>
+	<string-array name="message_tianjin">
+		<item>和平</item>
+		<item>河西</item>
+		<item>河北</item>
+		<item>河东</item>
+		<item>南开</item>
+		<item>红桥</item>
+		<item>北辰</item>
+		<item>津南</item>
+		<item>武清</item>
+		<item>塘沽</item>
+		<item>西青</item>
+		<item>汉沽</item>
+		<item>大港</item>
+		<item>宝坻</item>
+		<item>东丽</item>
+		<item>蓟县</item>
+		<item>静海</item>
+		<item>宁河</item>
+	</string-array>
+	<string-array name="message_shanghai">
+		<item>黄浦</item>
+		<item>卢湾</item>
+		<item>徐汇</item>
+		<item>长宁</item>
+		<item>静安</item>
+		<item>普陀</item>
+		<item>闸北</item>
+		<item>杨浦</item>
+		<item>虹口</item>
+		<item>闵行</item>
+		<item>宝山</item>
+		<item>嘉定</item>
+		<item>浦东</item>
+		<item>金山</item>
+		<item>松江</item>
+		<item>青浦</item>
+		<item>南汇</item>
+		<item>奉贤</item>
+		<item>崇明</item>
+	</string-array>
+	<string-array name="message_chongqing">
+		<item>渝中</item>
+		<item>大渡口</item>
+		<item>江北</item>
+		<item>沙坪坝</item>
+		<item>九龙坡</item>
+		<item>南岸</item>
+		<item>北碚</item>
+		<item>万盛</item>
+		<item>双桥</item>
+		<item>渝北</item>
+		<item>巴南</item>
+		<item>万州</item>
+		<item>涪陵</item>
+		<item>黔江</item>
+		<item>长寿</item>
+		<item>江津</item>
+		<item>永川</item>
+		<item>南川</item>
+		<item>綦江</item>
+		<item>潼南</item>
+		<item>铜梁</item>
+		<item>大足</item>
+		<item>荣昌</item>
+		<item>璧山</item>
+		<item>垫江</item>
+		<item>武隆</item>
+		<item>丰都</item>
+		<item>城口</item>
+		<item>梁平</item>
+		<item>开县</item>
+		<item>巫溪</item>
+		<item>巫山</item>
+		<item>奉节</item>
+		<item>云阳</item>
+		<item>忠县</item>
+		<item>石柱土家族自治县</item>
+		<item>彭水苗族土家族自治县</item>
+		<item>酉阳苗族自治县</item>
+		<item>秀山土家族苗族自治县</item>
+	</string-array>
+	<string-array name="message_xinjiang">
+		<item>乌鲁木齐</item>
+		<item>克拉玛依</item>
+		<item>石河子</item>
+		<item>阿拉尔</item>
+		<item>图木舒克</item>
+		<item>五家渠</item>
+		<item>哈密</item>
+		<item>吐鲁番</item>
+		<item>阿克苏</item>
+		<item>喀什</item>
+		<item>和田</item>
+		<item>伊宁</item>
+		<item>塔城</item>
+		<item>阿勒泰</item>
+		<item>奎屯</item>
+		<item>博乐</item>
+		<item>昌吉</item>
+		<item>阜康</item>
+		<item>库尔勒</item>
+		<item>阿图什</item>
+		<item>乌苏</item>
+	</string-array>
+	<string-array name="message_xizang">
+		<item>拉萨</item>
+		<item>昌都</item>
+		<item>山南</item>
+		<item>日喀则</item>
+		<item>那曲</item>
+		<item>阿里</item>
+		<item>林芝</item>
+	</string-array>
+	<string-array name="message_ninxia">
+		<item>银川</item>
+		<item>石嘴山</item>
+		<item>吴忠</item>
+		<item>固原</item>
+		<item>中卫</item>
+	</string-array>
+	<string-array name="message_neimenggu">
+		<item>呼和浩特</item>
+		<item>包头</item>
+		<item>乌海</item>
+		<item>赤峰</item>
+		<item>通辽</item>
+		<item>鄂尔多斯</item>
+		<item>呼伦贝尔</item>
+		<item>巴彦淖尔</item>
+		<item>乌兰察布</item>
+	</string-array>
+	<string-array name="message_guangxi">
+		<item>南宁</item>
+		<item>柳州</item>
+		<item>桂林</item>
+		<item>梧州</item>
+		<item>北海</item>
+		<item>崇左</item>
+		<item>来宾</item>
+		<item>贺州</item>
+		<item>玉林</item>
+		<item>百色</item>
+		<item>河池</item>
+		<item>钦州</item>
+		<item>防城港</item>
+		<item>贵港</item>
+	</string-array>
+	<string-array name="message_heilongjiang">
+		<item>哈尔滨</item>
+		<item>大庆</item>
+		<item>齐齐哈尔</item>
+		<item>佳木斯</item>
+		<item>鸡西</item>
+		<item>鹤岗</item>
+		<item>双鸭山</item>
+		<item>牡丹江</item>
+		<item>伊春</item>
+		<item>七台河</item>
+		<item>黑河</item>
+		<item>绥化 加格达奇</item>
+	</string-array>
+	<string-array name="message_jilin">
+		<item>长春</item>
+		<item>吉林</item>
+		<item>四平</item>
+		<item>辽源</item>
+		<item>通化</item>
+		<item>白山</item>
+		<item>松原</item>
+		<item>白城</item>
+	</string-array>
+	<string-array name="message_liaonin">
+		<item>沈阳</item>
+		<item>大连</item>
+		<item>金州</item>
+		<item>鞍山</item>
+		<item>抚顺</item>
+		<item>本溪</item>
+		<item>丹东</item>
+		<item>锦州</item>
+		<item>营口</item>
+		<item>阜新</item>
+		<item>辽阳</item>
+		<item>盘锦</item>
+		<item>铁岭</item>
+		<item>朝阳</item>
+		<item>葫芦岛</item>
+	</string-array>
+	<string-array name="message_hebei">
+		<item>石家庄</item>
+		<item>唐山</item>
+		<item>邯郸</item>
+		<item>秦皇岛</item>
+		<item>保定</item>
+		<item>张家口</item>
+		<item>承德</item>
+		<item>廊坊</item>
+		<item>沧州</item>
+		<item>衡水</item>
+		<item>邢台</item>
+	</string-array>
+	<string-array name="message_shandong">
+		<item>济南</item>
+		<item>青岛</item>
+		<item>淄博</item>
+		<item>枣庄</item>
+		<item>东营</item>
+		<item>烟台</item>
+		<item>潍坊</item>
+		<item>济宁</item>
+		<item>泰安</item>
+		<item>威海</item>
+		<item>日照</item>
+		<item>莱芜</item>
+		<item>临沂</item>
+		<item>德州</item>
+		<item>聊城</item>
+		<item>菏泽</item>
+		<item>滨州</item>
+	</string-array>
+	<string-array name="message_jiangsu">
+		<item>南京</item>
+		<item>镇江</item>
+		<item>常州</item>
+		<item>无锡</item>
+		<item>苏州</item>
+		<item>徐州</item>
+		<item>连云港</item>
+		<item>淮安</item>
+		<item>盐城</item>
+		<item>扬州</item>
+		<item>泰州</item>
+		<item>南通</item>
+		<item>宿迁</item>
+		<item>响水</item>
+		<item>吴江</item>
+	</string-array>
+	<string-array name="message_anhui">
+		<item>合肥</item>
+		<item>蚌埠</item>
+		<item>芜湖</item>
+		<item>淮南</item>
+		<item>亳州</item>
+		<item>阜阳</item>
+		<item>淮北</item>
+		<item>宿州</item>
+		<item>滁州</item>
+		<item>安庆</item>
+		<item>巢湖</item>
+		<item>马鞍山</item>
+		<item>宣城</item>
+		<item>黄山</item>
+		<item>池州</item>
+		<item>铜陵</item>
+	</string-array>
+	<string-array name="message_zhejiang">
+		<item>杭州</item>
+		<item>嘉兴</item>
+		<item>湖州</item>
+		<item>宁波</item>
+		<item>金华</item>
+		<item>温州</item>
+		<item>丽水</item>
+		<item>绍兴</item>
+		<item>衢州</item>
+		<item>舟山</item>
+		<item>台州</item>
+	</string-array>
+	<string-array name="message_fujian">
+		<item>福州</item>
+		<item>厦门</item>
+		<item>泉州</item>
+		<item>三明</item>
+		<item>南平</item>
+		<item>漳州</item>
+		<item>莆田</item>
+		<item>宁德</item>
+		<item>龙岩</item>
+	</string-array>
+	<string-array name="message_guangdong">
+		<item>广州</item>
+		<item>深圳</item>
+		<item>汕头</item>
+		<item>惠州</item>
+		<item>珠海</item>
+		<item>揭阳</item>
+		<item>佛山</item>
+		<item>河源</item>
+		<item>阳江</item>
+		<item>茂名</item>
+		<item>湛江</item>
+		<item>梅州</item>
+		<item>肇庆</item>
+		<item>韶关</item>
+		<item>潮州</item>
+		<item>东莞</item>
+		<item>中山</item>
+		<item>清远</item>
+		<item>江门</item>
+		<item>汕尾</item>
+		<item>云浮</item>
+	</string-array>
+	<string-array name="message_hainan">
+		<item>海口</item>
+		<item>三亚</item>
+		<item>五指山</item>
+		<item>琼海</item>
+		<item>儋州</item>
+		<item>文昌</item>
+		<item>万宁</item>
+		<item>东方</item>
+		<item>定安</item>
+		<item>屯昌</item>
+		<item>澄迈</item>
+		<item>临高</item>
+	</string-array>
+	<string-array name="message_yunnan">
+		<item>昆明</item>
+		<item>曲靖</item>
+		<item>玉溪</item>
+		<item>保山</item>
+		<item>昭通</item>
+		<item>丽江</item>
+		<item>普洱</item>
+		<item>临沧</item>
+	</string-array>
+	<string-array name="message_guizhou">
+		<item>贵阳</item>
+		<item>六盘水</item>
+		<item>遵义</item>
+		<item>安顺</item>
+		<item>铜仁</item>
+		<item>毕节</item>
+		<item>黔东南</item>
+		<item>黔西南</item>
+		<item>黔南</item>
+	</string-array>
+	<string-array name="message_sichuan">
+		<item>成都</item>
+		<item>绵阳</item>
+		<item>德阳</item>
+		<item>广元</item>
+		<item>自贡</item>
+		<item>攀枝花</item>
+		<item>乐山</item>
+		<item>南充</item>
+		<item>内江</item>
+		<item>遂宁</item>
+		<item>广安</item>
+		<item>泸州</item>
+		<item>达州</item>
+		<item>眉山</item>
+		<item>宜宾</item>
+		<item>雅安</item>
+		<item>资阳</item>
+	</string-array>
+	<string-array name="message_hunan">
+		<item>长沙</item>
+		<item>株洲</item>
+		<item>湘潭</item>
+		<item>衡阳</item>
+		<item>岳阳</item>
+		<item>郴州</item>
+		<item>永州</item>
+		<item>邵阳</item>
+		<item>怀化</item>
+		<item>常德</item>
+		<item>益阳</item>
+		<item>张家界</item>
+		<item>娄底</item>
+	</string-array>
+	<string-array name="message_hubei">
+		<item>武汉</item>
+		<item>襄樊</item>
+		<item>宜昌</item>
+		<item>黄石</item>
+		<item>鄂州</item>
+		<item>随州</item>
+		<item>荆州</item>
+		<item>荆门</item>
+		<item>十堰</item>
+		<item>孝感</item>
+		<item>黄冈</item>
+		<item>咸宁</item>
+	</string-array>
+	<string-array name="message_henan">
+		<item>郑州</item>
+		<item>洛阳</item>
+		<item>开封</item>
+		<item>漯河</item>
+		<item>安阳</item>
+		<item>新乡</item>
+		<item>周口</item>
+		<item>三门峡</item>
+		<item>焦作</item>
+		<item>平顶山</item>
+		<item>信阳</item>
+		<item>南阳</item>
+		<item>鹤壁</item>
+		<item>濮阳</item>
+		<item>许昌</item>
+		<item>商丘</item>
+		<item>驻马店</item>
+	</string-array>
+	<string-array name="message_shanxi_jin">
+		<item>太原</item>
+		<item>大同</item>
+		<item>忻州</item>
+		<item>阳泉</item>
+		<item>长治</item>
+		<item>晋城</item>
+		<item>朔州</item>
+		<item>晋中</item>
+		<item>运城</item>
+		<item>临汾</item>
+		<item>吕梁</item>
+	</string-array>
+	<string-array name="message_shanxi_shan">
+		<item>西安</item>
+		<item>咸阳</item>
+		<item>铜川</item>
+		<item>延安</item>
+		<item>宝鸡</item>
+		<item>渭南</item>
+		<item>汉中</item>
+		<item>安康</item>
+		<item>商洛</item>
+		<item>榆林</item>
+	</string-array>
+	<string-array name="message_gansu">
+		<item>兰州</item>
+		<item>天水</item>
+		<item>平凉</item>
+		<item>酒泉</item>
+		<item>嘉峪关</item>
+		<item>金昌</item>
+		<item>白银</item>
+		<item>武威</item>
+		<item>张掖</item>
+		<item>庆阳</item>
+		<item>定西</item>
+		<item>陇南</item>
+	</string-array>
+	<string-array name="message_qinghai">
+		<item>西宁</item>
+		<item>海东</item>
+		<item>海北</item>
+		<item>黄南</item>
+		<item>海南</item>
+		<item>果洛</item>
+		<item>玉树</item>
+		<item>海西</item>
+	</string-array>
+	<string-array name="message_jiangxi">
+		<item>南昌</item>
+		<item>九江</item>
+		<item>赣州</item>
+		<item>吉安</item>
+		<item>鹰潭</item>
+		<item>上饶</item>
+		<item>萍乡</item>
+		<item>景德镇</item>
+		<item>新余</item>
+		<item>宜春</item>
+		<item>抚州</item>
+	</string-array>
+	<string-array name="message_taiwan">
+		<item>台北</item>
+		<item>台中</item>
+		<item>基隆</item>
+		<item>高雄</item>
+		<item>台南</item>
+		<item>新竹</item>
+		<item>嘉义</item>
+		<item>板桥</item>
+		<item>宜兰</item>
+		<item>竹北</item>
+		<item>桃园</item>
+		<item>苗栗</item>
+		<item>丰原</item>
+		<item>彰化</item>
+		<item>南投</item>
+		<item>太保</item>
+		<item>斗六</item>
+		<item>新营</item>
+		<item>凤山</item>
+		<item>屏东</item>
+		<item>台东</item>
+		<item>花莲</item>
+		<item>马公</item>
+	</string-array>
+	<string-array name="message_xianggang">
+		<item>中西区</item>
+		<item>东区</item>
+		<item>九龙城</item>
+		<item>观塘</item>
+		<item>南区</item>
+		<item>深水埗</item>
+		<item>黄大仙</item>
+		<item>湾仔</item>
+		<item>油尖旺</item>
+		<item>离岛</item>
+		<item>葵青</item>
+		<item>北区</item>
+		<item>西贡</item>
+		<item>沙田</item>
+		<item>屯门</item>
+		<item>大埔</item>
+		<item>荃湾</item>
+		<item>元朗</item>
+	</string-array>
+	<string-array name="message_aomen">
+		<item>花地玛堂区</item>
+		<item>圣安多尼堂区（花王堂区）</item>
+		<item>望德堂区</item>
+		<item>大堂区</item>
+		<item>风顺堂区（圣老楞佐堂区）</item>
+		<item>离岛</item>
+		<item>氹仔</item>
+		<item>路环</item>
+	</string-array>
+	<string-array name="message_others">
+		<item>美国</item>
+		<item>俄罗斯</item>
+		<item>英国</item>
+		<item>德国</item>
+		<item>法国</item>
+		<item>意大利</item>
+		<item>西班牙</item>
+		<item>葡萄牙</item>
+		<item>挪威</item>
+		<item>匈牙利</item>
+		<item>乌克兰</item>
+		<item>澳大利亚</item>
+		<item>日本</item>
+		<item>韩国</item>
+		<item>越南</item>
+		<item>菲律宾</item>
+		<item>印度</item>
+		<item>缅甸</item>
+		<item>老挝</item>
+		<item>巴基斯坦</item>
+		<item>巴西</item>
+		<item>阿根廷</item>
+		<item>巴拉圭</item>
+		<item>乌拉圭</item>
+		<item>墨西哥</item>
+		<item>阿联酋</item>
+		<item>以色列</item>
+		<item>埃及</item>
+		<item>南非</item>
+	</string-array>
+
+	<string-array name="all_regions_group">
+		<item>广东</item>
+		<item>湖南</item>
+		<item>浙江</item>
+		<item>江苏</item>
+	</string-array>
+
+	<string-array name="all_regions_guagndong_child">
+		<item>广州</item>
+		<item>河源</item>
+		<item>佛山</item>
+		<item>顺德</item>
+		<item>珠海</item>
+	</string-array>
+	<string-array name="all_regions_hunan_child">
+		<item>岳阳</item>
+		<item>长沙 </item>
+		<item>湘潭</item>
+		<item>株州</item>
+		<item>衡阳</item>
+	</string-array>
+	<string-array name="all_regions_zhejiang_child">
+		<item>衢州</item>
+		<item>杭州</item>
+		<item>湖州 </item>
+		<item>嘉兴 </item>
+	</string-array>
+	<string-array name="all_regions_jiangsu_child">
+		<item>南京</item>
+	</string-array>
+	<string-array name="blog_picture">
+		<item>从相册中选择</item>
+		<item>拍摄照片</item>
+	</string-array>
+
+	<string-array name="blog_picture_have">
+		<item>从相册中选择</item>
+		<item>拍摄照片</item>
+		<item>清除图片</item>
+	</string-array>
+	
+	<string-array name="voip_choose_call_type">
+		<item>普通呼叫</item>
+		<item>VOIP语言呼叫</item>
+		<item>VOIP视频呼叫</item>
+		<item>取消</item>
+	</string-array>
+	
+	<string-array name="emotion_title1">
+        <item>表情 </item>
+        <item>贴图</item>
+        <item>表情符号</item>
+    </string-array>
+    <string-array name="emotion_title2">
+        <item>表情 </item>
+        <item>表情符号</item>
+    </string-array>
+    <string-array name="emotion_tab">
+        <item>兔系列</item>
+        <item>龙系列</item>
+    </string-array>
+     <!-- 贴图 -->
+    <!-- 系统表情 -->
+    <string-array name="system_emotion_key">
+        <item>baiy</item>
+        <item>bq</item>
+        <item>bz</item>
+        <item>cy</item>
+        <item>db</item>
+        <item>dg</item>
+        <item>dk</item>
+        <item>dy</item>
+        <item>fd</item>
+        <item>fendou</item>
+        <item>fn</item>
+        <item>hanx</item>
+        <item>hd</item>
+        <item>hx</item>
+        <item>jy</item>
+        <item>kk</item>
+        <item>kuk</item>
+        <item>kun</item>
+        <item>lh</item>
+        <item>lw</item>
+        <item>mg</item>
+        <item>pz</item>
+        <item>qiang</item>
+        <item>qq</item>
+        <item>qt</item>
+        <item>sa</item>
+        <item>se</item>
+        <item>shl</item>
+        <item>shuai</item>
+        <item>snd</item>
+        <item>ws</item>
+        <item>wx</item>
+        <item>xig</item>
+        <item>xin</item>
+        <item>yb</item>
+        <item>yihuo</item>
+        <item>yun</item>
+        <item>yx</item>
+        <item>zhouma</item>
+        <item>zt</item>
+        <item>kel</item>
+        <item>nanwen</item>
+        <item>zk</item>
+        <item>rn</item>
+        <item>sq</item>
+        <item>wunai</item>
+        <item>zht</item>
+        <item>zhd</item>
+        <item>ss</item>
+        <item>bsh</item>
+        <item>bb</item>
+        <item>dr</item>
+        <item>bh</item>
+        <item>gg</item>
+        <item>lr</item>
+        <item>qr</item>
+        <item>shx</item>
+        <item>chx</item>
+        <item>px</item>
+        <item>shy</item>
+        <item>kx</item>
+        <item>chifan</item>
+        <item>bs</item>
+        <item>bx</item>
+        <item>jx</item>
+        <item>cr</item>
+        <item>chr</item>
+        <item>hy</item>
+        <item>zhm</item>
+    </string-array>
+    
+    <string-array name="system_emotion_values">
+        <item>白眼</item>
+        <item>抱拳</item>
+        <item>闭嘴</item>
+        <item>呲牙</item>
+        <item>大兵</item>
+        <item>蛋糕</item>
+        <item>大哭</item>
+        <item>大爷</item>
+        <item>发呆</item>
+        <item>奋斗</item>
+        <item>发怒</item>
+        <item>含蓄</item>
+        <item>好的</item>
+        <item>害羞</item>
+        <item>惊讶</item>
+        <item>快哭了</item>
+        <item>酷</item>
+        <item>困</item>
+        <item>流汗</item>
+        <item>礼物</item>
+        <item>玫瑰</item>
+        <item>撇嘴</item>
+        <item>强</item>
+        <item>亲亲</item>
+        <item>拳头</item>
+        <item>示爱</item>
+        <item>色</item>
+        <item>胜利</item>
+        <item>衰</item>
+        <item>闪电</item>
+        <item>握手</item>
+        <item>微笑</item>
+        <item>西瓜</item>
+        <item>爱心</item>
+        <item>拥抱</item>
+        <item>疑惑</item>
+        <item>晕</item>
+        <item>阴险</item>
+        <item>咒骂</item>
+        <item>猪头</item>
+        <item>可怜</item>
+        <item>难闻</item>
+        <item>抓狂</item>
+        <item>忍耐</item>
+        <item>生气</item>
+        <item>无奈</item>
+        <item>砖头</item>
+        <item>炸弹</item>
+        <item>受伤</item>
+        <item>拜神</item>
+        <item>再见</item>
+        <item>瞪人</item>
+        <item>暴寒</item>
+        <item>关公</item>
+        <item>雷人</item>
+        <item>强人</item>
+        <item>伤心</item>
+        <item>垂涎</item>
+        <item>喷血</item>
+        <item>神游</item>
+        <item>开心</item>
+        <item>吃饭</item>
+        <item>鄙视</item>
+        <item>鼻血</item>
+        <item>惊吓</item>
+        <item>耻辱</item>
+        <item>超人</item>
+        <item>幻想</item>
+        <item>皱眉</item>
+    </string-array>
+    <!-- tab1 -->
+    <string name="bangj_1">绑架</string>
+    <string name="fanu_1">发怒</string>
+    <string name="kaic_1">开车</string>
+    <string name="kanb_1">看病</string>
+    <string name="mei_1">美</string>
+    <string name="mmx_1">蒙面侠</string>
+    <string name="mofa_1">魔法</string>
+    <string name="outu_1">呕吐</string>
+    <string name="qiaod_1">敲打</string>
+    <string name="qinl_1">勤劳</string>
+    <string name="quanj_1">拳击</string>
+    <string name="shangx_1">伤心</string>
+    <string name="taop_1">逃跑</string>
+    <string name="tians_1">天使</string>
+    <string name="tuzhu_1">土著</string>
+    <string name="xiaot_1">小偷</string>
+    <string name="yun_1">晕</string>
+
+    <!-- tab2 -->
+    <string name="chaor_2">超人</string>
+    <string name="gongf_2">功夫</string>
+    <string name="guangb_2">广播</string>
+    <string name="huax_2">滑雪</string>
+    <string name="jingx_2">惊喜</string>
+    <string name="kds_2">看电视</string>
+    <string name="xiangn_2">想念</string>
+    <string name="yihuo_2">疑惑</string>
+    <string name="yun_2">晕</string>
+    <string name="zhain_2">宅女</string>
+    <string name="zsfz_2">知识分子</string>
+    <string name="zui_2">醉</string>
+    <string name="low_version">您当前客户端不支持 XX 类型消息，请升级您的客户端</string>
+    <string name="unsupport_type_msg">您收到一条不支持的消息，请升级您的客户端</string>
+
+</resources>

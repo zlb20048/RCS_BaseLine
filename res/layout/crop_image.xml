@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- 放置公共的titlebar -->
+
+    <include
+        android:id="@+id/crop_image_title"
+        layout="@layout/title_bar" />
+
+    <RelativeLayout
+        android:id="@+id/root_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/black" >
+
+        <!-- 这边放的是自定义控件 -->
+
+        <com.huawei.basic.android.im.ui.basic.image.CropZoomView
+            android:id="@+id/cropZoomView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+
+        <!-- 这边是存放"放大","缩小","旋转"按钮的容器 -->
+
+        <RelativeLayout
+            android:id="@+id/pic_operation_controls"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:paddingBottom="18dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp" >
+
+            <Button
+                android:id="@+id/btnRotation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/rotate" />
+
+            <Button
+                android:id="@+id/btnZoomIn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/btn_zoom_in" />
+
+            <Button
+                android:id="@+id/btnZoomOut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/btnZoomIn"
+                android:background="@drawable/btn_zoom_out" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

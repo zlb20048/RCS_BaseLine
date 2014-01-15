@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+    android:background="@drawable/all_page_bg" android:orientation="vertical">
+
+    <!-- 按钮部分 -->
+
+    <RelativeLayout android:id="@+id/button_layout"
+        android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:background="@drawable/ic_btn_title_background">
+        <include layout="@layout/title_bar" />
+
+    </RelativeLayout>
+
+    <!-- 广播消息提示设置主框架 -->
+    <LinearLayout style="@style/setting_mainframe">
+
+        <LinearLayout style="@style/setting_group">
+            <RelativeLayout style="@style/setting_item">
+                <CheckedTextView android:id="@+id/settings_broadcast_ctv"
+                    style="@style/setting_checkbox" android:background="@drawable/setting_item_bg_all"
+                    android:text="@string/policy_receive_all_broadcast" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+        

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="70.0dip"
+    android:background="@color/white"
+    android:orientation="horizontal" 
+    android:gravity="center_vertical">
+	<!-- 显示通话类型图标 -->
+	<ImageView
+        android:id="@+id/callStatusImage"
+        android:layout_width="20dip"
+        android:layout_height="20dip"
+        android:layout_marginLeft="8dip"/>
+     <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13dip"
+        android:layout_marginTop="8dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="top"
+            android:orientation="horizontal" >
+
+            <!-- 显示通话类型描述 -->
+
+            <TextView
+                android:id="@+id/callStatusText"
+                android:layout_width="130dip"
+                android:layout_height="wrap_content"
+                android:text="@string/comm_detail_dail_type"
+                android:textColor="#707070"
+                android:textSize="13dip" />
+            <!-- 显示通话日期 -->
+
+            <TextView
+                android:id="@+id/comm_detail_date"
+                android:layout_width="140dip"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingRight="10dip"
+                android:text="1111"
+                android:textColor="#707070"
+                android:textSize="13dip" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dip"
+        android:layout_marginLeft="15dip"
+        android:layout_marginTop="5dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <!-- 显示通话时长 -->
+
+        <TextView
+            android:id="@+id/comm_detail_talking_time"
+            android:layout_width="200dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#707070"
+            android:textSize="13dip" />
+        <!-- 显示通话具体时间 -->
+
+        <TextView
+            android:id="@+id/comm_detail_time"
+            android:layout_width="200dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="right"
+            android:paddingRight="17dip"
+            android:text="1111"
+            android:textColor="#707070"
+            android:textSize="13dip" />
+    </LinearLayout>
+	</LinearLayout>
+</LinearLayout>

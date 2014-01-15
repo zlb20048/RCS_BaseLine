@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:orientation="horizontal">
+	<com.huawei.basic.android.im.ui.basic.LimitedEditText android:id="@+id/edit_friend_memo"
+		android:layout_height="wrap_content" android:layout_marginLeft="20px"
+		android:layout_marginRight="20px" android:singleLine="true"
+		android:scrollHorizontally="true" android:autoText="false"
+		android:capitalize="none" android:gravity="fill_horizontal"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="400px" />
+</LinearLayout>

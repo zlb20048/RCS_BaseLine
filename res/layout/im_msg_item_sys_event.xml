@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:orientation="vertical" android:gravity="center">
+	<include layout="@layout/im_msg_item_timeline" />	<TextView android:id="@+id/event" android:layout_width="wrap_content"		android:layout_height="wrap_content" android:layout_centerHorizontal="true"		android:background="@drawable/chat_event_bg" android:ellipsize="end"		android:gravity="center" android:textColor="@color/agray" />
+
+</LinearLayout>

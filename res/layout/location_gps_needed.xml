@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content" android:layout_height="wrap_content"
+	android:orientation="vertical">
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="@string/open_location_tips"
+		android:textSize="14sp" android:paddingLeft="3dp" android:textColor="@color/black" />
+	<CheckBox android:id="@+id/remember_my_choice" android:text="@string/find_by_location_tips_not"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:textColor="@color/black" android:textSize="14sp"
+		style="@android:style/Widget.CompoundButton.CheckBox" android:checked="false" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/RelativeLayout_Item"
+	android:layout_width="112dip" android:layout_height="43dip" 
+	android:background="@drawable/list_item_bg_xml" android:gravity="center"  >
+	<TextView  android:id="@+id/item_text" android:background="@drawable/maps_bg" android:gravity="center"
+		android:layout_centerHorizontal="true" android:layout_width="96dip" android:singleLine="true"
+		android:layout_height="36dip" android:textColor="@color/black"></TextView>
+</RelativeLayout>

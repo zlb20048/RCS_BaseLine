@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:cacheColorHint="#FFFFFF"
+    android:background="@drawable/white_bg"
+    android:orientation="vertical" >
+ 
+
+    <ListView
+        android:id="@+id/claListView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="#00000000"
+        android:divider="@drawable/cla_divider"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:listSelector="@null" />
+
+</LinearLayout>

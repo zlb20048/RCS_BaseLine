@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="48dip"
+    android:background="@drawable/ic_btn_title_background"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/left_button"
+        style="@style/title_bar_button_text"
+        android:layout_width="66dip"
+        android:layout_height="32dip"
+        android:layout_marginLeft="13.3dip"
+        android:background="@drawable/btn_green_back"
+        android:gravity="center"
+        android:text="@string/back" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/title_bar_title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dip"
+            android:layout_marginRight="8dip"
+            android:gravity="center"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/right_layout_total"
+        android:layout_width="66dip"
+        android:layout_height="fill_parent"
+        android:layout_marginRight="13.3dip"
+        android:gravity="right|center_vertical" >
+
+        <LinearLayout
+            android:id="@+id/right_layout"
+            android:layout_width="66dip"
+            android:layout_height="32dip"
+            android:background="@drawable/btn_green_back"
+            android:clickable="true"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/right_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/start_chat" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/title_right_button"
+        style="@style/title_bar_button_text"
+        android:layout_width="66dip"
+        android:layout_height="32dip"
+        android:layout_marginRight="13.3dip"
+        android:background="@drawable/btn_green_back"
+        android:gravity="center"
+        android:text="@string/group_detail"
+        android:visibility="gone" />
+
+</LinearLayout>

@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainFrame"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/contact_icon"
+        android:layout_width="fill_parent"
+        android:layout_height="265dip"
+        android:layout_margin="10dip"
+        android:layout_marginTop="5dip"
+        android:background="@drawable/voip_comm_img_unknow" />
+
+    <RelativeLayout
+        android:id="@+id/nomal_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible" >
+
+        <RelativeLayout
+            android:id="@+id/contact_info"
+            android:layout_width="fill_parent"
+            android:layout_height="265dip"
+            android:layout_margin="10dip"
+            android:layout_marginTop="5dip"
+            android:gravity="bottom"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/top_bar"
+                android:layout_width="fill_parent"
+                android:layout_height="75dip"
+                android:layout_alignParentBottom="true"
+                android:background="#22000000"
+                android:orientation="vertical"
+                android:weightSum="2" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dip"
+                    android:gravity="left"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/contact_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:text="Naruto"
+                        android:textColor="@color/white"
+                        android:textSize="18dip"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/call_state"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/voip_call_state_calling"
+                        android:textColor="@color/white"
+                        android:textSize="17dip" />
+
+                    <TextView
+                        android:id="@+id/call_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="00:00"
+                        android:textColor="@color/white"
+                        android:textSize="17dip" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/contact_number_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/contact_info"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="10dip"
+            android:gravity="right" >
+
+            <TextView
+                android:id="@+id/contact_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="15dip"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/tool_bar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/contact_number_layout"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="30dip"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="4" >
+
+            <com.huawei.basic.android.im.ui.basic.CheckButton
+                android:id="@+id/record"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/voip_icon_record_off"
+                android:textColor="@color/white" />
+
+            <com.huawei.basic.android.im.ui.basic.CheckButton
+                android:id="@+id/mute"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/voip_icon_mute_off"
+                android:drawablePadding="8dip"
+                android:textColor="@color/white" />
+
+            <com.huawei.basic.android.im.ui.basic.CheckButton
+                android:id="@+id/keyboard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/voip_icon_dispad_off"
+                android:drawablePadding="8dip"
+                android:textColor="@color/white" />
+
+            <com.huawei.basic.android.im.ui.basic.CheckButton
+                android:id="@+id/speaker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/voip_icon_speaker_off"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/display_keypad"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:layout_marginTop="5dip"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:id="@+id/open_pad_top"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:background="#22000000"
+            android:gravity="center"
+            android:padding="10dip" >
+
+            <EditText
+                android:id="@+id/contact_name_top"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:cursorVisible="false"
+                android:maxLength="200"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textSize="18dip"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="26dip"
+            android:layout_below="@id/open_pad_top"
+            android:background="#22000000"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/call_time_top"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="18dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="150dip" >
+
+            <include layout="@layout/voip_base_phone_number_pad" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/operating_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+
+        <LinearLayout
+            android:id="@+id/operating_answer"
+            android:layout_width="100dip"
+            android:layout_height="45dip"
+            android:layout_weight="1"
+            android:background="@drawable/voip_btn_green"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dip"
+                android:background="@drawable/voip_in_call_answer_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dip"
+                android:text="@string/voip_operat_answer"
+                android:textColor="@color/white"
+                android:textSize="17dip"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/operating_refuse"
+            android:layout_width="100dip"
+            android:layout_height="45dip"
+            android:layout_weight="1"
+            android:background="@drawable/voip_btn_red"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/voip_in_call_refuse_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dip"
+                android:text="@string/voip_operat_refuse"
+                android:textColor="@color/white"
+                android:textSize="17dip"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/operating_hangup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="24dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+
+        <LinearLayout
+            android:id="@+id/operating_hang_up"
+            android:layout_width="fill_parent"
+            android:layout_height="45dip"
+            android:layout_weight="1"
+            android:background="@drawable/voip_btn_red"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/voip_in_call_refuse_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dip"
+                android:text="@string/voip_operat_hang_up"
+                android:textColor="@color/white"
+                android:textSize="17dip"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/operating_displaykeypad"
+            android:layout_width="300dip"
+            android:layout_height="45dip"
+            android:layout_weight="1"
+            android:background="@drawable/selector_call_display_pad"
+            android:src="@drawable/voip_display_pad_icon"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/end_cover"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#44CCCCCC"
+        android:visibility="gone" />
+
+</RelativeLayout>

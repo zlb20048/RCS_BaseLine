@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/head_layout" android:layout_width="fill_parent"
+	android:layout_height="wrap_content" android:orientation="horizontal"
+	android:layout_marginTop="14dip">
+	<ImageView android:id="@+id/head_image" android:layout_width="60dip"
+		android:layout_height="60dip" android:src="@drawable/default_contact_icon" />
+	<LinearLayout android:layout_width="wrap_content"
+		android:orientation="vertical" android:layout_height="wrap_content"
+		android:gravity="left" android:layout_marginLeft="8dip">
+		<LinearLayout android:id="@+id/friend_name_layout"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:orientation="horizontal" android:gravity="center_vertical">
+			<TextView android:id="@+id/friend_name" android:singleLine="true"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				style="@style/detail_friend_name_text" android:layout_weight="1" />
+			<ImageView android:id="@+id/sex_image"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:visibility="gone" android:layout_marginRight="3dip"
+				android:layout_marginLeft="3dip" />
+		</LinearLayout>
+		<LinearLayout android:layout_width="fill_parent"
+			android:id="@+id/hitalk_id_group" android:orientation="horizontal"
+			android:layout_height="wrap_content" android:gravity="center_vertical">
+			<TextView android:layout_width="wrap_content" android:text="@string/hitalk_id"
+				android:layout_height="wrap_content" style="@style/friend_signature_text"
+				android:layout_marginRight="2dip" android:gravity="left" />
+			<TextView android:id="@+id/hitalk_id" android:layout_height="wrap_content"
+				android:layout_width="wrap_content" style="@style/friend_signature_text"
+				android:layout_weight="1" android:singleLine="true" />
+		</LinearLayout>
+		<LinearLayout android:layout_width="fill_parent"
+			android:id="@+id/backup_group" android:orientation="horizontal"
+			android:layout_height="wrap_content" android:gravity="center_vertical">
+			<TextView android:layout_width="wrap_content" android:text="@string/backup_name"
+				android:layout_height="wrap_content" style="@style/friend_signature_text"
+				android:layout_marginRight="2dip" android:gravity="left" />
+			<TextView android:id="@+id/backup_name"
+				android:layout_height="wrap_content" android:layout_width="wrap_content"
+				style="@style/friend_signature_text" android:layout_weight="1"
+				android:singleLine="true" />
+		</LinearLayout>
+		<LinearLayout android:layout_width="fill_parent"
+			android:id="@+id/contact_group" android:orientation="horizontal"
+			android:layout_height="wrap_content" android:gravity="center_vertical"
+			android:visibility="gone">
+			<TextView android:layout_width="wrap_content" android:text="@string/contact_name"
+				android:layout_height="wrap_content" style="@style/friend_signature_text"
+				android:layout_marginRight="2dip" android:gravity="left" />
+			<TextView android:id="@+id/contact_name"
+				android:layout_height="wrap_content" android:layout_width="wrap_content"
+				style="@style/friend_signature_text" android:layout_weight="1"
+				android:singleLine="true" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

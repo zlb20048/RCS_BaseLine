@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="horizontal" android:gravity="center"
+	android:layout_marginTop="15dip">
+	<LinearLayout android:id="@+id/agree_friend_layout"
+		android:layout_width="fill_parent" android:layout_height="60dip"
+		android:layout_weight="1" android:gravity="center"
+		android:background="@drawable/detail_button_left" android:orientation="vertical">
+		<ImageView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:background="@drawable/agree" />
+		<TextView android:layout_width="wrap_content" android:text="@string/manager_agree"
+			android:layout_height="wrap_content" style="@style/friend_detail_invite_text"
+			android:layout_marginTop="5dip" />
+	</LinearLayout>
+	<LinearLayout android:id="@+id/refuse_friend_layout"
+		android:layout_width="fill_parent" android:layout_height="60dip"
+		android:layout_weight="1" android:gravity="center"
+		android:background="@drawable/detail_button_middle"
+		android:orientation="vertical">
+		<ImageView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:background="@drawable/refuse" />
+		<TextView android:layout_width="wrap_content" android:text="@string/manager_refuse"
+			android:layout_height="wrap_content" style="@style/friend_detail_invite_text"
+			android:layout_marginTop="5dip" />
+	</LinearLayout>
+	<LinearLayout android:id="@+id/join_blacklist_layout"
+		android:layout_width="fill_parent" android:layout_height="60dip"
+		android:layout_weight="1" android:gravity="center"
+		android:background="@drawable/detail_button_right"
+		android:orientation="vertical">
+		<ImageView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:background="@drawable/icon_block" />
+		<TextView android:layout_width="wrap_content" android:text="@string/join_blacklist"
+			android:layout_height="wrap_content" style="@style/friend_detail_invite_text"
+			android:layout_marginTop="5dip" />
+	</LinearLayout>
+	<LinearLayout android:id="@+id/friend_manage_details_layout"
+		android:layout_width="fill_parent" android:layout_height="60dip"
+		android:layout_weight="1" android:gravity="center"
+		android:background="@drawable/detail_button_right"
+		android:orientation="vertical" android:visibility="gone">
+		<ImageView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:background="@drawable/icon_detail" />
+		<TextView android:layout_width="wrap_content" android:text="@string/see_details"
+			android:layout_height="wrap_content" style="@style/friend_detail_invite_text"
+			android:layout_marginTop="5dip" />
+	</LinearLayout>
+</LinearLayout>

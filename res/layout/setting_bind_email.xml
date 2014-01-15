@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/white_bg"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title_bar" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/bind_email_iv"
+            android:layout_width="52dip"
+            android:layout_height="52dip"
+            android:layout_margin="15dip"
+            android:src="@drawable/setting_bind_email" />
+
+        <TextView
+            android:id="@+id/bind_email_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:lineSpacingExtra="5dip"
+            android:text="@string/bind_email_info"
+            android:textColor="#999999"
+            android:textSize="18dip" />
+    </LinearLayout>
+
+    <com.huawei.basic.android.im.ui.basic.LimitedEditText
+        android:id="@+id/bind_email_edit"
+        style="@style/search_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dip"
+        android:background="@drawable/edittext_green"
+        android:hint="@string/email"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/email_link_tip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dip"
+        android:lineSpacingExtra="5dip"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:text="@string/bound_mail"
+        android:textColor="#999999"
+        android:textSize="18dip"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/bound_email"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dip"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/your_email_lable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/your_email"
+            android:textColor="#999999"
+            android:textSize="18dip" />
+
+        <TextView
+            android:id="@+id/your_email_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#999999"
+            android:textSize="18dip" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bind_email_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dip"
+        android:background="@drawable/btn_green"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="@string/bind_phone"
+        android:textColor="@color/white"
+        android:textSize="18dip" />
+
+</LinearLayout>

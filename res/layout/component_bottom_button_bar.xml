@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="56dip"
+	android:orientation="horizontal" android:gravity="center"
+	android:background="@drawable/main_tab_normal">
+	<Button android:layout_width="180dip" android:layout_gravity="center"
+		android:layout_height="40dip" android:id="@+id/bottom_button" style="@style/bottom_button_text"
+		android:background="@drawable/btn_red" />
+
+</LinearLayout>

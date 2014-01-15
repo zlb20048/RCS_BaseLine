@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@drawable/all_page_bg">
+	<include layout="@layout/title_bar" />
+	<TextView android:text="@string/input_section_name_prompt"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		style="@style/friend_name_text" android:layout_marginRight="16dip"
+		android:layout_marginLeft="16dip" android:layout_marginTop="16dip" />
+	<com.huawei.basic.android.im.ui.basic.LimitedEditText
+		android:id="@+id/input_section_name" android:layout_width="fill_parent"
+		android:layout_marginTop="10dip" android:layout_height="wrap_content"
+		style="@style/detail_friend_name_text" maxCharLength="20"
+		android:layout_marginLeft="16dip" android:background="@drawable/edittext_green"
+		android:layout_marginRight="16dip" android:hint="@string/hint_section_name" />
+</LinearLayout>

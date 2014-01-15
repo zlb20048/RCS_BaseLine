@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:text="@string/find_by_location_tips"
+        android:textColor="#666666"
+        android:textSize="16dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip" >
+
+        <CheckBox
+            android:id="@+id/showTips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dip"
+            android:button="@drawable/checkbox"
+            android:checked="true"
+            android:text="@string/find_by_location_tips_not"
+            android:textColor="#666666"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/white_bg"
+    android:orientation="vertical" >
+
+    <!-- 标题栏 -->
+
+    <include layout="@layout/title_bar" />
+
+    <!-- 内部插件列表标题 -->
+
+    <TextView
+        android:id="@+id/internal_plugin_titile"
+        android:layout_width="fill_parent"
+        android:layout_height="27dip"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/bg_gray"
+        android:gravity="center_vertical"
+        android:text="@string/buildin_plugin"
+        android:textColor="#000000"
+        android:textSize="14dip" />
+
+    <!-- 外部插件列表 -->
+
+    <ListView
+        android:id="@+id/external_plugin_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="#00000000"
+        android:divider="@drawable/divider"
+        android:dividerHeight="0.6dp" />
+
+    <!-- 内部插件列表标题 -->
+
+    <TextView
+        android:id="@+id/external_plugin_titile"
+        android:layout_width="fill_parent"
+        android:layout_height="27dip"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/bg_gray"
+        android:gravity="center_vertical"
+        android:text="@string/buildin_plugin"
+        android:textColor="#000000"
+        android:textSize="14dip" />
+
+    <!-- 内部插件列表 -->
+
+    <ListView
+        android:id="@+id/internal_plugin_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="#00000000"
+        android:divider="@drawable/divider"
+        android:dividerHeight="0.6dp" />
+
+    <!-- 插件管理标题 -->
+
+    <TextView
+        android:id="@+id/plugin_managerment"
+        android:layout_width="fill_parent"
+        android:layout_height="27dip"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/bg_gray"
+        android:gravity="center_vertical"
+        android:text="@string/plugin_management"
+        android:textColor="#000000"
+        android:textSize="14dip" />
+
+    <!-- 是否在好友 列表中展示部件 -->
+
+    <include layout="@layout/plugin_show_on_contacts_list" />
+
+</LinearLayout>

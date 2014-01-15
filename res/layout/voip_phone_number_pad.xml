@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13dip"
+        android:layout_marginRight="13dip"
+        android:layout_marginTop="10dip"
+        android:focusable="true" >
+
+        <EditText
+            android:id="@+id/edtPhoneInput"
+            android:layout_width="fill_parent"
+            android:layout_height="40dip"
+            android:background="@drawable/bg_call_input"
+            android:cursorVisible="false"
+            android:gravity="left|center_vertical"
+            android:maxLength="200"
+            android:paddingLeft="6dip"
+            android:paddingRight="5dip"
+            android:singleLine="true"
+            android:textColor="#999999"
+            android:textSize="25dip" >
+        </EditText>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+
+        <include layout="@layout/voip_base_phone_number_pad" />
+
+        <LinearLayout
+            android:id="@+id/bottom"
+            style="@style/voip_number_pad" >
+
+            <ImageButton
+                android:id="@+id/btn_call_video"
+                style="@style/voip_number_pad_add_btn"
+                android:background="@drawable/selector_call_keypad_add" />
+
+            <ImageButton
+                android:id="@+id/btn_call_voice"
+                style="@style/voip_number_pad_call_btn"
+                android:background="@drawable/selector_call_keypad_call" />
+
+            <ImageButton
+                android:id="@+id/btn_call_del"
+                style="@style/voip_number_pad_add_btn"
+                android:background="@drawable/selector_call_keypad_delete" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

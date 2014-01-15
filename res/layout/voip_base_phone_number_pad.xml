@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:orientation="vertical" android:id="@+id/number_pad" android:gravity="center">
+	<LinearLayout style="@style/voip_number_pad">
+		<ImageButton style="@style/voip_number_pad_btn" android:background="@drawable/selector_call_keypad_1"
+			android:id="@+id/btn_call_1" />
+		<ImageButton style="@style/voip_number_pad_btn" android:background="@drawable/selector_call_keypad_2"
+			android:id="@+id/btn_call_2" />
+		<ImageButton style="@style/voip_number_pad_btn" android:background="@drawable/selector_call_keypad_3"
+			android:id="@+id/btn_call_3"/>
+	</LinearLayout>
+	<LinearLayout style="@style/voip_number_pad">
+		<ImageButton style="@style/voip_number_pad_btn" android:background="@drawable/selector_call_keypad_4"
+			android:id="@+id/btn_call_4" />
+		<ImageButton style="@style/voip_number_pad_btn" android:background="@drawable/selector_call_keypad_5"
+			android:id="@+id/btn_call_5" />
+		<ImageButton style="@style/voip_number_pad_btn" android:background="@drawable/selector_call_keypad_6"
+			android:id="@+id/btn_call_6" />
+	</LinearLayout>
+	<LinearLayout style="@style/voip_number_pad">
+		<ImageButton style="@style/voip_number_pad_btn" android:background="@drawable/selector_call_keypad_7"
+			android:id="@+id/btn_call_7" />
+		<ImageButton style="@style/voip_number_pad_btn" android:background="@drawable/selector_call_keypad_8"
+			android:id="@+id/btn_call_8" />
+		<ImageButton style="@style/voip_number_pad_btn" android:background="@drawable/selector_call_keypad_9"
+			android:id="@+id/btn_call_9" />
+	</LinearLayout>
+	<LinearLayout style="@style/voip_number_pad">
+		<ImageButton style="@style/voip_number_pad_btn" android:background="@drawable/selector_call_keypad_star"
+			android:id="@+id/btn_call_star" />
+		<ImageButton style="@style/voip_number_pad_btn" android:background="@drawable/selector_call_keypad_0"
+			android:id="@+id/btn_call_0" />
+		<ImageButton style="@style/voip_number_pad_btn" android:background="@drawable/selector_call_keypad_sharp" 
+		android:id="@+id/btn_call_jin"/>
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.basic.android.im.ui.im.SoftKeyBoardDetectLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/im_parent"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_white"
+    android:orientation="vertical" >
+
+    <!-- 标题栏 -->
+
+    <include
+        android:layout_weight="0"
+        layout="@layout/im_title_bar" />
+
+    <com.huawei.basic.android.im.ui.basic.PullToRefreshListView
+        android:id="@+id/msg_history"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:cacheColorHint="@color/transparent"
+        android:divider="@null"
+        android:dividerHeight="10dp"
+        android:fadingEdge="none"
+        android:focusable="false"
+        android:listSelector="@drawable/bg_white"
+        android:scrollbars="none"
+        android:transcriptMode="normal" />
+    <!-- 输入框，发送 -->
+
+    <include layout="@layout/im_editor_bar" />
+
+    <include layout="@layout/emotion" />
+
+    <!-- 拍照，语音，图片 -->
+
+    <include
+        android:layout_weight="0"
+        layout="@layout/im_bottom_bar" />
+
+</com.huawei.basic.android.im.ui.im.SoftKeyBoardDetectLinearLayout>

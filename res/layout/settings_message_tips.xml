@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/white_bg"
+    android:orientation="vertical" >
+
+    <!-- 按钮部分 -->
+
+    <RelativeLayout
+        android:id="@+id/button_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_btn_title_background" >
+
+        <include layout="@layout/title_bar" />
+    </RelativeLayout>
+    <!-- 群消息接收策略设置 -->
+
+    <RelativeLayout
+        android:id="@+id/setting_group_message"
+        style="@style/setting_item"
+        android:background="@drawable/setting_item_bg_mid" >
+
+        <CheckedTextView
+            android:layout_width="fill_parent"
+            android:layout_height="60dip"
+            android:layout_marginLeft="15dip"
+            android:gravity="center_vertical"
+            android:text="@string/set_groupmessagepolicy"
+            android:textColor="#333333"
+            android:textSize="18dip" />
+
+        <ImageView
+            android:layout_width="15dip"
+            android:layout_height="15dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dip"
+            android:background="@drawable/pointer" />
+    </RelativeLayout>
+
+    <ImageView style="@style/setting_line" />
+
+    <!-- 声音提示设置 -->
+
+    <RelativeLayout style="@style/setting_item" >
+
+        <CheckedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="60dip"
+            android:layout_marginLeft="15dip"
+            android:gravity="center_vertical"
+            android:text="@string/set_voice_tip"
+            android:textColor="#333333"
+            android:textSize="18dip" />
+
+        <ImageView
+            android:id="@+id/setting_voice_ctv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dip"
+            android:background="@drawable/button_switch_on" />
+    </RelativeLayout>
+
+    <ImageView style="@style/setting_line" />
+
+</LinearLayout>

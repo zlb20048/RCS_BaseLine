@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/white_bg"
+    android:orientation="vertical" >
+
+    <!-- 标题栏 -->
+
+    <include layout="@layout/title_bar" />
+
+    <!-- 插件的大图标 -->
+
+    <ImageView
+        android:id="@+id/plugin_big_icon"
+        android:layout_width="80dip"
+        android:layout_height="80dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="35dip" />
+
+    <!-- 插件名称 -->
+
+    <TextView
+        android:id="@+id/plugin_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:singleLine="true"
+        android:textColor="#000000"
+        android:textSize="20dip" />
+
+    <!-- 插件描述 -->
+
+    <TextView
+        android:id="@+id/plugin_desc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:gravity="center_horizontal"
+        android:textColor="#619128" />
+
+    <!-- 插件入口 -->
+
+    <LinearLayout
+        android:id="@+id/plugin_entry"
+        style="@style/setting_group"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dip"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:layout_marginTop="24dip"
+        android:orientation="horizontal"
+        android:background="@drawable/setting_item_bg_all"
+         >
+
+        <TextView
+            android:id="@+id/enter_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="14dip"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/view_message"
+            android:textColor="#000000"
+            android:textSize="15dip" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="8dip"
+            android:gravity="center_vertical"
+            android:src="@drawable/pointer" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/method_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:divider="#FFFFFFFF" >
+    </ListView>
+
+</LinearLayout>

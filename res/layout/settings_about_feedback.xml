@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@drawable/white_bg"
+    >
+    <!-- Title -->
+    <RelativeLayout
+        android:id="@+id/button_layout"
+        style="@style/widget_title" >
+
+        <include layout="@layout/title_bar" />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/button_layout">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="53dip" >
+           
+	        <ImageView
+	           android:id="@+id/about_logo_img"
+	           android:layout_width="wrap_content"
+	           android:layout_height="wrap_content"
+	           android:layout_centerHorizontal="true"
+	           android:src="@drawable/about_logo" 
+	        />
+            
+            <TextView
+               android:id="@+id/about_hitalk_txt"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_centerHorizontal="true"
+               android:layout_below="@id/about_logo_img"
+               android:layout_marginTop="6.66dip"
+               android:text="@string/app_name"
+               android:textColor="#535353"
+               android:textStyle="bold"
+               android:textSize="16sp" />
+	        
+	         <TextView
+               android:id="@+id/version_tv"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_centerHorizontal="true"
+               android:layout_below="@id/about_hitalk_txt"
+               android:layout_marginTop="6.66dip"
+               android:text=""
+               android:gravity="center"
+               android:background="@drawable/version_bg"
+               android:textColor="#ffffff"
+               android:textSize="13.3sp" />            
+                        
+            <Button
+                android:id="@+id/index_phone"
+                android:layout_width="fill_parent"
+                android:layout_height="40dip" android:layout_marginLeft="13.3dip" android:layout_marginRight="13.3dip"
+                android:layout_below="@id/version_tv"  android:layout_marginTop="46.6dip"
+                android:text="@string/settings_feedback_phonetext"
+                android:gravity="center"
+                android:background="@drawable/btn_green_back"
+                android:textColor="#ffffff"
+                android:textSize="16sp"
+             />
+             
+             <Button
+                android:id="@+id/blog_email"
+                android:layout_width="fill_parent"
+                android:layout_height="40dip" android:layout_marginLeft="13.3dip" android:layout_marginRight="13.3dip"
+                android:layout_below="@id/index_phone"  android:layout_marginTop="30dip"
+                android:text="@string/settings_feedback_emailtext"
+                android:gravity="center"
+                android:background="@drawable/btn_green_back"
+                android:textColor="#ffffff"
+                android:textSize="16sp"
+             />
+             
+        </RelativeLayout>
+       
+        
+    </RelativeLayout>
+
+</RelativeLayout>

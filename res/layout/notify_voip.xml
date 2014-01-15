@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/btn_top_tab_middle_on"
+    android:gravity="center_vertical">
+	<RelativeLayout 
+	    android:id="@+id/notify_voip_showarea"
+	    android:layout_width="0dp"
+	    android:layout_height="fill_parent" 
+	    android:layout_weight="6"
+	    android:paddingLeft="5dp"
+	    android:paddingRight="5dp"
+	    android:focusable="false"
+	    >
+	    
+	    <!-- 头像 -->
+	    <ImageView android:id="@+id/notify_voip_face"
+	        android:layout_width="74dp"
+	        android:layout_height="74dp"
+	        android:src="@drawable/ic_launcher"
+	        android:layout_alignParentLeft="true"
+	        android:layout_centerInParent="true"/>
+	    
+	    <!-- hitalk字符 -->
+	    <TextView android:id="@+id/notify_voip_hitalkTitle"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:paddingTop="6dp"
+	        android:paddingLeft="5dp"
+	        android:layout_alignTop="@+id/notify_voip_face"
+	        android:layout_toRightOf="@+id/notify_voip_face"
+	        android:text="@string/notify_voip_hitalkcharactor"/>
+	   
+	    <!-- 电话图标 -->
+	    <ImageView android:id="@+id/notify_voip_phone_icon"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@+id/notify_voip_hitalkTitle"
+	        android:layout_alignTop="@+id/notify_voip_hitalkTitle"
+	        android:paddingLeft="3dp"/>
+	    
+	    <!--  与某某通话 -->
+	    <TextView
+	        android:id="@+id/notify_voip_contactname"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignBottom="@+id/notify_voip_face"
+	        android:layout_toRightOf="@+id/notify_voip_face"
+	        android:layout_toLeftOf="@+id/notify_voip_connecttime"
+	        android:maxLines="2"
+	        android:paddingLeft="5dp"
+	        />
+	
+	    <!-- 通话时间 -->
+	
+	    <TextView
+	        android:id="@+id/notify_voip_connecttime"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignBottom="@+id/notify_voip_contactname"
+	        android:layout_alignParentRight="true"
+	        android:paddingRight="5dp"
+	        />
+	</RelativeLayout>
+    <!-- 挂断电话图标 -->
+    <ImageButton android:id="@+id/notify_voip_cancel_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_call"
+        android:visibility="gone"
+        />
+</LinearLayout>

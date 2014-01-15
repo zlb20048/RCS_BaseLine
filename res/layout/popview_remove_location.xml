@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 选择以何种方式选择头像 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popwindowlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#55000000"
+    android:gravity="bottom"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@drawable/quickcontact_slider_background"
+        android:orientation="vertical"
+        android:paddingBottom="16dip"
+        android:paddingTop="16dip" >
+
+        <TextView
+            android:layout_width="280dp"
+            android:layout_height="43dip"
+            android:gravity="center_horizontal"
+            android:text="@string/find_by_location_remove_tips"
+            android:textColor="@color/white"
+            android:textSize="23px" />
+
+        <Button
+            android:id="@+id/frist_btn"
+            android:layout_width="280dp"
+            android:layout_height="43dip"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="8dip"
+            android:background="@drawable/btn_white"
+            android:text="@string/find_by_location_remove_confirm"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/second_btn"
+            android:layout_width="280dp"
+            android:layout_height="43dip"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="8dip"
+            android:background="@drawable/btn_black"
+            android:text="@string/cancel"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>

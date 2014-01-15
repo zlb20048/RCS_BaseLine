@@ -1,0 +1,877 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.huawei.basic.android"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="7" />
+
+    <!-- 开机权限 -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <!-- 定位权限 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- 获取使用Wi-Fi网络 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_APN_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar" >
+
+        <!-- Main 初始化资源 -->
+        <activity
+            android:name=".im.ui.Main"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Loign 登陆 -->
+        <activity
+            android:name=".im.ui.login.LoginActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible" >
+            <intent-filter>
+                <action android:name="com.huawei.basic.android.im.LOGIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- Register 注册 -->
+        <activity
+            android:name=".im.ui.login.RegisterActivity"
+            android:configChanges="orientation|locale"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible" >
+            <intent-filter>
+                <action android:name="com.huawei.basic.android.im.REGISTER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 基本界面框架 -->
+        <activity
+            android:name=".im.ui.MainTabActivity"
+            android:clearTaskOnLaunch="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+            <intent-filter>
+                <action android:name="com.huawei.basic.android.im.MAINTAB" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.TAB" />
+            </intent-filter>
+        </activity>
+
+        <!-- 好友界面框架 -->
+        <activity
+            android:name=".im.ui.friend.FriendTabActivity"
+            android:clearTaskOnLaunch="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" >
+            <intent-filter>
+                <action android:name="com.huawei.basic.android.im.FRIENDTAB" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- 我的好友 -->
+        <activity
+            android:name=".im.ui.friend.MyFriendsActivity"
+            android:clearTaskOnLaunch="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" >
+            <intent-filter>
+                <action android:name="com.huawei.basic.android.im.MY_FRIEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- 添加分组 时 输入组名 -->
+        <activity
+            android:name=".im.ui.friend.ContactSectionNameActivity"
+            android:clearTaskOnLaunch="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" >
+            <intent-filter>
+                <action android:name="com.huawei.basic.android.im.CONTACT_SECTION_NAME" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- 选择成员界面 -->
+        <activity
+            android:name=".im.ui.friend.ChooseMemberActivity"
+            android:clearTaskOnLaunch="true"
+            android:configChanges="keyboardHidden|keyboard"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" >
+            <intent-filter>
+                <action android:name="com.huawei.basic.android.im.CHOOSE_MEMBER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- 分组管理界面 -->
+        <activity
+            android:name=".im.ui.friend.ContactSectionManagerActivity"
+            android:clearTaskOnLaunch="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" >
+            <intent-filter>
+                <action android:name="com.huawei.basic.android.im.CONTACT_SECTION_MANAGER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- 找朋友小助手界面 -->
+        <activity
+            android:name=".im.ui.friend.FindFriendHelperActivity"
+            android:clearTaskOnLaunch="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" >
+            <intent-filter>
+                <action android:name="com.huawei.basic.android.im.FIND_FRIEND_HELPER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- 查找好友 -->
+        <activity
+            android:name="com.huawei.basic.android.im.ui.friend.FindFriendActivity"
+            android:clearTaskOnLaunch="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" >
+            <intent-filter>
+                <action android:name="com.huawei.basic.android.im.FINDFRIEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- 查找好友结果列表 -->
+        <activity
+            android:name="com.huawei.basic.android.im.ui.friend.FindFriendResultListActivity"
+            android:clearTaskOnLaunch="true"
+            android:configChanges="locale"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" >
+            <intent-filter>
+                <action android:name="com.huawei.basic.android.im.FINDFRIENDRESULTLIST" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- 查看电话簿好友 -->
+        <activity
+            android:name="com.huawei.basic.android.im.ui.friend.CheckMobileContactsActivity"
+            android:clearTaskOnLaunch="true"
+            android:configChanges="locale"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" >
+            <intent-filter>
+                <action android:name="com.huawei.basic.im.ui.friend.CHECKMOBILECONTACTSACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- 好友详情 -->
+        <activity
+            android:name=".im.ui.contact.ContactDetailsActivity"
+            android:clearTaskOnLaunch="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" >
+            <intent-filter>
+                <action android:name="com.huawei.basic.android.im.CONTACTDETAILS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- 好友详细信息 -->
+        <activity
+            android:name=".im.ui.friend.FriendDetailsActiivity"
+            android:clearTaskOnLaunch="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" >
+            <intent-filter>
+                <action android:name="com.huawei.basic.android.im.FRIENDDETAILS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- 加好友验证信息 -->
+        <activity
+            android:name=".im.ui.friend.InputReasonActivity"
+            android:clearTaskOnLaunch="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" >
+            <intent-filter>
+                <action android:name="com.huawei.basic.android.im.ADDFRIENDREASON" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- 通讯录页面 -->
+        <activity
+            android:name=".im.ui.contact.ContactActivity"
+            android:clearTaskOnLaunch="true"
+            android:configChanges="orientation|locale"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" >
+            <intent-filter>
+                <action android:name="com.huawei.basic.android.im.CONTACTS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- 好友备注 -->
+        <activity
+            android:name=".im.ui.friend.EditFriendActivity"
+            android:clearTaskOnLaunch="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched"
+            android:windowSoftInputMode="stateVisible" >
+            <intent-filter>
+                <action android:name="com.huawei.basic.android.im.EDITFRIEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- 会话列表页面 -->
+        <activity
+            android:name=".im.ui.im.ConversationListActivity"
+            android:clearTaskOnLaunch="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" >
+            <intent-filter>
+                <action android:name="com.huawei.basic.android.im.CONVERSATION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- 群列表页面 -->
+        <activity
+            android:name=".im.ui.group.GroupListActivity"
+            android:clearTaskOnLaunch="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" >
+            <intent-filter>
+                <action android:name="com.huawei.basic.android.im.GROUPLIST" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- 创建群页面 -->
+        <activity
+            android:name=".im.ui.group.GroupCreateActivity"
+            android:clearTaskOnLaunch="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched"
+            android:windowSoftInputMode="adjustResize" >
+            <intent-filter>
+                <action android:name="com.huawei.basic.android.im.GROUPCREATE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- 群搜索页面 -->
+        <activity
+            android:name=".im.ui.group.GroupSearchActivity"
+            android:clearTaskOnLaunch="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" >
+            <intent-filter>
+                <action android:name="com.huawei.basic.android.im.GROUPSEARCH" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- 群详情页面 -->
+        <activity
+            android:name=".im.ui.group.GroupDetailActivity"
+            android:clearTaskOnLaunch="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" >
+            <intent-filter>
+                <action android:name="com.huawei.basic.android.im.GROUPDETAIL" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- 群成员列表 -->
+        <activity
+            android:name=".im.ui.group.GroupMemberListActivity"
+            android:clearTaskOnLaunch="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" >
+            <intent-filter>
+                <action android:name="com.huawei.basic.android.im.GROUPMEMBERLIST" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- 聊吧成员列表 -->
+        <activity
+            android:name=".im.ui.group.ChatbarMemberActivity"
+            android:clearTaskOnLaunch="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" >
+            <intent-filter>
+                <action android:name="com.huawei.basic.android.im.CHATBARMEMBER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- 修改聊吧名称界面 -->
+        <activity
+            android:name=".im.ui.group.ChatbarNameModifyActivity"
+            android:clearTaskOnLaunch="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" >
+            <intent-filter>
+                <action android:name="com.huawei.basic.android.group.CHATBARNAMEMODIFY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- 设置 -->
+        <activity
+            android:name=".im.ui.settings.SettingsActivity"
+            android:clearTaskOnLaunch="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" >
+            <intent-filter>
+                <action android:name="com.huawei.basic.android.im.SETTINGS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- 设置——绑定邮箱界面 -->
+        <activity
+            android:name=".im.ui.settings.BindEmailActivity"
+            android:clearTaskOnLaunch="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" >
+            <intent-filter>
+                <action android:name="com.huawei.basic.android.im.BindEmailActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- 设置——绑定手机界面 -->
+        <activity
+            android:name=".im.ui.settings.BindPhoneActivity"
+            android:clearTaskOnLaunch="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" >
+            <intent-filter>
+                <action android:name="com.huawei.basic.android.im.BindPhoneActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- 设置——我的账号界面 -->
+        <activity
+            android:name=".im.ui.settings.MyAccountActivity"
+            android:clearTaskOnLaunch="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+            <intent-filter>
+                <action android:name="com.huawei.basic.android.im.MyAccountActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- 设置——隐私设置界面 -->
+        <activity
+            android:name=".im.ui.settings.PrivacySettingsActivity"
+            android:clearTaskOnLaunch="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" >
+            <intent-filter>
+                <action android:name="com.huawei.basic.android.im.PRIVACYSETTINGS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 设置——关于沃友||意见反馈 -->
+        <activity
+            android:name=".im.ui.settings.AboutFeedbackActivtiy"
+            android:clearTaskOnLaunch="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" >
+            <intent-filter>
+                <action android:name="com.huawei.basic.android.im.ABOUTFEEDBACK" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- 设置——消息设置 -->
+        <activity
+            android:name=".im.ui.settings.MessageTipsSettingsActivity"
+            android:clearTaskOnLaunch="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" >
+            <intent-filter>
+                <action android:name="com.huawei.basic.android.im.MESSAGETIPSSETTINGS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 设置——修改密码 -->
+        <activity
+            android:name=".im.ui.settings.ModifyPasswordActivity"
+            android:clearTaskOnLaunch="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" >
+            <intent-filter>
+                <action android:name="com.huawei.basic.android.im.MODIFYPASSWORD" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- 个人设置——个人资料 -->
+        <activity
+            android:name=".im.ui.settings.PrivateProfileSettingsActivity"
+            android:clearTaskOnLaunch="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" >
+            <intent-filter>
+                <action android:name="com.huawei.basic.android.im.settings.PrivateProfileSettingsActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- 点击头像查看大图界面 -->
+        <activity
+            android:name="com.huawei.basic.android.im.ui.basic.PhotoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" >
+            <intent-filter>
+                <action android:name="com.huawei.basic.android.im.PHOTO" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- 系统头像设置 界面 -->
+        <activity
+            android:name=".im.ui.settings.SetSystemHeadActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" >
+            <intent-filter>
+                <action android:name="com.huawei.basic.android.im.ui.settings.SETSYSTEMHEAD" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- 设置头像工具页面 -->
+        <activity
+            android:name=".im.ui.settings.SetHeadUtilActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent" >
+            <intent-filter>
+                <action android:name="com.huawei.basic.android.im.ui.settings.SETHEADUTIL" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- 图片操作页面 -->
+        <activity
+            android:name=".im.ui.basic.image.CropImageActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent" >
+            <intent-filter>
+                <action android:name="com.huawei.basic.android.im.ui.basic.image.CROPIMAGE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- 群消息策略 -->
+        <activity
+            android:name=".im.ui.settings.GroupMessagePolicyActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" >
+            <intent-filter>
+                <action android:name="com.huawei.basic.android.im.settings.GroupMessagePolicy" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- 应用界面 -->
+        <activity
+            android:name=".im.ui.settings.AppListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" >
+            <intent-filter>
+                <action android:name="com.huawei.basic.android.im.settings.AppListActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- 热门应用 -->
+        <activity
+            android:name="com.huawei.basic.android.im.ui.settings.AppWebView"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" >
+            <intent-filter>
+                <action android:name="com.huawei.basic.android.im.ui.settings.AppWebView" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- 添加应用 -->
+        <activity
+            android:name="com.huawei.basic.android.im.ui.settings.AddApplyActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" >
+            <intent-filter>
+                <action android:name="com.huawei.basic.android.im.settings.AddApplyActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 个人设置——呈现所有地区 -->
+        <activity
+            android:name=".im.ui.settings.AllRegionsExpandableListActivity"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" >
+            <intent-filter>
+                <action android:name="com.huawei.basic.android.im.settings.AllRegionsExpandableList" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 重置密码 -->
+        <activity
+            android:name=".im.ui.login.ResetPasswordActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched"
+            android:windowSoftInputMode="stateVisible" >
+            <intent-filter>
+                <action android:name="com.huawei.basic.android.im.RESETPASSWPRD" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- 软件特性介绍 -->
+        <activity
+            android:name=".im.ui.login.FeaturesActivity"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+            <intent-filter>
+                <action android:name="com.huawei.basic.android.im.FEATURES" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- 聊天页面 -->
+        <activity
+            android:name=".im.ui.im.SingleChatActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustResize" >
+            <intent-filter>
+                <action android:name="com.huawei.basic.android.im.SINGLE_CHAT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".im.ui.im.MultiChatActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustResize" >
+            <intent-filter>
+                <action android:name="com.huawei.basic.android.im.MULTI_CHAT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 图片预览页面 -->
+        <activity
+            android:name=".im.ui.im.DownloadActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.huawei.basic.android.im.DOWNLOAD" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 选择表情页面 -->
+        <activity android:name=".im.ui.im.PickEmotionActivity" >
+            <intent-filter>
+                <action android:name="com.huawei.basic.android.im.PICK_EMOTION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- 录制视频页面 -->
+        <activity
+            android:name=".im.ui.im.RecordVideoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" >
+            <intent-filter>
+                <action android:name="com.huawei.basic.android.RECORD_VIDEO" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- voip_tab主页面 -->
+        <activity
+            android:name=".im.ui.voip.VoipTabActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" >
+            <intent-filter>
+                <action android:name="com.huawei.basic.android.im.ui.voip.VoipTabActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- voip拨号盘 -->
+        <activity
+            android:name=".im.ui.voip.VoipNumberPadActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" >
+            <intent-filter>
+                <action android:name="com.huawei.basic.android.im.ui.voip.VoipNumberPadActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- voip通话界面 -->
+        <activity
+            android:name=".im.ui.voip.VoipCallingActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" >
+            <intent-filter>
+                <action android:name="com.huawei.basic.android.im.ui.voip.VoipCallingActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- VOIP通话记录 -->
+        <activity
+            android:name=".im.ui.voip.CommunicationLogListActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.huawei.basic.android.im.COMMUNICATIONLOG" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- voip通话记录详情activity -->
+        <activity
+            android:name=".im.ui.voip.CommunicationDetailActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.huawei.basic.android.im.COMMUNICATIONLOG_DETAIL" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- 绑定voip账号activity -->
+        <activity
+            android:name=".im.ui.voip.BindVoipActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysVisible|adjustUnspecified" >
+            <intent-filter>
+                <action android:name="com.huawei.basic.android.im.BIND_VOIP" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- 选择国家码activity -->
+        <activity android:name=".im.ui.login.SelectCountryActivity" >
+            <intent-filter>
+                <action android:name="com.huawei.basic.android.im.SELECTCOUNTRY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 首次登陆的activity -->
+        <activity
+            android:name=".im.ui.login.LoginMainActivity"
+            android:clearTaskOnLaunch="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+            <intent-filter>
+                <action android:name="com.huawei.basic.android.im.loginmain" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 插件的activity -->
+        <activity
+            android:name=".im.ui.plugin.PluginListActivity"
+            android:clearTaskOnLaunch="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+            <intent-filter>
+                <action android:name="com.huawei.basic.android.im.ui.plugin.PLUGIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- 插件详情的activity -->
+        <activity
+            android:name=".im.ui.plugin.PluginDetailActivity"
+            android:clearTaskOnLaunch="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+            <intent-filter>
+                <action android:name="com.huawei.basic.android.im.ui.plugin.PLUGIN_DETAIL" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- 查找附近跳转activity -->
+        <activity
+            android:name=".im.ui.friend.CheckAroundActivity"
+            android:clearTaskOnLaunch="true"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.huawei.basic.im.ui.friend.CheckAroundActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- xmpp连接服务定义 -->
+        <service
+            android:name=".im.component.service.core.BaseService"
+            android:process=":remote" >
+            <intent-filter>
+                <action android:name="com.huawei.im.service" />
+            </intent-filter>
+        </service>
+        <!-- 接受系统广播 -->
+        <receiver android:name=".im.logic.login.receiver.ConnectionChangedReceiver" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".im.logic.login.receiver.BootReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <!-- VOIP必须声明的服务和广播 -->
+        <service android:name="com.huawei.AudioDeviceAndroidService" />
+
+        <receiver
+            android:name="com.huawei.fast.voip.FastVoIPNotifyReceive"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="com.huawei.basic.android.fast.voip.FastVoIPNotifyReceive" />
+
+                <category android:name="android.intent.category.DEFAULT" >
+                </category>
+            </intent-filter>
+        </receiver>
+
+        <!-- VOIP数据库 -->
+        <provider
+            android:name=".im.component.database.voip.VoipContentProvider"
+            android:authorities="com.huawei.rcsbaseline.database.voip" />
+
+        <!-- 基线版本的数据库 -->
+        <provider
+            android:name=".im.component.database.RcsBaseLineProvider"
+            android:authorities="com.huawei.rcsbaseline.database" />
+
+        <!-- 插件数据库 -->
+        <provider
+            android:name=".im.component.plugin.core.db.PluginContentProvider"
+            android:authorities="com.huawei.rcsbaseline.database.plugin" />
+        <!-- 任务装载器 -->
+        <provider
+            android:name="com.huawei.basic.android.im.component.load.database.TaskContentProvider"
+            android:authorities="com.huawei.rcsbaseline.database.task" />
+    </application>
+
+</manifest>

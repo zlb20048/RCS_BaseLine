@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 图片接收泡泡 -->
+<!-- 图文混排中的图片 -->
+<!-- 图片上传的蒙版效果 -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content" android:layout_height="wrap_content"
+	android:gravity="center">
+	<FrameLayout 
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:gravity="center" android:padding="3dip">
+		<ImageView android:id="@+id/html_image"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:adjustViewBounds="true" android:longClickable="true"
+			android:maxHeight="100dp" android:maxWidth="100dp" android:src="@drawable/icon" />
+		<!-- 图片蒙版 -->
+		<TextView android:id="@+id/small_image_mask"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_gravity="top" android:visibility="gone" android:background="#50000000" />
+	</FrameLayout>
+	<ImageView android:id="@+id/cancle_upload" android:layout_gravity="right|top"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:src="@drawable/send_failure" android:visibility="gone"/>
+</FrameLayout>

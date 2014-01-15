@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<!-- 选择呼叫方式 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:gravity="bottom"
+	android:id="@+id/popwindowlayout"  android:background="#55000000">
+	<LinearLayout android:orientation="vertical"
+		android:padding="16dip" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_gravity="bottom"
+		android:background="#666666">
+		<Button android:id="@+id/btn_add" android:layout_width="280dp"
+			android:layout_height="43dip" android:layout_gravity="center_horizontal"
+			android:text="@string/voip_add_to_contact" android:textSize="24px"
+			android:background="@drawable/btn_white" android:layout_marginBottom="15dip" />
+		<Button android:id="@+id/btn_cancel" android:layout_width="280dp"
+			android:layout_height="43dip" android:layout_gravity="center_horizontal"
+			android:text="@string/voip_call_type_cancel" android:textSize="24px"
+			android:background="@drawable/btn_black" />
+	</LinearLayout>
+</LinearLayout>

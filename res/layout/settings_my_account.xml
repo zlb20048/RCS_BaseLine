@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/white_bg"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title_bar" />
+
+    <LinearLayout style="@style/setting_mainframe" >
+
+        <LinearLayout style="@style/setting_group" >
+
+            <RelativeLayout
+                android:id="@+id/bind_phone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/setting_item_bg_top"
+                android:padding="10dip" >
+
+                <TextView
+                    android:id="@+id/bind_phone_lable"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:singleLine="true"
+                    android:text="@string/phone_2"
+                    android:textColor="#333333"
+                    android:textSize="16dip" />
+
+                <TextView
+                    android:id="@+id/bind_phone_content"
+                    style="@style/normal_text_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dip"
+                    android:layout_toLeftOf="@+id/bind_phone_arrow"
+                    android:singleLine="true"
+                    android:textColor="#999999" />
+
+                <ImageView
+                    android:id="@+id/bind_phone_arrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/pointer" />
+            </RelativeLayout>
+
+            <ImageView style="@style/setting_line" />
+
+            <RelativeLayout
+                android:id="@+id/bind_email"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/setting_item_bg_mid"
+                android:padding="10dip" >
+
+                <TextView
+                    android:id="@+id/bind_email_lable"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:singleLine="true"
+                    android:text="@string/my_account_email"
+                    android:textColor="#333333"
+                    android:textSize="16dip" />
+
+                <TextView
+                    android:id="@+id/bind_email_content"
+                    style="@style/normal_text_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dip"
+                    android:layout_toLeftOf="@+id/bind_email_arrow"
+                    android:singleLine="true"
+                    android:textColor="#999999" />
+
+                <ImageView
+                    android:id="@+id/bind_email_arrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/pointer" />
+            </RelativeLayout>
+
+            <ImageView style="@style/setting_line" />
+
+            <RelativeLayout
+                android:id="@+id/bind_voip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/setting_item_bg_bottom"
+                android:padding="10dip" >
+
+                <TextView
+                    android:id="@+id/bind_voip_lable"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:singleLine="true"
+                    android:text="@string/VOIP_title"
+                    android:textColor="#333333"
+                    android:textSize="16dip" />
+
+                <TextView
+                    android:id="@+id/bind_voip_content"
+                    style="@style/normal_text_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dip"
+                    android:layout_toLeftOf="@+id/bind_voip_arrow"
+                    android:singleLine="true"
+                    android:textColor="#999999" />
+
+                <ImageView
+                    android:id="@+id/bind_voip_arrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/pointer" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

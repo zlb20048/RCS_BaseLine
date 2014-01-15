@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<drawable name="screen_background_black">#ff000000</drawable>
+	<drawable name="translucent_background">#e0000000</drawable>
+	<drawable name="transparent_background">#00000000</drawable>
+	<drawable name="list_item_click">#77a701</drawable>
+	<drawable name="all_page_bg">#f7f7f7</drawable>
+
+    <color name="yellowgreen">#adff2f</color>
+	<color name="text_color">#808080</color>
+	<color name="drak_green">#006400</color>
+	<color name="qgray">#5b5a5a</color>
+	<color name="textColor">#d1d1d1</color>
+	<color name="white">#FFFFFFFF</color>
+	<color name="yellow">#ffc904</color>
+	<color name="transparent">#00000000</color>
+	<color name="red">#ffff0000</color>
+	<color name="magenta">#ffff00ff</color>
+	<color name="ltgray">#FFCCCCCC</color>
+	<color name="green">#ff00ff00</color>
+	<color name="logining_green">#74a700</color>
+	<color name="gray">#ff888888</color>
+	<color name="relogin_gray">#666666</color>
+	<color name="dkgray">#ff444444</color>
+	<color name="cyan">#ff00ffff</color>
+	<color name="blue">#ff0000ff</color>
+	<color name="black">#313131</color>
+	<color name="agray">#5c5c5c</color>
+	<color name="bgray">#6a6a6a</color>
+	<color name="cgray">#323232</color>
+	<color name="croci">#FE9031</color>
+	<color name="chat_color">#1F1729</color>
+	<color name="warn_color">#818182</color>
+	<color name="translucent_background">#60000000</color>
+	<color name="themewhite">#e7e7e7</color>
+	<color name="friend_bg">#f7f7f7</color>
+	<color name="blog_display_popupwindow_backgroud">#b0000000</color>
+	<color name="orange">#ffcc04</color>
+	<color name="grass_green">#4E8447</color>
+	<color name="orange_general">#ff7217</color>
+	<color name="retry_text_color">#f67000</color>
+
+	<!-- black color for different level -->
+	<color name="black_75_transparent">#c0000000</color>
+	<color name="black_60_transparent">#a0000000</color>
+	<color name="black_50_transparent">#80000000</color>
+	<color name="black_40_transparent">#90000000</color>
+	<color name="black_27_transparent">#50000000</color>
+	<color name="black_20_transparent">#30000000</color>
+	<color name="black_00_transparent">#00000000</color>
+
+	<color name="status_refuse_color">#ba3939</color>
+	<color name="status_waitting_color">#888888</color>
+	<color name="status_agree_color">#54a300</color>
+	<color name="nickname_color">#555555</color>
+
+	<color name="blog_name">#333333</color>
+	<color name="blog_content">#666666</color>
+	<color name="blog_other">#777777</color>
+
+	<color name="firendmanager_helper_group">#e86800</color>
+	<color name="popupwidow">#730000</color>
+	<!-- 通话记录列表 -->
+	<color name="ul_background">#cbd2d8</color>
+	<color name="mblog_bg">#F0F0F0</color>
+	<color name="transparent_list">#50000000</color>
+	<color name="dialog_bg">#717171</color>
+	<!-- 会话界面:connection_changed背景色-->
+	<color name="connection_changed_bg_gray">#bfbdbc</color>
+</resources>

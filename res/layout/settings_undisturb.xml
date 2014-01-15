@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+    android:background="@drawable/all_page_bg" android:orientation="vertical">
+
+    <!-- 按钮部分 -->
+
+    <RelativeLayout android:id="@+id/button_layout"
+        android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:background="@drawable/ic_btn_title_background">
+        <include layout="@layout/title_bar" />
+
+    </RelativeLayout>
+
+    <!-- 免打扰设置主框架 -->
+    <LinearLayout style="@style/setting_mainframe">
+
+        <!--  验证设置
+        <TextView style="@style/setting_grouptitle" android:text="@string/set_proving" /> -->
+        <LinearLayout style="@style/setting_group">
+            <RelativeLayout style="@style/setting_item">
+                <CheckedTextView android:id="@+id/undisturb_ctv"
+                    style="@style/setting_checkbox" android:background="@drawable/setting_item_bg_all"
+                    android:text="@string/time_undisturb" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="10dip">
+            <TextView android:id="@+id/undisturb_start"
+                android:layout_width="100dip" android:layout_height="wrap_content"
+                android:textColor="#808080" android:text="00:00"
+                android:layout_centerVertical="true" android:layout_weight="2"
+                android:gravity="center" android:background="@drawable/commonusewhite"
+                android:padding="20dip" />
+
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="40dip" android:layout_centerInParent="true"
+                android:layout_centerVertical="true" style="@style/normal_text_style"
+                android:text="@string/to" android:layout_weight="1" android:gravity="center" />
+
+            <TextView android:id="@+id/undisturb_end"
+                android:layout_width="100dip" android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true" style="@style/normal_text_style"
+                android:text="22:00" android:layout_weight="2" android:gravity="center"
+                android:textColor="#808080" android:background="@drawable/commonusewhite"
+                android:padding="20dip" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/white_bg"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/title_bar"
+        layout="@layout/title_bar" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:scrollbars="none" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/members_row"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_chatbar_members"
+                android:gravity="center" >
+
+                <com.huawei.basic.android.im.ui.basic.CustomGridView
+                    android:id="@+id/members"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:listSelector="#00000000"
+                    android:numColumns="4"
+                    android:scrollbars="@null" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/members_row"
+                android:layout_marginLeft="13.0dip"
+                android:layout_marginRight="13.0dip"
+                android:layout_marginTop="15.0dip"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/chatbar_name_row"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50.0dip"
+                    android:background="@drawable/setting_item_bg_all"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/chatbar_tv"
+                        style="@style/listitem_text_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:singleLine="true"
+                        android:text="@string/chatbar_tv" />
+
+                    <TextView
+                        android:id="@+id/chatbar_name_tv"
+                        style="@style/friend_detail_content_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dip"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:gravity="right"
+                        android:singleLine="true"
+                        android:text="@string/chatbar_tv" />
+
+                    <ImageView
+                        android:id="@+id/chatbar_name_pointer"
+                        android:layout_width="15dip"
+                        android:layout_height="15dip"
+                        android:layout_marginRight="8dip"
+                        android:src="@drawable/pointer" />
+                </LinearLayout>
+
+                <!-- 关闭聊吧或者退出聊吧 -->
+
+                <LinearLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="fill_parent"
+                    android:layout_height="45.0dip"
+                    android:layout_marginTop="15.0dip"
+                    android:layout_marginBottom="15.0dip"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/bottom_button"
+                        style="@style/bottom_button_text"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="center"
+                        android:background="@drawable/btn_red" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

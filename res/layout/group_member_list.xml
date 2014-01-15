@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/white_bg"
+    android:orientation="vertical" >
+
+    <!-- title bar -->
+
+    <include
+        android:id="@+id/title_layout"
+        layout="@layout/title_bar_image" />
+
+    <!-- add or delete group member -->
+
+    <LinearLayout
+        android:id="@+id/add_row"
+        android:layout_width="fill_parent"
+        android:layout_height="71.0dip"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/add_group_member"
+            android:layout_width="fill_parent"
+            android:layout_height="45.0dip"
+            android:layout_marginBottom="13.0dip"
+            android:layout_marginLeft="13.0dip"
+            android:layout_marginRight="13.0dip"
+            android:layout_marginTop="13.0dip"
+            android:layout_weight="1"
+            android:background="@drawable/btn_green"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/add" >
+            </ImageView>
+
+            <TextView
+                style="@style/bottom_button_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dip"
+                android:text="@string/add_group_member" >
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="@drawable/divider" />
+
+    <!-- member list -->
+
+    <ListView
+        android:id="@+id/group_member_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        android:background="@drawable/all_page_bg"
+        android:cacheColorHint="#00000000"
+        android:divider="@drawable/divider"
+        android:dividerHeight="1px"
+        android:footerDividersEnabled="true"
+        android:scrollbars="none"
+        android:scrollingCache="true" >
+    </ListView>
+
+</LinearLayout>

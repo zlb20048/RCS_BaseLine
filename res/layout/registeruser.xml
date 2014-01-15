@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/white_bg"
+    android:orientation="vertical"
+    android:weightSum="1" >
+
+    <!-- 标题栏区域 -->
+
+    <include layout="@layout/title_bar" />
+
+    <LinearLayout
+        android:id="@+id/register_layout_bound"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dip"
+        android:layout_marginRight="16dip"
+        android:layout_marginTop="15dip"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/reg_countryCodeLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/setting_item_bg_all" >
+
+            <!-- 国家 -->
+
+            <TextView
+                android:id="@+id/reg_countryname"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/pointer"
+                android:gravity="center_vertical"
+                android:minHeight="44.7dip"
+                android:paddingLeft="15dip"
+                android:paddingRight="10dip"
+                android:singleLine="true"
+                android:text="@string/country_normal_name"
+                android:textColor="#333333"
+                android:textSize="16dip" />
+        </RelativeLayout>
+        <!-- 手机号 -->
+
+        <com.huawei.basic.android.im.ui.basic.LimitedEditText
+            android:id="@+id/register_phone_number"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dip"
+            android:background="@drawable/edittext_green"
+            android:hint="@string/login_user_number_hint"
+            android:inputType="phone"
+            maxCharLength="50"
+            android:paddingLeft="15dip"
+            android:paddingRight="15dip"
+            android:singleLine="true"
+            android:textColor="#888888"
+            android:textSize="16dp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dip"
+            android:orientation="horizontal" >
+
+            <CheckBox
+                android:id="@+id/show_register_read"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/checkbox"
+                android:checked="true"
+                android:hint="@string/register_read"
+                android:textColor="#666666"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/hitalk_protocol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dip"
+                android:text="@string/deal_title"
+                android:textColor="#356308"
+                android:textSize="14.7dp" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/register_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/register_email"
+                    android:textColor="#356308"
+                    android:textSize="14.7dp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/reg_next1"
+                android:layout_width="89.3dip"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/btn_green"
+                android:text="@string/register_continue"
+                android:textColor="#ffffff"
+                android:textSize="16sp" />
+        </RelativeLayout>
+    </LinearLayout>
+    <!-- 邮箱注册 -->
+
+    <RelativeLayout
+        android:id="@+id/register_email_layout_bound"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dip"
+        android:layout_marginRight="16dip"
+        android:layout_marginTop="15dip"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <com.huawei.basic.android.im.ui.basic.LimitedEditText
+            android:id="@+id/register_email_bindInfo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_green"
+            android:hint="@string/email"
+            maxCharLength="50"
+            android:paddingLeft="15dip"
+            android:paddingRight="15dip"
+            android:singleLine="true"
+            android:textColor="#888888"
+            android:textSize="16dp" />
+
+        <LinearLayout
+            android:id="@+id/checkbox"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/register_email_bindInfo"
+            android:layout_marginTop="20dip"
+            android:orientation="horizontal" >
+
+            <CheckBox
+                android:id="@+id/show_register_read2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/checkbox"
+                android:checked="true"
+                android:hint="@string/register_read"
+                android:textColor="#666666"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/hitalk_protocol2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dip"
+                android:text="@string/deal_title"
+                android:textColor="#356308"
+                android:textSize="14.7dp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/reg_next11"
+            android:layout_width="89.3dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/checkbox"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="20dip"
+            android:background="@drawable/btn_green"
+            android:text="@string/register_continue"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+    </RelativeLayout>
+    <!-- 注册协议界面 -->
+
+    <LinearLayout
+        android:id="@+id/deal_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#F8F8FF" >
+
+            <TextView
+                android:id="@+id/tv_deal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:lineSpacingExtra="5dip"
+                android:paddingLeft="20dip"
+                android:paddingRight="20dip"
+                android:text="@string/agreement_info"
+                android:textColor="#666666"
+                android:textSize="14sp" />
+        </ScrollView>
+    </LinearLayout>
+
+    <!-- 填写验证码 -->
+
+    <LinearLayout
+        android:id="@+id/register_layout_verify_code"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/register_bound_textview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:layout_marginTop="15dip"
+            android:lineSpacingExtra="5dip"
+            android:text="@string/register_bound_msg"
+            android:textColor="#717171"
+            android:textSize="14.7sp" />
+
+        <EditText
+            android:id="@+id/register_verify_code"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:layout_marginTop="20dip"
+            android:background="@drawable/edittext_green"
+            android:hint="@string/input_verify_code"
+            android:inputType="number"
+            android:maxLength="6"
+            android:paddingLeft="15dip"
+            android:paddingRight="15dip"
+            android:singleLine="true"
+            android:textColor="#888888"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/register_re_get_verify_code"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:layout_marginTop="20dip"
+            android:text="@string/register_fresh_code"
+            android:textColor="#717171"
+            android:textSize="14.7dp" />
+
+        <Button
+            android:id="@+id/reg_next2"
+            android:layout_width="89.3dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="15dip"
+            android:layout_marginTop="15dip"
+            android:background="@drawable/btn_green"
+            android:text="@string/register_continue"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+    </LinearLayout>
+    <!-- 填写注册信息 -->
+
+    <RelativeLayout
+        android:id="@+id/register_layout_info"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" >
+
+        <com.huawei.basic.android.im.ui.basic.LimitedEditText
+            android:id="@+id/register_nick_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignTop="@id/register_layout_info"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:layout_marginTop="15dip"
+            android:background="@drawable/edittext_green"
+            android:hint="@string/input_nick_name"
+            maxCharLength="20"
+            android:paddingLeft="15dip"
+            android:paddingRight="15dip"
+            android:singleLine="true"
+            android:textColor="#888888"
+            android:textSize="16dp" />
+
+        <com.huawei.basic.android.im.ui.basic.LimitedEditText
+            android:id="@+id/register_password"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/register_nick_name"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:layout_marginTop="15dip"
+            android:background="@drawable/edittext_green"
+            android:hint="@string/input_password"
+            maxCharLength="20"
+            android:paddingLeft="15dip"
+            android:paddingRight="15dip"
+            android:password="false"
+            android:singleLine="true"
+            android:textColor="#888888"
+            android:textSize="16dp" />
+
+        <CheckBox
+            android:id="@+id/show_password"
+            android:layout_width="45dip"
+            android:layout_height="46dip"
+            android:layout_alignBaseline="@id/register_password"
+            android:layout_alignRight="@id/register_password"
+            android:button="@drawable/icon_eye"
+            android:checked="true"
+            android:textColor="#666666" />
+
+        <LinearLayout
+            android:id="@+id/password_strength"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/register_password"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="20dip"
+            android:paddingRight="15dip" >
+
+            <include layout="@layout/password_strength" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/reg_next3"
+            android:layout_width="89.3dip"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/password_strength"
+            android:layout_below="@id/password_strength"
+            android:layout_gravity="right"
+            android:layout_marginRight="15dip"
+            android:layout_marginTop="20dip"
+            android:background="@drawable/btn_green"
+            android:text="@string/register_continue"
+            android:textColor="#ffffff"
+            android:textSize="16dp" />
+    </RelativeLayout>
+
+    <!-- 注册成功界面 -->
+
+    <LinearLayout
+        android:id="@+id/register_success_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dip"
+            android:layout_weight="2"
+            android:background="@drawable/welcome"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="15dip"
+            android:paddingRight="15dip" >
+
+            <TextView
+                android:id="@+id/register_nickname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="48dip"
+                android:textColor="#4a4a4a"
+                android:textSize="24sp" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/register_remember"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:paddingTop="8dip"
+                android:text="@string/register_remember_id"
+                android:textColor="#ffffff"
+                android:textSize="16sp" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/register_account"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textColor="#dbfb7c"
+                android:textSize="16sp" >
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="@drawable/register_success_white"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/begin_hitalk_text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:paddingTop="37dip"
+                android:text="@string/begin_hitalk"
+                android:textColor="#999999" >
+            </TextView>
+
+            <Button
+                android:id="@+id/register_login_button"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dip"
+                android:layout_marginRight="60dip"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/btn_green"
+                android:text="@string/register_login"
+                android:textColor="@color/white" >
+            </Button>
+
+            <TextView
+                android:id="@+id/delay_login_info"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:gravity="center"
+                android:text="@string/delay_login"
+                android:textColor="#999999" >
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/all_page_bg"
+    android:orientation="vertical" >
+
+    <!-- 添加应用 -->
+
+    <include layout="@layout/title_bar" />
+
+    <!-- 添加按钮 -->
+
+    <LinearLayout
+        android:id="@+id/add_apply_add_button_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="56dip"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/main_tab_normal"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/add_apply_add_button"
+            style="@style/bottom_button_text"
+            android:layout_width="180dip"
+            android:layout_height="40dip"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_yellow"
+            android:text="@string/add_app_zero" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/add_apply_lv"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/add_apply_add_button_layout"
+        android:layout_marginTop="48dip"
+        android:gravity="center" >
+    </ListView>
+
+</RelativeLayout>

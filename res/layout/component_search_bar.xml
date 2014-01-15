@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/search_group"
+    android:layout_width="fill_parent"
+    android:layout_height="54dip"
+    android:background="@drawable/search_background"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="34dip"
+        android:layout_marginBottom="10dip"
+        android:layout_marginLeft="16dip"
+        android:layout_marginRight="16dip"
+        android:layout_marginTop="10dip"
+        android:layout_weight="0.8"
+        android:background="@drawable/total_search_bg"
+        android:gravity="center_vertical"
+        android:paddingLeft="16dip" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/search" />
+
+        <com.huawei.basic.android.im.ui.basic.LimitedEditText
+            android:id="@+id/search_edit"
+            style="@style/search_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:hint="@string/search"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/search_button"
+        android:layout_width="65dip"
+        android:layout_height="34dip"
+        android:layout_marginBottom="10dip"
+        android:layout_marginLeft="16dip"
+        android:layout_marginRight="13dip"
+        android:layout_marginTop="10dip"
+        android:background="@drawable/btn_green"
+        android:gravity="center"
+        android:text="@string/search"
+        android:textColor="#FFFFFF"
+        android:visibility="gone" >
+    </Button>
+
+</LinearLayout>

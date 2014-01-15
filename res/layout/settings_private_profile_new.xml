@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/white_bg"
+    android:orientation="vertical" >
+
+    <!-- 按钮部分 -->
+
+    <RelativeLayout
+        android:id="@+id/button_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_btn_title_background" >
+
+        <include layout="@layout/title_bar" />
+        <!-- 返回按钮 -->
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/internal_plugin_titile"
+        android:layout_width="fill_parent"
+        android:layout_height="36dip"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/bg_gray"
+        android:gravity="center_vertical"
+        android:paddingLeft="18dip"
+        android:text="@string/personal_info"
+        android:textColor="#000000"
+        android:textSize="14dip" />
+
+    <LinearLayout style="@style/setting_mainframe" >
+
+        <!-- 昵称 -->
+
+        <LinearLayout style="@style/setting_group" >
+
+            <!--
+            <RelativeLayout
+                android:id="@+id/set_nick_layout"
+                style="@style/setting_item"
+                android:background="@drawable/setting_item_bg_all" >
+
+                <TextView
+                    android:id="@+id/smain_tv_nick"
+                    style="@style/setting_label"
+                    android:textColor="#333333"
+                    android:gravity="left"
+                    android:text="@string/name" />
+
+                <TextView
+                    android:id="@+id/set_nickname_content"
+                    style="@style/setting_editable_two"
+                    android:textColor="#999999"
+                    android:layout_toRightOf="@+id/smain_tv_nick"
+                    android:singleLine="true"
+                    android:layout_alignParentRight="true"
+                    android:text="@string/not_set" />
+            </RelativeLayout>
+            -->
+
+            <RelativeLayout
+                android:id="@+id/set_nick_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/setting_item_bg_all"
+                android:padding="10dip" >
+
+                <TextView
+                    android:id="@+id/smain_tv_nick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:singleLine="true"
+                    android:text="@string/name"
+                    android:textColor="#333333"
+                    android:textSize="16dip" />
+
+                <TextView
+                    android:id="@+id/set_nickname_content"
+                    style="@style/normal_text_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_toLeftOf="@+id/bind_phone_arrow"
+                    android:layout_toRightOf="@+id/smain_tv_nick"
+                    android:gravity="right"
+                    android:singleLine="true"
+                    android:text="@string/not_set"
+                    android:textColor="#999999" />
+
+                <ImageView
+                    android:id="@+id/bind_phone_arrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/pointer" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <!-- 国家地区、省份、城市 -->
+
+        <LinearLayout style="@style/setting_group" >
+
+            <!--
+            <RelativeLayout
+                android:id="@+id/set_country"
+                style="@style/setting_item"
+                android:background="@drawable/setting_item_bg_all" >
+
+                <TextView
+                    android:id="@+id/smain_tv_country"
+                    style="@style/setting_label"
+                    android:gravity="left"
+                    android:text="@string/country" />
+
+                <TextView
+                    android:id="@+id/set_country_content"
+                    style="@style/setting_editable_two"
+                    android:layout_toRightOf="@+id/smain_tv_country"
+                    android:singleLine="true"
+                    android:text="@string/not_set" />
+            </RelativeLayout>
+            -->
+
+            <RelativeLayout
+                android:id="@+id/set_country"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/setting_item_bg_all"
+                android:padding="10dip" >
+
+                <TextView
+                    android:id="@+id/smain_tv_country"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:singleLine="true"
+                    android:text="@string/country"
+                    android:textColor="#333333"
+                    android:textSize="16dip" />
+
+                <TextView
+                    android:id="@+id/set_country_content"
+                    style="@style/normal_text_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_toLeftOf="@+id/bind_phone_arrow"
+                    android:layout_toRightOf="@+id/smain_tv_country"
+                    android:gravity="right"
+                    android:singleLine="true"
+                    android:text="@string/not_set"
+                    android:textColor="#999999" />
+
+                <ImageView
+                    android:id="@+id/bind_phone_arrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/pointer" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <!-- 性别 -->
+
+        <LinearLayout style="@style/setting_group" >
+
+            <!--
+            <RelativeLayout
+                android:id="@+id/set_sex"
+                style="@style/setting_item"
+                android:background="@drawable/setting_item_bg_all" >
+
+                <TextView
+                    android:id="@+id/smain_tv_sex"
+                    style="@style/setting_label"
+                    android:gravity="left"
+                    android:text="@string/sex" />
+
+                <TextView
+                    android:id="@+id/set_sex_content"
+                    style="@style/setting_editable_two"
+                    android:layout_toRightOf="@+id/smain_tv_sex"
+                    android:singleLine="true"
+                    android:text="@string/not_set" />
+            </RelativeLayout>
+            -->
+
+            <RelativeLayout
+                android:id="@+id/set_sex"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/setting_item_bg_all"
+                android:padding="10dip" >
+
+                <TextView
+                    android:id="@+id/smain_tv_sex"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:singleLine="true"
+                    android:text="@string/sex"
+                    android:textColor="#333333"
+                    android:textSize="16dip" />
+
+                <TextView
+                    android:id="@+id/set_sex_content"
+                    style="@style/normal_text_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dip"
+                    android:layout_toLeftOf="@+id/bind_phone_arrow"
+                    android:singleLine="true"
+                    android:text="@string/not_set"
+                    android:textColor="#999999" />
+
+                <ImageView
+                    android:id="@+id/bind_phone_arrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/pointer" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <!-- 公司、学校 -->
+
+        <LinearLayout style="@style/setting_group" >
+
+            <!--
+            <RelativeLayout
+                android:id="@+id/set_company"
+                style="@style/setting_item"
+                android:background="@drawable/setting_item_bg_all" >
+
+                <TextView
+                    android:id="@+id/smain_tv_company"
+                    style="@style/setting_label"
+                    android:gravity="left"
+                    android:text="@string/company" />
+
+                <TextView
+                    android:id="@+id/set_company_content"
+                    style="@style/setting_editable_two"
+                    android:layout_toRightOf="@+id/smain_tv_company"
+                    android:singleLine="true"
+                    android:text="@string/not_set" />
+            </RelativeLayout>
+            -->
+
+            <RelativeLayout
+                android:id="@+id/set_company"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/setting_item_bg_all"
+                android:padding="10dip" >
+
+                <TextView
+                    android:id="@+id/smain_tv_company"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:singleLine="true"
+                    android:text="@string/company"
+                    android:textColor="#333333"
+                    android:textSize="16dip" />
+
+                <TextView
+                    android:id="@+id/set_company_content"
+                    style="@style/normal_text_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_toLeftOf="@+id/bind_phone_arrow"
+                    android:layout_toRightOf="@+id/smain_tv_company"
+                    android:gravity="right"
+                    android:singleLine="true"
+                    android:text="@string/not_set"
+                    android:textColor="#999999" />
+
+                <ImageView
+                    android:id="@+id/bind_phone_arrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/pointer" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout style="@style/setting_group" >
+
+            <!--
+            <RelativeLayout
+                android:id="@+id/set_school"
+                style="@style/setting_item"
+                android:background="@drawable/setting_item_bg_all" >
+
+                <TextView
+                    android:id="@+id/smain_tv_school"
+                    style="@style/setting_label"
+                    android:gravity="left"
+                    android:text="@string/school" />
+
+                <TextView
+                    android:id="@+id/set_school_content"
+                    style="@style/setting_editable_two"
+                    android:layout_toRightOf="@+id/smain_tv_school"
+                    android:singleLine="true"
+                    android:text="@string/not_set" />
+            </RelativeLayout>
+            -->
+
+            <RelativeLayout
+                android:id="@+id/set_school"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/setting_item_bg_all"
+                android:padding="10dip" >
+
+                <TextView
+                    android:id="@+id/smain_tv_school"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:singleLine="true"
+                    android:text="@string/school"
+                    android:textColor="#333333"
+                    android:textSize="16dip" />
+
+                <TextView
+                    android:id="@+id/set_school_content"
+                    style="@style/normal_text_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_toLeftOf="@+id/bind_phone_arrow"
+                    android:layout_toRightOf="@+id/smain_tv_school"
+                    android:gravity="right"
+                    android:singleLine="true"
+                    android:text="@string/not_set"
+                    android:textColor="#999999" />
+
+                <ImageView
+                    android:id="@+id/bind_phone_arrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/pointer" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

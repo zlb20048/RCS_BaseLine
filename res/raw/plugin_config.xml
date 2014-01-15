@@ -1,0 +1,35 @@
+<plugin-list>
+	<server-ip>127.0.0.1</server-ip>
+	<save-apk-path>/rcsbaseline/plugin/apk</save-apk-path>
+	<plugin
+		class="com.huawei.basic.android.im.component.plugin.plugins.internal.InternalPlugin">
+		<plugin-id>1002</plugin-id>
+		<name>HiTalk小秘书
+		</name>
+		<version>1</version>
+		<desc>Hi,我是Hitalk的系统客服</desc>
+		<icon-url>PortraitID_1011</icon-url>
+		<pub-time>2012-04-14</pub-time>
+		<show-in-contactlist>true</show-in-contactlist>
+		<action>com.huawei.basic.android.im.SINGLE_CHAT</action>
+		<extra key="friend_user_id">10010</extra>
+		<extra key="friend_user_nick_name">string_id_hitalk_sectary</extra>
+	</plugin>
+
+	<plugin
+		class="com.huawei.basic.android.im.component.plugin.plugins.internal.InternalPlugin">
+		<plugin-id>1001</plugin-id>
+		<name>找朋友小助手</name>
+		<version>1</version>
+		<desc>我将会管理和呈列你所有关于好友的验证信息和申请状态</desc>
+		<icon-url>PortraitID_1012</icon-url>
+		<pub-time>2012-04-14</pub-time>
+		<show-in-contactlist>false</show-in-contactlist>
+		<action>com.huawei.basic.android.im.FIND_FRIEND_HELPER</action>
+		<method
+			class="com.huawei.basic.android.im.logic.plugin.RecommentFriendMethod">
+			<name>isrecommend</name>
+			<desc>是否推荐通讯录好友</desc>
+		</method>
+	</plugin>
+</plugin-list>
